@@ -8,6 +8,7 @@ import Footer from '../src/organisms/Footer'
 import Grid from '@material-ui/core/Grid'
 import { makeStyles } from '@material-ui/core/styles'
 import NavBar from '../src/organisms/NavBar'
+import ScrollTop from '../src/molecules/ScrollTop'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
 
@@ -16,7 +17,7 @@ const useStyles = makeStyles(() => ({
     height: '500px',
   }
 }))
-export default function Life() {
+export default function Page() {
   const classes = useStyles()
   return (
     <React.Fragment>
@@ -90,6 +91,7 @@ export default function Life() {
               </Grid>
             </Grid>
           </Box>
+          <ScrollTop/>
         </Box>
         <Footer />
       </Container>

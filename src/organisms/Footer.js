@@ -2,29 +2,36 @@ import React from 'react'
 import Box from '@material-ui/core/Box'
 import Container from '@material-ui/core/Container'
 import Copyright from '../atoms/Copyright'
+import { makeStyles } from '@material-ui/core/styles'
 import Grid from '@material-ui/core/Grid'
 import Link from '@material-ui/core/Link'
-import { makeStyles } from '@material-ui/core/styles'
 import Typography from '@material-ui/core/Typography'
 
-const footers = [
+const footer = [
   {
-    title: 'Company',
-    description: ['Team', 'History', 'Contact us', 'Locations'],
+    title: 'Jean Ruckgaber',
+    description: ['Life', 'Music', 'Galician Music Society', 'Lviv Archives', 'About this page'],
   },
   {
-    title: 'Features',
-    description: ['Cool stuff', 'Random feature', 'Team feature', 'Developer stuff', 'Another one'],
+    title: 'The Book',
+    description: ['Downloads', 'About the book', 'Contact'],
   },
   {
-    title: 'Resources',
-    description: ['Resource', 'Resource name', 'Another resource', 'Final resource'],
-  },
-  {
-    title: 'Legal',
-    description: ['Privacy policy', 'Terms of use'],
+    title: 'Music Compositions',
+    description: [
+      'Piano with an Orchestra',
+      'Chamber Orchestra', 
+      'Piano', 
+      'Violin and the Piano', 
+      'Flute, the Czakan and the Piano', 
+      'Clarinet and the Piano', 
+      'Choir', 
+      'Voice and the Piano', 
+      'Guitar and the Piano (transcript',
+    ],
   },
 ]
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -44,22 +51,50 @@ const Footer = () => {
   return (
     <Container maxWidth="md" component="footer" className={classes.root}>
       <Grid container spacing={4} justify="space-evenly">
-        {footers.map((footer) => (
-          <Grid item xs={6} sm={3} key={footer.title}>
-            <Typography variant="h6" color="textPrimary" gutterBottom>
-              {footer.title}
-            </Typography>
-            <ul>
-              {footer.description.map((item) => (
-                <li key={item}>
-                  <Link href="#" variant="subtitle1" color="textSecondary">
-                    {item}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </Grid>
-        ))}
+        <Grid item xs={6} sm={3} key={footer[0].title}>
+          <Typography variant="h6" color="textPrimary" gutterBottom>
+            {footer[0].title}
+          </Typography>
+          <ul>
+            {footer[0].description.map((item) => (
+              <li key={item}>
+                <Link href="#" variant="subtitle1" color="textSecondary">
+                  {item}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </Grid>
+
+        <Grid item xs={6} sm={3} key={footer[1].title}>
+          <Typography variant="h6" color="textPrimary" gutterBottom>
+            {footer[1].title}
+          </Typography>
+          <ul>
+            {footer[1].description.map((item) => (
+              <li key={item}>
+                <Link href="#" variant="subtitle1" color="textSecondary">
+                  {item}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </Grid>
+
+        <Grid item xs={12} sm={6} key={footer[2].title} style={{textAlign: 'right'}}>
+          <Typography variant="h6" color="textPrimary" gutterBottom>
+            {footer[2].title}
+          </Typography>
+          <ul>
+            {footer[2].description.map((item) => (
+              <li key={item}>
+                <Link href="#" variant="subtitle1" color="textSecondary">
+                  {item}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </Grid>
       </Grid>
       <Box mt={5}>
         <Copyright />

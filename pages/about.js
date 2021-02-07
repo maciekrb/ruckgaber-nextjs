@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: '56.25%', // 16:9
   }
 }))
-export default function About() {
+export default function Page() {
   const classes = useStyles()
   return (
     <React.Fragment>
