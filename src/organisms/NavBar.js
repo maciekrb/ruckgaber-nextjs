@@ -45,14 +45,11 @@ const NavBar = (props) => {
           Jean Ruckgaber
         </Typography>
         <nav>
-          <Link variant="h6" color="inherit" href="#" className={classes.link}>
-            Features
+          <Link color="inherit" href="/life" className={classes.link}>
+            Life
           </Link>
-          <Link variant="h6" color="inherit" href="#" className={classes.link}>
-            Enterprise
-          </Link>
-          <Link variant="button" color="inherit" href="#" className={classes.link}>
-            Support
+          <Link color="inherit" href="/about" className={classes.link}>
+            About
           </Link>
         </nav>
       </Toolbar>
