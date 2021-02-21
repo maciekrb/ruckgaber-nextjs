@@ -37,7 +37,7 @@ export default function Page() {
                 <Typography paragraph>He started his musical education in Vienna with Johann Nepomuk Hummel, who was an Austrian composer and pianist, of Slovak origin. Later he continued his studies in Paris, presumably in the years 1816-1819.</Typography>
 
                 <Typography variant="h6" gutterBottom>First concerts</Typography>
-                <Typography paragraph>Jan Ruckgaber first visited Lviv in 1815. In January 1818, still as a student, he gave here a number of successful concerts and gained some popularity. From 1820 he regularly performed in Lviv in solo piano concerts, accompanied local musicians.</Typography>
+                <Typography paragraph>Jan Ruckgaber first visited Lviv in 1815. In January 1818, still as a student, he gave here a number of successful concerts and gained some popularity. From 1820 he regularly performed in Lviv in solo piano concerts, and accompanied local musicians.</Typography>
                 <Typography paragraph>In 1826 Ruckgaber settled in Lviv for good. He played concerts, worked as a piano tutor, and a composer.  His music was then published by Franz Piller’s printing house in Lviv. It was mainly dance music, romances and songs.	</Typography>
               </Grid>
               <Grid item md={5} sm={6}>

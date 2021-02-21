@@ -29,7 +29,7 @@ export default function Page() {
           <Box my={4}>
             <Grid container spacing={4} alignItems="center">
               <Grid item sm={12}>
-                <Typography variant="h6" gutterBottom>An Artist of Early Romanticism</Typography>
+                <Typography variant="h6" gutterBottom>An Artist of early Romanticism</Typography>
                 <Typography paragraph>Ruckgaber’s work and music fully belong to the current of early Romanticism. His compositions reflected the leading aesthetic trends of the era. Early Romanticism showed in seeking lyrical modes of expression, in transforming the canons of classicism, and in the development of the so-called salon music. </Typography>
                 <Typography paragraph>Ruckgaber contributed to the evolution of the musical profession from being an inspired composer, dependent on a patron, to a self-reliant, conscious artist, who influenced public taste and demand of the culture market.</Typography>
               </Grid>
@@ -61,7 +61,7 @@ export default function Page() {
                 <Typography paragraph>The music legacy of Jan Ruckgaber amounts to about 100 opuses. </Typography>
                 <Typography paragraph>He composed mainly piano music of salon character, often attempting to adapt Polish folk music. His piano compositions, often masterful in form, were published by the largest music companies in Leipzig, London, Brussels, Paris and Petersburg, not to mention Vienna, Warsaw and Lviv. </Typography>
                 <Typography paragraph>His music was easy, tuneful, light and nice, with clear qualities of the Romantic style, following the patterns of Schubert and Weber. In his chamber compositions he frequently used the typical elements of Polish music, firstly of folk dances, as cracovienne and mazurek, as well as polonaise. Undoubtedly he tried to convey the uniqueness of the folk tradition and the character of the country, where he spent most of his lifetime.</Typography>
-                <Typography paragraph>Ruckgaber also composed songs for a voice with the piano with Polish lyrics. After the November uprising of 1830, he composed Do mogił (Towards the graves) to the words by Wincenty Pol.</Typography>
+                <Typography paragraph>Ruckgaber also composed songs for a voice with the piano with Polish lyrics. After the November uprising of 1830, he composed &quto;Do mogił&quot; (Towards the Graves) to the words by Wincenty Pol.</Typography>
                 <Typography paragraph>In the composer’s oeuvre there are numerous large forms: sonatas, duos, concertos for solo instruments with the accompaniment of the piano, orchestral and choral compositions. There are also piano works for four hands, and even for eight hands. </Typography>
                 <Typography paragraph>Many pieces of music, which – as his contemporaries claimed – he performed in concerts with mastery, remained in the form of manuscripts. Besides the popular transcriptions of music for various instruments by famous composers of that time, (like Beethoven or Verdi) they comprise the most valuable part of the music legacy of Jan Ruckgaber.</Typography>
               </Grid>
