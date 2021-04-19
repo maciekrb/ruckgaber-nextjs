@@ -29,12 +29,12 @@ const rawTheme = createMuiTheme({
     },
   },
   typography: {
-    fontFamily: "'Work Sans', sans-serif",
-    fontSize: 14,
-    fontWeightLight: 300, // Work Sans
-    fontWeightRegular: 400, // Work Sans
+    fontFamily: "'Roboto Condensed', sans-serif",
+    fontSize: 16,
+    fontWeightLight: 300, // Great Vibes
+    fontWeightRegular: 400, // Great Vibes
     fontWeightMedium: 700, // Roboto Condensed
-    fontFamilySecondary: "'Roboto Condensed', sans-serif",
+    fontFamilySecondary: "'Great Vibes', sans-serif",
   },
 });
 
@@ -42,7 +42,7 @@ const fontHeader = {
   color: rawTheme.palette.text.primary,
   fontWeight: rawTheme.typography.fontWeightMedium,
   fontFamily: rawTheme.typography.fontFamilySecondary,
-  textTransform: 'uppercase',
+  textTransform: 'none',
 };
 
 const theme = {

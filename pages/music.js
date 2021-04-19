@@ -29,7 +29,7 @@ export default function Page() {
           <Box my={4}>
             <Grid container spacing={4} alignItems="center">
               <Grid item sm={12}>
-                <Typography variant="h6" gutterBottom>An Artist of early Romanticism</Typography>
+                <Typography variant="h4" gutterBottom>An Artist of early Romanticism</Typography>
                 <Typography paragraph>Ruckgaber’s work and music fully belong to the current of early Romanticism. His compositions reflected the leading aesthetic trends of the era. Early Romanticism showed in seeking lyrical modes of expression, in transforming the canons of classicism, and in the development of the so-called salon music. </Typography>
                 <Typography paragraph>Ruckgaber contributed to the evolution of the musical profession from being an inspired composer, dependent on a patron, to a self-reliant, conscious artist, who influenced public taste and demand of the culture market.</Typography>
               </Grid>
@@ -37,7 +37,7 @@ export default function Page() {
                 <Card>
                   <CardMedia
                     className={classes.media}
-                    image="/images/13-do-mogił.jpg"
+                    image="/images/13-do-mogil.jpg"
                     title="Title page of the Song &quot;Do Mogił&quot; by Jan Ruckgaber with lyrics by Wincenty Pol  (family archive)"/>
                   <CardContent>
                     <Typography variant="caption">Title page of the Song &quot;Do Mogił&quot; by Jan Ruckgaber with lyrics by Wincenty Pol  (family archive)</Typography>
@@ -57,7 +57,7 @@ export default function Page() {
               </Grid>
 
               <Grid item sm={12}>
-                <Typography variant="h6" gutterBottom>Music</Typography>
+                <Typography variant="h4" gutterBottom>Music</Typography>
                 <Typography paragraph>The music legacy of Jan Ruckgaber amounts to about 100 opuses. </Typography>
                 <Typography paragraph>He composed mainly piano music of salon character, often attempting to adapt Polish folk music. His piano compositions, often masterful in form, were published by the largest music companies in Leipzig, London, Brussels, Paris and Petersburg, not to mention Vienna, Warsaw and Lviv. </Typography>
                 <Typography paragraph>His music was easy, tuneful, light and nice, with clear qualities of the Romantic style, following the patterns of Schubert and Weber. In his chamber compositions he frequently used the typical elements of Polish music, firstly of folk dances, as cracovienne and mazurek, as well as polonaise. Undoubtedly he tried to convey the uniqueness of the folk tradition and the character of the country, where he spent most of his lifetime.</Typography>

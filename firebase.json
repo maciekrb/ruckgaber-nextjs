@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "target": "ruckgaber",
+    "public": "dist",
+    "cleanUrls": true,
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

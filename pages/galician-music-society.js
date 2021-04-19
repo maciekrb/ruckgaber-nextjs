@@ -55,7 +55,7 @@ export default function Page() {
               </Grid>
 
               <Grid item sm={12}>
-                <Typography variant="h6" gutterBottom>The Springtime of the Peoples</Typography>
+                <Typography variant="h4" gutterBottom>The Springtime of the Peoples</Typography>
                   <Typography paragraph>In November 1848, due to a shellfire of the town, the center of Lviv was seriously damaged. The university building and its library, with valuable Polish materials and antique books, were burnt down, the same happened with the technical university, the town hall and the theatre.  The Galician Music Society suspended its activity.</Typography>
                 </Grid>
               <Grid item sm={12}>
@@ -71,10 +71,10 @@ export default function Page() {
               </Grid>
 
               <Grid item sm={12}>
-                <Typography variant="h6" gutterBottom>The New Beginning</Typography>
+                <Typography variant="h4" gutterBottom>The New Beginning</Typography>
                 <Typography paragraph>It was not before June 1852, when the Galician Music Society was renewed as The Society for the Development of Music in Galicia. The Society’s concert activity was soon restarted and under Ruckgaber’s direction the orchestra presented to the audience, among others, the overture to &quot;The Summer Night’s Dream&quot; by F. Mendelssohn, and The Pastoral Symphony by L. van Beethoven. </Typography>
 
-                <Typography variant="h6" gutterBottom>The Conservatoire</Typography>
+                <Typography variant="h4" gutterBottom>The Conservatoire</Typography>
                 <Typography paragraph>The music school at the society was reopened on the 1st of May 1854, this time as a Conservatoire. It was one of the oldest in Europe, older than the conservatoires in Petersburg (established in 1862) and in Moscow (1864).</Typography>
                 <Typography paragraph>At first it was led by the director Jan Ruckgaber. Art of composition was taught along with theoretical subjects, as harmonics, counterpoint, instrumentation and analysis of music forms. From the first years of the Galician Music Society, Ruckgaber gathered repertoire for a music library, whose collection  was enriched when the conservatoire was established. </Typography>
                 <Typography paragraph>In 1906, the GMS and the Conservatoire  moved to a new building, and in 1910 a new concert hall, with excellent acoustics and new organ was put into use. Presently the Lviv Philharmonic is placed there. </Typography>
@@ -118,7 +118,7 @@ export default function Page() {
               <Grid item sm={7}>
                 <Typography paragraph>After the second disaster of World War II the Conservatoire took up its activity as the Lviv National Music Academy, and it still works, taking the name of M. Łysenko Lviv National Musical Academy from 2008. </Typography>
                 <Typography paragraph>In the year 2004, the institution, once established by Jan Ruckgaber, celebrated its 150th anniversary. </Typography>
-                <Typography variant="h6" gutterBottom>The Meaning of the Galician Music Society</Typography>
+                <Typography variant="h4" gutterBottom>The Meaning of the Galician Music Society</Typography>
                 <Typography paragraph>The Society existed for 100 years – from 1838 to 1939, between 1919 and 1939 as the Polish Music Society and it was the most important institution for the popularization of music and for organizing musical life in Lviv and Galicia in the 19th and at the beginning of the 20th century.</Typography>
                 <Typography paragraph>The Conservatoire at Galician Music Society was the first serious educational institution not only in Galicia, but also (except for Prague) – in Eastern Europe. Opening a Music School in 1839, and a Conservatoire in 1854, was the beginning of professional music education in Lviv.</Typography>
               </Grid>

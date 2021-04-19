@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "geek-hosting"
+  },
+  "targets": {
+    "geek-hosting": {
+      "hosting": {
+        "ruckgaber": [
+          "ruckgaber"
+        ]
+      }
+    }
+  }
+}

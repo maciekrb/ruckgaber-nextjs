@@ -39,16 +39,28 @@ const useStyles = makeStyles((theme) => ({
 const NavBar = (props) => {
   const classes = useStyles()
   return (
-    <AppBar position="fixed"  className={classes.appBar}>
+    <AppBar position="fixed" className={classes.appBar}>
       <Toolbar className={classes.toolbar}>
-        <Typography variant="h6" color="inherit" noWrap  className={classes.toolbarTitle}>
-          Jean Ruckgaber
+        <Typography
+          variant="h4"
+          color="inherit"
+          noWrap
+          className={classes.toolbarTitle}
+        >
+          — Jean Ruckgaber —
         </Typography>
         <nav>
+          <Link color="inherit" href="/" className={classes.link}>
+            Home
+          </Link>
           <Link color="inherit" href="/life" className={classes.link}>
             Life
           </Link>
-          <Link color="inherit" href="/galician-music-society" className={classes.link}>
+          <Link
+            color="inherit"
+            href="/galician-music-society"
+            className={classes.link}
+          >
             Galician Music Society
           </Link>
           <Link color="inherit" href="/music" className={classes.link}>

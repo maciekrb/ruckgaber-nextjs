@@ -3,12 +3,14 @@ import Box from '@material-ui/core/Box'
 import Button from '@material-ui/core/Button'
 import Container from '@material-ui/core/Container'
 import Footer from '../src/organisms/Footer'
-import { makeStyles } from '@material-ui/core/styles'
+import { makeStyles, withStyles } from '@material-ui/core/styles'
 import Collapse from '@material-ui/core/Collapse'
 import Grid from '@material-ui/core/Grid'
 import IconButton from '@material-ui/core/IconButton'
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
+import Link from '@material-ui/core/Link'
+import ScrollTop from '../src/molecules/ScrollTop'
 import Table from '@material-ui/core/Table'
 import TableBody from '@material-ui/core/TableBody'
 import TableCell from '@material-ui/core/TableCell'
@@ -31,8 +33,18 @@ const useRowStyles = makeStyles({
   },
 })
 
+const HtmlTooltip = withStyles((theme) => ({
+  tooltip: {
+    backgroundColor: '#f5f5f9',
+    color: 'rgba(0, 0, 0, 0.87)',
+    maxWidth: 220,
+    fontSize: theme.typography.pxToRem(12),
+    border: '1px solid #dadde9',
+  },
+}))(Tooltip)
+
 const sources = {
-   "1": "Osadca Olga: &quot;Der Archivbestand Johann (Jan) Ruckgaber in der L ́vivs ́ka naukowa biblioteka im. V. Stefanyka&quot; Musik-Sammlungen: Speicher inter- kultureller Prozesse, Teilband B, Franz Steiner Verlag, Stuttgart 2007, p. 344 – 356",
+   "1": "Osadca Olga: \"Der Archivbestand Johann (Jan) Ruckgaber in der L ́vivs ́ka naukowa biblioteka im. V. Stefanyka\" Musik-Sammlungen: Speicher inter- kultureller Prozesse, Teilband B, Franz Steiner Verlag, Stuttgart 2007, p. 344 – 356",
    "2": "List of Ruckgaber’s compositions, stored until 1939 in the Ossoliński National Institution in Lviv, made by J. Ruckgaber, the grandson of the composer",
    "3": "The Faculty of Musicology of the Warsaw University (http://imuz.uw.edu.pl/en/)",
    "4": "The Catalogue of microfilms received from the Stefanyk Library [stored in the Faculty of Musicology of the Warsaw University]",
@@ -42,9 +54,14 @@ const sources = {
    "8": "Jagiellonian Library, Cracow (https://bj.uj.edu.pl/)",
 }
 
-function Reference({reference}) {
+function Reference({reference, last}) {
   return (
-    <Tooltip title={sources[reference]}><Button>{reference}</Button></Tooltip>
+    <HtmlTooltip title={
+      <React.Fragment>
+        {sources[reference]}
+      </React.Fragment>}>
+      <Link color="primary">{reference}{!last ? ', ' : ''}</Link>
+    </HtmlTooltip>
   )
 }
 
@@ -67,7 +84,7 @@ function Composition({row}) {
         <TableCell>{row.numeral}</TableCell>
         <TableCell>{row.title}</TableCell>
         <TableCell>{row.manuscript ? "Yes" : "No"}</TableCell>
-        <TableCell>{row.sources && row.sources.map((r) => (<Reference key={`${row.numeral}-${r}`} reference={r}/>))}</TableCell>
+        <TableCell>{row.sources && row.sources.map((r, idx) => (<Reference key={`${row.numeral}-${r}`} reference={r} last={idx === (row.sources.length - 1)}/>))}</TableCell>
       </TableRow>
       <TableRow>
         <TableCell colSpan={5}>
@@ -82,26 +99,27 @@ function Composition({row}) {
 
 function Section({name, compositions}) {
   return (
-    <Box mt={6} mb={6}>
-      <Typography variant="h4">{name}</Typography>
-
-      <Table>
-        <TableHead>
-          <TableRow>
-            <TableCell>&nbsp;</TableCell>
-            <TableCell>Numeral</TableCell>
-            <TableCell>Name</TableCell>
-            <TableCell>Manuscript</TableCell>
-            <TableCell>References</TableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {compositions.map((composition) => (
-            <Composition key={composition.numeral} row={composition}/>
-          ))}
-        </TableBody>
-      </Table>
-    </Box>
+    <React.Fragment>
+      <Box mt={6} mb={6}>
+        <Typography variant="h4">{name}</Typography>
+        <Table>
+          <TableHead>
+            <TableRow>
+              <TableCell>&nbsp;</TableCell>
+              <TableCell>Numeral</TableCell>
+              <TableCell>Name</TableCell>
+              <TableCell>Manuscript</TableCell>
+              <TableCell>References</TableCell>
+            </TableRow>
+          </TableHead>
+          <TableBody>
+            {compositions.map((composition) => (
+              <Composition key={composition.numeral} row={composition}/>
+            ))}
+          </TableBody>
+        </Table>
+      </Box>
+    </React.Fragment>
   )
 }
 
@@ -119,10 +137,22 @@ function Page({sections}) {
           <Typography variant="h6" gutterBottom>The list of compositions is divided into the following parts</Typography>
           <Typography paragraph>(references indicate a source of information)</Typography>
 
-          {sections.map((section) => (
-            <Section name={section.section} compositions={section.compositions} />
+          <ul>
+            {sections.map((section, idx) => (
+              <li><a  href={`#section-${idx}`}>{section.section}</a></li>
+            ))}
+          </ul>
+          <Box py={2}><hr/></Box>
+          {sections.map((section, idx) => (
+            <React.Fragment>
+              <Box pb={6}><a id={`section-${idx}`} /></Box>
+              <Section
+                name={section.section}
+                compositions={section.compositions} />
+            </React.Fragment>
           ))}
         </Box>
+        <ScrollTop />
         <Footer />
       </Container>
     </React.Fragment>
