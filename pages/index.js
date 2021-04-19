@@ -28,9 +28,11 @@ const useStyles = makeStyles((theme) => ({
       color: '#ffffff',
     },
   },
+  cardMedia: {
+    height: 340,
+  },
 }))
-// https://www.youtube.com/watch?v=uiw3GyG4f4Q
-// https://www.youtube.com/watch?v=iaeM_o2PR3k
+
 export default function Index() {
   const classes = useStyles()
 
@@ -62,7 +64,90 @@ export default function Index() {
               </Box>
             </Grid>
           </Grid>
-          <Grid container></Grid>
+
+          <Box pt={4}>
+            <Grid container spacing={2}>
+              <Grid item xs={12} md={6} lg={4}>
+                <Card>
+                  <CardActionArea>
+                    <CardMedia
+                      className={classes.cardMedia}
+                      image="/images/3-young-jan-ruckgaber.jpg"
+                      title="Life of Jean Ruckgaber"
+                    />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="h2">
+                        Life of Jean Ruckgaber
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        color="textSecondary"
+                        component="p"
+                      >
+                          Read about the life of Jean Ruckgaber, his family and ancestry.
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                  <CardActions>
+                    <Button size="small" color="primary" href="/life">Learn More</Button>
+                  </CardActions>
+                </Card>
+              </Grid>
+              <Grid item xs={12} md={6} lg={4}>
+                <Card>
+                  <CardActionArea>
+                    <CardMedia
+                      className={classes.cardMedia}
+                      image="/images/13-do-mogil.jpg"
+                      title="Do Mogił by Jean Ruckgaber"
+                    />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="h2">
+                        Compositions of Jean Ruckagber
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        color="textSecondary"
+                        component="p"
+                      >
+                          Find a detailed list of compositions with links to partitures.
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                  <CardActions>
+                    <Button size="small" color="primary" href="/compositions">Learn More</Button>
+                  </CardActions>
+                </Card>
+              </Grid>
+              <Grid item xs={12} md={6} lg={4}>
+                <Card>
+                  <CardActionArea>
+                    <CardMedia
+                      className={classes.cardMedia}
+                      image="/images/jean-ruckgaber-book-cover.jpg"
+                      title="Jean Ruckgaber Book cover"
+                    />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="h2">
+                        Jean Ruckgaber Book
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        color="textSecondary"
+                        component="p"
+                      >
+                          Download the electronic version of the Book about Jean Ruckgaber.
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                  <CardActions>
+                    <Button size="small" color="primary" href="/book">Learn More</Button>
+                  </CardActions>
+                </Card>
+              </Grid>
+            </Grid>
+          </Box>
+
           <Box py={2}>
             <YouTubeVideo src="videoseries?list=PL6sg6rLVg9MF-00zsMgRZaoww98riHtFL" />
           </Box>
