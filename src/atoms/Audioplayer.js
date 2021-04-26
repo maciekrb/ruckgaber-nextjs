@@ -4,37 +4,31 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    display: 'flex',
     backgroundColor:'#C8C3C2',
-    color:'#ffffff',
-    textAlign: 'çenter',
     borderRadius:'10px',
-    textAlign: 'center',
+    color:'#fff',
     justifyContent: 'center',
+    textAlign: 'center',
     padding: '10px',
-    margin: '10px'
-
-
     }
   }
 ))
-export default function Audioplayer() {
+export default function Audioplayer({song, artist, src,copy}) {
+
   const classes = useStyles()
     return (
       <Box>
           <div className={classes.root}>
         <figure >
-            <h3>12 variations op 26</h3>
-            <p>piano w wykonaniu Milana Jelenia z Czech</p>
-            <audio
-                controls
-                src="/media/ruckgaber-01.mp3">
-                    Your browser does not support the
-                    <code>audio</code> element.
+            <h3>{song}</h3>
+            <p>{artist}</p>
+            <audio controls src={src}>
+                   Your browser does not support the
+                   <code>audio</code> element.
             </audio>
+            <p>{copy}</p>
         </figure>
         </div>
       </Box>
-
     );
   }

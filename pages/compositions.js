@@ -2041,7 +2041,7 @@ Page.getInitialProps = (ctx) => {
           },
           {
             "numeral": "C.163c.",
-            "title": "3te Lieblings-Mazur Ihrer Majestät der Kaiserin von Russland. Für das Pianoforte zu 4 Händen Ruckgaber, Johann 1840 Wien: Tobias Haslinger 1840.  T.H.7943. S. 18-19",
+            "title": "3te Lieblings-Mazur Ihrer Majestät der Kaiserin von Russland. Für das Pianoforte zu 4 Händen Ruckgaber, Johann 1840Wien: Tobias Haslinger 1840.  T.H.7943. S. 18-19",
             "sources": [
               7
             ]
@@ -2286,7 +2286,7 @@ Page.getInitialProps = (ctx) => {
               3,
               4
             ],
-            "notes": "1) Mein Herz, op. 5, v. R. Lobres, fur Alt mit Piano \n2) R. 1812, op. 6, v. Ludwig Relstab aus dem historischen Romance, voice with the piano.\n"
+            "notes": "1) Mein Herz, op. 5, v. R. Lobres, fur Alt mit Piano\n2) R. 1812, op. 6, v. Ludwig Relstab aus dem historischen Romance, voice with the piano.\n"
           },
           {
             "numeral": "H.5.",
@@ -2420,7 +2420,7 @@ Page.getInitialProps = (ctx) => {
             "sources": [
               2
             ],
-            "notes": "1) 2 Volkshymne, for 4 male voices and the piano.  \n2) Der Frühling, romance, voice and piano, manuscript from 1857\n3) Altes und Neues aue der Verse des wandelten, from 1858 \n4) Gedicht von Moritz Saphier – for a voice.  "
+            "notes": "1) 2 Volkshymne, for 4 male voices and the piano. \n2) Der Frühling, romance, voice and piano, manuscript from 1857\n3) Altes und Neues aue der Verse des wandelten, from 1858\n4) Gedicht von Moritz Saphier – for a voice. "
           },
           {
             "numeral": "H.19.",
@@ -2497,7 +2497,7 @@ Page.getInitialProps = (ctx) => {
               2,
               3
             ],
-            "notes": "à M-me Catherine Mialeceo,voice and piano.\n1) Resignation\n2) Hans und Grete \n3) Mein Herz, rkp.  "
+            "notes": "à M-me Catherine Mialeceo,voice and piano.\n1) Resignation\n2) Hans und Grete\n3) Mein Herz, rkp. "
           },
           {
             "numeral": "H.28.1",

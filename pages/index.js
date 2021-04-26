@@ -193,16 +193,53 @@ export default function Index() {
                         Listen to the Compositions of Jean Ruckgaber
             </Typography>
             <Grid container spacing={2}>
-              <Grid item xs={6} md={6}>
-                <Audioplayer />
-                <Audioplayer />
-                <Audioplayer />
+              <Grid item xs={12} md={6}>
+                <Audioplayer
+                  song="12 variations op 2"
+                  artist="Piano w wykonaniu Milana Jelenia z Czech"
+                  src="/media/ruckgaber-01.mp3"
+                />
               </Grid>
-              <Grid item xs={6} md={6}>
-                <Audioplayer />
-                <Audioplayer />
-                <Audioplayer />
-             </Grid>
+              <Grid item xs={12} md={6}>
+              <Audioplayer
+                  song="12 variations op 2"
+                  artist="Piano w wykonaniu Milana Jelenia z Czech"
+                  src="/media/ruckgaber-01.mp3"
+                  copy=" some copyrights"
+                />
+              </Grid>
+              <Grid item xs={12} md={6}>
+              <Audioplayer
+                  song="12 variations op 2"
+                  artist="Piano w wykonaniu Milana Jelenia z Czech"
+                  src="/media/ruckgaber-01.mp3"
+                  copy=" some copyrights"
+                />
+              </Grid>
+              <Grid item xs={12} md={6}>
+              <Audioplayer
+                  song="12 variations op 2"
+                  artist="Piano w wykonaniu Milana Jelenia z Czech"
+                  src="/media/ruckgaber-01.mp3"
+                  copy=" some copyrights"
+                />
+              </Grid>
+              <Grid item xs={12} md={6}>
+              <Audioplayer
+                  song="12 variations op 2"
+                  artist="Piano w wykonaniu Milana Jelenia z Czech"
+                  src="/media/ruckgaber-01.mp3"
+                  copy=" some copyrights"
+                />
+              </Grid>
+              <Grid item xs={12} md={6}>
+              <Audioplayer
+                  song="12 variations op 2"
+                  artist="Piano w wykonaniu Milana Jelenia z Czech"
+                  src="/media/ruckgaber-01.mp3"
+                  copy=" some copyrights"
+                />
+              </Grid>
             </Grid>
            </Box>
           <Box py={2}>
