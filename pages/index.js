@@ -17,6 +17,7 @@ import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
 import YouTubeVideo from '../src/atoms/YouTubeVideo'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Audioplayer from '../src/atoms/Audioplayer'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -187,6 +188,23 @@ export default function Index() {
               </Grid>
             </Grid>
           </Box>
+          <Box pt={4}>
+            <Typography gutterBottom variant="h1" component="h1" textAlign='center'>
+                        Listen to the Compositions of Jean Ruckgaber
+            </Typography>
+            <Grid container spacing={2}>
+              <Grid item xs={6} md={6}>
+                <Audioplayer />
+                <Audioplayer />
+                <Audioplayer />
+              </Grid>
+              <Grid item xs={6} md={6}>
+                <Audioplayer />
+                <Audioplayer />
+                <Audioplayer />
+             </Grid>
+            </Grid>
+           </Box>
           <Box py={2}>
             <YouTubeVideo src="videoseries?list=PL6sg6rLVg9MF-00zsMgRZaoww98riHtFL" />
           </Box>
