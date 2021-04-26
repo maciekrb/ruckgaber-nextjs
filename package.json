@@ -9,6 +9,7 @@
     "next": "latest",
     "prop-types": "latest",
     "react": "latest",
+    "react-audio-player": "^0.17.0",
     "react-dom": "latest"
   },
   "scripts": {
