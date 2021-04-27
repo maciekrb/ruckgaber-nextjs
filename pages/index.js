@@ -83,29 +83,6 @@ export default function Index() {
           </Carousel>
       <Container maxWidth="md">
         <Box my={4}>
-          {/* <Grid container className={classes.root}>
-            <Grid item xs={12} md={6}>
-              <img
-                width="100%"
-                src="/images/1-jean-ruckgaber-bust-chardigny.png"
-              />
-            </Grid>
-            <Grid item xs={12} md={6}>
-              <Box p={2} className={classes.text}>
-                <Typography variant="h3">
-                  The Life and Work of a Pianist, Composer, Teacher and Promoter
-                  of Musical Life in Lviv{' '}
-                </Typography>
-                <Box pt={9}>
-                  <Typography variant="h5">
-                    Jan Ruckgaber (a bust by Chardigny, 1855, family archive)
-                    Warsaw, 2020
-                  </Typography>
-                </Box>
-              </Box>
-            </Grid>
-          </Grid> */}
-
           <Box pt={4}>
             <Grid container spacing={2}>
               <Grid item xs={12} md={6} lg={4}>
@@ -114,18 +91,18 @@ export default function Index() {
                     <CardMedia
                       className={classes.cardMedia}
                       image="/images/3-young-jan-ruckgaber.jpg"
-                      title="Life of Jean Ruckgaber"
+                      title="Life of Jan Ruckgaber"
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="h2">
-                        Life of Jean Ruckgaber
+                        Life of Jan Ruckgaber
                       </Typography>
                       <Typography
                         variant="body2"
                         color="textSecondary"
                         component="p"
                       >
-                          Read about the life of Jean Ruckgaber, his family and ancestry.
+                          Read about the life of Jan Ruckgaber, his family and ancestry.
                       </Typography>
                     </CardContent>
                   </CardActionArea>
@@ -144,7 +121,7 @@ export default function Index() {
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="h2">
-                        Compositions of Jean Ruckgaber
+                        Compositions of Jan Ruckgaber
                       </Typography>
                       <Typography
                         variant="body2"
@@ -166,18 +143,18 @@ export default function Index() {
                     <CardMedia
                       className={classes.cardMedia}
                       image="/images/card-03.jpg"
-                      title="Jean Ruckgaber Book cover"
+                      title="Jan Ruckgaber Book cover"
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="h2">
-                        Jean Ruckgaber Book
+                        Jan Ruckgaber Book
                       </Typography>
                       <Typography
                         variant="body2"
                         color="textSecondary"
                         component="p"
                       >
-                          Download the electronic version of the Book about Jean Ruckgaber.
+                          Download the electronic version of the Book about Jan Ruckgaber.
                       </Typography>
                     </CardContent>
                   </CardActionArea>
@@ -190,7 +167,7 @@ export default function Index() {
           </Box>
           <Box pt={4}>
             <Typography gutterBottom variant="h1" component="h1" textAlign='center'>
-                        Listen to the Compositions of Jean Ruckgaber
+                        Listen to Music by Jan Ruckgaber
             </Typography>
             <Grid container spacing={2}>
               <Grid item xs={12} md={6}>

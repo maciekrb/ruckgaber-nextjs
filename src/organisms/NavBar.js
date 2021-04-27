@@ -47,7 +47,7 @@ const NavBar = (props) => {
           noWrap
           className={classes.toolbarTitle}
         >
-          — Jean Ruckgaber —
+          — Jan Ruckgaber —
         </Typography>
         <nav>
           <Link color="inherit" href="/" className={classes.link}>

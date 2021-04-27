@@ -9,7 +9,7 @@ import Typography from '@material-ui/core/Typography'
 
 const footer = [
   {
-    title: 'Jean Ruckgaber',
+    title: 'Jan Ruckgaber',
     description: ['Life', 'Music', 'Galician Music Society', 'Lviv Archives', 'About this page'],
   },
   {
