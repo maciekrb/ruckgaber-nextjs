@@ -5,7 +5,6 @@ import Container from '@material-ui/core/Container'
 import Footer from '../src/organisms/Footer'
 import { makeStyles, withStyles } from '@material-ui/core/styles'
 import Collapse from '@material-ui/core/Collapse'
-import Grid from '@material-ui/core/Grid'
 import IconButton from '@material-ui/core/IconButton'
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
@@ -14,7 +13,6 @@ import ScrollTop from '../src/molecules/ScrollTop'
 import Table from '@material-ui/core/Table'
 import TableBody from '@material-ui/core/TableBody'
 import TableCell from '@material-ui/core/TableCell'
-import TableContainer from '@material-ui/core/TableContainer'
 import TableHead from '@material-ui/core/TableHead'
 import TableRow from '@material-ui/core/TableRow'
 import NavBar from '../src/organisms/NavBar'
@@ -44,14 +42,15 @@ const HtmlTooltip = withStyles((theme) => ({
 }))(Tooltip)
 
 const sources = {
-   "1": "Osadca Olga: \"Der Archivbestand Johann (Jan) Ruckgaber in der L ́vivs ́ka naukowa biblioteka im. V. Stefanyka\" Musik-Sammlungen: Speicher inter- kultureller Prozesse, Teilband B, Franz Steiner Verlag, Stuttgart 2007, p. 344 – 356",
-   "2": "List of Ruckgaber’s compositions, stored until 1939 in the Ossoliński National Institution in Lviv, made by J. Ruckgaber, the grandson of the composer",
-   "3": "The Faculty of Musicology of the Warsaw University (http://imuz.uw.edu.pl/en/)",
-   "4": "The Catalogue of microfilms received from the Stefanyk Library [stored in the Faculty of Musicology of the Warsaw University]",
-   "5": "Family archive",
-   "6": "The National Library, Warsaw (https://www.bn.org.pl/)",
-   "7":  "The Austrian National Library http://www.worldcat.org/",
-   "8": "Jagiellonian Library, Cracow (https://bj.uj.edu.pl/)",
+  "1": "Osadca Olga: \"Der Archivbestand Johann (Jan) Ruckgaber in der L ́vivs ́ka naukowa biblioteka im. V. Stefanyka\" Musik-Sammlungen: Speicher inter- kultureller Prozesse, Teilband B, Franz Steiner Verlag, Stuttgart 2007, p. 344 – 356",
+  "2": "List of Ruckgaber’s compositions, stored until 1939 in the Ossoliński National Institution in Lviv, made by J. Ruckgaber, the grandson of the composer",
+  "3": "The Faculty of Musicology of the Warsaw University (http://imuz.uw.edu.pl/en/)",
+  "4": "The Catalogue of microfilms received from the Stefanyk Library [stored in the Faculty of Musicology of the Warsaw University]",
+  "5": "Family archive",
+  "6": "The National Library, Warsaw (https://www.bn.org.pl/)",
+  "7": "The Austrian National Library http://www.worldcat.org/",
+  "8": "Jagiellonian Library, Cracow (https://bj.uj.edu.pl/)",
+  "9": "Lviv National Academic Library of Ukraine (http://www.lsl.lviv.ua/index.php/en/about-the-library/)",
 }
 
 function Reference({reference, last}) {
