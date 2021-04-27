@@ -5,10 +5,13 @@
   "dependencies": {
     "@material-ui/core": "latest",
     "@material-ui/icons": "^4.11.2",
+    "bootstrap": "^4.6.0",
     "clsx": "latest",
     "next": "latest",
     "prop-types": "latest",
     "react": "latest",
+    "react-audio-player": "^0.17.0",
+    "react-bootstrap": "^1.5.2",
     "react-dom": "latest"
   },
   "scripts": {
