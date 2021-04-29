@@ -45,13 +45,13 @@ const HtmlTooltip = withStyles((theme) => ({
 const sources = {
   "1": "Osadca Olga: \"Der Archivbestand Johann (Jan) Ruckgaber in der L ́vivs ́ka naukowa biblioteka im. V. Stefanyka\" Musik-Sammlungen: Speicher inter- kultureller Prozesse, Teilband B, Franz Steiner Verlag, Stuttgart 2007, p. 344 – 356",
   "2": "List of Ruckgaber’s compositions, stored until 1939 in the Ossoliński National Institution in Lviv, made by J. Ruckgaber, the grandson of the composer",
-  "3": "The Faculty of Musicology of the Warsaw University (http://imuz.uw.edu.pl/en/)",
+  "3": '<a href="http://imuz.uw.edu.pl/en/">The Faculty of Musicology of the Warsaw University</a>',
   "4": "The Catalogue of microfilms received from the Stefanyk Library [stored in the Faculty of Musicology of the Warsaw University]",
   "5": "Family archive",
-  "6": "The National Library, Warsaw (https://www.bn.org.pl/)",
-  "7": "The Austrian National Library http://www.worldcat.org/",
-  "8": "Jagiellonian Library, Cracow (https://bj.uj.edu.pl/)",
-  "9": "Lviv National Academic Library of Ukraine (http://www.lsl.lviv.ua/index.php/en/about-the-library/)",
+  "6": '<a href="https://www.bn.org.pl/">The National Library, Warsaw</a>',
+  "7": '<a href="http://www.worldcat.org/">The Austrian National Library</a>',
+  "8": '<a href="https://bj.uj.edu.pl/">Jagiellonian Library, Cracow</a>',
+  "9": '<a href="http://www.lsl.lviv.ua/index.php/en/about-the-library/">Lviv National Academic Library of Ukraine</a>',
 }
 
 function Reference({reference, last}) {
@@ -134,9 +134,24 @@ function Page({sections}) {
         <Box my={4}>
           <Typography variant="h1" gutterBottom>The List of Jan Ruckgaber’s Compositions</Typography>
 
+          <Typography variant="h6" gutterBottom>Sources:</Typography>
+          <ol type="1">{Object.values(sources).map((item)=><li>{item}</li>)}
+
+          </ol>
+
           <Typography variant="h6" gutterBottom>The list of compositions is divided into the following parts</Typography>
           <Typography paragraph>(references indicate a source of information)</Typography>
-          <Typography paragraph>(references indicate a source of information)</Typography>
+          <ul>
+            <li><a href="#section-0">A. Music for the Piano with an Orchestra</a></li>
+            <li><a href="#section-1">B. Music for a Chamber Orcestra</a></li>
+            <li><a href="#section-2">C. Music for the Piano</a></li>
+            <li><a href="#section-3">D. Music for the Violin and the Piano</a></li>
+            <li><a href="#section-4">E. Music for the Flute, the Czakan and the Piano</a></li>
+            <li><a href="#section-5">F. Music for the Clarinet and the Piano</a></li>
+            <li><a href="#section-6">G. Music for the Choir</a></li>
+            <li><a href="#section-7">H. Music for the Voice and the Piano</a></li>
+            <li><a href="#section-8">I. Music for the Guitar and the Piano (transcript)</a></li>
+          </ul>
           <Box py={2}><hr/></Box>
           <CompositionMarkup />
         </Box>

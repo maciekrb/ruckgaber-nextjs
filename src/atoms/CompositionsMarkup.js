@@ -234,7 +234,7 @@ const CompositionsMarkup = () => {
   const classes = useStyles()
   return (
     <div className={classes.root}>
-      <p class="c31">
+      <p class="c31" id="section-0">
         <span class="c8 c12">A.</span>
         <span class="c12 c48">&nbsp;</span>
         <span class="c16 c8 c12">Music for the Piano with an Orchestra </span>
@@ -1019,7 +1019,7 @@ const CompositionsMarkup = () => {
       <p class="c0">
         <span class="c6">&nbsp;</span>
       </p>
-      <p class="c0">
+      <p class="c0" id="section-1">
         <span class="c8 c12">B. Music for a Chamber Orchestra</span>
       </p>
       <p class="c0">
@@ -1102,7 +1102,7 @@ const CompositionsMarkup = () => {
       <p class="c0 c21">
         <span class="c5 c3"></span>
       </p>
-      <p class="c0">
+      <p class="c0" id="section-2">
         <span class="c8 c12">C. Music for the Piano</span>
       </p>
       <p class="c0">
@@ -2722,7 +2722,7 @@ const CompositionsMarkup = () => {
       <p class="c0 c21">
         <span class="c2 c1"></span>
       </p>
-      <p class="c0">
+      <p class="c0" id="section-3">
         <span class="c8 c12">D. Music for the Violin and the Piano</span>
       </p>
       <p class="c0">
@@ -2761,7 +2761,7 @@ const CompositionsMarkup = () => {
       <p class="c0 c21">
         <span class="c7 c8"></span>
       </p>
-      <p class="c0">
+      <p class="c0" id="section-5">
         <span class="c8 c12">
           E. Music for the Flute, the Czakan and the Piano
         </span>
@@ -2807,7 +2807,7 @@ const CompositionsMarkup = () => {
       <p class="c0 c21">
         <span class="c2 c1"></span>
       </p>
-      <p class="c0">
+      <p class="c0" id="section-6">
         <span class="c8 c12">F. Music for the Clarinet and the Piano</span>
       </p>
       <p class="c0">
@@ -2838,7 +2838,7 @@ const CompositionsMarkup = () => {
       <p class="c0 c21">
         <span class="c2 c1"></span>
       </p>
-      <p class="c0">
+      <p class="c0" id="section-7">
         <span class="c8 c12">G. &nbsp; &nbsp;Music for the Choir</span>
       </p>
       <p class="c0">
@@ -2879,7 +2879,7 @@ const CompositionsMarkup = () => {
       <p class="c0 c21">
         <span class="c5 c3"></span>
       </p>
-      <p class="c0">
+      <p class="c0" id="section-8">
         <span class="c8 c3 c12">&nbsp;</span>
         <span class="c8 c12">
           H. &nbsp; &nbsp;Music for the Voice and the Piano
@@ -3303,7 +3303,7 @@ const CompositionsMarkup = () => {
       <p class="c0">
         <span class="c2 c1">&nbsp;</span>
       </p>
-      <p class="c0">
+      <p class="c0" id="section-09">
         <span class="c8 c12">I. Music for the Guitar and the Piano</span>
       </p>
       <p class="c0">
