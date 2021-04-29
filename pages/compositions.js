@@ -136,6 +136,7 @@ function Page({sections}) {
 
           <Typography variant="h6" gutterBottom>The list of compositions is divided into the following parts</Typography>
           <Typography paragraph>(references indicate a source of information)</Typography>
+          <Typography paragraph>(references indicate a source of information)</Typography>
           <Box py={2}><hr/></Box>
           <CompositionMarkup />
         </Box>
