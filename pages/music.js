@@ -6,6 +6,7 @@ import CardMedia from '@material-ui/core/CardMedia'
 import Container from '@material-ui/core/Container'
 import Footer from '../src/organisms/Footer'
 import Grid from '@material-ui/core/Grid'
+import Link from '@material-ui/core/Link'
 import { makeStyles } from '@material-ui/core/styles'
 import NavBar from '../src/organisms/NavBar'
 import ScrollTop from '../src/molecules/ScrollTop'
@@ -61,9 +62,12 @@ export default function Page() {
                 <Typography paragraph>The music legacy of Jan Ruckgaber amounts to about 100 opuses. </Typography>
                 <Typography paragraph>He composed mainly piano music of salon character, often attempting to adapt Polish folk music. His piano compositions, often masterful in form, were published by the largest music companies in Leipzig, London, Brussels, Paris and Petersburg, not to mention Vienna, Warsaw and Lviv. </Typography>
                 <Typography paragraph>His music was easy, tuneful, light and nice, with clear qualities of the Romantic style, following the patterns of Schubert and Weber. In his chamber compositions he frequently used the typical elements of Polish music, firstly of folk dances, as cracovienne and mazurek, as well as polonaise. Undoubtedly he tried to convey the uniqueness of the folk tradition and the character of the country, where he spent most of his lifetime.</Typography>
-                <Typography paragraph>Ruckgaber also composed songs for a voice with the piano with Polish lyrics. After the November uprising of 1830, he composed &quto;Do mogił&quot; (Towards the Graves) to the words by Wincenty Pol.</Typography>
+                <Typography paragraph>Ruckgaber also composed songs for a voice with the piano with Polish lyrics. After the November uprising of 1830, he composed the song &quot;Do mogił&quot; (Towards the Graves) to the words by Wincenty Pol.</Typography>
                 <Typography paragraph>In the composer’s oeuvre there are numerous large forms: sonatas, duos, concertos for solo instruments with the accompaniment of the piano, orchestral and choral compositions. There are also piano works for four hands, and even for eight hands. </Typography>
                 <Typography paragraph>Many pieces of music, which – as his contemporaries claimed – he performed in concerts with mastery, remained in the form of manuscripts. Besides the popular transcriptions of music for various instruments by famous composers of that time, (like Beethoven or Verdi) they comprise the most valuable part of the music legacy of Jan Ruckgaber.</Typography>
+              </Grid>
+              <Grid item sm={12}>
+                 <Typography paragraph>More information in a form of Jan Ruckgaber’s full biography, in English and in Polish, is ready for download <Link color="secondary" href="/downloads">here.</Link> </Typography>
               </Grid>
             </Grid>
           </Box>

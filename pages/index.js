@@ -50,10 +50,10 @@ export default function Index() {
                 src="/images/intro-01.jpg"
                 alt="First slide"
               />
-              <Carousel.Caption>
+              <Carousel.Caption style={{textAlign: 'left', paddingLeft: '350px'}}>
                 <p>Jan Ruckgaber</p>
-                <p>(a bust by Chardigny, 1855, family archive)
-                  Warsaw, 2020</p>
+                <p>(a bust by Chardigny, 1855, family archive)</p>
+                <p>Warsaw, 2020</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>

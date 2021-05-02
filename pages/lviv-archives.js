@@ -6,6 +6,7 @@ import CardMedia from '@material-ui/core/CardMedia'
 import Container from '@material-ui/core/Container'
 import Footer from '../src/organisms/Footer'
 import Grid from '@material-ui/core/Grid'
+import Link from '@material-ui/core/Link'
 import NavBar from '../src/organisms/NavBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
@@ -41,6 +42,9 @@ export default function Page() {
               <Typography paragraph>&quot;The Ruckgaber Archive&quot;  in the Stefanyk Library contains only manuscripts, over 1800 pages of music. They span from 1815 to 1872 and they document all of his work as a composer. After his death in 1876 his works remained in the possession of the Galician Music Society. Later the archive was handed over to the National Ossoliński Library in Lviv. In 1940 it was transferred to the Lviv branch of the Academic Library of the Ukrainian Academy of Sciences, the present Stefanyk Lviv National Academic Library of Ukraine.</Typography>
               <Typography paragraph>Another part of J. Ruckgaber’s manuscripts, his printed works and some of his handwritten copies of other composers’ music with their autographs are now stored in the Library of the M.W. Łysenko Lviv National Music Academy. </Typography>
               <Typography paragraph>Neither the Ruckgaber Archive, nor the documents from the music library of the Galician Music Society,  have yet been sufficiently cataloged or worked out. </Typography>
+              </Grid>
+              <Grid item sm={12}>
+                 <Typography paragraph>More information in a form of Jan Ruckgaber’s full biography, in English and in Polish, is ready for download <Link color="secondary" href="/downloads">here.</Link> </Typography>
               </Grid>
             </Grid>
           </Box>
