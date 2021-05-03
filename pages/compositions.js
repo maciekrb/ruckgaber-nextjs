@@ -135,8 +135,8 @@ function Page({sections}) {
           <Typography variant="h1" gutterBottom>The List of Jan Ruckgaber’s Compositions</Typography>
 
           <Typography variant="h6" gutterBottom>Sources:</Typography>
-          <ol type="1">{Object.values(sources).map((item)=><li>{item}</li>)}
-
+          <ol type="1">
+            {Object.values(sources).map((item, idx)=><li key={`source-${idx}`}>{item}</li>)}
           </ol>
 
           <Typography variant="h6" gutterBottom>The list of compositions is divided into the following parts</Typography>

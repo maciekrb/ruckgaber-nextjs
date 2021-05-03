@@ -166,7 +166,7 @@ export default function Index() {
             </Grid>
           </Box>
           <Box pt={4}>
-            <Typography gutterBottom variant="h1" component="h1" textAlign='center'>
+            <Typography gutterBottom variant="h1" component="h1" style={{textAlign: 'center'}}>
                         Listen to Music by Jan Ruckgaber
             </Typography>
             <Grid container spacing={2}>
