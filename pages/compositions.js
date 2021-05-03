@@ -136,22 +136,22 @@ function Page({sections}) {
 
           <Typography variant="h6" gutterBottom>Sources:</Typography>
           <ol type="1">
-            {Object.values(sources).map((item, idx)=><li key={`source-${idx}`}>{item}</li>)}
+            {Object.values(sources).map((item, idx)=><li key={`source-${idx}`} dangerouslySetInnerHTML={{__html: item}} />)}
           </ol>
 
           <Typography variant="h6" gutterBottom>The list of compositions is divided into the following parts</Typography>
           <Typography paragraph>(references indicate a source of information)</Typography>
-          <ul>
-            <li><a href="#section-0">A. Music for the Piano with an Orchestra</a></li>
-            <li><a href="#section-1">B. Music for a Chamber Orcestra</a></li>
-            <li><a href="#section-2">C. Music for the Piano</a></li>
-            <li><a href="#section-3">D. Music for the Violin and the Piano</a></li>
-            <li><a href="#section-4">E. Music for the Flute, the Czakan and the Piano</a></li>
-            <li><a href="#section-5">F. Music for the Clarinet and the Piano</a></li>
-            <li><a href="#section-6">G. Music for the Choir</a></li>
-            <li><a href="#section-7">H. Music for the Voice and the Piano</a></li>
-            <li><a href="#section-8">I. Music for the Guitar and the Piano (transcript)</a></li>
-          </ul>
+          <ol type="A">
+            <li><a href="#section-0">Music for the Piano with an Orchestra</a></li>
+            <li><a href="#section-1">Music for a Chamber Orcestra</a></li>
+            <li><a href="#section-2">Music for the Piano</a></li>
+            <li><a href="#section-3">Music for the Violin and the Piano</a></li>
+            <li><a href="#section-4">Music for the Flute, the Czakan and the Piano</a></li>
+            <li><a href="#section-5">Music for the Clarinet and the Piano</a></li>
+            <li><a href="#section-6">Music for the Choir</a></li>
+            <li><a href="#section-7">Music for the Voice and the Piano</a></li>
+            <li><a href="#section-8">Music for the Guitar and the Piano (transcript)</a></li>
+          </ol>
           <Box py={2}><hr/></Box>
           <CompositionMarkup />
         </Box>

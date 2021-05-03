@@ -2,6 +2,7 @@ import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import { red } from '@material-ui/core/colors'
 import PictureAsPdfIcon from '@material-ui/icons/PictureAsPdf'
+import Typography from '@material-ui/core/Typography'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -29,7 +30,6 @@ const useStyles = makeStyles((theme) => ({
       height: '11pt',
     },
     '& .c0': {
-      marginLeft: '-28.3pt',
       paddingTop: '0pt',
       paddingBottom: '0pt',
       lineHeight: 1.15,
@@ -236,11 +236,7 @@ const CompositionsMarkup = () => {
   const classes = useStyles()
   return (
     <div className={classes.root}>
-      <p class="c31" id="section-0">
-        <span class="c8 c12">A.</span>
-        <span class="c12 c48">&nbsp;</span>
-        <span class="c16 c8 c12">Music for the Piano with an Orchestra </span>
-      </p>
+      <Typography variant="h3" gutterBottom>A. Music for the Piano with an Orchestra </Typography>
       <p class="c0">
         <span class="c8 c3">A.1. Rondo de concert As-Dur,</span>
         <span class="c1 c3">&nbsp;</span>
@@ -1021,9 +1017,8 @@ const CompositionsMarkup = () => {
       <p class="c0">
         <span class="c6">&nbsp;</span>
       </p>
-      <p class="c0" id="section-1">
-        <span class="c8 c12">B. Music for a Chamber Orchestra</span>
-      </p>
+
+      <Typography variant="h3" gutterBottom>B. Music for a Chamber Orchestra</Typography>
       <p class="c0">
         <span class="c8 c3">B.1. Quintet pour piano D-dur, </span>
         <span class="c1 c3">op. 37, im Jahre 1815 </span>
@@ -1104,9 +1099,8 @@ const CompositionsMarkup = () => {
       <p class="c0 c21">
         <span class="c5 c3"></span>
       </p>
-      <p class="c0" id="section-2">
-        <span class="c8 c12">C. Music for the Piano</span>
-      </p>
+
+      <Typography variant="h3" gutterBottom>C. Music for the Piano</Typography>
       <p class="c0">
         <span class="c8 c3">C.1. Mazur pour piano D-dur, op. 1</span>
         <span class="c1 c3">, &agrave; M-lle Doris Renzhausen,</span>
@@ -2724,9 +2718,8 @@ const CompositionsMarkup = () => {
       <p class="c0 c21">
         <span class="c2 c1"></span>
       </p>
-      <p class="c0" id="section-3">
-        <span class="c8 c12">D. Music for the Violin and the Piano</span>
-      </p>
+
+      <Typography variant="h3" gutterBottom> D. Music for the Violin and the Piano</Typography>
       <p class="c0">
         <span class="c8 c3">
           D. 1. Variations sur un th&egrave;me original, op. 32
@@ -2763,12 +2756,8 @@ const CompositionsMarkup = () => {
       <p class="c0 c21">
         <span class="c7 c8"></span>
       </p>
-      <p class="c0" id="section-5">
-        <span class="c8 c12">
-          E. Music for the Flute, the Czakan and the Piano
-        </span>
-        <span class="c2 c1">&nbsp;</span>
-      </p>
+
+      <Typography variant="h3" gutterBottom> E. Music for the Flute, the Czakan and the Piano</Typography>
       <p class="c0">
         <span class="c8 c3">E.1. Fantaisie pour Czakan et Piano, op.33 </span>
         <span class="c1 c11 c60">9 </span>
@@ -2809,9 +2798,8 @@ const CompositionsMarkup = () => {
       <p class="c0 c21">
         <span class="c2 c1"></span>
       </p>
-      <p class="c0" id="section-6">
-        <span class="c8 c12">F. Music for the Clarinet and the Piano</span>
-      </p>
+
+      <Typography variant="h3" gutterBottom>F. Music for the Clarinet and the Piano </Typography>
       <p class="c0">
         <span class="c8 c3">
           F. 1. Duo pour piano et clarinette in B, op. 18
@@ -2840,9 +2828,8 @@ const CompositionsMarkup = () => {
       <p class="c0 c21">
         <span class="c2 c1"></span>
       </p>
-      <p class="c0" id="section-7">
-        <span class="c8 c12">G. &nbsp; &nbsp;Music for the Choir</span>
-      </p>
+
+      <Typography variant="h3" gutterBottom>G. Music for the Choir </Typography>
       <p class="c0">
         <span class="c8 c3">G. 1. Hoch- und Lustgesang-Cantate Es-dur, op. 57, (Dr. Rappaport) </span>
         <span class="c1 c11 c60">1,2,3</span>
@@ -2881,12 +2868,8 @@ const CompositionsMarkup = () => {
       <p class="c0 c21">
         <span class="c5 c3"></span>
       </p>
-      <p class="c0" id="section-8">
-        <span class="c8 c3 c12">&nbsp;</span>
-        <span class="c8 c12">
-          H. &nbsp; &nbsp;Music for the Voice and the Piano
-        </span>
-      </p>
+        
+      <Typography variant="h3" gutterBottom>H. Music for the Voice and the Piano </Typography>
       <p class="c0">
         <span class="c8 c3">H. 1. Chanson chant&eacute;e, op. 1</span>
         <span class="c1">, </span>
@@ -3305,9 +3288,8 @@ const CompositionsMarkup = () => {
       <p class="c0">
         <span class="c2 c1">&nbsp;</span>
       </p>
-      <p class="c0" id="section-09">
-        <span class="c8 c12">I. Music for the Guitar and the Piano</span>
-      </p>
+      
+      <Typography variant="h3" gutterBottom>I. Music for the Guitar and the Piano </Typography>
       <p class="c0">
         <span class="c8 c3">I.1. Duo A-dur pour violon et guitarre</span>
         <span class="c1">, </span>
