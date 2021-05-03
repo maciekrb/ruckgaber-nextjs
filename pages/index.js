@@ -170,51 +170,41 @@ export default function Index() {
                         Listen to Music by Jan Ruckgaber
             </Typography>
             <Grid container spacing={2}>
+            <Grid item xs={12} md={6}>
+              <Audioplayer
+                  song="Divertissement op.41 na skrzypce i fortepian."
+                  artist="Robert Szreder - skrzypce, Elżbieta Sobkowicz - fortepian"
+                  src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/D3-Divertissement-op.41.mp3"
+                  copy= "some copyrights"
+                />
+              </Grid>
+              <Grid item xs={12} md={6}>
+              <Audioplayer
+                  song="Do mogił op. 55"
+                  artist="pieśń na głos i fortepian;
+                  Jerzy Sergiusz Adamczewski
+                  - baryton
+                  TatianaWoytaszewska
+                  - fortepian
+                  Wincenty Pol - autor tekstu"
+                  src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/H17-Piesn-do-mogil-op-55.mp3"
+                  copy="some copyrights"
+                />
+              </Grid>
+              <Grid item xs={12} md={6}>
+              <Audioplayer
+                  song="Mazurek E-dur"
+                  artist="na fortepian, w wykonaniu Tatiany Woytaszewskiej"
+                  src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/Mazurek-e-dur.mp3"
+                  copy="some copyrights"
+                />
+              </Grid>
               <Grid item xs={12} md={6}>
                 <Audioplayer
                   song="12 variations op 2"
                   artist="Piano w wykonaniu Milana Jelenia z Czech"
-                  src="/media/ruckgaber-01.mp3"
-                />
-              </Grid>
-              <Grid item xs={12} md={6}>
-              <Audioplayer
-                  song="12 variations op 2"
-                  artist="Piano w wykonaniu Milana Jelenia z Czech"
-                  src="/media/ruckgaber-01.mp3"
-                  copy=" some copyrights"
-                />
-              </Grid>
-              <Grid item xs={12} md={6}>
-              <Audioplayer
-                  song="12 variations op 2"
-                  artist="Piano w wykonaniu Milana Jelenia z Czech"
-                  src="/media/ruckgaber-01.mp3"
-                  copy=" some copyrights"
-                />
-              </Grid>
-              <Grid item xs={12} md={6}>
-              <Audioplayer
-                  song="12 variations op 2"
-                  artist="Piano w wykonaniu Milana Jelenia z Czech"
-                  src="/media/ruckgaber-01.mp3"
-                  copy=" some copyrights"
-                />
-              </Grid>
-              <Grid item xs={12} md={6}>
-              <Audioplayer
-                  song="12 variations op 2"
-                  artist="Piano w wykonaniu Milana Jelenia z Czech"
-                  src="/media/ruckgaber-01.mp3"
-                  copy=" some copyrights"
-                />
-              </Grid>
-              <Grid item xs={12} md={6}>
-              <Audioplayer
-                  song="12 variations op 2"
-                  artist="Piano w wykonaniu Milana Jelenia z Czech"
-                  src="/media/ruckgaber-01.mp3"
-                  copy=" some copyrights"
+                  src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/12-variations-op-26.mp3"
+                  copy= "some copyrights"
                 />
               </Grid>
             </Grid>
