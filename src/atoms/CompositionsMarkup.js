@@ -2280,7 +2280,7 @@ const CompositionsMarkup = () => {
         <span class="c8 c3">C.122. Valse brillante, A-dur, op.73,</span>
         <span class="c1">&nbsp;ms. </span>
         <span class="c1 c11 c60">1,2,3 </span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>22</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.122.%20Valse%20brillante%2C%20op.73(366-368)obraz286-290.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3">C.123. 6 Etudes pour piano, op. 73,</span>
@@ -2299,7 +2299,7 @@ const CompositionsMarkup = () => {
         </span>
         <span class="c1">ms. </span>
         <span class="c1 c11 c60">1,2,3 </span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>25</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.125.%20Souvenir%20des%20Karpathes%2C%20op.74%20(366-368)obraz%20265-269a.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3">C.126. Fleurs Roumaines, op. 75</span>
@@ -2309,14 +2309,14 @@ const CompositionsMarkup = () => {
         <span class="c15 c3 c30">&nbsp;</span>
         <span class="c1 c3 c14">Ruckgaber, 1863 </span>
         <span class="c1 c11 c60">1,3,4</span>
-        <span class="c1 c10 c14"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>26.</span>
+        <span class="c1 c10 c14"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.126.%20Fleurs%20Roumaines%2C%20op.%2075%20(280-329)%20obraz%2005-012.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3">
           C.127. Marche Favorite Vari&eacute;e Pour Le Pianoforte a 4 Mains, Op.
           75 </span>
         <span class="c1 c11 c60">2,3,4 </span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>27</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.127.%20Marche%20Favorite%20%20a%204%20Mains%2C%20Op.75%20(280-329)%20obraz%20270-278.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c5 c3">&nbsp;</span>
       </p>
       <p class="c0">
@@ -2326,13 +2326,13 @@ const CompositionsMarkup = () => {
         <span class="c1">,</span>
         <span class="c1 c3">&nbsp;par Jean Ruckgaber </span>
         <span class="c1 c11 c60">1,2,3,4 </span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>28</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.128.%20Mazurka%20%C3%A0%204%20mains%2C%20op.75%20(280-329)%20obraz322b-327a.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3">C.129. Salut &agrave; la Roumanie, op. 76</span>
         <span class="c1">, ms. </span>
         <span class="c1 c11 c60">1,2,3 </span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.129.%20Salut%20a%20la%20Roumanie%2C%20op.76%20%28280-329%29%20obraz%2004%2C%20tylko%20ok%C5%82adka.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.129.%20Salut%20a%20la%20Roumanie%2C%20op.76%20(280-329)%20obraz%2004%2C%20tylko%20ok%C5%82adka.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c1 c11 c60">3</span>
         <span class="c1 c3">&nbsp;</span>
         <span class="c2 c1">(cover only)</span>
@@ -2343,7 +2343,7 @@ const CompositionsMarkup = () => {
         </span>
         <span class="c1">, ms. </span>
         <span class="c1 c11 c60">1,2,3,4</span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>30</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.130.%20Pens%C3%A9e%20fugitive%2C%20op.76%20(280-329)%20obraz516-521.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3">
@@ -2354,12 +2354,12 @@ const CompositionsMarkup = () => {
       <p class="c0">
         <span class="c8 c3">C.132. Mondnacht auf der Alpe, H-Dur, op. 77 </span>
         <span class="c1 c11 c60">1,3,4 </span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>32</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.132.%20Mondnacht%20auf%20der%20Alpe%2C%20op.77%20(280-329)%20obraz419-423a.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3">C.133. Suite des masures pour piano, op. 77 </span>
         <span class="c1 c11 c60">1,2,3 </span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>33</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.133.%20Suite%20des%20masures%20pour%20piano%2C%20op.%2077%20(366-368)%20obraz%20276-279.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3">
@@ -2367,7 +2367,7 @@ const CompositionsMarkup = () => {
         </span>
         <span class="c1">, ms. </span>
         <span class="c1 c11 c60">1,2,3,4 </span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>34</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.134.%20Nachtfahrt%20um%20K%C3%B6nigssee%2C%20op.%2078%20(280-329)%20obraz%20423b-426.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3 c14">C.135. </span>
@@ -2386,19 +2386,20 @@ const CompositionsMarkup = () => {
         </span>
         <span class="c1">, ms. </span>
         <span class="c1 c11 c60">1,2,3,4 </span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>36.a, <a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>36.b</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.136.a.%20Mazurka%20de%20Salon%20a%204%20mains%2C%20op.%2078%20(280-329)%20obr.%20310-315a.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>
+        ,<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.136.b.%204-%C3%A8me%20mazurka%20de%20salon%2C%20op.78%20(330-359)%20obraz%20310-320.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3">C.137. Nachtfahrt,</span>
         <span class="c8">&nbsp;</span>
         <span class="c8 c3">op. 79 </span>
         <span class="c1 c11 c60">2,3,4 </span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>37</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.137.%20Nachtfahrt%2C%20op.%2079%20(280-329)%20obraz%20427-430.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3">C.138. Mazurka, op. 79 </span>
         <span class="c1 c11 c60">2,8</span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>38</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.138.%20Mazurka%20op.79%2C%20BJ.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3">
@@ -2406,7 +2407,8 @@ const CompositionsMarkup = () => {
         </span>
         <span class="c1">&nbsp;ms. </span>
         <span class="c1 c11 c60">1,2,3,4</span>
-        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>39.a, <a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>39.b</span>
+        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.139.a.%20Pauline-polka%20pour%20piano%2C%20Nr%2010%2C%20op.%2079%20(280-329)%20obraz%20510-512.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>
+        <a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.139.b.%20Pauline-polka%20pour%20piano%2C%20Nr%2010%2C%20op.%2079%20(280-329)%20obraz%20513-515.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c5 c3">&nbsp;</span>
       </p>
       <p class="c0">
@@ -2415,7 +2417,7 @@ const CompositionsMarkup = () => {
         </span>
         <span class="c1">, ms. </span>
         <span class="c1 c11 c60">2,3</span>
-        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>40</span>
+        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.140.%20Ernst%E2%80%93polka%2C%20Victor%20%E2%80%93%20Polka%2C%20op.%2079%20(366-368)%20obraz%20320-322.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c16 c6">&nbsp;</span>
       </p>
       <p class="c0">
@@ -2430,11 +2432,11 @@ const CompositionsMarkup = () => {
         <span class="c1">, ms. </span>
         <span class="c1 c11 c60">2,3</span>
         <span class="c6">&nbsp;</span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>42 </span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.142.%20La%20fidele%20Jeanette%2C%20polka%20no%208%2C%20op.79%20(366-368)%20obraz%20573.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c1">(only title page)</span>
       </p>
       <p class="c0">
-        <span class="c8 c15 c3">
+        <span class="c3 c8">
           C.143. Marche de l&rsquo;op&eacute;ra &ldquo;Mois&eacute;e&rdquo; par
           Rossini, op. 79
         </span>
@@ -2442,7 +2444,7 @@ const CompositionsMarkup = () => {
         <span class="c1 c15 c3">transcrit pour le piano par Jean Ruckgaber
         </span>
         <span class="c1 c11 c60">2,3,4</span>
-        <span class="c1 c10 c15">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.143.%20Marche%20de%20l%E2%80%99ope%CC%81ra%20%E2%80%9CMoise%CC%81e%E2%80%9D%20par%20Rossini%2C%20op.79%20%28280-329%29%20obraz%20264-269.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
+        <span class="c1 c10 c15">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.143.%20Marche%20de%20l%E2%80%99op%C3%A9ra%20%E2%80%9CMois%C3%A9e%E2%80%9D%20par%20Rossini%2C%20op.79%20(280-329)%20obraz%20264-269.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3">C.144. Andante interrompue par une marche fun&egrave;bre pour piano,
@@ -2452,7 +2454,7 @@ const CompositionsMarkup = () => {
         <span class="c1 c3">1862 </span>
         <span class="c1 c11 c60">2,5</span>
         <span class="c1">&nbsp;</span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>44</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.144.%20Andante%20par%20Marche%20Funebre%20op.80.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3">C.145.</span>
@@ -2467,12 +2469,12 @@ const CompositionsMarkup = () => {
         <span class="c1 c11 c60">1,2,3,7</span>
         <span class="c1">&nbsp;</span>
         <span class="c6">&nbsp;</span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>46</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.146.%20Souvenir%20des%20bords%20du%20Sereth.%20op.%2081(366-368)obraz247-264.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3">C.147. Fuga ........, op. 82 </span>
         <span class="c1 c11 c60">2,3 </span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>47</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.147.%20Fuga%20..%2C%20op.%2082%20(280-329)%20obraz020-022a.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3">
@@ -2488,7 +2490,7 @@ const CompositionsMarkup = () => {
         </span>
         <span class="c1">, ms. </span>
         <span class="c1 c11 c60">1,2,3,4</span>
-        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>49</span>
+        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.149.%20%E2%80%9EMimi%E2%80%9D%20valse%20brillante%2C%20op.%2084(280-329)%20obraz%20389-393.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c5 c3">&nbsp;</span>
       </p>
       <p class="c0">
@@ -2498,14 +2500,14 @@ const CompositionsMarkup = () => {
         </span>
         <span class="c1">, piano, ms. </span>
         <span class="c1 c11 c60">1,2,3,4</span>
-        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>50</span>
+        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.150.%20Au%20G%C3%A9n%C3%A9ral%20Garibaldi%20grande%20marche%20%C3%A0%204%20mains%2C%20op.%2084%20(280-329)%20obraz%20033b-034.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c5 c3">&nbsp;</span>
       </p>
       <p class="c0">
         <span class="c8 c3">C.151. 3 Marches &agrave; 4 mains, op. 84</span>
         <span class="c1">, ms. </span>
         <span class="c1 c11 c60">1,2,3,4</span>
-        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>51</span>
+        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.151.%203%20Marches%20%C3%A0%204%20mains%2C%20op.%2084%20(280-329)%20obraz%20286-292.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c5 c3">&nbsp;</span>
       </p>
       <p class="c0">
@@ -2515,10 +2517,10 @@ const CompositionsMarkup = () => {
         </span>
         <span class="c1 c14">, ms. </span>
         <span class="c1 c11 c60">1,2,3,5 </span>
-        <span class="c1 c10 c14"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>52.1.a </span>
+        <span class="c1 c10 c14"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.152.1.a.%20Souvenir%20de%20bords%20de%20la%20Moldawa%20suite%20des%20valses%20pour%20piano%2C%20op.%2085.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c1 c11 c60">5</span>
         <span class="c1 c14">, </span>
-        <span class="c1 c10 c14"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>52.1.b</span>
+        <span class="c1 c10 c14"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.152.1.b.%20Souvenir%20de%20bords%20de%20la%20Moldawa%20suit%20de%20valse%20pour%20piano%2C%20op.%2085%20(366-368)%20obraz%20230-236.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c1 c11 c60">3</span>
       </p>
       <p class="c0">
@@ -2529,7 +2531,7 @@ const CompositionsMarkup = () => {
         <span class="c1 c14">,</span>
         <span class="c1 c42">&nbsp;ms. </span>
         <span class="c1 c11 c60">2,3 </span>
-        <span class="c1 c10 c15"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>52.2</span>
+        <span class="c1 c10 c15"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.152.2.%20Souvenir%20des%20Bords%20de%20la%20Moldova%2C%20op.%2085%20a%204%20mains%20(366-368)obraz237-246.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c27 c8 c23 c15 c3">&nbsp;</span>
       </p>
       <p class="c0">
@@ -2539,7 +2541,7 @@ const CompositionsMarkup = () => {
         <span class="c1">, ms. </span>
         <span class="c1 c11 c60">1,2,3</span>
         <span class="c6">&nbsp;</span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>53</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.153.%20Le%20songe%2C%20op.%2087%20(366-368)%20obraz%20207-217.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3">
@@ -2551,7 +2553,7 @@ const CompositionsMarkup = () => {
         <span class="c1 c15">&nbsp;ms. </span>
         <span class="c1 c11 c60">1,2,3,4</span>
         <span class="c30 c25">&nbsp;</span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>54.a</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.154.a.%203%20Lieder%20ohne%20Worte%20f%C3%BCr%20Piano%2C%20op.%2088%20(280-329)%20obraz%20242-248.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c5 c3">&nbsp;</span>
       </p>
       <p class="c0">
@@ -2564,7 +2566,7 @@ const CompositionsMarkup = () => {
         <span class="c1 c14">ms. </span>
         <span class="c1 c11 c60">2,3,4</span>
         <span class="c1">&nbsp;</span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>54.b</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.154.b.%203%20Romance%20sans%20paroles%20Op.88%20(366-368)%20obr.%20082-089%2C%20czysty.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3">
@@ -2572,7 +2574,7 @@ const CompositionsMarkup = () => {
         </span>
         <span class="c1 c11 c60">2,3</span>
         <span class="c6">&nbsp;</span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>54.c</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.154.c.%206%20Lieder%20ohne%20Worte%20f%C3%BCr%20Piano%2C%20op.%2088%20(280-329)%20obraz%20249-263.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c19 c1 c23 c3">a) Dumka</span>
@@ -2597,16 +2599,16 @@ const CompositionsMarkup = () => {
         <span class="c1">, ms. </span>
         <span class="c1 c11 c60">1,2,3,4</span>
         <span class="c1 c13">&nbsp;</span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>55.a,</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.155.a.%20(330-359)%20obraz%20242-251.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c1 c11">&nbsp;</span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>55.b </span>
-        <span class="c16 c6">(see alsoH.33)</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.155.b.%20Sonate%20pour%20le%20piano%2C%20op.%2089%20(330-359)%20obr.%20252-262.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
+        <span class="c16 c6">(see also H.33)</span>
       </p>
       <p class="c0">
         <span class="c8 c3">C.156. Nocturne Es-Dur, op. 90 </span>
         <span class="c1 c11 c60">3,4,7</span>
         <span class="c1">&nbsp;</span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>56</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.156.b.%20Nocturne%20Es-dur%20op.90%2C%20oczyszczony.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3">
@@ -2624,7 +2626,7 @@ const CompositionsMarkup = () => {
           &nbsp;pour piano transcript par Jean Ruckgaber
         </span>
         <span class="c1 c11 c60">2,5</span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>58 </span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.158.%20Chanson%20polonais%20populaire%2C%20op.%2091.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c1 c11 c60">5</span>
         <span class="c5 c3">&nbsp;</span>
       </p>
@@ -2633,7 +2635,7 @@ const CompositionsMarkup = () => {
         <span class="c1">, ms. </span>
         <span class="c1 c11 c60">1,2,3,4</span>
         <span class="c6">&nbsp;</span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>59</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.159.%20Mazur%2C%20B-dur%2C%20op.%20104%20(280-329)%20obraz%20306-309.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c5 c3">&nbsp;</span>
       </p>
       <p class="c0">
@@ -2654,9 +2656,9 @@ const CompositionsMarkup = () => {
         <span class="c1 c11 c60">1,2,3</span>
       </p>
       <p class="c0">
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>61.a</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.161.a.%20Preludes%20(366-368)%20obraz%20163-173.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c1">, </span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>61.b</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.161.b.%20Pr%C3%A9ludes%20op.%20104%20(366-368)%20obraz%20174-186.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3">C.162. Szenen aus den 4 Jahreszeiten, op. 123 </span>
@@ -2683,22 +2685,24 @@ const CompositionsMarkup = () => {
         </span>
         <span class="c1 c3">zu 4 H&auml;nden, 1840 </span>
         <span class="c1 c11 c60">7 </span>
+        </p>
+        <p>
         <span class="c8 c3">C.164. Marche hongroise pour le piano</span>
         <span class="c1">, No 4, ms. </span>
         <span class="c1 c11 c60">2,5</span>
         <span class="c1">&nbsp;</span>
-        <span class="c9 c1"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>64</span>
+        <span class="c9 c1"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.164.%20Marche%20hongroise.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3">C.165. 2 masures et une march </span>
         <span class="c1 c11 c60">3</span>
         <span class="c1 c11 c45">&nbsp;</span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>65</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.165.%202%20masures%20et%20une%20marche%20(280-329)%20obr.%20293-295.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3">C.166. Mazurka pour piano Marie Schier, 1869, </span>
         <span class="c1 c11 c60">8 </span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>66</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.166.%20Mazurka%2C%20BJ.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3">
@@ -2707,15 +2711,15 @@ const CompositionsMarkup = () => {
         <span class="c1">, 1863, ms. </span>
         <span class="c1 c11 c60">1,2,3</span>
         <span class="c6">&nbsp;</span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>67</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.167.%20M%C3%A9lodies%20Valaques%20Roumania%20(280-329)%20obraz%20382-388.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c2 c1">&nbsp;</span>
       </p>
       <p class="c0">
-        <span class="c8 c3">C.169. Notezen Buch, </span>
+        <span class="c8 c3">C.168. Notezen Buch, </span>
         <span class="c1">ms. </span>
         <span class="c1 c11 c60">2,3,4</span>
         <span class="c1 c34">&nbsp;</span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>69</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.168.%20Notezen%20Buch%20(280-329)%20obraz435-461.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0 c21">
         <span class="c2 c1"></span>
@@ -2728,7 +2732,7 @@ const CompositionsMarkup = () => {
         </span>
         <span class="c1 c11 c60">2,3,4</span>
         <span class="c1">&nbsp;</span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/D.1.%20Variations%20sur%20un%20theme%20original%2C%20op.32%20%28330-359%29%20obraz%20410-427.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/D.1.%20Variations%20sur%20un%20theme%20original%2C%20op.32%2C%20czysty.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c16 c6">&nbsp;</span>
       </p>
       <p class="c0">
@@ -2742,7 +2746,7 @@ const CompositionsMarkup = () => {
         <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/D.3.%20Divertissement%20%20Op.%2041.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>, </span>
         <span class="c1 c3">Divertissiment, violin, op.41 </span>
         <span class="c1 c11 c60">5</span>
-        <span class="c1 c10">, <a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/D.3.%20Divertissement%20%20Op.%2041.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>.a</span>
+        <span class="c1 c10">, <a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/D.3a%20Duo%20Op.41%20Divertissement%20Sacher%20Masoch.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c8 c10">,</span>
         <span class="c1 c10">&nbsp;</span>
         <span class="c1 c3">
@@ -2763,7 +2767,7 @@ const CompositionsMarkup = () => {
       <p class="c0">
         <span class="c8 c3">E.1. Fantaisie pour Czakan et Piano, op.33 </span>
         <span class="c1 c11 c60">9 </span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/E.1.%20Fantasie%20%20pour%20Czakan%20et%20Piano%20op.33%2C%20oryg.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/E.1%2C2%20Fantasie%20na%20czakan%20op.33%2C%20czyste%2C%20ca%C5%82o%C5%9B%C4%87.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3">E. 2. Fantaisie brillante pour czakan avec fl&uuml;te douce et piano,
@@ -2771,7 +2775,7 @@ const CompositionsMarkup = () => {
         <span class="c1">, ms. </span>
         <span class="c1 c11 c60">1,2,9</span>
         <span class="c6">&nbsp;</span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/E.2.%20Fantaisie%20brillante%20pour%20czakan%20avec%20flu%CC%88te%20douce%20et%20piano%2C%20op.%2033%2C%20oryg.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/E.2.%20Fantaisie%20brillante%20pour%20Czakan%20ou%20Flute%20douce%20et%20Piano%20Forte%20op.33%2C%20czysty.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c5 c3">&nbsp;</span>
       </p>
       <p class="c0">
@@ -2785,7 +2789,8 @@ const CompositionsMarkup = () => {
         <span class="c19 c1 c23 c3">&nbsp;</span>
       </p>
       <p class="c0">
-        <span class="c1 c9"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/E.3.a.%20Introduction%20op.34%20%28366-368%29%20obraz%20559b-567a%20.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>, <a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/E.3.b.%20czysty.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>&nbsp;</span>
+        <span class="c1 c9"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/E.3.a.%20Introduction%20op.34%20(366-368)%20obraz%20559b-567a%20.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>,
+        <a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/E.3.b.%20czysty.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>&nbsp;</span>
       </p>
       <p class="c0">
         <span class="c8 c3">E. 4. Duo pour fl&uuml;te et piano sur un th&egrave;me de
@@ -2922,14 +2927,14 @@ const CompositionsMarkup = () => {
         <span class="c16 c1 c25">&ndash; ms.</span>
       </p>
       <p class="c0">
-        <span class="c1 c10">Pdf H.4a </span>
+      <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.4.a.%202%20Lieder%20fur%20Alt%20mit%20Piano%2C%20op.5%2C6%20(366-368)%20obr.%20580-582%2C%20czysty.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c1 c3">2 Lieder</span>
         <span class="c1 c36 c3">,</span>
         <span class="c1 c10">&nbsp;</span>
         <span class="c1 c3">fur Alt mit Piano</span>
       </p>
       <p class="c0">
-        <span class="c1 c10">Pdf H.4b</span>
+      <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.4.b.%20Mein%20Herz%20fur%20mezzo%20sopran%20280-329%20obr.327-328%2C%20czysty.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c1">&nbsp;</span>
         <span class="c1 c3">Mein Herz fur mezzo sopran mit piano</span>
       </p>
@@ -2939,13 +2944,13 @@ const CompositionsMarkup = () => {
         </span>
         <span class="c1">, ms. </span>
         <span class="c1 c11 c60">1,2,3</span>
-        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.5.%203%20Gedichte%20von%20Theodor%20Bakody%20op.9%20%28280-329%29%20obraz%20035-050%2C%20oryg.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
+        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.6.%20Der%20Schifferknabe%2C%20Op.10%20(330-359)%20obr.%20271-278%2C%20%20czysty.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c5 c3">&nbsp;</span>
       </p>
       <p class="c0">
         <span class="c8 c3">H. 6. Der Schifferknabe, op. 10 </span>
         <span class="c1 c11 c60">1,2,3,4</span>
-        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.6.%20Der%20Schifferknabe%2C%20Op.10%20IM%20F330-359%20obr.271-278.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
+        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.6.%20Der%20Schifferknabe%2C%20Op.10%20(330-359)%20obr.%20271-278%2C%20%20czysty.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c5 c3">&nbsp;</span>
       </p>
       <p class="c0">
@@ -2973,7 +2978,7 @@ const CompositionsMarkup = () => {
       <p class="c0">
         <span class="c8 c3">H. 9. Liebes Zweifel, op. 13 </span>
         <span class="c1 c11 c60">2,3</span>
-        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.9%20%20oryg.%2C%20Liebes%20Zweifel%2C%20op.13%20%28366-368%29%20obr.577-579.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
+        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.9.a%20Liebes%20Zweifel%20op.13%20(366-368)%20obr.577-579%2C%20czysty.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c1 c13">&nbsp;</span>
         <span class="c1">&nbsp;</span>
       </p>
@@ -2992,7 +2997,7 @@ const CompositionsMarkup = () => {
         </span>
         <span class="c1 c3">&nbsp;piano avec des paroles </span>
         <span class="c1 c11 c60">1,2,3</span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.1.%20Chanson%20chantie%20op.%201%20%28280-329%29%20obr.297%2C%20czysta.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>1.1</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.11.1.%20La%20Melancholica%20op.19%20(280-329)%20obraz329-333.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3">
@@ -3017,7 +3022,7 @@ const CompositionsMarkup = () => {
         <span class="c19 c1 c23 c3">&nbsp;</span>
       </p>
       <p class="c0">
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.1.%20Chanson%20chantie%20op.%201%20%28280-329%29%20obr.297%2C%20czysta.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>3a </span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.13.a.%20Romance%2C%20Chant%20%E2%80%93%20Piano%2C%20op.22%20(366-368)%20obr.105-107%2C%20czysty.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c1 c3">Romance, Chant et Piano</span>
         <span class="c1">, </span>
         <span class="c1 c3">op.22</span>
@@ -3027,7 +3032,7 @@ const CompositionsMarkup = () => {
         </span>
       </p>
       <p class="c0">
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.1.%20Chanson%20chantie%20op.%201%20%28280-329%29%20obr.297%2C%20czysta.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>3b </span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.13.b.%20Romance%20pour%20le%20chant%20et%20piano%20Op.23%20(366-368)%20obr.090-092%2C%20czysty.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c1 c3">
           Romance, Chant et Piano, op 23 a M. le chevalier Anibal Ghergheril,
           manuscript
@@ -3038,7 +3043,7 @@ const CompositionsMarkup = () => {
         <span class="c1">&nbsp;</span>
         <span class="c1 c3">sopran oder tenor, 1861 </span>
         <span class="c1 c11 c60">1,2,3,4</span>
-        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.1.%20Chanson%20chantie%20op.%201%20%28280-329%29%20obr.297%2C%20czysta.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>4</span>
+        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.14.a.%20Das%20Fischleinlied%20op.24%20(280-329)%20obr.%20001-003%2C%20czysty.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c16 c6">&nbsp;</span>
       </p>
       <p class="c0">
@@ -3047,7 +3052,7 @@ const CompositionsMarkup = () => {
         <span class="c1 c3">&nbsp;Gedicht von F. Elholtz,voice and piano</span>
         <span class="c1">., ms. </span>
         <span class="c1 c11 c60">1,2,3,4</span>
-        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.1.%20Chanson%20chantie%20op.%201%20%28280-329%29%20obr.297%2C%20czysta.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>5</span>
+        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.15.%20Es%20schicht%20sich%20nicht%20op.26%20(330-359)%20obr.%20052b-053%2C%20czysty.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c16 c6">&nbsp;</span>
       </p>
       <p class="c0">
@@ -3055,7 +3060,7 @@ const CompositionsMarkup = () => {
         <span class="c1 c3">, Gedicht von Elholtz,</span>
         <span class="c1">&nbsp;voice and piano, ms. </span>
         <span class="c1 c11 c60">1,2,3</span>
-        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.1.%20Chanson%20chantie%20op.%201%20%28280-329%29%20obr.297%2C%20czysta.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>6</span>
+        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.16.%20Wanda%20op.1%20(366-368)%20obr.%20325-328%2C%20czysty.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c16 c6">&nbsp;</span>
       </p>
       <p class="c0">
@@ -3068,7 +3073,7 @@ const CompositionsMarkup = () => {
         </span>
         <span class="c1 c11 c15 c3">2,5</span>
         <span class="c1 c15 c3">&nbsp;</span>
-        <span class="c1 c10 c15"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.1.%20Chanson%20chantie%20op.%201%20%28280-329%29%20obr.297%2C%20czysta.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>7. </span>
+        <span class="c1 c10 c15"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.17.%20Do%20Mogi%C5%82%2C%20op.55.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>7. </span>
       </p>
       <p class="c0">
         <span class="c8 c3">
@@ -3109,7 +3114,7 @@ const CompositionsMarkup = () => {
         <span class="c1">, ms. </span>
         <span class="c1 c11 c60">1,2,3</span>
         <span class="c1 c3 c12">&nbsp;</span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.1.%20Chanson%20chantie%20op.%201%20%28280-329%29%20obr.297%2C%20czysta.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>9.a</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.19.a.%20Das%20Pater%20unser%E2%80%93samt%E2%80%93Ave%20Maria%20op.65%20(366-368)%20obr.%20305-307czysty.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3">
@@ -3118,7 +3123,7 @@ const CompositionsMarkup = () => {
         <span class="c1">, ms. </span>
         <span class="c1 c11 c60">1,2,3</span>
         <span class="c1">&nbsp;</span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.1.%20Chanson%20chantie%20op.%201%20%28280-329%29%20obr.297%2C%20czysta.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>9.b</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.19.b.%20(366-368)%20obr.308-310.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c5 c3">&nbsp;</span>
       </p>
       <p class="c0">
@@ -3158,7 +3163,7 @@ const CompositionsMarkup = () => {
       <p class="c0">
         <span class="c8 c3">H. 23. 3 M&eacute;lodies hongroises, op. 69 </span>
         <span class="c1 c11 c60">1,2,3,4</span>
-        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.23.a.%20oryg.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a>,b</span>
+        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.23.a%2Cb.%20oryg.%203%20Melodies%20hongroises%2C%20Op.69%20(280-329)%20obr.%20367-381.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c5 c3">&nbsp;</span>
       </p>
       <p class="c0">
@@ -3184,7 +3189,7 @@ const CompositionsMarkup = () => {
         <span class="c2 c1">,</span>
       </p>
       <p class="c0">
-        <span class="c1 c10">Pdf H.25.a. </span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.25.a.%20Hans%20und%20Grete%2C%20%20Op.%2091%20(366-368)%20obr.%20538-542%2C%20rkp%2C%20czysty.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c1 c3">2 pies&#769;ni: 1) Hans und Grete,</span>
         <span class="c6">&nbsp;</span>
         <span class="c1 c3">
@@ -3193,7 +3198,7 @@ const CompositionsMarkup = () => {
         <span class="c1 c11 c60">2,3</span>
       </p>
       <p class="c0">
-        <span class="c1 c10">Pdf H.25.b.</span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.25.b.%20Die%20Himmelsschlussel%20Op.%2091%2C%20druk%2C%20czysty.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
         <span class="c1">&nbsp;</span>
         <span class="c1 c3">Der Himmelschl&uuml;ssel, op. 91</span>
         <span class="c8 c3">, </span>
@@ -3214,7 +3219,7 @@ const CompositionsMarkup = () => {
         <span class="c1">, </span>
         <span class="c1 c3">voice and piano,</span>
         <span class="c1">&nbsp;</span>
-        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.27.%203%20Lieder%20op.%2094%20und%20Der%20Fru%CC%88hling%20%28366-368%29%20obr.098-104%2C%20czysty.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
+        <span class="c1 c10"><a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.27.%203%20Lieder%20op.%2094%20und%20Der%20Fr%C3%BChling%20(366-368)%20obr.098-104%2C%20czysty.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c19 c1 c23 c3">1) &nbsp;Rezygnacja</span>
@@ -3267,7 +3272,7 @@ const CompositionsMarkup = () => {
       <p class="c0">
         <span class="c8 c3">H. 32. Tenor solo zur Cantate, ms. </span>
         <span class="c1 c11 c60">2,3</span>
-        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.32.%20Tenor%20solo%20zur%20Cantate%20%28366-368%29%20obr.280-282%2C%20czysty.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
+        <span class="c1 c10">&nbsp;<a href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.32.%20Tenor%20solo%20zur%20Cantate%20(366-368)%20obr.280-282%2C%20czysty.pdf" target="_blank"><PictureAsPdfIcon fontSize="small" style={{color: red[500]}}/></a></span>
       </p>
       <p class="c0">
         <span class="c8 c3">H. 33. Sonate pour le piano</span>

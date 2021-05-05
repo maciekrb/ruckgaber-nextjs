@@ -172,37 +172,32 @@ export default function Index() {
             <Grid container spacing={2}>
             <Grid item xs={12} md={6}>
               <Audioplayer
-                  song="Divertissement op.41 na skrzypce i fortepian."
-                  artist="Robert Szreder - skrzypce, Elżbieta Sobkowicz - fortepian"
+                  song="Divertissiment for violin and the piano, op.41"
+                  artist="Robert Szreder - violin, Elżbieta Sobkowicz - piano "
                   src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/D3-Divertissement-op.41.mp3"
                   copy= "some copyrights"
                 />
               </Grid>
               <Grid item xs={12} md={6}>
               <Audioplayer
-                  song="Do mogił op. 55"
-                  artist="pieśń na głos i fortepian;
-                  Jerzy Sergiusz Adamczewski
-                  - baryton
-                  TatianaWoytaszewska
-                  - fortepian
-                  Wincenty Pol - autor tekstu"
+                  song="Do mogił, op.55"
+                  artist="song for a voice and the piano, Jerzy Sergiusz Adamczewski - baritone, Tatiana Woytaszewska - piano, Wincenty Pol - lyrics"
                   src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/H17-Piesn-do-mogil-op-55.mp3"
                   copy="some copyrights"
                 />
               </Grid>
               <Grid item xs={12} md={6}>
               <Audioplayer
-                  song="Mazurek E-dur"
-                  artist="na fortepian, w wykonaniu Tatiany Woytaszewskiej"
+                  song="Mazurek E- dur for the piano"
+                  artist="Tatiana Woytaszewska - piano"
                   src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/Mazurek-e-dur.mp3"
                   copy="some copyrights"
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <Audioplayer
-                  song="12 variations op 2"
-                  artist="Piano w wykonaniu Milana Jelenia z Czech"
+                  song="12 Variations, op. 2"
+                  artist="Milan Jeleń - piano "
                   src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/12-variations-op-26.mp3"
                   copy= "some copyrights"
                 />
