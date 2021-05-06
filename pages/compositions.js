@@ -142,15 +142,15 @@ function Page({sections}) {
           <Typography variant="h6" gutterBottom>The list of compositions is divided into the following parts</Typography>
           <Typography paragraph>(references indicate a source of information)</Typography>
           <ol type="A">
-            <li><a href="#section-0">Music for the Piano with an Orchestra</a></li>
-            <li><a href="#section-1">Music for a Chamber Orcestra</a></li>
-            <li><a href="#section-2">Music for the Piano</a></li>
-            <li><a href="#section-3">Music for the Violin and the Piano</a></li>
-            <li><a href="#section-4">Music for the Flute, the Czakan and the Piano</a></li>
-            <li><a href="#section-5">Music for the Clarinet and the Piano</a></li>
-            <li><a href="#section-6">Music for the Choir</a></li>
-            <li><a href="#section-7">Music for the Voice and the Piano</a></li>
-            <li><a href="#section-8">Music for the Guitar and the Piano (transcript)</a></li>
+            <li><a href="#section-A">Music for the Piano with an Orchestra</a></li>
+            <li><a href="#section-B">Music for a Chamber Orcestra</a></li>
+            <li><a href="#section-C">Music for the Piano</a></li>
+            <li><a href="#section-D">Music for the Violin and the Piano</a></li>
+            <li><a href="#section-E">Music for the Flute, the Czakan and the Piano</a></li>
+            <li><a href="#section-F">Music for the Clarinet and the Piano</a></li>
+            <li><a href="#section-G">Music for the Choir</a></li>
+            <li><a href="#section-H">Music for the Voice and the Piano</a></li>
+            <li><a href="#section-I">Music for the Guitar and the Piano (transcript)</a></li>
           </ol>
           <Box py={2}><hr/></Box>
           <CompositionMarkup />

@@ -6,16 +6,19 @@ import Typography from '@material-ui/core/Typography'
 
 const useStyles = makeStyles((theme) => ({
   root: {
+    '& .section-ref': {
+      marginBottom: '40px',
+    },
     '& .c0': {
       paddingTop: '0pt',
       paddingBottom: '0pt',
-      lineHeight: 1,
+      lineHeight: 1.7,
       orphans: 2,
       widows: 2,
       textAlign: 'left',
       marginRight: '-30.4pt',
-      marginBlockStart: '0.4em',
-      marginBlockEnd: '0.4em',
+      marginBlockStart: '0.8em',
+      marginBlockEnd: '0.8em',
     },
     '& .MuiSvgIcon-root': {
       position: 'relative',
@@ -187,6 +190,7 @@ const CompositionsMarkup = () => {
   const classes = useStyles()
   return (
     <div className={classes.root}>
+      <a className="section-ref" id="section-A" />
       <Typography variant="h3" gutterBottom>
         A. Music for the Piano with an Orchestra{' '}
       </Typography>
@@ -1463,6 +1467,7 @@ const CompositionsMarkup = () => {
         <span className="c6">&nbsp;</span>
       </p>
 
+      <a className="section-ref" id="section-B" />
       <Typography variant="h3" gutterBottom>
         B. Music for a Chamber Orchestra
       </Typography>
@@ -1582,6 +1587,7 @@ const CompositionsMarkup = () => {
         <span className="c5 c3"></span>
       </p>
 
+      <a className="section-ref" id="section-C" />
       <Typography variant="h3" gutterBottom>
         C. Music for the Piano
       </Typography>
@@ -4129,6 +4135,7 @@ const CompositionsMarkup = () => {
         <span className="c2 c1"></span>
       </p>
 
+      <a className="section-ref" id="section-D" />
       <Typography variant="h3" gutterBottom>
         {' '}
         D. Music for the Violin and the Piano
@@ -4190,6 +4197,7 @@ const CompositionsMarkup = () => {
         <span className="c1 c11 c60">1</span>
       </p>
 
+      <a className="section-ref" id="section-E" />
       <Typography variant="h3" gutterBottom>
         {' '}
         E. Music for the Flute, the Czakan and the Piano
@@ -4268,6 +4276,7 @@ const CompositionsMarkup = () => {
         <span className="c2 c1"></span>
       </p>
 
+      <a className="section-ref" id="section-F" />
       <Typography variant="h3" gutterBottom>
         F. Music for the Clarinet and the Piano{' '}
       </Typography>
@@ -4307,6 +4316,7 @@ const CompositionsMarkup = () => {
         <span className="c2 c1"></span>
       </p>
 
+      <a className="section-ref" id="section-G" />
       <Typography variant="h3" gutterBottom>
         G. Music for the Choir{' '}
       </Typography>
@@ -4384,6 +4394,7 @@ const CompositionsMarkup = () => {
         <span className="c5 c3"></span>
       </p>
 
+      <a className="section-ref" id="section-H" />
       <Typography variant="h3" gutterBottom>
         H. Music for the Voice and the Piano{' '}
       </Typography>
@@ -5024,6 +5035,7 @@ const CompositionsMarkup = () => {
         <span className="c2 c1">&nbsp;</span>
       </p>
 
+      <a className="section-ref" id="section-I" />
       <Typography variant="h3" gutterBottom>
         I. Music for the Guitar and the Piano{' '}
       </Typography>
