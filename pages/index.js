@@ -175,7 +175,6 @@ export default function Index() {
                   song="Divertissiment for violin and the piano, op.41"
                   artist="Robert Szreder - violin, Elżbieta Sobkowicz - piano "
                   src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/D3-Divertissement-op.41.mp3"
-                  copy= "some copyrights"
                 />
               </Grid>
               <Grid item xs={12} md={6}>
@@ -183,7 +182,6 @@ export default function Index() {
                   song="Do mogił, op.55"
                   artist="song for a voice and the piano, Jerzy Sergiusz Adamczewski - baritone, Tatiana Woytaszewska - piano, Wincenty Pol - lyrics"
                   src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/H17-Piesn-do-mogil-op-55.mp3"
-                  copy="some copyrights"
                 />
               </Grid>
               <Grid item xs={12} md={6}>
@@ -191,16 +189,14 @@ export default function Index() {
                   song="Mazurek E- dur for the piano"
                   artist="Tatiana Woytaszewska - piano"
                   src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/Mazurek-e-dur.mp3"
-                  copy="some copyrights"
-                />
+                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <Audioplayer
                   song="12 Variations, op. 2"
                   artist="Milan Jeleń - piano "
                   src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/12-variations-op-26.mp3"
-                  copy= "some copyrights"
-                />
+                 />
               </Grid>
             </Grid>
            </Box>

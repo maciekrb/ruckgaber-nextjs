@@ -747,8 +747,7 @@ const CompositionsMarkup = () => {
         <span className="c1">&nbsp;</span>
         <span className="c1 c3">
           Adagio de Concert en mi mi miner, piano avec l&rsquo;orchestre
-          &bdquo;On peut Assi excenter &nbsp;ce morceaux pour Piano seul en
-          jeuant seulment les petites notes&rdquo;{' '}
+          &bdquo;onpent executer cette morceau pour piano seul en jouant seulement les petites notes” &rdquo;{' '}
         </span>
         <span className="c1 c10">
           <a
@@ -1108,8 +1107,8 @@ const CompositionsMarkup = () => {
         </span>
       </p>
       <p className="c0">
-        <span className="c8 c3">A.10. </span>
-        <span className="c1 c3">Grande Ouverture de Concert, Partition,</span>
+        <span className="c8 c3">A.10. Grande Ouverture de Concert, </span>
+        <span className="c1 c3">Partition,</span>
         <span className="c1">&nbsp;</span>
         <span className="c1 c3">par Johan Ruckgaber, </span>
         <span className="c1 c11 c60">3</span>
@@ -1477,7 +1476,7 @@ const CompositionsMarkup = () => {
         <span className="c1 c11 c60">1,2</span>
       </p>
       <p className="c0">
-        <span className="c8 c3">B.2a.</span>
+        <span className="c8 c3">B.2.a.</span>
         <span className="c8 c15 c3">&nbsp;</span>
         <span className="c1 c15 c3">Premier Quatuer pour le Violon 1</span>
         <span className="c1 c11 c60">mo</span>
@@ -1627,9 +1626,7 @@ const CompositionsMarkup = () => {
             <PictureAsPdfIcon fontSize="small" style={{ color: red[500] }} />
           </a>
         </span>
-        <span className="c1">&nbsp;(</span>
-        <span className="c1">ms.</span>
-        <span className="c1">), </span>
+        <span className="c1">&nbsp;(ms.), </span>
         <span className="c1 c11 c60">3 </span>
         <span className="c1 c10">
           <a
@@ -2004,7 +2001,6 @@ const CompositionsMarkup = () => {
         <span className="c8 c3">
           C.25. Polonaise pour pianoforte, D-dur, op. 16,{' '}
         </span>
-        <span className="c1">ms. </span>
         <span className="c1 c11 c60">1,3,4,6</span>
         <span className="c1 c10">
           &nbsp;{' '}
@@ -2015,7 +2011,7 @@ const CompositionsMarkup = () => {
             <PictureAsPdfIcon fontSize="small" style={{ color: red[500] }} />
           </a>
         </span>
-        <span className="c6">,</span>
+        <span className="c1">&nbsp;(ms.), </span>
         <span className="c1 c11 c60">&nbsp;</span>
         <span className="c1 c10">
           <a
@@ -2025,7 +2021,7 @@ const CompositionsMarkup = () => {
             <PictureAsPdfIcon fontSize="small" style={{ color: red[500] }} />
           </a>
         </span>
-        <span className="c1">&nbsp;</span>
+        <span className="c1">&nbsp;(print) </span>
         <span className="c33 c8 c13 c23 c3">&nbsp;</span>
       </p>
       <p className="c0">
@@ -2267,7 +2263,7 @@ const CompositionsMarkup = () => {
           </a>
         </span>
         <span className="c1 c11 c60">3 </span>
-        <span className="c1">,</span>
+        <span className="c1">&nbsp;(ms.), </span>
         <span className="c1 c10">
           &nbsp;
           <a
@@ -2278,7 +2274,7 @@ const CompositionsMarkup = () => {
           </a>
         </span>
         <span className="c1 c11 c60">5</span>
-        <span className="c6">&nbsp;</span>
+        <span className="c1">&nbsp;(print) </span>
       </p>
       <p className="c0">
         <span className="c8 c3">
@@ -2423,7 +2419,7 @@ const CompositionsMarkup = () => {
           &agrave; son ami M-sieur Victor de Sellyey,
         </span>
         <span className="c1 c3 c12">&nbsp;</span>
-        <span className="c1 c15">rkp </span>
+        <span className="c1 c15">ms. </span>
         <span className="c1 c11 c60">1,2,3 &nbsp;</span>
         <span className="c1 c10 c14">
           <a
@@ -2806,6 +2802,7 @@ const CompositionsMarkup = () => {
             <PictureAsPdfIcon fontSize="small" style={{ color: red[500] }} />
           </a>
         </span>
+        <span className="c1">&nbsp;(a 4 mains, op. 104) </span>
       </p>
       <p className="c0">
         <span className="c8 c3">C.86. Polka &ndash; mazurka, op. 59 </span>
@@ -2927,7 +2924,7 @@ const CompositionsMarkup = () => {
             <PictureAsPdfIcon fontSize="small" style={{ color: red[500] }} />
           </a>
         </span>
-        <span className="c1">(missing pages20-21, 22-23 ms.), (op. 53!?)</span>
+        <span className="c1">(missing pages 20-21, 22-23 ms.), (op. 53!?)</span>
         <span className="c1 c10">
           <a
             href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.94.f.%20Ouverture%20de%20melodrama%20_Le%20Sauveur_%2C%20op.36%20%28330-359%29%20obraz%20002-013%2C%20kompletny.pdf"
@@ -3040,7 +3037,7 @@ const CompositionsMarkup = () => {
         <span className="c8 c3">
           C.101. Impromptu, sc&egrave;ne dramatique pour piano, op. 65
         </span>
-        <span className="c1">, 1861, ms. </span>
+        <span className="c1">, 1861, </span>
         <span className="c1 c11 c60">1,2,3,5 </span>
         <span className="c1 c10 c14">
           <a
@@ -3051,7 +3048,7 @@ const CompositionsMarkup = () => {
           </a>
         </span>
         <span className="c1 c11 c60">5</span>
-        <span className="c1 c14">&nbsp;,</span>
+        <span className="c1">&nbsp;(print) </span>
         <span className="c1 c10 c14">
           <a
             href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.101.b.%20Impromptu%2C%20op.%2065(366-368)obraz%20555-559a.pdf"
@@ -3061,11 +3058,11 @@ const CompositionsMarkup = () => {
           </a>
         </span>
         <span className="c1 c11 c60">3</span>
+        <span className="c1">&nbsp;(ms.) </span>
       </p>
       <p className="c0">
         <span className="c8 c3">C.102. Souvenir des Karpathes, op. 65 </span>
         <span className="c1 c11 c60">3</span>
-        <span className="c8 c3">&nbsp;</span>
         <span className="c1 c10">
           <a
             href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.102.%20Souvenir%20des%20Karpathes%2C%20op.%2065%20(366-368)obraz%20269b-273.pdf"
@@ -3182,6 +3179,18 @@ const CompositionsMarkup = () => {
       <p className="c0">
         <span className="c1 c10">
           <a
+            href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.106.6.%20Jeanne%20Polka%20No%206%20(366-368)%20obr.%20313-314.pdf"
+            target="_blank"
+          >
+            <PictureAsPdfIcon fontSize="small" style={{ color: red[500] }} />
+          </a>
+        </span>
+        <span className="c6">Jenne Polka No 6 </span>
+        <span className="c1 c11 c60">3</span>
+      </p>
+      <p className="c0">
+        <span className="c1 c10">
+          <a
             href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.106.7.%20Emilie%20Polka%20No%207%20(366-368)%20obraz%20315.pdf"
             target="_blank"
           >
@@ -3287,20 +3296,20 @@ const CompositionsMarkup = () => {
           </a>
         </span>
         <span className="c1 c11 c60">5</span>
-        <span className="c1">, </span>
+        <span className="c1">&nbsp;(print), </span>
         <span className="c1 c10">
           <a
-            href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf"
+            href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.116.b.%20Nocturno%20op.70%20(330-359)%20obraz%20430-432.pdf"
             target="_blank"
           >
             <PictureAsPdfIcon fontSize="small" style={{ color: red[500] }} />
           </a>
-          16.b{' '}
+          {' '}
         </span>
         <span className="c1 c11 c60">3</span>
-        <span className="c1">&nbsp;</span>
-      </p>
-      <p className="c0">
+        <span className="c1">&nbsp;(ms.) </span>
+       </p>
+       <p className="c0">
         <span className="c8 c3">
           C.117. Souvenir de Miroslawa, op. 71, 1) Scherzo 2) Mon desir
         </span>
@@ -4159,7 +4168,6 @@ const CompositionsMarkup = () => {
       <p className="c0">
         <span className="c8 c3">D. 2. Duo pour piano et violon, op. 34 </span>
         <span className="c1 c11 c60">2,9</span>
-        <span className="c1 c10">Pdf D.2.</span>
       </p>
       <p className="c0">
         <span className="c8 c3">D. 3. Duo pour piano et violon, op. 41 </span>
@@ -4245,20 +4253,12 @@ const CompositionsMarkup = () => {
         <span className="c19 c1 c23 c3">&nbsp;</span>
         <span className="c1 c9">
           <a
-            href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/E.3.a.%20Introduction%20op.34%20(366-368)%20obraz%20559b-567a%20.pdf"
+            href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/E.3.a%2Cb.%20Introduction%20op%2034%20F366-368%20obr.560-571%2C%20czysty.pdf"
             target="_blank"
           >
             <PictureAsPdfIcon fontSize="small" style={{ color: red[500] }} />
           </a>
-          ,
-          <a
-            href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/E.3.b.%20czysty.pdf"
-            target="_blank"
-          >
-            <PictureAsPdfIcon fontSize="small" style={{ color: red[500] }} />
-          </a>
-          &nbsp;
-        </span>
+       </span>
       </p>
       <p className="c0">
         <span className="c8 c3">
@@ -4831,8 +4831,6 @@ const CompositionsMarkup = () => {
             <PictureAsPdfIcon fontSize="small" style={{ color: red[500] }} />
           </a>
         </span>
-        <span className="c6">, </span>
-        <span className="c1 c10">Pdf H.22.b</span>
         <span className="c16 c6">&nbsp;</span>
       </p>
       <p className="c0">
@@ -4847,7 +4845,17 @@ const CompositionsMarkup = () => {
             <PictureAsPdfIcon fontSize="small" style={{ color: red[500] }} />
           </a>
         </span>
-        <span className="c5 c3">&nbsp;</span>
+        <span className="c5 c3">&nbsp;,</span>
+        <span className="c1 c10">
+          &nbsp;
+          <a
+            href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/H.23.%20Teksty%20(280-329)%20obraz%20%20373-%20375.pdf"
+            target="_blank"
+          >
+            <PictureAsPdfIcon fontSize="small" style={{ color: red[500] }} />
+          </a>
+        </span>
+        <span className="c1">&nbsp;(texts)</span>
       </p>
       <p className="c0">
         <span className="c8 c3">
