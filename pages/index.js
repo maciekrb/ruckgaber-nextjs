@@ -7,6 +7,7 @@ import CardActionArea from '@material-ui/core/CardActionArea'
 import CardActions from '@material-ui/core/CardActions'
 import CardContent from '@material-ui/core/CardContent'
 import CardMedia from '@material-ui/core/CardMedia'
+import Carousel from 'react-bootstrap/Carousel'
 import Container from '@material-ui/core/Container'
 import Grid from '@material-ui/core/Grid'
 import Footer from '../src/organisms/Footer'
@@ -15,6 +16,8 @@ import NavBar from '../src/organisms/NavBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
 import YouTubeVideo from '../src/atoms/YouTubeVideo'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Audioplayer from '../src/atoms/Audioplayer'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -40,31 +43,46 @@ export default function Index() {
     <React.Fragment>
       <NavBar />
       <Toolbar id="back-to-top-anchor" />
+      <Carousel>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="/images/intro-01.jpg"
+                alt="First slide"
+              />
+              <Carousel.Caption style={{textAlign: 'left', paddingLeft: '350px'}}>
+                <p>Jan Ruckgaber</p>
+                <p>(a bust by Chardigny, 1855, family archive)</p>
+                <p>Warsaw, 2020</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="/images/intro-02.jpg"
+                alt="Second slide"
+              />
+
+              <Carousel.Caption>
+                <h3>Download the digital book</h3>
+                <p>A detail investigation about a musical family name</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="/images/intro-03.jpg"
+                alt="Third slide"
+              />
+
+              <Carousel.Caption>
+                <h3>Welcome to a travel for the life of a great composer</h3>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
       <Container maxWidth="md">
         <Box my={4}>
-          <Grid container className={classes.root}>
-            <Grid item xs={12} md={6}>
-              <img
-                width="100%"
-                src="/images/1-jean-ruckgaber-bust-chardigny.png"
-              />
-            </Grid>
-            <Grid item xs={12} md={6}>
-              <Box p={2} className={classes.text}>
-                <Typography variant="h3">
-                  The Life and Work of a Pianist, Composer, Teacher and Promoter
-                  of Musical Life in Lviv{' '}
-                </Typography>
-                <Box pt={9}>
-                  <Typography variant="h5">
-                    Jan Ruckgaber (a bust by Chardigny, 1855, family archive)
-                    Warsaw, 2020
-                  </Typography>
-                </Box>
-              </Box>
-            </Grid>
-          </Grid>
-
           <Box pt={4}>
             <Grid container spacing={2}>
               <Grid item xs={12} md={6} lg={4}>
@@ -73,18 +91,18 @@ export default function Index() {
                     <CardMedia
                       className={classes.cardMedia}
                       image="/images/3-young-jan-ruckgaber.jpg"
-                      title="Life of Jean Ruckgaber"
+                      title="Life of Jan Ruckgaber"
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="h2">
-                        Life of Jean Ruckgaber
+                        Life of Jan Ruckgaber
                       </Typography>
                       <Typography
                         variant="body2"
                         color="textSecondary"
                         component="p"
                       >
-                          Read about the life of Jean Ruckgaber, his family and ancestry.
+                          Read about the life of Jan Ruckgaber, his family and ancestry.
                       </Typography>
                     </CardContent>
                   </CardActionArea>
@@ -98,12 +116,12 @@ export default function Index() {
                   <CardActionArea>
                     <CardMedia
                       className={classes.cardMedia}
-                      image="/images/13-do-mogil.jpg"
-                      title="Do Mogił by Jean Ruckgaber"
+                      image="/images/card-02.jpg"
+                      title="Compositions"
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="h2">
-                        Compositions of Jean Ruckagber
+                        Compositions of Jan Ruckgaber
                       </Typography>
                       <Typography
                         variant="body2"
@@ -124,19 +142,19 @@ export default function Index() {
                   <CardActionArea>
                     <CardMedia
                       className={classes.cardMedia}
-                      image="/images/jean-ruckgaber-book-cover.jpg"
-                      title="Jean Ruckgaber Book cover"
+                      image="/images/card-03.jpg"
+                      title="Jan Ruckgaber Book cover"
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="h2">
-                        Jean Ruckgaber Book
+                        Jan Ruckgaber Book
                       </Typography>
                       <Typography
                         variant="body2"
                         color="textSecondary"
                         component="p"
                       >
-                          Download the electronic version of the Book about Jean Ruckgaber.
+                          Download the electronic version of the Book about Jan Ruckgaber.
                       </Typography>
                     </CardContent>
                   </CardActionArea>
@@ -147,7 +165,41 @@ export default function Index() {
               </Grid>
             </Grid>
           </Box>
-
+          <Box pt={4}>
+            <Typography gutterBottom variant="h1" component="h1" style={{textAlign: 'center'}}>
+                        Listen to Music by Jan Ruckgaber
+            </Typography>
+            <Grid container spacing={2}>
+            <Grid item xs={12} md={6}>
+              <Audioplayer
+                  song="Divertissiment for violin and the piano, op.41"
+                  artist="Robert Szreder - violin, Elżbieta Sobkowicz - piano "
+                  src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/D3-Divertissement-op.41.mp3"
+                />
+              </Grid>
+              <Grid item xs={12} md={6}>
+              <Audioplayer
+                  song="Do mogił, op.55"
+                  artist="song for a voice and the piano, Jerzy Sergiusz Adamczewski - baritone, Tatiana Woytaszewska - piano, Wincenty Pol - lyrics"
+                  src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/H17-Piesn-do-mogil-op-55.mp3"
+                />
+              </Grid>
+              <Grid item xs={12} md={6}>
+              <Audioplayer
+                  song="Mazurek E- dur for the piano"
+                  artist="Tatiana Woytaszewska - piano"
+                  src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/Mazurek-e-dur.mp3"
+                 />
+              </Grid>
+              <Grid item xs={12} md={6}>
+                <Audioplayer
+                  song="12 Variations, op. 2"
+                  artist="Milan Jeleń - piano "
+                  src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/12-variations-op-26.mp3"
+                 />
+              </Grid>
+            </Grid>
+           </Box>
           <Box py={2}>
             <YouTubeVideo src="videoseries?list=PL6sg6rLVg9MF-00zsMgRZaoww98riHtFL" />
           </Box>

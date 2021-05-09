@@ -9,29 +9,18 @@ import Typography from '@material-ui/core/Typography'
 
 const footer = [
   {
-    title: 'Jean Ruckgaber',
-    description: ['Life', 'Music', 'Galician Music Society', 'Lviv Archives', 'About this page'],
+    title: 'Jan Ruckgaber',
+    description: ['Life', 'Galician Music Society', 'Music', 'Lviv Archives', 'Compositions', 'About'],
   },
   {
     title: 'The Book',
-    description: ['Downloads', 'About the book', 'Contact'],
+    description: ['About the book', 'Contact', 'Downloads'],
   },
   {
     title: 'Music Compositions',
-    description: [
-      'Piano with an Orchestra',
-      'Chamber Orchestra', 
-      'Piano', 
-      'Violin and the Piano', 
-      'Flute, the Czakan and the Piano', 
-      'Clarinet and the Piano', 
-      'Choir', 
-      'Voice and the Piano', 
-      'Guitar and the Piano (transcript',
-    ],
+    description: ['List of compositions', 'Piano with an Orchestra', 'Chamber Orchestra', 'Piano', 'Violin and the Piano', 'Flute, the Czakan and the Piano', 'Clarinet and the Piano', 'Choir', 'Voice and the Piano', 'Guitar and the Piano (transcript)'],
   },
 ]
-
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -44,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
       paddingBottom: theme.spacing(6),
     },
   },
-}))
+}));
 
 const Footer = () => {
   const classes = useStyles()

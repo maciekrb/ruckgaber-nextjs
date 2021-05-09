@@ -5,6 +5,7 @@ import CardContent from '@material-ui/core/CardContent'
 import CardMedia from '@material-ui/core/CardMedia'
 import Container from '@material-ui/core/Container'
 import Footer from '../src/organisms/Footer'
+import Link from '@material-ui/core/Link'
 import { makeStyles } from '@material-ui/core/styles'
 import NavBar from '../src/organisms/NavBar'
 import Toolbar from '@material-ui/core/Toolbar'
@@ -40,9 +41,11 @@ export default function Page() {
             <Typography paragraph>He spent most of his lifetime in Lviv, a Polish town bustling with Polish culture, although Poland did not then exist on the map of Europe.</Typography>
             <Typography paragraph>When Poland gained independence in 1918, Ruckgaber’s descendants moved to Warsaw, carrying with them the family story about their famous grandfather: the composer. Thus a French aristocrat, then a Viennese emigrant with an Austrian surname, Galician citizen and a popular figure in Lviv, he began the Polish branch of the family. </Typography>
             <Typography paragraph>His fate seems symbolic for the tangled history of Europe. The goal of our website is to reveal his story to the widest public.</Typography>
+            <Typography paragraph>More information in a form of Jan Ruckgaber’s full biography, in English and in Polish, is ready for download <Link color="secondary" href="/downloads">here.</Link> </Typography>
           </Box>
           <Box>
-            <Typography variant="subtitle2">Ewa Michalik and Andrzej Ruckgaber, the composer’s great-great-grandson Warsaw, August 2020</Typography>
+            <Typography variant="subtitle2">Warsaw, August 2020</Typography>
+            <Typography variant="subtitle2">Ewa Michalik and Andrzej Ruckgaber, the composer’s great-great-grandson.</Typography>
           </Box>
         </Box>
         <Footer />

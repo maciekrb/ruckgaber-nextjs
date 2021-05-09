@@ -10,6 +10,7 @@ import NavBar from '../src/organisms/NavBar'
 import ScrollTop from '../src/molecules/ScrollTop'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
+import { Link } from '@material-ui/core'
 
 export default function Page() {
   return (
@@ -22,7 +23,7 @@ export default function Page() {
           <Box my={4}>
             <Grid container spacing={4} alignItems="center">
               <Grid item md={7}>
-                <Typography paragraph>In the early 1830s, Jan Ruckgaber and F.X. Mozart56 set up the Society of Friends of Music (Gesellschaft der Musikfreunde), which soon became a foundation for the Galician Music Society, officially registered on the 14th of August 1838.</Typography>
+                <Typography paragraph>In the early 1830s, Jan Ruckgaber and Franz Xavier Mozart set up the Society of Friends of Music (Gesellschaft der Musikfreunde), which soon became a foundation for the Galician Music Society, officially registered on the 14th of August 1838.</Typography>
                 <Typography paragraph>Later in the same year Franz Xavier Mozart set for Vienna, and Jan Ruckgaber replaced him in the organisational work. In the years 1838-42, the Society worked under his direction as an art manager. Ruckgaber was also the conductor of the orchestra and choirs and later the manager of a music school. </Typography>
                 <Typography paragraph>Soon the Society started organizing weekly musical meetings in which amateur-musicians performed music by Mozart, Beethoven and others. </Typography>
               </Grid>
@@ -39,7 +40,7 @@ export default function Page() {
               </Grid>
 
               <Grid item sm={7}>
-                <Typography paragraph>The period of best prosperity for the Galician Music Society came in the years 1842-48. At that time the society held numerous concerts, charity events and musical meetings. Ruckgaber invited the most eminent musicians in Europe to perform in Lviv. The public was most impressed by violinist Bedřich Smetana (1843), pianist Libra Ottawa (1844), violinist Heinrich Ernst (1845), cellist Marek Bauer (1843) and pianist Leopold Mayer (1843), but it was Ferenz Liszt who performing for the whole month at the turn of April and May, 1847, broke records of popularity. </Typography>
+                <Typography paragraph>The period of best prosperity for the Galician Music Society came in the years 1842-48. At that time the society held numerous concerts, charity events and musical meetings. Ruckgaber invited the most eminent musicians in Europe to perform in Lviv. The public was most impressed by violinist Bedřich Smetana (1843), pianist Libra Ottawa (1844), violinist Heinrich Ernst (1845), cellist Marek Bauer (1843) and pianist Leopold Mayer (1843), but it was Ferenz Liszt, who performing for the whole month at the turn of April and May, 1847, broke records of popularity. </Typography>
                 <Typography paragraph>The revolutionary events of the year 1848 ceased the activity of the school at the GMS.</Typography>
               </Grid>
               <Grid item sm={6} md={5}>
@@ -133,8 +134,10 @@ export default function Page() {
                     <Typography variant="caption">The Orchestra of the Lviv National Music Academy (http://conservatory.lviv.ua/ 2015) </Typography>
                   </CardContent>
                 </Card>
-
-              </Grid>
+             </Grid>
+             <Grid item sm={12}>
+             <Typography paragraph>More information in a form of Jan Ruckgaber’s full biography, in English and in Polish, is ready for download <Link color="secondary" href="/downloads">here.</Link> </Typography>
+             </Grid>
             </Grid>
           </Box>
           <ScrollTop />

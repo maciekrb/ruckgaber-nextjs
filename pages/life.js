@@ -6,6 +6,7 @@ import CardMedia from '@material-ui/core/CardMedia'
 import Container from '@material-ui/core/Container'
 import Footer from '../src/organisms/Footer'
 import Grid from '@material-ui/core/Grid'
+import Link from '@material-ui/core/Link'
 import { makeStyles } from '@material-ui/core/styles'
 import NavBar from '../src/organisms/NavBar'
 import ScrollTop from '../src/molecules/ScrollTop'
@@ -88,6 +89,9 @@ export default function Page() {
                     <Typography variant="caption">Jan Ruckgaber’s monument in the Łyczakowski Cemetery in Lviv (Photo by Michał Piekarski) </Typography>
                   </CardContent>
                 </Card>
+              </Grid>
+              <Grid item sm={12}>
+                 <Typography paragraph>More information in a form of Jan Ruckgaber’s full biography, in English and in Polish, is ready for download <Link color="secondary" href="/downloads">here.</Link> </Typography>
               </Grid>
             </Grid>
           </Box>
