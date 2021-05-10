@@ -11,7 +11,6 @@ import Carousel from 'react-bootstrap/Carousel'
 import Container from '@material-ui/core/Container'
 import Grid from '@material-ui/core/Grid'
 import Footer from '../src/organisms/Footer'
-import Link from '../src/Link'
 import NavBar from '../src/organisms/NavBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
@@ -32,7 +31,12 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   cardMedia: {
-    height: 340,
+    height: 400,
+  },
+  cardActionArea: {
+    '&:hover': {
+      textDecoration: 'none',
+    }
   },
 }))
 
@@ -87,7 +91,9 @@ export default function Index() {
             <Grid container spacing={2}>
               <Grid item xs={12} md={6} lg={4}>
                 <Card>
-                  <CardActionArea>
+                  <CardActionArea
+                  href="/life"
+                  className={classes.cardActionArea}>
                     <CardMedia
                       className={classes.cardMedia}
                       image="/images/3-young-jan-ruckgaber.jpg"
@@ -113,7 +119,9 @@ export default function Index() {
               </Grid>
               <Grid item xs={12} md={6} lg={4}>
                 <Card>
-                  <CardActionArea>
+                  <CardActionArea
+                  href="/compositions"
+                  className={classes.cardActionArea}>
                     <CardMedia
                       className={classes.cardMedia}
                       image="/images/card-02.jpg"
@@ -139,11 +147,13 @@ export default function Index() {
               </Grid>
               <Grid item xs={12} md={6} lg={4}>
                 <Card>
-                  <CardActionArea>
+                  <CardActionArea
+                  href="/book"
+                  className={classes.cardActionArea}>
                     <CardMedia
                       className={classes.cardMedia}
-                      image="/images/card-03.jpg"
-                      title="Jan Ruckgaber Book cover"
+                      image="/images/cover_book_polish.jpg"
+                      title="Jan Ruckgaber Book Cover"
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="h2">
