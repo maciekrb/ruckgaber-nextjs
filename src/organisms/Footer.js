@@ -14,7 +14,7 @@ const footer = [
   },
   {
     title: 'The Book',
-    description: ['About the book', 'Contact', 'Downloads'],
+    description: ['About', 'Contact', 'Downloads'],
   },
   {
     title: 'Music Compositions',
