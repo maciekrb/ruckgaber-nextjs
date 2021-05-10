@@ -12,6 +12,7 @@ import NavBar from '../src/organisms/NavBar'
 import ScrollTop from '../src/molecules/ScrollTop'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
+import Download from '../src/atoms/Download'
 
 const useStyles = makeStyles(() => ({
   media: {
@@ -67,7 +68,7 @@ export default function Page() {
                 <Typography paragraph>Many pieces of music, which – as his contemporaries claimed – he performed in concerts with mastery, remained in the form of manuscripts. Besides the popular transcriptions of music for various instruments by famous composers of that time, (like Beethoven or Verdi) they comprise the most valuable part of the music legacy of Jan Ruckgaber.</Typography>
               </Grid>
               <Grid item sm={12}>
-                 <Typography paragraph>More information in a form of Jan Ruckgaber’s full biography, in English and in Polish, is ready for download <Link color="secondary" href="/downloads">here.</Link> </Typography>
+              <Download/>
               </Grid>
             </Grid>
           </Box>

@@ -10,6 +10,7 @@ import { makeStyles } from '@material-ui/core/styles'
 import NavBar from '../src/organisms/NavBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
+import Download from '../src/atoms/Download'
 
 const useStyles = makeStyles((theme) => ({
   media: {
@@ -41,7 +42,7 @@ export default function Page() {
             <Typography paragraph>He spent most of his lifetime in Lviv, a Polish town bustling with Polish culture, although Poland did not then exist on the map of Europe.</Typography>
             <Typography paragraph>When Poland gained independence in 1918, Ruckgaber’s descendants moved to Warsaw, carrying with them the family story about their famous grandfather: the composer. Thus a French aristocrat, then a Viennese emigrant with an Austrian surname, Galician citizen and a popular figure in Lviv, he began the Polish branch of the family. </Typography>
             <Typography paragraph>His fate seems symbolic for the tangled history of Europe. The goal of our website is to reveal his story to the widest public.</Typography>
-            <Typography paragraph>More information in a form of Jan Ruckgaber’s full biography, in English and in Polish, is ready for download <Link color="secondary" href="/downloads">here.</Link> </Typography>
+            <Download/>
           </Box>
           <Box>
             <Typography variant="subtitle2">Warsaw, August 2020</Typography>
