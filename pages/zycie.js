@@ -26,29 +26,30 @@ export default function Page() {
       <Toolbar id="back-to-top-anchor" />
       <Container maxWidth="md">
         <Box my={4}>
-          <Typography variant="h1" gutterBottom> Life </Typography>
+          <Typography variant="h1" gutterBottom> Życie </Typography>
           <Box my={4}>
             <Grid container spacing={4} alignItems="center">
               <Grid item md={7}>
-                <Typography variant="h4" gutterBottom>Ancestry</Typography>
-                <Typography paragraph>Jean (later Johann and Jan), the son of a French nobleman and emigrant, Jean de Montalban, was probably born in Vienna on the 21st of November 1799, where he was baptized in St. Stephen’s Cathedral. At first he used his father’s surname, de Montalban.</Typography>
-                <Typography paragraph>Jean de Montalban – father, fled his homeland to avoid the terror of the French Revolution and settled in Vienna. Later, he was killed in the Battle of Wagram on the 5th or 6th of July, 1809. After the death of his father, ten-year-old Jean was adopted by his Austrian tutor - Joseph Ruckgaber. His French Christian name - Jean - was later altered to Johann and Jan. He was buried in Lviv as Jan Ruckgaber.</Typography>
+                <Typography variant="h4" gutterBottom>Pochodzenie</Typography>
+                <Typography paragraph>Jean (później Johann i Jan), syn francuskiego arystokraty i emigranta Jeana de Montalban, urodził się w Wiedniu, prawdopodobnie 21 listopada 1799 r., i został ochrzczony w Katedrze Św. Szczepana. Początkowo nosił nazwisko ojca, de Montalban.</Typography>
+                <Typography paragraph>Jean de Montalban - ojciec opuścił ojczyznę chroniąc się przed terrorem Rewolucji Francuskiej i osiedlił się w Wiedniu. Kilka lat później zginął w bitwie pod Wagram, 5 lub 6 lipca 1809 r. Po śmierci ojca dziesięcioletni Jean został adoptowany
+                   przez swojego austriackiego guwernera, Josepha Ruckgabera. Francuskie imię, Jean, zmienił potem na Johann i wreszcie Jan, które widnieje na jego grobowcu we Lwowie.</Typography>
 
-                <Typography variant="h4" gutterBottom>Education</Typography>
-                <Typography paragraph>He started his musical education in Vienna with Johann Nepomuk Hummel, who was an Austrian composer and pianist, of Slovak origin. Later he continued his studies in Paris, presumably in the years 1816-1819.</Typography>
+                <Typography variant="h4" gutterBottom>Nauka</Typography>
+                <Typography paragraph>Edukację muzyczną rozpoczął  w Wiedniu, pod kierunkiem Johanna Nepomuka Hummla, austriackiego kompozytora i pianisty słowackiego pochodzenia. Później studiował w Paryżu, prawdopodobnie w latach 1816-19.</Typography>
 
-                <Typography variant="h4" gutterBottom>First concerts</Typography>
-                <Typography paragraph>Jan Ruckgaber first visited Lviv in 1815. In January 1818, still as a student, he gave here a number of successful concerts and gained some popularity. From 1820 he regularly performed in Lviv in solo piano concerts, and accompanied local musicians.</Typography>
-                <Typography paragraph>In 1826 Ruckgaber settled in Lviv for good. He played concerts, worked as a piano tutor, and a composer.  His music was then published by Franz Piller’s printing house in Lviv. It was mainly dance music, romances and songs.	</Typography>
+                <Typography variant="h4" gutterBottom>Pierwsze koncerty</Typography>
+                <Typography paragraph>Po raz pierwszy odwiedził Lwów w roku 1815. W styczniu 1818 r., jeszcze  jako student, zaprezentował się w serii koncertów fortepianowych i zyskał spory rozgłos. Od roku 1820 regularnie występował we Lwowie z koncertami i akompaniował miejscowym muzykom.</Typography>
+                <Typography paragraph>W 1826 roku Ruckgaber zamieszkał we Lwowie na stałe. Koncertował, pracował jako nauczyciel gry na fortepianie oraz kompozytor. Drukarnia Franciszka Pillera we Lwowie wydawała drukiem jego utwory. Była to głównie muzyka taneczna, romanse, oraz pieśni.	</Typography>
               </Grid>
               <Grid item md={5} sm={6}>
                 <Card>
                   <CardMedia
                     className={classes.media}
                     image="/images/3-young-jan-ruckgaber.jpg"
-                    title="Young Jan Ruckgaber, by an unknown author (http://uk.wikipedia.org, 2015)"/>
+                    title="Młody Jan Ruckgaber, autor nieznany (http://uk.wikipedia.org, 2015))"/>
                   <CardContent>
-                    <Typography variant="caption">Young Jan Ruckgaber, by an unknown author (http://uk.wikipedia.org, 2015)</Typography>
+                    <Typography variant="caption">Młody Jan Ruckgaber, autor nieznany (http://uk.wikipedia.org, 2015)</Typography>
                   </CardContent>
                 </Card>
               </Grid>
@@ -58,35 +59,36 @@ export default function Page() {
                   <CardMedia
                     className={classes.media}
                     image="/images/4-ernest-ruckgaber.png"
-                    title="Ernest Ruckgaber (family archive) "/>
+                    title="Ernest Ruckgaber, fotografia (zbiory rodzinne)"/>
                   <CardContent>
-                    <Typography variant="caption">Ernest Ruckgaber (family archive) </Typography>
+                    <Typography variant="caption">Ernest Ruckgaber, fotografia (zbiory rodzinne)</Typography>
                   </CardContent>
                 </Card>
               </Grid>
               <Grid item md={7}>
-                <Typography variant="h4" gutterBottom>Family</Typography>
-                <Typography paragraph>On the 15th of August 1834, at the age of nearly 35, Jan Ruckgaber married Maria Xavier Markl, the daughter of a Hungarian baron John Markl and a Polish woman Jane née Balewicz.</Typography>
-                <Typography paragraph>They had six children, and their youngest son, Ernest, married to Anna Schier, the daughter of a Scotswoman, Anna Scarley and Joseph Schier, a Lviv jeweler, started the branch of the family presently living in Warsaw.</Typography>
+                <Typography variant="h4" gutterBottom>Rodzina</Typography>
+                <Typography paragraph>W dniu 15 sierpnia 1834 r. Jan Ruckgaber ożenił się z Marią Ksawerą Markl, córką Węgra barona Jana Markla i Polki Janiny z Balewiczów.</Typography>
+                <Typography paragraph>Mieli sześcioro dzieci, z których najmłodszy syn, Ernest, żonaty z Anną Schier, córką Szkotki Anny Scarley i Józefa Schiera, lwowskiego jubilera, zapoczątkował gałąź rodziny, której potomkowie żyją dziś w Warszawie.</Typography>
 
-                  <Typography variant="h4" gutterBottom>Work</Typography>
-                <Typography paragraph>A gifted musician, admired as a pianist and a composer of popular music, Jan Ruckgaber was a lively, charismatic figure. He played piano concerts in many European towns. In the mid-1840s, in Paris he met Fryderyk Chopin and Ferenc Liszt.</Typography>
-                <Typography paragraph>From scratch did he organize the Galician Music Society. He laid the foundation under professional music education in Lviv, starting Music School in 1839 and, a few years later, a Conservatoire, which works till the present days, now under the name of the Lviv National Music Academy. During over fifty years of his public activity, Jan Ruckgaber educated three generations of musicians and music-lovers and earned respect and admiration of Lviv musical circles.</Typography>
+                  <Typography variant="h4" gutterBottom>Praca</Typography>
+                <Typography paragraph>Pianista i kompozytor popularnej muzyki, Jan Ruckgaber był charyzmatyczną postacią. Koncertował w wielu Europejskich miastach. W latach 1840-tych w Paryżu poznał Fryderyka Chopina i Franciszka Liszta.</Typography>
+                <Typography paragraph>Stworzył od podstaw Galicyjskie Towarzystwo Muzyczne. Położył fundamenty profesjonalnej edukacji muzycznej we Lwowie, otwierając w 1839 roku Szkołę Muzyczną oraz, kilka lat później, Konserwatorium, które pracuje do
+                 dzisiaj, pod nazwą Lwowskiej Narodowej Akademii Muzycznej. Podczas pięćdziesięciu lat aktywności publicznej wykształcił trzy pokolenia muzyków i melomanów i zdobył szacunek lwowskiego środowiska muzycznego.</Typography>
 
               </Grid>
               <Grid item md={7}>
-                <Typography variant="h4" gutterBottom>Decline</Typography>
-                <Typography paragraph>Last years of his lifetime he spent with his beloved daughter Jane. Jan Ruckgaber died in Lviv, on the 5th of January 1876. He was buried at the Łyczakowski Cementery, in a Schiers’s family tomb (Joseph and Anna Schier’s, Jane’s husband’s parents’).</Typography>
-                <Typography paragraph>Later, his daughter Jane destroyed his last will, containing information as to the return to the true family name. Thus the only link to recovery the family surname was cut.</Typography>
+                <Typography variant="h4" gutterBottom>Schyłek</Typography>
+                <Typography paragraph>Ostatnie lata życia spędził u ukochanej córki, nadal pracując jako pedagog i kompozytor. Jan Ruckgaber zmarł we Lwowie, 5 stycznia 1876 r. Jest pochowany na Cmentarzu Łyczakowskim, w grobie rodzinnym Józefa i Anny Schier, teściów córki, u której mieszkał.</Typography>
+                <Typography paragraph>Później córka niestety zniszczyła jego testament,  zawierający informację co do sposobu powrotu do prawdziwego rodowego nazwiska. Tym samym nić prowadząca do odzyskania nazwiska de Montalban została ostatecznie zerwana.</Typography>
               </Grid>
               <Grid item md={5} sm={6}>
                 <Card>
                   <CardMedia
                     className={classes.media}
                     image="/images/5-pomnik-na-cmentarzu-lyczakowskim.jpg"
-                    title="Jan Ruckgaber’s monument in the Łyczakowski Cemetery in Lviv (Photo by Michał Piekarski)"/>
+                    title="Grobowiec Jana Ruckgabera na Cmentarzu Łyczakowskim we Lwowie (Fot. Michał Piekarski)"/>
                   <CardContent>
-                    <Typography variant="caption">Jan Ruckgaber’s monument in the Łyczakowski Cemetery in Lviv (Photo by Michał Piekarski) </Typography>
+                    <Typography variant="caption">Grobowiec Jana Ruckgabera na Cmentarzu Łyczakowskim we Lwowie (Fot. Michał Piekarski)</Typography>
                   </CardContent>
                 </Card>
               </Grid>
