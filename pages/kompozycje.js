@@ -43,15 +43,15 @@ const HtmlTooltip = withStyles((theme) => ({
 }))(Tooltip)
 
 const sources = {
-  "1": "Osadca Olga: \"Der Archivbestand Johann (Jan) Ruckgaber in der L ́vivs ́ka naukowa biblioteka im. V. Stefanyka\" Musik-Sammlungen: Speicher inter- kultureller Prozesse, Teilband B, Franz Steiner Verlag, Stuttgart 2007, p. 344 – 356",
-  "2": "List of Ruckgaber’s compositions, stored until 1939 in the Ossoliński National Institution in Lviv, made by J. Ruckgaber, the grandson of the composer",
-  "3": '<a href="http://imuz.uw.edu.pl/en/">The Faculty of Musicology of the Warsaw University</a>',
-  "4": "The Catalogue of microfilms received from the Stefanyk Library [stored in the Faculty of Musicology of the Warsaw University]",
-  "5": "Family archive",
-  "6": '<a href="https://www.bn.org.pl/">The National Library, Warsaw</a>',
-  "7": '<a href="http://www.worldcat.org/">The Austrian National Library</a>',
-  "8": '<a href="https://bj.uj.edu.pl/">Jagiellonian Library, Cracow</a>',
-  "9": '<a href="http://www.lsl.lviv.ua/index.php/en/about-the-library/">Lviv National Academic Library of Ukraine</a>',
+  "1": "Osadca Olga: „Archiwum Ruckgabera w Lwowskiej Bibliotece Naukowej im. Stefanyka”",
+  "2": "Spis utworów Ruckgabera z dokumentów J. Ruckgabera, wnuka",
+  "3": '<a href="http://imuz.uw.edu.pl/en/">Instytut Muzykologii Uniwersytetu Warszawskiego (IMUW)</a>',
+  "4": "Katalog mikrofilmów otrzymanych z Biblioteki Stefanyka (w IMUW)",
+  "5": "Zbiory rodzinne",
+  "6": '<a href="https://www.bn.org.pl/">Biblioteka Narodowa Polski</a>',
+  "7": '<a href="http://www.worldcat.org/">Biblioteka Narodowa Austrii</a>',
+  "8": '<a href="https://bj.uj.edu.pl/">Biblioteka Jagiellońska/a>',
+  "9": '<a href="http://www.lsl.lviv.ua/index.php/en/about-the-library/">Lwowska Biblioteka Naukowea im. Stefanyka</a>',
 }
 
 function Reference({reference, last}) {
@@ -132,25 +132,25 @@ function Page({sections}) {
       <Toolbar id="back-to-top-anchor" />
       <Container maxWidth="md">
         <Box my={4}>
-          <Typography variant="h1" gutterBottom>The List of Jan Ruckgaber’s Compositions</Typography>
+          <Typography variant="h1" gutterBottom>Lista kompozycji Jana Ruckgabera</Typography>
 
-          <Typography variant="h6" gutterBottom>Sources:</Typography>
+          <Typography variant="h6" gutterBottom>Źródła do spisu kompozycji:</Typography>
           <ol type="1">
             {Object.values(sources).map((item, idx)=><li key={`source-${idx}`} dangerouslySetInnerHTML={{__html: item}} />)}
           </ol>
 
-          <Typography variant="h6" gutterBottom>The list of compositions is divided into the following parts</Typography>
-          <Typography paragraph>(references indicate a source of information)</Typography>
+          <Typography variant="h6" gutterBottom>Części spisu kompozycji Jana Ruckgabera</Typography>
+          <Typography paragraph>(odnośniki oznaczają źródło informacji)</Typography>
           <ol type="A">
-            <li><a href="#section-A">Music for the Piano with an Orchestra</a></li>
-            <li><a href="#section-B">Music for a Chamber Orchestra</a></li>
-            <li><a href="#section-C">Music for the Piano</a></li>
-            <li><a href="#section-D">Music for the Violin and the Piano</a></li>
-            <li><a href="#section-E">Music for the Flute, the Czakan and the Piano</a></li>
-            <li><a href="#section-F">Music for the Clarinet and the Piano</a></li>
-            <li><a href="#section-G">Music for the Choir</a></li>
-            <li><a href="#section-H">Music for the Voice and the Piano</a></li>
-            <li><a href="#section-I">Music for the Guitar and the Piano (transcript)</a></li>
+            <li><a href="#section-A">Utwory na fortepian z orkiestrą</a></li>
+            <li><a href="#section-B">Utwory na orkiestrę kameralną</a></li>
+            <li><a href="#section-C">Utwory na fortepian</a></li>
+            <li><a href="#section-D">Utwory na skrzypce i fortepian</a></li>
+            <li><a href="#section-E">Utwory na flet, czakan i fortepian</a></li>
+            <li><a href="#section-F">Utwory na klarnet i fortepian</a></li>
+            <li><a href="#section-G">Utwory chóralne</a></li>
+            <li><a href="#section-H">Utwory na głos i fortepian</a></li>
+            <li><a href="#section-I">Utwór na gitarę i fortepian</a></li>
           </ol>
           <Box py={2}><hr/></Box>
           <CompositionMarkup />
