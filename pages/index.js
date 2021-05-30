@@ -153,7 +153,7 @@ export default function Index() {
                   className={classes.cardActionArea}>
                     <CardMedia
                       className={classes.cardMedia}
-                      image="/images/cover_book_polish.jpg"
+                      image="/images/cover_book_english.jpg"
                       title="Jan Ruckgaber Book Cover"
                     />
                     <CardContent>
