@@ -42,7 +42,7 @@ return (
     <Toolbar id="back-to-top-anchor" />
           <Box>
           <Box my={10}>
-          <Typography variant="h1" gutterBottom> Jan Ruckgaber Book </Typography>
+          <Typography variant="h1" gutterBottom> Książka Jana Ruckgabera </Typography>
             <Grid container spacing={8}>
               <Grid item xs={12}>
               </Grid>
@@ -52,7 +52,7 @@ return (
                     <CardMedia
                       className={classes.cardMedia}
                       image="/images/intro_book_polish.png"
-                      title="Compositions"
+                      title="Książka Jana Ruckgabera po polsku"
                     />
                   </CardActionArea>
                   <CardActions>
@@ -63,7 +63,7 @@ return (
                           href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/books/Ruckgaber_Book_Polish.pdf" download
                           target="_blank"
                           >
-                          Download the polish version here
+                          Pobierz polską wersję tutaj
                       </Button>
                   </CardActions>
                 </Card>
@@ -74,7 +74,7 @@ return (
                     <CardMedia
                       className={classes.cardMedia}
                       image="/images/intro_book_english.png"
-                      title="Jan Ruckgaber Book cover"
+                      title="Książka Jana Ruckgabera po angielsku"
                     />
                   </CardActionArea>
                   <CardActions>
@@ -85,7 +85,7 @@ return (
                           href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/books/Ruckgaber_Book_English.pdf" download
                           target="_blank"
                           >
-                          Download the english version here
+                          Pobierz angielską wersję tutaj
                       </Button>
                   </CardActions>
                 </Card>
