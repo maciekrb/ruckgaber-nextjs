@@ -51,13 +51,13 @@ export default function Index() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="/images/intro-01.jpg"
-                alt="First slide"
+                src="/images/intro-01-pl.jpg"
+                alt="Pierwszy slajd"
               />
               <Carousel.Caption style={{textAlign: 'left', paddingLeft: '280px', lineHeight: '1.6px', fontSize: '12px'}}>
 
                 <p>Jan Ruckgaber</p>
-                <p> a bust by Chardigny, 1855, family archive</p>
+                <p>Popiersie autorstwa Chardigny, 1855, archiwum rodzinne</p>
 
                 </Carousel.Caption>
             </Carousel.Item>
@@ -65,24 +65,24 @@ export default function Index() {
               <img
                 className="d-block w-100"
                 src="/images/intro-02.jpg"
-                alt="Second slide"
+                alt="Drugi slajd"
               />
 
               <Carousel.Caption>
-                <h3>Download the digital book:</h3>
-                <p>Biography of a forgotten Polish composer  with a concise description of musical life in 19-th century Lviv</p>
+                <h3>Pobierz książkę cyfrową:</h3>
+                <p>Biografia zapomnianego polskiego kompozytora ze zwięzłym opisem życia muzycznego we Lwowie w XIX wieku</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
                 src="/images/intro-03.jpg"
-                alt="Third slide"
+                alt="Trzeci slajd"
               />
 
               <Carousel.Caption>
-                <h3>Welcome to a journey through the life of the composer ancestor</h3>
-                <p>A family investigation in search of the life story of a descendant of French aristocrats who became a Polish composer in Lviv</p>
+                <h3>Zapraszamy w podróż przez życie przodka kompozytora</h3>
+                <p>Rodzinne śledztwo w poszukiwaniu historii życia potomka francuskich arystokratów, który został polskim kompozytorem we Lwowie</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
@@ -93,84 +93,84 @@ export default function Index() {
               <Grid item xs={12} md={6} lg={4}>
                 <Card>
                   <CardActionArea
-                  href="/life"
+                  href="/zycie"
                   className={classes.cardActionArea}>
                     <CardMedia
                       className={classes.cardMedia}
                       image="/images/3-young-jan-ruckgaber.jpg"
-                      title="Life of Jan Ruckgaber"
+                      title="Życie Jana Ruckgabera"
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="h2">
-                        Life of Jan Ruckgaber
+                      Życie Jana Ruckgabera
                       </Typography>
                       <Typography
                         variant="body2"
                         color="textSecondary"
                         component="p"
                       >
-                          Read about the life of Jan Ruckgaber, his family and ancestry.
+                          Przeczytaj o życiu Jana Ruckgabera, jego rodzinie i przodkach.
                       </Typography>
                     </CardContent>
                   </CardActionArea>
                   <CardActions>
-                    <Button size="small" color="primary" href="/life">Learn More</Button>
+                    <Button size="small" color="primary" href="/life">Zobacz więcej</Button>
                   </CardActions>
                 </Card>
               </Grid>
               <Grid item xs={12} md={6} lg={4}>
                 <Card>
                   <CardActionArea
-                  href="/compositions"
+                  href="/Kompozycje"
                   className={classes.cardActionArea}>
                     <CardMedia
                       className={classes.cardMedia}
                       image="/images/card-02.jpg"
-                      title="Compositions"
+                      title="kompozycje"
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="h2">
-                        Compositions of Jan Ruckgaber
+                      Kompozycje Jana Ruckgabera
                       </Typography>
                       <Typography
                         variant="body2"
                         color="textSecondary"
                         component="p"
                       >
-                        Find a detailed list of compositions with links to note sheets
+                        Znajdź szczegółową listę kompozycji z linkami do arkuszy notatek
                       </Typography>
                     </CardContent>
                   </CardActionArea>
                   <CardActions>
-                    <Button size="small" color="primary" href="/compositions">Learn More</Button>
+                    <Button size="small" color="primary" href="/compositions">Zobacz więcej</Button>
                   </CardActions>
                 </Card>
               </Grid>
               <Grid item xs={12} md={6} lg={4}>
                 <Card>
                   <CardActionArea
-                  href="/book"
+                  href="/ksiazka"
                   className={classes.cardActionArea}>
                     <CardMedia
                       className={classes.cardMedia}
-                      image="/images/cover_book_english.jpg"
-                      title="Jan Ruckgaber Book Cover"
+                      image="/images/cover_book_polish.jpg"
+                      title="Okładka książki Jana Ruckgabera"
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="h2">
-                        Jan Ruckgaber Book
+                      Książka Jana Ruckgabera
                       </Typography>
                       <Typography
                         variant="body2"
                         color="textSecondary"
                         component="p"
                       >
-                          Download the digital version of the Book about Jan Ruckgaber.
+                          Pobierz cyfrową wersję książki o Janie Ruckgaberze.
                       </Typography>
                     </CardContent>
                   </CardActionArea>
                   <CardActions>
-                    <Button size="small" color="primary" href="/book">Learn More</Button>
+                    <Button size="small" color="primary" href="/book">Zobacz więcej</Button>
                   </CardActions>
                 </Card>
               </Grid>
@@ -178,34 +178,34 @@ export default function Index() {
           </Box>
           <Box pt={4}>
             <Typography gutterBottom variant="h1" component="h1" style={{textAlign: 'center'}}>
-                        Listen to Music by Jan Ruckgaber
+            Posłuchaj muzyki Jana Ruckgabera
             </Typography>
             <Grid container spacing={2}>
             <Grid item xs={12} md={6}>
               <Audioplayer
-                  song="Divertissiment for violin and the piano, op.41"
-                  artist="Robert Szreder - violin, Elżbieta Sobkowicz - piano "
+                  song="Divertissiment na skrzypce i fortepian, op.41"
+                  artist="Robert Szreder - skrzypce, Elżbieta Sobkowicz - fortepian "
                   src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/D3-Divertissement-op.41.mp3"
                 />
               </Grid>
               <Grid item xs={12} md={6}>
               <Audioplayer
                   song="Do mogił, op.55"
-                  artist="song for a voice and the piano, Jerzy Sergiusz Adamczewski - baritone, Tatiana Woytaszewska - piano, Wincenty Pol - lyrics"
+                  artist="piosenka na głos i fortepian, Jerzy Sergiusz Adamczewski - baryton, Tatiana Woytaszewska - fortepian, Wincenty Pol - tekst piosenki"
                   src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/H17-Piesn-do-mogil-op-55.mp3"
                 />
               </Grid>
               <Grid item xs={12} md={6}>
               <Audioplayer
-                  song="Mazurek E- dur for the piano"
-                  artist="Tatiana Woytaszewska - piano"
+                  song="Mazurek E- dur na fortepian"
+                  artist="Tatiana Woytaszewska - fortpian"
                   src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/Mazurek-e-dur.mp3"
                  />
               </Grid>
               <Grid item xs={12} md={6}>
                 <Audioplayer
                   song="12 Variations, op. 2"
-                  artist="Milan Jeleń - piano"
+                  artist="Milan Jeleń - fortepian"
                   src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/12-variations-op-26.mp3"
                  />
               </Grid>
