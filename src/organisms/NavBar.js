@@ -57,26 +57,26 @@ const NavBar = (props) => {
             {t('Home')}
           </Link>
           <Link color="inherit" href="/life" className={classes.link}>
-            Life
+          {t('Life')}
           </Link>
           <Link
             color="inherit"
             href="/galician-music-society"
             className={classes.link}
           >
-            Galician Music Society
+            {t('Galician Music Society')}
           </Link>
           <Link color="inherit" href="/music" className={classes.link}>
-            Music
+            {t('Music')}
           </Link>
           <Link color="inherit" href="/lviv-archives" className={classes.link}>
-            Lviv Archives
+            {t('Lviv Archives')}
           </Link>
           <Link color="inherit" href="/compositions" className={classes.link}>
-            Compositions
+            {t('Compositions')}
           </Link>
           <Link color="inherit" href="/about" className={classes.link}>
-            About
+            {t('About')}
           </Link>
         </nav>
       </Toolbar>

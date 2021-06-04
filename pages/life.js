@@ -13,6 +13,7 @@ import ScrollTop from '../src/molecules/ScrollTop'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 
 const useStyles = makeStyles(() => ({
   media: {
@@ -21,19 +22,20 @@ const useStyles = makeStyles(() => ({
 }))
 export default function Page() {
   const classes = useStyles()
+  const { t } = useTranslation('common')
   return (
     <React.Fragment>
       <NavBar />
       <Toolbar id="back-to-top-anchor" />
       <Container maxWidth="md">
         <Box my={4}>
-          <Typography variant="h1" gutterBottom> Life </Typography>
+          <Typography variant="h1" gutterBottom> {t('Life')} </Typography>
           <Box my={4}>
             <Grid container spacing={4} alignItems="center">
               <Grid item md={7}>
-                <Typography variant="h4" gutterBottom>Ancestry</Typography>
-                <Typography paragraph>Jean (later Johann and Jan), the son of a French nobleman and emigrant, Jean de Montalban, was probably born in Vienna on the 21st of November 1799, where he was baptized in St. Stephen’s Cathedral. At first he used his father’s surname, de Montalban.</Typography>
-                <Typography paragraph>Jean de Montalban – father, fled his homeland to avoid the terror of the French Revolution and settled in Vienna. Later, he was killed in the Battle of Wagram on the 5th or 6th of July, 1809. After the death of his father, ten-year-old Jean was adopted by his Austrian tutor - Joseph Ruckgaber. His French Christian name - Jean - was later altered to Johann and Jan. He was buried in Lviv as Jan Ruckgaber.</Typography>
+                <Typography variant="h4" gutterBottom>{t('Ancestry')}</Typography>
+                <Typography paragraph>{t('Jean (later Johann and Jan), the son of a French nobleman and emigrant, Jean de Montalban, was probably born in Vienna on the 21st of November 1799, where he was baptized in St. Stephen’s Cathedral. At first he used his father’s surname, de Montalban.')}</Typography>
+                <Typography paragraph>{t('Jean de Montalban – father, fled his homeland to avoid the terror of the French Revolution and settled in Vienna. Later, he was killed in the Battle of Wagram on the 5th or 6th of July, 1809.')} {t('After the death of his father, ten-year-old Jean was adopted by his Austrian tutor - Joseph Ruckgaber. His French Christian name - Jean - was later altered to Johann and Jan. He was buried in Lviv as Jan Ruckgaber.')}</Typography>
 
                 <Typography variant="h4" gutterBottom>Education</Typography>
                 <Typography paragraph>He started his musical education in Vienna with Johann Nepomuk Hummel, who was an Austrian composer and pianist, of Slovak origin. Later he continued his studies in Paris, presumably in the years 1816-1819.</Typography>
@@ -49,7 +51,7 @@ export default function Page() {
                     image="/images/3-young-jan-ruckgaber.jpg"
                     title="Young Jan Ruckgaber, by an unknown author (http://uk.wikipedia.org, 2015)"/>
                   <CardContent>
-                    <Typography variant="caption">Young Jan Ruckgaber, by an unknown author (http://uk.wikipedia.org, 2015)</Typography>
+                    <Typography variant="caption">{t('Young Jan Ruckgaber, by an unknown author (http://uk.wikipedia.org, 2015)')}</Typography>
                   </CardContent>
                 </Card>
               </Grid>
