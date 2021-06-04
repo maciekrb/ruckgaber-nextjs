@@ -4,6 +4,7 @@ import Link from '@material-ui/core/Link'
 import { makeStyles } from '@material-ui/core/styles'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
+import { useTranslation } from 'next-i18next'
 
 const useStyles = makeStyles((theme) => ({
   '@global': {
@@ -38,6 +39,8 @@ const useStyles = makeStyles((theme) => ({
 
 const NavBar = (props) => {
   const classes = useStyles()
+  const { t } = useTranslation('common')
+
   return (
     <AppBar position="fixed" className={classes.appBar}>
       <Toolbar className={classes.toolbar}>
@@ -51,7 +54,7 @@ const NavBar = (props) => {
         </Typography>
         <nav>
           <Link color="inherit" href="/" className={classes.link}>
-            Home
+            {t('Home')}
           </Link>
           <Link color="inherit" href="/life" className={classes.link}>
             Life

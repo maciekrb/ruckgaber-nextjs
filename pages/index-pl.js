@@ -17,6 +17,7 @@ import Typography from '@material-ui/core/Typography'
 import YouTubeVideo from '../src/atoms/YouTubeVideo'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Audioplayer from '../src/atoms/Audioplayer'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -220,3 +221,9 @@ export default function Index() {
     </React.Fragment>
   )
 }
+
+export const getStaticProps = async ({ locale }) => ({
+  props: {
+    ...await serverSideTranslations(locale, ['common']),
+  },
+})

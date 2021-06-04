@@ -11,6 +11,7 @@ import NavBar from '../src/organisms/NavBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
 import Download from '../src/atoms/Download'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 const useStyles = makeStyles((theme) => ({
   media: {
@@ -18,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: '56.25%', // 16:9
   }
 }))
-export default function Page() {
+const Page = () => {
   const classes = useStyles()
   return (
     <React.Fragment>
@@ -52,5 +53,13 @@ export default function Page() {
         <Footer />
       </Container>
     </React.Fragment>
-  );
+  )
 }
+
+export const getStaticProps = async ({ locale }) => ({
+  props: {
+    ...await serverSideTranslations(locale, ['common']),
+  },
+})
+
+export default Page

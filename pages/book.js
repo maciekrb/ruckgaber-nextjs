@@ -13,6 +13,7 @@ import Footer from '../src/organisms/Footer'
 import NavBar from '../src/organisms/NavBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -95,5 +96,11 @@ return (
         </Box>
         <Footer/>
     </Container>
-)
+  )
 }
+
+export const getStaticProps = async ({ locale }) => ({
+  props: {
+    ...await serverSideTranslations(locale, ['common']),
+  },
+})
