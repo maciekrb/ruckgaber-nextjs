@@ -11,7 +11,6 @@ import Carousel from 'react-bootstrap/Carousel'
 import Container from '@material-ui/core/Container'
 import Grid from '@material-ui/core/Grid'
 import Footer from '../src/organisms/Footer'
-import Link from '../src/Link'
 import NavBar from '../src/organisms/NavBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
@@ -32,7 +31,12 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   cardMedia: {
-    height: 340,
+    height: 400,
+  },
+  cardActionArea: {
+    '&:hover': {
+      textDecoration: 'none',
+    }
   },
 }))
 
@@ -50,11 +54,12 @@ export default function Index() {
                 src="/images/intro-01.jpg"
                 alt="First slide"
               />
-              <Carousel.Caption style={{textAlign: 'left', paddingLeft: '350px'}}>
+              <Carousel.Caption style={{textAlign: 'left', paddingLeft: '280px', lineHeight: '1.6px', fontSize: '12px'}}>
+
                 <p>Jan Ruckgaber</p>
-                <p>(a bust by Chardigny, 1855, family archive)</p>
-                <p>Warsaw, 2020</p>
-              </Carousel.Caption>
+                <p> a bust by Chardigny, 1855, family archive</p>
+
+                </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
@@ -64,8 +69,8 @@ export default function Index() {
               />
 
               <Carousel.Caption>
-                <h3>Download the digital book</h3>
-                <p>A detail investigation about a musical family name</p>
+                <h3>Download the digital book:</h3>
+                <p>Biography of a forgotten Polish composer  with a concise description of musical life in 19-th century Lviv</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -76,8 +81,8 @@ export default function Index() {
               />
 
               <Carousel.Caption>
-                <h3>Welcome to a travel for the life of a great composer</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <h3>Welcome to a journey through the life of the composer ancestor</h3>
+                <p>A family investigation in search of the life story of a descendant of French aristocrats who became a Polish composer in Lviv</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
@@ -87,7 +92,9 @@ export default function Index() {
             <Grid container spacing={2}>
               <Grid item xs={12} md={6} lg={4}>
                 <Card>
-                  <CardActionArea>
+                  <CardActionArea
+                  href="/life"
+                  className={classes.cardActionArea}>
                     <CardMedia
                       className={classes.cardMedia}
                       image="/images/3-young-jan-ruckgaber.jpg"
@@ -113,7 +120,9 @@ export default function Index() {
               </Grid>
               <Grid item xs={12} md={6} lg={4}>
                 <Card>
-                  <CardActionArea>
+                  <CardActionArea
+                  href="/compositions"
+                  className={classes.cardActionArea}>
                     <CardMedia
                       className={classes.cardMedia}
                       image="/images/card-02.jpg"
@@ -128,7 +137,7 @@ export default function Index() {
                         color="textSecondary"
                         component="p"
                       >
-                          Find a detailed list of compositions with links to partitures.
+                        Find a detailed list of compositions with links to note sheets
                       </Typography>
                     </CardContent>
                   </CardActionArea>
@@ -139,11 +148,13 @@ export default function Index() {
               </Grid>
               <Grid item xs={12} md={6} lg={4}>
                 <Card>
-                  <CardActionArea>
+                  <CardActionArea
+                  href="/book"
+                  className={classes.cardActionArea}>
                     <CardMedia
                       className={classes.cardMedia}
-                      image="/images/card-03.jpg"
-                      title="Jan Ruckgaber Book cover"
+                      image="/images/cover_book_english.jpg"
+                      title="Jan Ruckgaber Book Cover"
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="h2">
@@ -154,7 +165,7 @@ export default function Index() {
                         color="textSecondary"
                         component="p"
                       >
-                          Download the electronic version of the Book about Jan Ruckgaber.
+                          Download the digital version of the Book about Jan Ruckgaber.
                       </Typography>
                     </CardContent>
                   </CardActionArea>
@@ -194,7 +205,7 @@ export default function Index() {
               <Grid item xs={12} md={6}>
                 <Audioplayer
                   song="12 Variations, op. 2"
-                  artist="Milan Jeleń - piano "
+                  artist="Milan Jeleń - piano"
                   src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/12-variations-op-26.mp3"
                  />
               </Grid>

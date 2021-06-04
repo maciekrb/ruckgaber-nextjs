@@ -10,15 +10,37 @@ import Typography from '@material-ui/core/Typography'
 const footer = [
   {
     title: 'Jan Ruckgaber',
-    description: ['Life', 'Galician Music Society', 'Music', 'Lviv Archives', 'Compositions', 'About'],
+    items: [
+      { label: 'Life', href: '/life'},
+      { label: 'Galician Music Society', href: '/galician-music-society'},
+      { label: 'Music', href: '/music'},
+      { label: 'Lviv Archives', href: 'lviv-archives'},
+      { label: 'Compositions', href: '/compositions'},
+      { label: 'About', href: '/about'},
+    ],
   },
   {
     title: 'The Book',
-    description: ['About the book', 'Contact', 'Downloads'],
+    items: [
+      { label: 'About', href: '/about'},
+      { label: 'Contact', href: '/contact'},
+      { label: 'Downloads', href: '/book'},
+    ],
   },
   {
     title: 'Music Compositions',
-    description: ['List of compositions', 'Piano with an Orchestra', 'Chamber Orchestra', 'Piano', 'Violin and the Piano', 'Flute, the Czakan and the Piano', 'Clarinet and the Piano', 'Choir', 'Voice and the Piano', 'Guitar and the Piano (transcript)'],
+    items: [
+      { label: 'List of compositions', href: '/compositions'},
+      { label: 'Piano with an Orchestra', href: '/compositions#section-A'},
+      { label: 'Chamber Orchestra', href: '/compositions#section-B'},
+      { label: 'Piano', href: '/compositions#section-C'},
+      { label: 'Violin and the Piano', href: '/compositions#section-D'},
+      { label: 'Flute, the Czakan and the Piano', href: '/compositions#section-E'},
+      { label: 'Choir', href: '/compositions#section-F'},
+      { label: 'Clarinet and the Piano', href: '/compositions#section-G'},
+      { label: 'Voice and the Piano', href: '/compositions#section-H'},
+      { label: 'Guitar and the Piano (transcript)', href: '/compositions#section-I'},
+    ],
   },
 ]
 
@@ -45,10 +67,10 @@ const Footer = () => {
             {footer[0].title}
           </Typography>
           <ul>
-            {footer[0].description.map((item) => (
-              <li key={item}>
-                <Link href="#" variant="subtitle1" color="textSecondary">
-                  {item}
+            {footer[0].items.map((item, idx) => (
+              <li key={`footer-item-1-${idx}`}>
+                <Link href={item.href} variant="subtitle1" color="textSecondary">
+                  {item.label}
                 </Link>
               </li>
             ))}
@@ -60,10 +82,10 @@ const Footer = () => {
             {footer[1].title}
           </Typography>
           <ul>
-            {footer[1].description.map((item) => (
-              <li key={item}>
-                <Link href="#" variant="subtitle1" color="textSecondary">
-                  {item}
+            {footer[1].items.map((item, idx) => (
+              <li key={`footer-item-1-${idx}`}>
+                <Link href={item.href} variant="subtitle1" color="textSecondary">
+                  {item.label}
                 </Link>
               </li>
             ))}
@@ -75,10 +97,10 @@ const Footer = () => {
             {footer[2].title}
           </Typography>
           <ul>
-            {footer[2].description.map((item) => (
-              <li key={item}>
-                <Link href="#" variant="subtitle1" color="textSecondary">
-                  {item}
+            {footer[2].items.map((item, idx) => (
+              <li key={`footer-item-1-${idx}`}>
+                <Link href={item.href} variant="subtitle1" color="textSecondary">
+                  {item.label}
                 </Link>
               </li>
             ))}

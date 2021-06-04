@@ -4,6 +4,7 @@ import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 import CardMedia from '@material-ui/core/CardMedia'
 import Container from '@material-ui/core/Container'
+import Download from '../src/atoms/Download'
 import Footer from '../src/organisms/Footer'
 import Grid from '@material-ui/core/Grid'
 import NavBar from '../src/organisms/NavBar'
@@ -11,6 +12,7 @@ import ScrollTop from '../src/molecules/ScrollTop'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
 import { Link } from '@material-ui/core'
+
 
 export default function Page() {
   return (
@@ -136,7 +138,7 @@ export default function Page() {
                 </Card>
              </Grid>
              <Grid item sm={12}>
-             <Typography paragraph>More information in a form of Jan Ruckgaber’s full biography, in English and in Polish, is ready for download <Link color="secondary" href="/downloads">here.</Link> </Typography>
+             <Download/>
              </Grid>
             </Grid>
           </Box>

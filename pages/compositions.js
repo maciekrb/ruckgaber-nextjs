@@ -143,7 +143,7 @@ function Page({sections}) {
           <Typography paragraph>(references indicate a source of information)</Typography>
           <ol type="A">
             <li><a href="#section-A">Music for the Piano with an Orchestra</a></li>
-            <li><a href="#section-B">Music for a Chamber Orcestra</a></li>
+            <li><a href="#section-B">Music for a Chamber Orchestra</a></li>
             <li><a href="#section-C">Music for the Piano</a></li>
             <li><a href="#section-D">Music for the Violin and the Piano</a></li>
             <li><a href="#section-E">Music for the Flute, the Czakan and the Piano</a></li>
