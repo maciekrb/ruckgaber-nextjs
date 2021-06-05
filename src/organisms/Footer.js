@@ -60,19 +60,20 @@ const useStyles = makeStyles((theme) => ({
 
 const Footer = () => {
   const classes = useStyles()
+  const { t } = useTranslation('common')
 
   return (
     <Container maxWidth="md" component="footer" className={classes.root}>
       <Grid container spacing={4} justify="space-evenly">
         <Grid item xs={6} sm={3} key={footer[0].title}>
           <Typography variant="h6" color="textPrimary" gutterBottom>
-            {footer[0].title}
+            {t(footer[0].title)}
           </Typography>
           <ul>
             {footer[0].items.map((item, idx) => (
               <li key={`footer-item-1-${idx}`}>
                 <Link href={item.href} variant="subtitle1" color="textSecondary">
-                  {item.label}
+                  {t(item.label)}
                 </Link>
               </li>
             ))}
@@ -81,13 +82,13 @@ const Footer = () => {
 
         <Grid item xs={6} sm={3} key={footer[1].title}>
           <Typography variant="h6" color="textPrimary" gutterBottom>
-            {footer[1].title}
+            {t(footer[1].title)}
           </Typography>
           <ul>
             {footer[1].items.map((item, idx) => (
               <li key={`footer-item-1-${idx}`}>
                 <Link href={item.href} variant="subtitle1" color="textSecondary">
-                  {item.label}
+                  {t(item.label)}
                 </Link>
               </li>
             ))}
@@ -96,13 +97,13 @@ const Footer = () => {
 
         <Grid item xs={12} sm={6} key={footer[2].title} style={{textAlign: 'right'}}>
           <Typography variant="h6" color="textPrimary" gutterBottom>
-            {footer[2].title}
+            {t(footer[2].title)}
           </Typography>
           <ul>
             {footer[2].items.map((item, idx) => (
               <li key={`footer-item-1-${idx}`}>
                 <Link href={item.href} variant="subtitle1" color="textSecondary">
-                  {item.label}
+                {t(item.label)}
                 </Link>
               </li>
             ))}

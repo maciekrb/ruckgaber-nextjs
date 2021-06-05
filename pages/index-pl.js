@@ -185,7 +185,7 @@ export default function Index() {
             <Grid item xs={12} md={6}>
               <Audioplayer
                   song="Divertissiment na skrzypce i fortepian, op.41"
-                  artist="Robert Szreder - skrzypce, Elżbieta Sobkowicz - fortepian "
+                  artist="Robert Szreder - skrzypce, Elżbieta Sobkowicz - fortepian"
                   src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/D3-Divertissement-op.41.mp3"
                 />
               </Grid>
