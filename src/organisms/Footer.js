@@ -25,7 +25,7 @@ const footer = [
     items: [
       { label: 'About', href: 'aboutHrefKey'},
       { label: 'Contact', href: '/contact'},
-      { label: 'Downloads', href: 'bookHrefKey'},
+      { label: 'Download', href: 'bookHrefKey'},
     ],
   },
   {
