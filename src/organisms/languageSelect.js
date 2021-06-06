@@ -1,37 +1,30 @@
-import React from "react";
-import { changeLanguage, useTranslation } from "react-i18next";
+import React from 'react'
+import { useRouter } from 'next/router'
+import { changeLanguage, useTranslation } from 'react-i18next'
 
-import ArrowDropDown from "@material-ui/icons/ArrowDropDown";
-import Button from "@material-ui/core/Button";
-import Popover from "@material-ui/core/Popover";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
-import ListSubheader from "@material-ui/core/ListSubheader";
-import Link from 'next/link'
+import ArrowDropDown from '@material-ui/icons/ArrowDropDown'
+import Button from '@material-ui/core/Button'
+import Popover from '@material-ui/core/Popover'
+import List from '@material-ui/core/List'
+import ListItem from '@material-ui/core/ListItem'
+import ListSubheader from '@material-ui/core/ListSubheader'
 
 const languageMap = {
-  en: { label: "English", dir: "ltr", active: true },
-  pl: { label: "Polski", dir: "ltr", active: false },
-  es: { label: "Español", dir: "ltr", active: false }
-};
+  en: { label: 'English', dir: 'ltr', active: true },
+  pl: { label: 'Polski', dir: 'ltr', active: false },
+  es: { label: 'Español', dir: 'ltr', active: false },
+}
 
 const LanguageSelect = () => {
-  const [selectedLanguage, setSelectedLanguage] = React.useState('en')
+  const router = useRouter()
   const { t } = useTranslation()
 
   const [menuAnchor, setMenuAnchor] = React.useState(null)
-  React.useEffect(() => {
-    const selected = localStorage.getItem("i18nextLng")
-    if (selected) {
-      setSelectedLanguage(selected)
-    }
-    document.body.dir = languageMap[selectedLanguage].dir
-  }, [menuAnchor]);
 
   return (
     <div className="d-flex justify-content-end align-items-center language-select-root">
       <Button onClick={({ currentTarget }) => setMenuAnchor(currentTarget)}>
-        {languageMap[selectedLanguage].label}
+        {languageMap[router.locale].label}
         <ArrowDropDown fontSize="small" />
       </Button>
       <Popover
@@ -39,34 +32,34 @@ const LanguageSelect = () => {
         anchorEl={menuAnchor}
         onClose={() => setMenuAnchor(null)}
         anchorOrigin={{
-          vertical: "bottom",
-          horizontal: "right"
+          vertical: 'bottom',
+          horizontal: 'right',
         }}
         transformOrigin={{
-          vertical: "top",
-          horizontal: "right"
+          vertical: 'top',
+          horizontal: 'right',
         }}
       >
         <div>
           <List>
-            <ListSubheader>{t("select_language")}</ListSubheader>
-            {Object.keys(languageMap)?.map(item => (
+            <ListSubheader>{t('select_language')}</ListSubheader>
+            {Object.keys(languageMap)?.map((item) => (
               <ListItem
                 button
                 key={item}
                 onClick={() => {
-                  i18next.changeLanguage(item);
-                  setMenuAnchor(null);
+                  router.push(router.pathname, router.pathname, {locale: item})
+                  setMenuAnchor(null)
                 }}
               >
-                <Link></Link>{languageMap[item].label}
+                {languageMap[item].label}
               </ListItem>
             ))}
           </List>
         </div>
       </Popover>
     </div>
-  );
-};
+  )
+}
 
-export default LanguageSelect;
+export default LanguageSelect
