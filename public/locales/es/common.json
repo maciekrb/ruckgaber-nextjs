@@ -1,7 +1,7 @@
 {
   "Home": "Inicio",
   "Life": "Vida",
-  "Galician Music Society": "Sociedad Musical Galeza",
+  "Galician Music Society": "Sociedad Gallega de Música",
   "Music": "Musica",
   "Lviv Archives": "Archivos en Lviv",
   "Compositions": "Composiciones",
@@ -45,7 +45,7 @@
   "bannerHome": "/images/intro-01-es.jpg",
   "coverHomeBook": "/images/cover_book_english.jpg",
   "lifeHrefKey": "/vida",
-  "galicianHrefKey":"/sociedad-musical-galeza",
+  "galicianHrefKey":"/sociedad-gallega-musica",
   "musicHrefKey":"/musica",
   "lvivianHrefKey":"/archivos-lviv",
   "compositionsHrefKey":"/composiciones",

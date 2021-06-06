@@ -15,11 +15,11 @@ const languageMap = {
   es: { label: 'Español', dir: 'ltr', active: false },
 }
 const useStyles = makeStyles(() => ({
-  dropdown: {
+  dropdownBtn: {
     color:"#d3d3d3",
     textTransform:"capitalize",
     backgroundColor:"rgb(128,128,128,0.3)",
-    boxShadow: "2px 3px #888888",
+    boxShadow: "2px 3px rgb(136,136,136, 0.5)",
     borderRadius: "5px",
     marginLeft:"30px"
   }
@@ -34,7 +34,7 @@ const LanguageSelect = () => {
 
   return (
     <div className="d-flex justify-content-end align-items-center language-select-root" >
-      <Button className={classes.dropdown} onClick={({ currentTarget }) => setMenuAnchor(currentTarget)}>
+      <Button className={classes.dropdownBtn} onClick={({ currentTarget }) => setMenuAnchor(currentTarget)}>
         {languageMap[router.locale].label}
         <ArrowDropDown fontSize="small" />
       </Button>
