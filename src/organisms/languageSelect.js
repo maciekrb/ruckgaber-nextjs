@@ -1,7 +1,7 @@
 import React from 'react'
 import { useRouter } from 'next/router'
 import { changeLanguage, useTranslation } from 'react-i18next'
-
+import { makeStyles } from '@material-ui/core/styles'
 import ArrowDropDown from '@material-ui/icons/ArrowDropDown'
 import Button from '@material-ui/core/Button'
 import Popover from '@material-ui/core/Popover'
@@ -14,16 +14,27 @@ const languageMap = {
   pl: { label: 'Polski', dir: 'ltr', active: false },
   es: { label: 'Español', dir: 'ltr', active: false },
 }
+const useStyles = makeStyles(() => ({
+  dropdown: {
+    color:"#d3d3d3",
+    textTransform:"capitalize",
+    backgroundColor:"rgb(128,128,128,0.3)",
+    boxShadow: "2px 3px #888888",
+    borderRadius: "5px",
+    marginLeft:"30px"
+  }
+}))
 
 const LanguageSelect = () => {
   const router = useRouter()
+  const classes = useStyles()
   const { t } = useTranslation()
 
   const [menuAnchor, setMenuAnchor] = React.useState(null)
 
   return (
-    <div className="d-flex justify-content-end align-items-center language-select-root">
-      <Button onClick={({ currentTarget }) => setMenuAnchor(currentTarget)}>
+    <div className="d-flex justify-content-end align-items-center language-select-root" >
+      <Button className={classes.dropdown} onClick={({ currentTarget }) => setMenuAnchor(currentTarget)}>
         {languageMap[router.locale].label}
         <ArrowDropDown fontSize="small" />
       </Button>
@@ -42,8 +53,7 @@ const LanguageSelect = () => {
       >
         <div>
           <List>
-            <ListSubheader>{t('select_language')}</ListSubheader>
-            {Object.keys(languageMap)?.map((item) => (
+             {Object.keys(languageMap)?.map((item) => (
               <ListItem
                 button
                 key={item}

@@ -13,17 +13,19 @@ const useStyles = makeStyles((theme) => ({
     ul: {
       margin: 0,
       padding: 0,
-      listStyle: 'none',
+      listStyle: 'none'
     },
   },
   appBar: {
-    borderBottom: `1px solid ${theme.palette.divider}`,
+    borderBottom: `1px solid ${theme.palette.divider}`
+
   },
   toolbar: {
     flexWrap: 'wrap',
     height: 64,
     [theme.breakpoints.up('sm')]: {
       height: 70,
+
     },
   },
   toolbarTitle: {
