@@ -12,26 +12,26 @@ const footer = [
   {
     title: 'Jan Ruckgaber',
     items: [
-      { label: 'Life', href: '/life'},
-      { label: 'Galician Music Society', href: '/galician-music-society'},
-      { label: 'Music', href: '/music'},
-      { label: 'Lviv Archives', href: 'lviv-archives'},
-      { label: 'Compositions', href: '/compositions'},
-      { label: 'About', href: '/about'},
+      { label: 'Life', href: 'lifeHrefKey'},
+      { label: 'Galician Music Society', href: 'galicianHrefKey'},
+      { label: 'Music', href: 'musicHrefKey'},
+      { label: 'Lviv Archives', href: 'lvivHrefKey'},
+      { label: 'Compositions', href: 'compositionsHrefKey'},
+      { label: 'About', href: 'aboutHrefKey"'},
     ],
   },
   {
     title: 'The Book',
     items: [
-      { label: 'About', href: '/about'},
+      { label: 'About', href: 'aboutHrefKey'},
       { label: 'Contact', href: '/contact'},
-      { label: 'Downloads', href: '/book'},
+      { label: 'Downloads', href: 'bookHrefKey'},
     ],
   },
   {
     title: 'Music Compositions',
     items: [
-      { label: 'List of compositions', href: '/compositions'},
+      { label: 'List of compositions', href: 'compositionsHrefKey'},
       { label: 'Piano with an Orchestra', href: '/compositions#section-A'},
       { label: 'Chamber Orchestra', href: '/compositions#section-B'},
       { label: 'Piano', href: '/compositions#section-C'},
@@ -72,7 +72,7 @@ const Footer = () => {
           <ul>
             {footer[0].items.map((item, idx) => (
               <li key={`footer-item-1-${idx}`}>
-                <Link href={item.href} variant="subtitle1" color="textSecondary">
+                <Link href={t(item.href)} variant="subtitle1" color="textSecondary">
                   {t(item.label)}
                 </Link>
               </li>
@@ -87,7 +87,7 @@ const Footer = () => {
           <ul>
             {footer[1].items.map((item, idx) => (
               <li key={`footer-item-1-${idx}`}>
-                <Link href={item.href} variant="subtitle1" color="textSecondary">
+                <Link href={t(item.href)} variant="subtitle1" color="textSecondary">
                   {t(item.label)}
                 </Link>
               </li>
@@ -102,7 +102,7 @@ const Footer = () => {
           <ul>
             {footer[2].items.map((item, idx) => (
               <li key={`footer-item-1-${idx}`}>
-                <Link href={item.href} variant="subtitle1" color="textSecondary">
+                <Link href={t(item.href)} variant="subtitle1" color="textSecondary">
                 {t(item.label)}
                 </Link>
               </li>
