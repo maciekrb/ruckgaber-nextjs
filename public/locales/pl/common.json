@@ -51,5 +51,17 @@
   "compositionsHrefKey":"/kompozycje",
   "aboutHrefKey":"/wprowadzenie",
   "contactHrefKey": "/kontact",
-  "bookHrefKey": "/ksiazka"
+  "bookHrefKey": "/ksiazka",
+  "Contact Form": "Formularz kontaktowy",
+  "Please write your name":"Proszę napisz swoje imię",
+  "Please write a valid email": "Proszę wpisać poprawny adres e-mail",
+  "Please write the subject": "Proszę napisać temat",
+  "Please write a message": "Proszę napisać wiadomość",
+  "Please try again in a few seconds": "Spróbuj ponownie za kilka sekund",
+  "Your message has been sent": "Twoja wiadomość została wysłana",
+  "Sending your message": "Wysyłam wiadomość",
+  "Name and Surname": "Imię i nazwisko",
+  "Subject": "Temat",
+  "Message": "Wiadomość",
+  "Send": "Wysłać"
 }

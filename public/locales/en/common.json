@@ -51,6 +51,18 @@
   "compositionsHrefKey":"/compositions",
   "aboutHrefKey":"/about",
   "contactHrefKey": "/contact",
-  "bookHrefKey": "/book"
+  "bookHrefKey": "/book",
+  "Contact Form": "Contact Form",
+  "Please write your name":"Please write your name",
+  "Please write a valid email": "Please write a valid email",
+  "Please write the subject": "Please write the subject",
+  "Please write a message": "Please write a message",
+  "Please try again in a few seconds": "Please try again in a few seconds",
+  "Your message has been sent": "Your message has been sent",
+  "Sending your message": "Sending your message",
+  "Name and Surname": "Name and Surname",
+  "Subject": "Subject",
+  "Message": "Message",
+  "Send": "Send"
 }
 
