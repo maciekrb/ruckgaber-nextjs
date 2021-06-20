@@ -43,7 +43,7 @@ return (
     <Toolbar id="back-to-top-anchor" />
           <Box>
           <Box my={10}>
-          <Typography variant="h1" gutterBottom> Jan Ruckgaber Book </Typography>
+          <Typography variant="h1" gutterBottom> Libro de Jan Ruckgaber </Typography>
             <Grid container spacing={8}>
               <Grid item xs={12}>
               </Grid>
@@ -64,7 +64,7 @@ return (
                           href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/books/Ruckgaber_Book_Polish.pdf" download
                           target="_blank"
                           >
-                          Download the polish version here
+                          Descargue la versión en polaco aquí
                       </Button>
                   </CardActions>
                 </Card>
@@ -86,7 +86,7 @@ return (
                           href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/books/Ruckgaber_Book_English.pdf" download
                           target="_blank"
                           >
-                          Download the english version here
+                          Descargue la versión en inglés aquí
                       </Button>
                   </CardActions>
                 </Card>

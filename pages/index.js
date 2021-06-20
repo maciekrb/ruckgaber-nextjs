@@ -15,8 +15,10 @@ import NavBar from '../src/organisms/NavBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
 import YouTubeVideo from '../src/atoms/YouTubeVideo'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Audioplayer from '../src/atoms/Audioplayer'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -42,6 +44,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Index() {
   const classes = useStyles()
+  const { t } = useTranslation('common')
 
   return (
     <React.Fragment>
@@ -51,13 +54,13 @@ export default function Index() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="/images/intro-01.jpg"
+                src={t('bannerHome')}
                 alt="First slide"
               />
               <Carousel.Caption style={{textAlign: 'left', paddingLeft: '280px', lineHeight: '1.6px', fontSize: '12px'}}>
 
                 <p>Jan Ruckgaber</p>
-                <p> a bust by Chardigny, 1855, family archive</p>
+                <p> {t('a bust by Chardigny, 1855, family archive')}</p>
 
                 </Carousel.Caption>
             </Carousel.Item>
@@ -69,8 +72,8 @@ export default function Index() {
               />
 
               <Carousel.Caption>
-                <h3>Download the digital book:</h3>
-                <p>Biography of a forgotten Polish composer  with a concise description of musical life in 19-th century Lviv</p>
+                <h3>{t('Download the digital book')}</h3>
+                <p>{t('Biography of a forgotten Polish composer  with a concise description of musical life in 19-th century Lviv')}</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -81,8 +84,8 @@ export default function Index() {
               />
 
               <Carousel.Caption>
-                <h3>Welcome to a journey through the life of the composer ancestor</h3>
-                <p>A family investigation in search of the life story of a descendant of French aristocrats who became a Polish composer in Lviv</p>
+                <h3>{t('Welcome to a journey through the life of the composer ancestor')}</h3>
+                <p>{t('A family investigation in search of the life story of a descendant of French aristocrats who became a Polish composer in Lviv')}</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
@@ -102,19 +105,19 @@ export default function Index() {
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="h2">
-                        Life of Jan Ruckgaber
+                      {t('Life of Jan Ruckgaber')}
                       </Typography>
                       <Typography
                         variant="body2"
                         color="textSecondary"
                         component="p"
                       >
-                          Read about the life of Jan Ruckgaber, his family and ancestry.
+                          {t('Read about the life of Jan Ruckgaber, his family and ancestry.')}
                       </Typography>
                     </CardContent>
                   </CardActionArea>
                   <CardActions>
-                    <Button size="small" color="primary" href="/life">Learn More</Button>
+                    <Button size="small" color="primary" href="/life">{t('Learn More')}</Button>
                   </CardActions>
                 </Card>
               </Grid>
@@ -130,19 +133,19 @@ export default function Index() {
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="h2">
-                        Compositions of Jan Ruckgaber
+                      {t('Compositions of Jan Ruckgaber')}
                       </Typography>
                       <Typography
                         variant="body2"
                         color="textSecondary"
                         component="p"
                       >
-                        Find a detailed list of compositions with links to note sheets
+                        {t('Find a detailed list of compositions with links to note sheets')}
                       </Typography>
                     </CardContent>
                   </CardActionArea>
                   <CardActions>
-                    <Button size="small" color="primary" href="/compositions">Learn More</Button>
+                    <Button size="small" color="primary" href="/compositions">{t('Learn More')}</Button>
                   </CardActions>
                 </Card>
               </Grid>
@@ -153,24 +156,24 @@ export default function Index() {
                   className={classes.cardActionArea}>
                     <CardMedia
                       className={classes.cardMedia}
-                      image="/images/cover_book_english.jpg"
+                      image={t('coverHomeBook')}
                       title="Jan Ruckgaber Book Cover"
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="h2">
-                        Jan Ruckgaber Book
+                      {t('Jan Ruckgaber Book')}
                       </Typography>
                       <Typography
                         variant="body2"
                         color="textSecondary"
                         component="p"
                       >
-                          Download the digital version of the Book about Jan Ruckgaber.
+                          {t('Download the digital version of the Book about Jan Ruckgaber.')}
                       </Typography>
                     </CardContent>
                   </CardActionArea>
                   <CardActions>
-                    <Button size="small" color="primary" href="/book">Learn More</Button>
+                    <Button size="small" color="primary" href="/book">{t('Learn More')}</Button>
                   </CardActions>
                 </Card>
               </Grid>
@@ -178,34 +181,34 @@ export default function Index() {
           </Box>
           <Box pt={4}>
             <Typography gutterBottom variant="h1" component="h1" style={{textAlign: 'center'}}>
-                        Listen to Music by Jan Ruckgaber
+            {t('Listen to Music by Jan Ruckgaber')}
             </Typography>
             <Grid container spacing={2}>
             <Grid item xs={12} md={6}>
               <Audioplayer
-                  song="Divertissiment for violin and the piano, op.41"
-                  artist="Robert Szreder - violin, Elżbieta Sobkowicz - piano "
+                  song={t('Divertissiment for violin and the piano, op.41')}
+                  artist={t('Robert Szreder - violin, Elżbieta Sobkowicz - piano')}
                   src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/D3-Divertissement-op.41.mp3"
                 />
               </Grid>
               <Grid item xs={12} md={6}>
               <Audioplayer
-                  song="Do mogił, op.55"
-                  artist="song for a voice and the piano, Jerzy Sergiusz Adamczewski - baritone, Tatiana Woytaszewska - piano, Wincenty Pol - lyrics"
+                  song={t('Do mogił, op.55')}
+                  artist={t('song for a voice and the piano, Jerzy Sergiusz Adamczewski - baritone, Tatiana Woytaszewska - piano, Wincenty Pol - lyrics')}
                   src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/H17-Piesn-do-mogil-op-55.mp3"
                 />
               </Grid>
               <Grid item xs={12} md={6}>
               <Audioplayer
-                  song="Mazurek E- dur for the piano"
-                  artist="Tatiana Woytaszewska - piano"
+                  song={t('Mazurek E- dur for the piano')}
+                  artist={t('Tatiana Woytaszewska - piano')}
                   src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/Mazurek-e-dur.mp3"
                  />
               </Grid>
               <Grid item xs={12} md={6}>
                 <Audioplayer
-                  song="12 Variations, op. 2"
-                  artist="Milan Jeleń - piano"
+                  song={t('12 Variations, op. 2')}
+                  artist={t('Milan Jeleń - piano')}
                   src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/12-variations-op-26.mp3"
                  />
               </Grid>
@@ -220,3 +223,9 @@ export default function Index() {
     </React.Fragment>
   )
 }
+
+export const getStaticProps = async ({ locale }) => ({
+  props: {
+    ...await serverSideTranslations(locale, ['common']),
+  },
+})

@@ -7,12 +7,17 @@
     "@material-ui/icons": "^4.11.2",
     "bootstrap": "^4.6.0",
     "clsx": "latest",
+    "i18next": "^20.3.1",
+    "loglevel": "^1.7.1",
     "next": "latest",
+    "next-i18next": "^8.4.0",
     "prop-types": "latest",
     "react": "latest",
     "react-audio-player": "^0.17.0",
     "react-bootstrap": "^1.5.2",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-google-recaptcha-v3": "^1.9.4",
+    "react-i18next": "^11.10.0"
   },
   "scripts": {
     "dev": "next",

@@ -6,31 +6,32 @@ import { makeStyles } from '@material-ui/core/styles'
 import Grid from '@material-ui/core/Grid'
 import Link from '@material-ui/core/Link'
 import Typography from '@material-ui/core/Typography'
+import { useTranslation } from 'next-i18next'
 
 const footer = [
   {
     title: 'Jan Ruckgaber',
     items: [
-      { label: 'Life', href: '/life'},
-      { label: 'Galician Music Society', href: '/galician-music-society'},
-      { label: 'Music', href: '/music'},
-      { label: 'Lviv Archives', href: 'lviv-archives'},
-      { label: 'Compositions', href: '/compositions'},
-      { label: 'About', href: '/about'},
+      { label: 'Life', href: 'lifeHrefKey'},
+      { label: 'Galician Music Society', href: 'galicianHrefKey'},
+      { label: 'Music', href: 'musicHrefKey'},
+      { label: 'Lviv Archives', href: 'lvivHrefKey'},
+      { label: 'Compositions', href: 'compositionsHrefKey'},
+      { label: 'About', href: 'aboutHrefKey"'},
     ],
   },
   {
     title: 'The Book',
     items: [
-      { label: 'About', href: '/about'},
+      { label: 'About', href: 'aboutHrefKey'},
       { label: 'Contact', href: '/contact'},
-      { label: 'Downloads', href: '/book'},
+      { label: 'Download', href: 'bookHrefKey'},
     ],
   },
   {
     title: 'Music Compositions',
     items: [
-      { label: 'List of compositions', href: '/compositions'},
+      { label: 'List of compositions', href: 'compositionsHrefKey'},
       { label: 'Piano with an Orchestra', href: '/compositions#section-A'},
       { label: 'Chamber Orchestra', href: '/compositions#section-B'},
       { label: 'Piano', href: '/compositions#section-C'},
@@ -59,18 +60,20 @@ const useStyles = makeStyles((theme) => ({
 
 const Footer = () => {
   const classes = useStyles()
+  const { t } = useTranslation('common')
+
   return (
     <Container maxWidth="md" component="footer" className={classes.root}>
       <Grid container spacing={4} justify="space-evenly">
         <Grid item xs={6} sm={3} key={footer[0].title}>
           <Typography variant="h6" color="textPrimary" gutterBottom>
-            {footer[0].title}
+            {t(footer[0].title)}
           </Typography>
           <ul>
             {footer[0].items.map((item, idx) => (
               <li key={`footer-item-1-${idx}`}>
-                <Link href={item.href} variant="subtitle1" color="textSecondary">
-                  {item.label}
+                <Link href={t(item.href)} variant="subtitle1" color="textSecondary">
+                  {t(item.label)}
                 </Link>
               </li>
             ))}
@@ -79,13 +82,13 @@ const Footer = () => {
 
         <Grid item xs={6} sm={3} key={footer[1].title}>
           <Typography variant="h6" color="textPrimary" gutterBottom>
-            {footer[1].title}
+            {t(footer[1].title)}
           </Typography>
           <ul>
             {footer[1].items.map((item, idx) => (
               <li key={`footer-item-1-${idx}`}>
-                <Link href={item.href} variant="subtitle1" color="textSecondary">
-                  {item.label}
+                <Link href={t(item.href)} variant="subtitle1" color="textSecondary">
+                  {t(item.label)}
                 </Link>
               </li>
             ))}
@@ -94,13 +97,13 @@ const Footer = () => {
 
         <Grid item xs={12} sm={6} key={footer[2].title} style={{textAlign: 'right'}}>
           <Typography variant="h6" color="textPrimary" gutterBottom>
-            {footer[2].title}
+            {t(footer[2].title)}
           </Typography>
           <ul>
             {footer[2].items.map((item, idx) => (
               <li key={`footer-item-1-${idx}`}>
-                <Link href={item.href} variant="subtitle1" color="textSecondary">
-                  {item.label}
+                <Link href={t(item.href)} variant="subtitle1" color="textSecondary">
+                {t(item.label)}
                 </Link>
               </li>
             ))}

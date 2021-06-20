@@ -44,15 +44,15 @@ const HtmlTooltip = withStyles((theme) => ({
 }))(Tooltip)
 
 const sources = {
-  "1": "Osadca Olga: „Archiwum Ruckgabera w Lwowskiej Bibliotece Naukowej im. Stefanyka”",
-  "2": "Spis utworów Ruckgabera z dokumentów J. Ruckgabera, wnuka",
-  "3": '<a href="http://imuz.uw.edu.pl/en/">Instytut Muzykologii Uniwersytetu Warszawskiego (IMUW)</a>',
-  "4": "Katalog mikrofilmów otrzymanych z Biblioteki Stefanyka (w IMUW)",
-  "5": "Zbiory rodzinne",
-  "6": '<a href="https://www.bn.org.pl/">Biblioteka Narodowa Polski</a>',
-  "7": '<a href="http://www.worldcat.org/">Biblioteka Narodowa Austrii</a>',
-  "8": '<a href="https://bj.uj.edu.pl/">Biblioteka Jagiellońska/a>',
-  "9": '<a href="http://www.lsl.lviv.ua/index.php/en/about-the-library/">Lwowska Biblioteka Naukowea im. Stefanyka</a>',
+  "1": "Osadca Olga: 'El Archivo Ruckgaber en la Biblioteca Científica de Stefanyka en Lviv '",
+  "2": "Obras de Ruckgaber a partir de documentos de J. Ruckgaber, nieto",
+  "3": '<a href="http://imuz.uw.edu.pl/en/">Instituto de Musicología de la Universidad de Varsovia (IMUW)</a>',
+  "4": "Catálogo de microfilms obtenido de la Biblioteca Stefanyk (en IMUW)",
+  "5": "Colección familiar",
+  "6": '<a href="https://www.bn.org.pl/">Biblioteca Nacional de Polonia</a>',
+  "7": '<a href="http://www.worldcat.org/">Biblioteca Nacional de Autria</a>',
+  "8": '<a href="https://bj.uj.edu.pl/">Biblioteca Jagiellońska/a>',
+  "9": '<a href="http://www.lsl.lviv.ua/index.php/en/about-the-library/">La Biblioteca Científica  de Stefanyk en Lviv</a>',
 }
 
 function Reference({reference, last}) {
@@ -133,9 +133,9 @@ function Page({sections}) {
       <Toolbar id="back-to-top-anchor" />
       <Container maxWidth="md">
         <Box my={4}>
-          <Typography variant="h1" gutterBottom>Lista kompozycji Jana Ruckgabera</Typography>
+          <Typography variant="h1" gutterBottom>Lista de composiciones de Jan Ruckgaber</Typography>
 
-          <Typography variant="h6" gutterBottom>Źródła do spisu kompozycji:</Typography>
+          <Typography variant="h6" gutterBottom>Fuentes de la lista de composiciones:</Typography>
           <ol type="1">
             {Object.values(sources).map((item, idx)=><li key={`source-${idx}`} dangerouslySetInnerHTML={{__html: item}} />)}
           </ol>
@@ -143,15 +143,15 @@ function Page({sections}) {
           <Typography variant="h6" gutterBottom>Części spisu kompozycji Jana Ruckgabera</Typography>
           <Typography paragraph>(odnośniki oznaczają źródło informacji)</Typography>
           <ol type="A">
-            <li><a href="#section-A">Utwory na fortepian z orkiestrą</a></li>
-            <li><a href="#section-B">Utwory na orkiestrę kameralną</a></li>
-            <li><a href="#section-C">Utwory na fortepian</a></li>
-            <li><a href="#section-D">Utwory na skrzypce i fortepian</a></li>
-            <li><a href="#section-E">Utwory na flet, czakan i fortepian</a></li>
-            <li><a href="#section-F">Utwory na klarnet i fortepian</a></li>
-            <li><a href="#section-G">Utwory chóralne</a></li>
-            <li><a href="#section-H">Utwory na głos i fortepian</a></li>
-            <li><a href="#section-I">Utwór na gitarę i fortepian</a></li>
+            <li><a href="#section-A">Música para el piano con orquesta</a></li>
+            <li><a href="#section-B">Música para orquesta de cámara</a></li>
+            <li><a href="#section-C">Música para piano</a></li>
+            <li><a href="#section-D">Música para violín y piano</a></li>
+            <li><a href="#section-E">Música para flauta, czakan y piano</a></li>
+            <li><a href="#section-F">Música para clarinete y piano</a></li>
+            <li><a href="#section-G">Música coral</a></li>
+            <li><a href="#section-H">Música para voz y piano</a></li>
+            <li><a href="#section-I">Música para guitarra y piano</a></li>
           </ol>
           <Box py={2}><hr/></Box>
           <CompositionMarkup />
