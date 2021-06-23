@@ -1,6 +1,6 @@
 import React from 'react'
 import { useRouter } from 'next/router'
-import { changeLanguage, useTranslation } from 'react-i18next'
+import { useTranslations } from 'next-intl'
 import { makeStyles } from '@material-ui/core/styles'
 import ArrowDropDown from '@material-ui/icons/ArrowDropDown'
 import Button from '@material-ui/core/Button'
@@ -28,7 +28,7 @@ const useStyles = makeStyles(() => ({
 const LanguageSelect = () => {
   const router = useRouter()
   const classes = useStyles()
-  const { t } = useTranslation()
+  const t = useTranslations('common')
 
   const [menuAnchor, setMenuAnchor] = React.useState(null)
 
@@ -58,7 +58,8 @@ const LanguageSelect = () => {
                 button
                 key={item}
                 onClick={() => {
-                  router.push(router.pathname, router.pathname, {locale: item})
+                  document.cookie = `NEXT_LOCALE=${item};max-age=604800;domain=ruckgaber.pl`
+                  router.push('/', '/', {locale: item})
                   setMenuAnchor(null)
                 }}
               >

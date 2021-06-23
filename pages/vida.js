@@ -12,14 +12,14 @@ import NavBar from '../src/organisms/NavBar'
 import ScrollTop from '../src/molecules/ScrollTop'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 const useStyles = makeStyles(() => ({
   media: {
     height: '500px',
   }
 }))
-export default function Page() {
+
+const Page = () => {
   const classes = useStyles()
   return (
     <React.Fragment>
@@ -104,6 +104,8 @@ export default function Page() {
 
 export const getStaticProps = async ({ locale }) => ({
   props: {
-    ...await serverSideTranslations(locale, ['common']),
+    messages: require (`../public/locales/${locale}/common.json`),
   },
 })
+
+export default Page

@@ -6,7 +6,7 @@ import { makeStyles } from '@material-ui/core/styles'
 import Grid from '@material-ui/core/Grid'
 import Link from '@material-ui/core/Link'
 import Typography from '@material-ui/core/Typography'
-import { useTranslation } from 'next-i18next'
+import { useTranslations } from 'next-intl'
 
 const footer = [
   {
@@ -17,14 +17,14 @@ const footer = [
       { label: 'Music', href: 'musicHrefKey'},
       { label: 'Lviv Archives', href: 'lvivHrefKey'},
       { label: 'Compositions', href: 'compositionsHrefKey'},
-      { label: 'About', href: 'aboutHrefKey"'},
+      { label: 'About', href: 'aboutHrefKey'},
     ],
   },
   {
     title: 'The Book',
     items: [
       { label: 'About', href: 'aboutHrefKey'},
-      { label: 'Contact', href: '/contact'},
+      { label: 'Contact', href: 'contactHrefKey'},
       { label: 'Download', href: 'bookHrefKey'},
     ],
   },
@@ -32,15 +32,15 @@ const footer = [
     title: 'Music Compositions',
     items: [
       { label: 'List of compositions', href: 'compositionsHrefKey'},
-      { label: 'Piano with an Orchestra', href: '/compositions#section-A'},
-      { label: 'Chamber Orchestra', href: '/compositions#section-B'},
-      { label: 'Piano', href: '/compositions#section-C'},
-      { label: 'Violin and the Piano', href: '/compositions#section-D'},
-      { label: 'Flute, the Czakan and the Piano', href: '/compositions#section-E'},
-      { label: 'Choir', href: '/compositions#section-F'},
-      { label: 'Clarinet and the Piano', href: '/compositions#section-G'},
-      { label: 'Voice and the Piano', href: '/compositions#section-H'},
-      { label: 'Guitar and the Piano (transcript)', href: '/compositions#section-I'},
+      { label: 'Piano with an Orchestra', href: 'pianoWithOrchestraHref'},
+      { label: 'Chamber Orchestra', href: 'chamberOrchestraHref'},
+      { label: 'Piano', href: 'pianoHref'},
+      { label: 'Violin and the Piano', href: 'violinAndThePianoHref'},
+      { label: 'Flute, the Czakan and the Piano', href: 'fluteChakanAndThePianoHref'},
+      { label: 'Choir', href: 'choirHref'},
+      { label: 'Clarinet and the Piano', href: 'clarinetAndThePianoHref'},
+      { label: 'Voice and the Piano', href: 'voiceAndThePianoHref'},
+      { label: 'Guitar and the Piano (transcript)', href: 'guitarAndThePianoHref'},
     ],
   },
 ]
@@ -60,7 +60,7 @@ const useStyles = makeStyles((theme) => ({
 
 const Footer = () => {
   const classes = useStyles()
-  const { t } = useTranslation('common')
+  const t = useTranslations('common')
 
   return (
     <Container maxWidth="md" component="footer" className={classes.root}>

@@ -11,7 +11,6 @@ import NavBar from '../src/organisms/NavBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
 import Download from '../src/atoms/Download'
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 const useStyles = makeStyles((theme) => ({
   media: {
@@ -58,7 +57,7 @@ const Page = () => {
 
 export const getStaticProps = async ({ locale }) => ({
   props: {
-    ...await serverSideTranslations(locale, ['common']),
+    messages: require (`../public/locales/${locale}/common.json`),
   },
 })
 

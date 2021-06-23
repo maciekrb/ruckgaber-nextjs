@@ -1,12 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Head from 'next/head'
-import { appWithTranslation } from 'next-i18next'
+import {NextIntlProvider} from 'next-intl'
 import { ThemeProvider } from '@material-ui/core/styles'
 import CssBaseline from '@material-ui/core/CssBaseline'
 import theme from '../src/theme'
 
-const MyApp = ({ Component, pageProps }) => {
+const App = ({ Component, pageProps }) => {
 
   React.useEffect(() => {
     // Remove the server-side injected CSS.
@@ -20,14 +20,16 @@ const MyApp = ({ Component, pageProps }) => {
     <ThemeProvider theme={theme}>
       {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
       <CssBaseline />
-      <Component {...pageProps} />
+      <NextIntlProvider messages={pageProps.messages}>
+        <Component {...pageProps} />
+      </NextIntlProvider>
     </ThemeProvider>
   );
 }
 
-MyApp.propTypes = {
+App.propTypes = {
   Component: PropTypes.elementType.isRequired,
   pageProps: PropTypes.object.isRequired,
 }
 
-export default appWithTranslation(MyApp)
+export default App

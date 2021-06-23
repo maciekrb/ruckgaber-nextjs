@@ -20,7 +20,6 @@ import NavBar from '../src/organisms/NavBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import Tooltip from '@material-ui/core/Tooltip'
 import Typography from '@material-ui/core/Typography'
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 /**
 **/
@@ -55,7 +54,7 @@ const sources = {
   "9": '<a href="http://www.lsl.lviv.ua/index.php/en/about-the-library/">Lviv National Academic Library of Ukraine</a>',
 }
 
-function Reference({reference, last}) {
+const Reference = ({reference, last}) => {
   return (
     <HtmlTooltip title={
       <React.Fragment>
@@ -66,7 +65,7 @@ function Reference({reference, last}) {
   )
 }
 
-function Composition({row}) {
+const Composition = ({row}) => {
 
   const classes = useRowStyles()
   const [open, setOpen] = React.useState(false)
@@ -98,7 +97,7 @@ function Composition({row}) {
   )
 }
 
-function Section({name, compositions}) {
+const Section = ({name, compositions}) => {
   return (
     <React.Fragment>
       <Box mt={6} mb={6}>
@@ -125,7 +124,7 @@ function Section({name, compositions}) {
 }
 
 
-function Page({sections}) {
+const Page = ({sections}) => {
 
   return (
     <React.Fragment>
@@ -165,7 +164,7 @@ function Page({sections}) {
 
 export const getStaticProps = async ({ locale }) => ({
   props: {
-    ...await serverSideTranslations(locale, ['common']),
+    messages: require (`../public/locales/${locale}/common.json`),
   },
 })
 

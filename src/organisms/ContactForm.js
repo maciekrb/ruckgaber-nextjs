@@ -5,7 +5,7 @@ import Typography from '@material-ui/core/Typography'
 import {GreenPaper, RedPaper, YellowPaper} from '../atoms/GreenPaper'
 import log from 'loglevel'
 import { useGoogleReCaptcha } from 'react-google-recaptcha-v3'
-import { useTranslation } from 'next-i18next'
+import { useTranslations } from 'next-intl'
 
 // Email validation REGEX (StackOverflow ref)
 // https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript
@@ -35,7 +35,7 @@ const ContactForm = () => {
   const [successMessageVisible, setSuccessMessageVisible] = useState(false)
   const [generalError, setGeneralError] = useState()
   const [busy, setBusy] = useState(false)
-  const { t } = useTranslation('common')
+  const t = useTranslations('common')
 
   const validateNonEmpty = (value) => {
     return value && value.trim() !== ''

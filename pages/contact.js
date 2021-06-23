@@ -5,8 +5,7 @@ import Footer from '../src/organisms/Footer'
 import NavBar from '../src/organisms/NavBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import { useTranslation } from 'next-i18next'
+import { useTranslations } from 'next-intl'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -23,9 +22,9 @@ const useStyles = makeStyles((theme) => ({
   },
 }))
 
-export default function Index() {
+const Page = () => {
   const classes = useStyles()
-  const { t } = useTranslation('common')
+  const t = useTranslations('common')
 
   return (
     <React.Fragment>
@@ -42,6 +41,8 @@ export default function Index() {
 
 export const getStaticProps = async ({ locale }) => ({
   props: {
-    ...await serverSideTranslations(locale, ['common']),
+    messages: require (`../public/locales/${locale}/common.json`),
   },
 })
+
+export default Page

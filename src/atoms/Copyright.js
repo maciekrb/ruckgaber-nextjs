@@ -1,10 +1,10 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import MuiLink from '@material-ui/core/Link';
-import { useTranslation } from 'next-i18next'
+import { useTranslations } from 'next-intl'
 
 export default function Copyright() {
-  const { t } = useTranslation('common')
+  const t = useTranslations('common')
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       <MuiLink color="inherit" href="https://material-ui.com/">

@@ -5,7 +5,7 @@ import LanguageSelect from "./languageSelect"
 import { makeStyles } from '@material-ui/core/styles'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
-import { useTranslation } from 'next-i18next'
+import { useTranslations } from 'next-intl'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -43,7 +43,7 @@ const useStyles = makeStyles((theme) => ({
 
 const NavBar = (props) => {
   const classes = useStyles()
-  const { t } = useTranslation('common')
+  const t = useTranslations('common')
 
   return (
     <AppBar position="fixed" className={classes.appBar}>
@@ -60,26 +60,26 @@ const NavBar = (props) => {
           <Link color="inherit" href="/" className={classes.link}>
             {t('Home')}
           </Link>
-          <Link color="inherit" href="/life" className={classes.link}>
+          <Link color="inherit" href={t('lifeHrefKey')} className={classes.link}>
           {t('Life')}
           </Link>
           <Link
             color="inherit"
-            href="/galician-music-society"
+            href={t('galicianHrefKey')}
             className={classes.link}
           >
             {t('Galician Music Society')}
           </Link>
-          <Link color="inherit" href="/music" className={classes.link}>
+          <Link color="inherit" href={t('musicHrefKey')} className={classes.link}>
             {t('Music')}
           </Link>
-          <Link color="inherit" href="/lviv-archives" className={classes.link}>
+          <Link color="inherit" href={t('lvivHrefKey')} className={classes.link}>
             {t('Lviv Archives')}
           </Link>
-          <Link color="inherit" href="/compositions" className={classes.link}>
+          <Link color="inherit" href={t('compositionsHrefKey')} className={classes.link}>
             {t('Compositions')}
           </Link>
-          <Link color="inherit" href="/about" className={classes.link}>
+          <Link color="inherit" href={t('aboutHrefKey')} className={classes.link}>
             {t('About')}
           </Link>
         </nav>
