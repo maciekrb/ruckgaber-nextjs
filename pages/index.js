@@ -111,8 +111,7 @@ const Page = () => {
                         color="textSecondary"
                         component="p"
                       >
-                          {t('Read about the life of Jan Ruckgaber, his family and ancestry.')}
-                      </Typography>
+                          {t('Read about the life of Jan Ruckgaber, his family and ancestry')}. </Typography>
                     </CardContent>
                   </CardActionArea>
                   <CardActions>
@@ -167,7 +166,7 @@ const Page = () => {
                         color="textSecondary"
                         component="p"
                       >
-                          {t('Download the digital version of the Book about Jan Ruckgaber.')}
+                          {t('Download the digital version of the Book about Jan Ruckgaber')}.
                       </Typography>
                     </CardContent>
                   </CardActionArea>
