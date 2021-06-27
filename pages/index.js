@@ -95,7 +95,7 @@ const Page = () => {
               <Grid item xs={12} md={6} lg={4}>
                 <Card>
                   <CardActionArea
-                  href="/life"
+                  href={t('lifeHrefKey')}
                   className={classes.cardActionArea}>
                     <CardMedia
                       className={classes.cardMedia}
@@ -122,7 +122,7 @@ const Page = () => {
               <Grid item xs={12} md={6} lg={4}>
                 <Card>
                   <CardActionArea
-                  href="/compositions"
+                  href={t('compositionsHrefKey')}
                   className={classes.cardActionArea}>
                     <CardMedia
                       className={classes.cardMedia}
@@ -150,7 +150,7 @@ const Page = () => {
               <Grid item xs={12} md={6} lg={4}>
                 <Card>
                   <CardActionArea
-                  href="/book"
+                  href={t('bookHrefKey')}
                   className={classes.cardActionArea}>
                     <CardMedia
                       className={classes.cardMedia}
@@ -184,14 +184,14 @@ const Page = () => {
             <Grid container spacing={2}>
             <Grid item xs={12} md={6}>
               <Audioplayer
-                  song={t('Divertissiment for violin and the piano, op.41')}
+                  song={t('Divertissiment for violin and the piano op 41')}
                   artist={t('Robert Szreder - violin, Elżbieta Sobkowicz - piano')}
                   src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/D3-Divertissement-op.41.mp3"
                 />
               </Grid>
               <Grid item xs={12} md={6}>
               <Audioplayer
-                  song={t('Do mogił, op.55')}
+                  song="Do mogił, op. 55"
                   artist={t('song for a voice and the piano, Jerzy Sergiusz Adamczewski - baritone, Tatiana Woytaszewska - piano, Wincenty Pol - lyrics')}
                   src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/H17-Piesn-do-mogil-op-55.mp3"
                 />
@@ -205,7 +205,7 @@ const Page = () => {
               </Grid>
               <Grid item xs={12} md={6}>
                 <Audioplayer
-                  song={t('12 Variations, op. 2')}
+                  song={t('12 Variations op 2')}
                   artist={t('Milan Jeleń - piano')}
                   src="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/audio/12-variations-op-26.mp3"
                  />

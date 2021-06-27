@@ -1,6 +1,6 @@
 import React from 'react'
 import AppBar from '@material-ui/core/AppBar'
-import Link from '@material-ui/core/Link'
+import Link from 'next/link'
 import LanguageSelect from "./languageSelect"
 import { makeStyles } from '@material-ui/core/styles'
 import Toolbar from '@material-ui/core/Toolbar'
@@ -17,8 +17,13 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   appBar: {
-    borderBottom: `1px solid ${theme.palette.divider}`
-
+    borderBottom: `1px solid ${theme.palette.divider}`,
+    '& a': {
+      fontSize: 16,
+      color: theme.palette.common.white,
+      marginLeft: theme.spacing(2),
+      textDecoration: 'none',
+    },
   },
   toolbar: {
     flexWrap: 'wrap',
@@ -30,11 +35,6 @@ const useStyles = makeStyles((theme) => ({
   },
   toolbarTitle: {
     flexGrow: 1,
-  },
-  link: {
-    fontSize: 16,
-    color: theme.palette.common.white,
-    marginLeft: theme.spacing(3),
   },
   linkSecondary: {
     color: theme.palette.secondary.main,
