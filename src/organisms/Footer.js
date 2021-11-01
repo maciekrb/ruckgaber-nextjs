@@ -101,7 +101,7 @@ const Footer = () => {
           </Typography>
           <ul>
             {footer[1].items.map((item, idx) => (
-              <li key={`footer-item-1-${idx}`}>
+              <li key={`footer-item-2-${idx}`}>
                 <Link href={toHref(item)} variant="subtitle1" color="textSecondary">
                   {t(item.label)}
                 </Link>
@@ -116,7 +116,7 @@ const Footer = () => {
           </Typography>
           <ul>
             {footer[2].items.map((item, idx) => (
-              <li key={`footer-item-1-${idx}`}>
+              <li key={`footer-item-3-${idx}`}>
                 <Link href={toHref(item)} variant="subtitle1" color="textSecondary">
                 {t(item.label)}
                 </Link>

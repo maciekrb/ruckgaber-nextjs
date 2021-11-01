@@ -35,14 +35,14 @@ const ContactForm = () => {
   const [successMessageVisible, setSuccessMessageVisible] = useState(false)
   const [generalError, setGeneralError] = useState()
   const [busy, setBusy] = useState(false)
-  const t = useTranslations('ContactForm')
+  const t = useTranslations('common')
 
   const validateNonEmpty = (value) => {
     return value && value.trim() !== ''
   }
   const validateNames = () => {
     if (!validateNonEmpty(names)) {
-      setNamesError ('Please write your name')
+      setNamesError(t('Please write your name'))
       return false
     }
     setNamesError(undefined)
@@ -107,7 +107,7 @@ const ContactForm = () => {
       } catch (error) {
         setBusy(false)
         log.warn("oops, error", error)
-        setGeneralError("Please try again in a few seconds")
+        setGeneralError(t("Please try again in a few seconds"))
       }
     }
   }
@@ -126,7 +126,7 @@ const ContactForm = () => {
         <Box pt={2}>
           <GreenPaper visible={!!successMessageVisible}>
             <Typography variant="h5" gutterBottom>
-              {t('Su mensaje ha sido enviado')}
+              {t('Your message has been sent')}
             </Typography>
             <Button onClick={handleResetForm} variant="contained">
               Ok
@@ -206,4 +206,4 @@ const ContactForm = () => {
 
 export default ContactForm
 
-ContactForm.messages = ['ContactForm']
+ContactForm.messages = ['common']

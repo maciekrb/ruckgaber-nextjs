@@ -44,20 +44,9 @@
     "Clarinet and the Piano": "Klarnet i fortepian",
     "Voice and the Piano": "Głos i fortepian",
     "Guitar and the Piano (transcript)": "Gitara i fortepian (transkrypcja)",
-    "Piano": "Piano",
+    "Piano": "Fortepian",
     "bannerHome": "/images/intro-01-pl.jpg",
     "coverHomeBook": "/images/cover_book_polish.jpg",
-    "pianoWithOrchestraHref": "/kompozycje#section-A",
-    "chamberOrchestraHref": "/kompozycje#section-B",
-    "pianoHref": "/kompozycje#section-C",
-    "violinAndThePianoHref": "/kompozycje#section-D",
-    "fluteChakanAndThePianoHref": "/kompozycje#section-E",
-    "choirHref": "/kompozycje#section-F",
-    "clarinetAndThePianoHref": "/kompozycje#section-G",
-    "voiceAndThePianoHref": "/kompozycje#section-H",
-    "guitarAndThePianoHref": "/kompozycje#section-I"
-  },
-  "ContactForm": {
     "Contact Form": "Formularz kontaktowy",
     "Email": "Email",
     "Please write your name":"Proszę napisz swoje imię",
@@ -70,7 +59,6 @@
     "Name and Surname": "Imię i nazwisko",
     "Subject": "Temat",
     "Message": "Wiadomość",
-    "Piano": "Fortepian",
     "Send": "Wysłać"
   }
 }
