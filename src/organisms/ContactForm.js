@@ -35,7 +35,7 @@ const ContactForm = () => {
   const [successMessageVisible, setSuccessMessageVisible] = useState(false)
   const [generalError, setGeneralError] = useState()
   const [busy, setBusy] = useState(false)
-  const t = useTranslations('common')
+  const t = useTranslations('ContactForm')
 
   const validateNonEmpty = (value) => {
     return value && value.trim() !== ''
@@ -51,7 +51,7 @@ const ContactForm = () => {
 
   const validateEmail = () => {
     if (!re.test(String(email).toLowerCase())) {
-      setEmailError('Please write a valid email')
+      setEmailError(t('Please write a valid email'))
       return false
     }
     setEmailError(undefined)
@@ -60,7 +60,7 @@ const ContactForm = () => {
 
   const validateSubject = () => {
     if (!validateNonEmpty(subject)) {
-      setSubjectError('Please write the subject')
+      setSubjectError(t('Please write the subject'))
       return false
     }
     setSubjectError(undefined)
@@ -69,7 +69,7 @@ const ContactForm = () => {
 
   const validateMessage = () => {
     if (!validateNonEmpty(message)) {
-      setMessageError('Please write a message')
+      setMessageError(t('Please write a message'))
       return false
     }
     setMessageError(undefined)
@@ -137,7 +137,7 @@ const ContactForm = () => {
       <Grow in={!successMessageVisible}>
         <form noValidate autoComplete="off" className={classes.root}>
           <RedPaper visible={!!generalError}>{generalError}</RedPaper>
-          <YellowPaper visible={!!busy}>{t('Enviando su mensaje')}</YellowPaper>
+          <YellowPaper visible={!!busy}>{t('Sending your message')}</YellowPaper>
           <TextField
             id="names"
             label={t('Name and Surname')}
@@ -153,7 +153,7 @@ const ContactForm = () => {
           />
           <TextField
             id="email"
-            label="Email"
+            label={t('Email')}
             required
             value={email}
             variant="filled"
@@ -205,3 +205,5 @@ const ContactForm = () => {
 }
 
 export default ContactForm
+
+ContactForm.messages = ['ContactForm']

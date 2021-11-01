@@ -8,6 +8,7 @@ import Popover from '@material-ui/core/Popover'
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
 import ListSubheader from '@material-ui/core/ListSubheader'
+import useSlug from '../nav'
 
 const languageMap = {
   en: { label: 'English', dir: 'ltr', active: true },
@@ -59,7 +60,8 @@ const LanguageSelect = () => {
                 key={item}
                 onClick={() => {
                   document.cookie = `NEXT_LOCALE=${item};max-age=604800;domain=ruckgaber.pl`
-                  router.push('/', '/', {locale: item})
+                  const pathname = useSlug({href: router.pathname, targetLocale: item, currLocale: router.locale})
+                  router.push(pathname, pathname, {locale: item})
                   setMenuAnchor(null)
                 }}
               >

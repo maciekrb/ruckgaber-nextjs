@@ -23,8 +23,7 @@ const useStyles = makeStyles((theme) => ({
 }))
 
 const Page = () => {
-  const classes = useStyles()
-  const t = useTranslations('common')
+  const t = useTranslations('ContactForm')
 
   return (
     <React.Fragment>
@@ -46,3 +45,16 @@ export const getStaticProps = async ({ locale }) => ({
 })
 
 export default Page
+
+Page.messages = ["ContactForm"]
+
+export const getStaticPaths = ({ locales }) => {
+  return {
+    paths: [
+      { params: { contact: 'contact' }, locale: 'en' },
+      { params: { contact: 'contacto' }, locale: 'es' },
+      { params: { contact: 'kontakt' }, locale: 'pl' },
+    ],
+    fallback: true,
+  }
+}

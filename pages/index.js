@@ -18,6 +18,8 @@ import YouTubeVideo from '../src/atoms/YouTubeVideo'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Audioplayer from '../src/atoms/Audioplayer'
 import { useTranslations } from 'next-intl'
+import {useRouter} from 'next/dist/client/router'
+import useSlug from '../src/nav'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -44,6 +46,7 @@ const useStyles = makeStyles((theme) => ({
 const Page = () => {
   const classes = useStyles()
   const t = useTranslations('common')
+  const {locale} = useRouter()
 
   return (
     <React.Fragment>
@@ -95,7 +98,7 @@ const Page = () => {
               <Grid item xs={12} md={6} lg={4}>
                 <Card>
                   <CardActionArea
-                  href={t('lifeHrefKey')}
+                  href={useSlug({slug: 'life', currLocale: locale})}
                   className={classes.cardActionArea}>
                     <CardMedia
                       className={classes.cardMedia}
@@ -122,7 +125,7 @@ const Page = () => {
               <Grid item xs={12} md={6} lg={4}>
                 <Card>
                   <CardActionArea
-                  href={t('compositionsHrefKey')}
+                  href={useSlug({slug: 'compositions', currLocale: locale})}
                   className={classes.cardActionArea}>
                     <CardMedia
                       className={classes.cardMedia}
@@ -150,7 +153,7 @@ const Page = () => {
               <Grid item xs={12} md={6} lg={4}>
                 <Card>
                   <CardActionArea
-                  href={t('bookHrefKey')}
+                  href={useSlug({slug: 'book', currLocale: locale})}
                   className={classes.cardActionArea}>
                     <CardMedia
                       className={classes.cardMedia}

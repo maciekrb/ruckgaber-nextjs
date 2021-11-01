@@ -2,46 +2,47 @@ import React from 'react'
 import Box from '@material-ui/core/Box'
 import Container from '@material-ui/core/Container'
 import Copyright from '../atoms/Copyright'
+import useSlug from '../nav'
 import { makeStyles } from '@material-ui/core/styles'
 import Grid from '@material-ui/core/Grid'
-import Link from '@material-ui/core/Link'
+import Link from 'next/link'
 import Typography from '@material-ui/core/Typography'
 import { useTranslations } from 'next-intl'
+import {useRouter} from 'next/dist/client/router'
 
 const footer = [
   {
     title: 'Jan Ruckgaber',
     items: [
-      { label: 'Life', href: 'lifeHrefKey'},
-      { label: 'Galician Music Society', href: 'galicianHrefKey'},
-      { label: 'Music', href: 'musicHrefKey'},
-      { label: 'Lviv Archives', href: 'lvivHrefKey'},
-      { label: 'Compositions', href: 'compositionsHrefKey'},
-      { label: 'About', href: 'aboutHrefKey'},
+      { label: 'Life', href: 'life'},
+      { label: 'Galician Music Society', href: 'galician-music-society'},
+      { label: 'Music', href: 'music'},
+      { label: 'Lviv Archives', href: 'lviv-archives'},
+      { label: 'Compositions', href: 'compositions'},
+      { label: 'About', href: 'about'},
     ],
   },
   {
     title: 'The Book',
     items: [
-      { label: 'About', href: 'aboutHrefKey'},
-      { label: 'Contact', href: 'contactHrefKey'},
-      { label: 'Download', href: 'bookHrefKey'},
+      { label: 'About', href: 'about'},
+      { label: 'Contact', href: 'contact'},
+      { label: 'Download', href: 'book'},
     ],
   },
   {
     title: 'Music Compositions',
     items: [
-      { label: 'List of compositions', href: 'compositionsHrefKey'},
-      { label: 'Piano with an Orchestra', href: 'pianoWithOrchestraHref'},
-      { label: 'Chamber Orchestra', href: 'chamberOrchestraHref'},
-      { label: 'Piano', href: 'pianoHref'},
-      { label: 'Violin and the Piano', href: 'violinAndThePianoHref'},
-      { label: 'Flute, the Czakan and the Piano', href: 'fluteChakanAndThePianoHref'},
-      { label: 'Choir', href: 'choirHref'},
-      { label: 'Clarinet and the Piano', href: 'clarinetAndThePianoHref'},
-      { label: 'Voice and the Piano', href: 'voiceAndThePianoHref'},
-      { label: 'Guitar and the Piano (transcript)', href: 'guitarAndThePianoHref'},
-    ],
+      { label: 'List of compositions', href: 'compositions'},
+      { label: 'Piano with an Orchestra', href: 'compositions', section: 'section-A'},
+      { label: 'Chamber Orchestra', href: 'compositions', section: 'section-B'},
+      { label: 'Piano', href: 'compositions', section: 'section-C'},
+      { label: 'Violin and the Piano', href: 'compositions', section: 'section-D'},
+      { label: 'Flute, the Czakan and the Piano', href: 'compositions', section: 'section-E'},
+      { label: 'Choir', href: 'compositions', section: 'section-F'},
+      { label: 'Clarinet and the Piano', href: 'compositions', section: 'section-G'},
+      { label: 'Voice and the Piano', href: 'compositions', section: 'section-H'},
+    ]
   },
 ]
 
@@ -55,12 +56,26 @@ const useStyles = makeStyles((theme) => ({
       paddingTop: theme.spacing(6),
       paddingBottom: theme.spacing(6),
     },
+    '& a': {
+      fontSize: '1.3em',
+      color: 'rgba(0, 0, 0, 0.54)',
+      textDecoration: 'none',
+    },
   },
 }));
 
 const Footer = () => {
   const classes = useStyles()
   const t = useTranslations('common')
+  const {locale} = useRouter()
+
+  const toHref = (menuItem) => {
+    const pathname = useSlug({slug: menuItem.href, currLocale: locale})
+    if (menuItem.section) {
+      return `${pathname}#${menuItem.section}`
+    }
+    return pathname
+  }
 
   return (
     <Container maxWidth="md" component="footer" className={classes.root}>
@@ -72,7 +87,7 @@ const Footer = () => {
           <ul>
             {footer[0].items.map((item, idx) => (
               <li key={`footer-item-1-${idx}`}>
-                <Link href={t(item.href)} variant="subtitle1" color="textSecondary">
+                <Link href={toHref(item)} variant="subtitle1" color="textSecondary">
                   {t(item.label)}
                 </Link>
               </li>
@@ -87,7 +102,7 @@ const Footer = () => {
           <ul>
             {footer[1].items.map((item, idx) => (
               <li key={`footer-item-1-${idx}`}>
-                <Link href={t(item.href)} variant="subtitle1" color="textSecondary">
+                <Link href={toHref(item)} variant="subtitle1" color="textSecondary">
                   {t(item.label)}
                 </Link>
               </li>
@@ -102,7 +117,7 @@ const Footer = () => {
           <ul>
             {footer[2].items.map((item, idx) => (
               <li key={`footer-item-1-${idx}`}>
-                <Link href={t(item.href)} variant="subtitle1" color="textSecondary">
+                <Link href={toHref(item)} variant="subtitle1" color="textSecondary">
                 {t(item.label)}
                 </Link>
               </li>
