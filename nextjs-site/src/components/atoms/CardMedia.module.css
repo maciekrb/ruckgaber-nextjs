@@ -1,0 +1,8 @@
+.cardMedia {
+  min-height: '400px';
+}
+.cardMedia h3,
+.cardMedia h5 {
+  font-family: 'Roboto condensed';
+  color: '#ffffff';
+}

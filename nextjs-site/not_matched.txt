@@ -1,0 +1,34 @@
+C.156.b {'file': 'C.156.b. Nocturne Es-dur op.90, oczyszczony.pdf'}
+E.1,2 {'file': 'E.1,2 Fantasie na czakan op.33, czyste, całość.pdf'}
+H.9.a {'file': 'H.9.a Liebes Zweifel op.13 (366-368) obr.577-579, czysty.pdf'}
+C.46.a {'file': 'C.46.a. Variations sur une Walse op. 30.pdf'}
+C.4.a {'file': 'C.4.a. Polonaise op.4, BN.pdf'}
+D.3a {'file': 'D.3a Duo Op.41 Divertissement Sacher Masoch.pdf'}
+H.25.a {'file': 'H.25.a. Hans und Grete,  Op. 91 (366-368) obr. 538-542, rkp, czysty.pdf'}
+H.8.3 {'file': 'H.8.3 Krakowiakes op.12, Resignation Lied (330-359) obraz 014-020, oryg.pdf'}
+H.23.b {'file': 'H.23.b. czysty.pdf'}
+H.23 {'file': 'H.23. Teksty (280-329) obraz  373- 375.pdf'}
+C.93 {'file': 'C.93. Fleurs de Korczyn, op. 63.pdf'}
+Es {'file': 'Es schicht sich nicht op.26 (330-359) obr.052b-053,oryg.pdf'}
+H.13.b {'file': 'H.13.b. Romance pour le chant et piano Op.23 (366-368) obr.090-092, czysty.pdf'}
+H.17 {'file': 'H.17. Do Mogił, op.55.pdf'}
+H.27.3 {'file': 'H.27.3 Lieder op.94 und Der Frühling (366-368) obraz 098a-104a,oryg.pdf'}
+H.4.a {'file': 'H.4.a. 2 Lieder fur Alt mit Piano, op.5,6 (366-368) obraz 580-582, oryg.pdf'}
+E.3.a,b {'file': 'E.3.a,b. Introduction op 34 F366-368 obr.560-571, czysty.pdf'}
+H.14.a {'file': 'H.14.a. Das Fischleinlied op.24 (280-329) obr. 001-003, czysty.pdf'}
+C.168 {'file': 'C.168. Notezen Buch (280-329) obraz435-461.pdf'}
+C.115.b {'file': 'C.115.b. Nocturno op.70 (330-359) obraz 430-432.pdf'}
+C.106.6 {'file': 'C.106.6. Jeanne Polka No 6 (366-368) obr. 313-314.pdf'}
+A.5.j {'file': 'A.5.j. Grand Concerto Trombe 1mo (330-359) obraz 213a.pdf'}
+H.4.b {'file': 'H.4.b. Mein Herz (280-329) obr. 327b-328, oryg.pdf'}
+H.5.a {'file': 'H.5.a. 3 Gedichte von Theodor Bakody op.9 (280-329) obr. 035-050, czyste.pdf'}
+C.126 {'file': 'C.126. Fleurs Roumaines, op. 75 (280-329) obraz 05-012.pdf'}
+C.31.a {'file': 'C.31.a. Polonaise op. 19, BN.pdf'}
+C.156.a {'file': 'C.156.a. Nocturne Es-Dur, op. 90 (280-329) obraz431-434.pdf'}
+C.69 {'file': 'C.69. Marche Funebre op. 48.pdf'}
+H.25.b {'file': 'H.25.b. Die Himmelsschlussel Op. 91, druk, czysty.pdf'}
+C.46.b {'file': 'C.46.b. Variations sur une Walse Op. 30 Marie Kratter BN obr.1-22.pdf'}
+H.13.a {'file': 'H.13.a. Romance, Chant – Piano, op.22 IM F366-368 obr.105-107.pdf'}
+C.31.b {'file': 'C.31.b. Polonaise op.19, BN.pdf'}
+C.105.1 {'file': 'C.105.1. Johannis Brunn et Stefanie Polka No.11,12, Op. 67 (366-368)obraz 574-576.pdf'}
+H.23.a,b {'file': 'H.23.a,b. oryg. 3 Melodies hongroises, Op.69 (280-329) obr. 367-381.pdf'}

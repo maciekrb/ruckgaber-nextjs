@@ -1,0 +1,15 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress
+  annotations:
+    kubernetes.io/ingress.global-static-ip-name: "ruckgaber-site"
+    networking.gke.io/managed-certificates: "ruckgaber-site"
+    # kubernetes.io/ingress.class: "gcp"
+spec:
+  defaultBackend:
+    service:
+      name: ruckgaber-site
+      port:
+        number: 3000
+

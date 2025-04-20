@@ -1,0 +1,20 @@
+.appBar a {
+  font-size: 16;
+  color: #fff;
+  margin-left: 2;
+  text-decoration: 'none';
+}
+.toolbar {
+  flex-wrap: 'wrap';
+  height: 64px;
+}
+.toolbarTitle {
+  flex-grow: 1;
+}
+.linkSecondary {
+  color: #fff;
+}
+.link {
+  font-size: 0.7rem;
+  padding: 0.6rem;
+}

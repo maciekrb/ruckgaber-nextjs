@@ -1,0 +1,1138 @@
+{
+  "pianAndOrchestra": [
+    {
+      "id": "A.1",
+      "title": "Rondo de concert As-Dur",
+      "composer": "J. Ruckgaber",
+      "opus": "17",
+      "details": {
+        "instruments": ["Piano", "Orchestre"],
+        "year": "1853",
+        "manuscript": "ms",
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.1.%20Rondo%20de%20concert%20op.17%20%28366-368%29%20obraz%20497-506.pdf"
+    },
+    {
+      "id": "A.2a",
+      "title": "Partition des grandes Variationes sur un thème polonais",
+      "opus": "18",
+      "details": {
+        "instruments": ["Piano", "Orchestre"],
+        "manuscript": "ms",
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.2.a.%20Partition%20des%20grandes%20Variationes%2C%20op.%2018%20%28330-359%29%20obraz%20388-409.pdf"
+    },
+    {
+      "id": "A.2b",
+      "title": "Grandes Variations avec l’Introduction et Finale",
+      "opus": "18",
+      "details": {
+        "instruments": ["Piano", "Orchestre"],
+        "dedicated_to": "M-elle Jeanette Hofman",
+        "notes": ""
+      },
+      "url": ""
+    },
+    {
+      "id": "A.3.a",
+      "title": "Concerto pour Piano",
+      "composer": "Jean Ruckgaber",
+      "details": {
+        "notes": "(cover only)"
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.3.a.%20%28330-359%29obraz%20058%20tylko%20ok%C5%82adka.pdf"
+    },
+    {
+      "id": "A.3.b",
+      "title": "Concerto pour le Piano Forte",
+      "composer": "Jean Ruckgaber",
+      "details": {
+        "instruments": ["Piano", "Orchestre"],
+        "notes": "(probably mixed pages)"
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.3.b.%20Concerto%20pour%20le%20Piano%20Forte%2C%20avec%20L%E2%80%99accompagnement%20de%20grande%20%E2%80%A8Orchestre%2C%20Partition%20%28366-368%29%20obr.382-428.pdf"
+    },
+    {
+      "id": "A.3.c",
+      "title": "Concerto pour le Piano",
+      "details": {
+        "instruments": ["Piano", "Orchestre"],
+        "notes": "(missing pages 1,2,3 of the manuscript, or is it A.5?)"
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.3.c.%20Concerto%20pour%20le%20Piano%2C%20avec%20l%E2%80%99accompagnement%20de%20grand%20%E2%80%A8Orchestre%20%28330-359%29%20%28330-359%29%20obr.122-150%2C%20brak%20str.1%2C2%2C3%20re%CC%A8kopisu.pdf"
+    },
+    {
+      "id": "A.3.d",
+      "title": "Concerto pour le Piano",
+      "composer": "Jean Ruckgaber",
+      "details": {
+        "instruments": ["Piano", "Viola"],
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.3.d.%20Concerto%2C%20Viola%20%28330-359%29%20obr.190b-195a.pdf"
+    },
+    {
+      "id": "A.3.e",
+      "title": "Concerto pour le Piano",
+      "composer": "Jean Ruckgaber",
+      "details": {
+        "instruments": ["Piano", "Corno 2ndo"],
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.3.c.%20Concerto%20pour%20le%20Piano%2C%20avec%20l%E2%80%99accompagnement%20de%20grand%20%E2%80%A8Orchestre%20(330-359)%20(330-359)%20obr.122-150%2C%20brak%20str.1%2C2%2C3%20r%C4%99kopisu.pdf"
+    },
+    {
+      "id": "A.3.f",
+      "title": "Concerto, Tympanie",
+      "composer": "Jean Ruckgaber",
+      "details": {
+        "instruments": ["Tympanie"],
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.3.f.%20Concerto%2C%20Tympanie%20%28330-359%29%20obraz%20203-204a.pdf"
+    },
+    {
+      "id": "A.3.g",
+      "title": "Concerto, Trombone Basso",
+      "composer": "Jean Ruckgaber",
+      "details": {
+        "instruments": ["Trombone Basso"],
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.3.g.%20Concerto%2C%20Trombone%20Basso%20%28330-359%29%20obraz%20204b-205a.pdf"
+    },
+    {
+      "id": "A.3.h",
+      "title": "Concerto, Fagotto 2ndo",
+      "composer": "Jean Ruckgaber",
+      "details": {
+        "instruments": ["Fagotto 2ndo"],
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.3.h.%20Concerto%2C%20Fagotto%202ndo%20%28330-359%29%20obraz%20205b-207.pdf"
+    },
+    {
+      "id": "A.3.i",
+      "title": "Concerto, Fagotto 1mo",
+      "composer": "Jean Ruckgaber",
+      "details": {
+        "instruments": ["Fagotto 1mo"],
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.3.i.%20Concerto%2C%20Fagotto%201mo%20%28330-359%29%20obraz%20208-211a.pdf"
+    },
+    {
+      "id": "A.3.j",
+      "title": "Concerto, Trombe 2ndo",
+      "composer": "Jean Ruckgaber",
+      "details": {
+        "instruments": ["Trombe 2ndo"],
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.3.j.%20Concerto%2C%20Trombe%202ndo%20%28330-359%29%20obraz%20211b-212a.pdf"
+    },
+    {
+      "id": "A.3.k",
+      "title": "Concerto, Trombe 1mo",
+      "composer": "Jean Ruckgaber",
+      "details": {
+        "instruments": ["Trombe 1mo"],
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.3.k.%20Concerto%2C%20Trombe%201mo%20%28330-359%29%20obraz%20212b.pdf"
+    },
+    {
+      "id": "A.4",
+      "title": "Premier concerto pour le Piano Forte",
+      "opus": "20",
+      "details": {
+        "instruments": ["Piano", "Orchestre"],
+        "year": "1872",
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.4.%20Premier%20Concerto%20op.20%20%28330-356%29%20obr.356-387.pdf"
+    },
+    {
+      "id": "A.5.a",
+      "title": "Violino principale du Grande Concert pour le Piano Forte",
+      "composer": "Jean Ruckgaber",
+      "details": {
+        "dedicated_to": "Charles Lipinsky",
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.5.a.%20Violino%20Principale%20du%20Grande%20Concert%20%28330-359%29%20obr.151-156.pdf"
+    },
+    {
+      "id": "A.5.b",
+      "title": "Viola du Grande Concert",
+      "composer": "Jean Ruckgaber",
+      "details": {
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.5.b.%20Viola%20du%20Grande%20Concert%20%28330-359%29%20obr.%20157-161.pdf"
+    },
+    {
+      "id": "A.5.c",
+      "title": "Basso Violoncello Grande Concert",
+      "composer": "Jean Ruckgaber",
+      "details": {
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.5.c.%20Basso%20Violoncello%20Grande%20Concert%20%28330-359%29%20obr.%20195b-198a.pdf"
+    },
+    {
+      "id": "A.5.d",
+      "title": "Grand Concerto Violino II",
+      "composer": "Jean Ruckgaber",
+      "details": {
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.5.d.%20Grand%20Concerto%20Violino%20II%20%28330-359%29%20obraz%20178-182.pdf"
+    },
+    {
+      "id": "A.5.e",
+      "title": "Grand Concerto Corno 1mo",
+      "composer": "Jean Ruckgaber",
+      "details": {
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.5.e.%20Grand%20Concerto%20Corno%201mo%20%28330-359%29%20obr.%20167-170.pdf"
+    },
+    {
+      "id": "A.5.f",
+      "title": "Gr. Concerto Violoncelle e Contra Basso",
+      "composer": "Jean Ruckgaber",
+      "details": {
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.5.f.%20Gr.%20Concerto%20Violoncelle%20e%20Contra%20Basso%20%28330-359%29%20obr.%20171-177.pdf"
+    },
+    {
+      "id": "A.5.g",
+      "title": "Grand Concerto Clarinetto 1mo in C",
+      "composer": "Jean Ruckgaber",
+      "details": {
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.5.g.%20Grand%20Concerto%20Clarinetto%201mo%20%28330-359%29%20obraz%20216-219a.pdf"
+    },
+    {
+      "id": "A.5.h",
+      "title": "Grand Concerto Oboe 2do",
+      "composer": "Jean Ruckgaber",
+      "details": {
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.5.h.%20Grand%20Concerto%20Oboe%202do%20%28330-359%29%20obraz%20219b-221a.pdf"
+    },
+    {
+      "id": "A.5.i",
+      "title": "Grand Concerto Oboe 1mo",
+      "composer": "Jean Ruckgaber",
+      "details": {
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.5.i.%20Grand%20Concerto%20Oboe%201mo%20%28330-359%29%20obraz%20221b-224.pdf"
+    },
+    {
+      "id": "A.5.j",
+      "title": "Grand Concerto Trombe 1mo",
+      "composer": "Jean Ruckgaber",
+      "details": {
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.5.j.%20Grand%20Concerto%20Trombe%201mo%20(330-359)%20obraz%20213a.pdf"
+    },
+    {
+      "id": "A.5.k",
+      "title": "Grand Concerto Clarinetto 2do",
+      "composer": "Jean Ruckgaber",
+      "details": {
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.5.k.%20Grand%20Concerto%20Clarinetto%202do%20%28330-359%29%20obraz%20213b-215.pdf"
+    },
+    {
+      "id": "A.5.l",
+      "title": "Gr. Concert Violino 2do",
+      "composer": "Jean Ruckgaber",
+      "details": {
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.5.l.%20Gr.%20Concert%20Violino%202do%20%28330-359%29%20obraz%20185-189.pdf"
+    },
+    {
+      "id": "A.5.m",
+      "title": "Grande Concerto, Viola",
+      "composer": "Jean Ruckgaber",
+      "details": {
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.5.m.%20Grande%20Concerto%2C%20Viola%20%28330-359%29%20obraz%20198b-202.pdf"
+    },
+    {
+      "id": "A.6",
+      "title": "Einzugs Marsch zur Jungfrau von Orlean",
+      "opus": "25",
+      "details": {
+        "composer": "Schiller",
+        "instruments": ["Orchestra", "Piano"],
+        "notes": "A romantic tragedy by Schiller"
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.6.%20Einzugs%20Marsch%20zur%20Jungfrau%20von%20Orlean%20op.25%28330-359%29%20obr.%20428-429.pdf"
+    },
+    {
+      "id": "A.7",
+      "title": "Adagio de concert",
+      "opus": "38",
+      "details": {
+        "instruments": ["Piano", "Orchestra"],
+        "key": "E minor",
+        "notes": "En mi-mineur"
+      },
+      "url": null
+    },
+    {
+      "id": "A.7.a",
+      "title": "Adagio de Concert en Mi mineur",
+      "opus": "38",
+      "details": {
+        "instruments": ["Piano", "Orchestre"],
+        "notes": "\"One can play as solo by using the small notes\""
+      },
+      "url": null
+    },
+    {
+      "id": "A.7.b",
+      "title": "Adagio pour piano",
+      "opus": "38",
+      "details": {
+        "notes": "\"Complete rearrangement in 1872\""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.7.b.%20Adagio%20op.%2038%20%28366-368%29%20obr.343-364.pdf"
+    },
+    {
+      "id": "A.7.c",
+      "title": "Adagio de Concert en mi-mineur",
+      "opus": "38",
+      "details": {
+        "instruments": ["Piano", "Orchestre"],
+        "notes": "\"One can perform this piece for solo piano by playing only the small notes\""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.7.c.%20Adagio%20de%20concert%2C%20op.38%20%28366-368%29obraz365-381.pdf"
+    },
+    {
+      "id": "A.8",
+      "title": "Rondo de concert",
+      "opus": "40",
+      "details": {
+        "instruments": ["Piano Forte", "Grande Orchestre"],
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.8.%20Rondo%20de%20concert%2C%20op.40%20%28F366-368%29%20obr.454-468%20cz.3.pdf"
+    },
+    {
+      "id": "A.9.a",
+      "title": "Rondo tiree du 1mo Concert",
+      "details": {
+        "key": "E minor",
+        "manuscript": "ms"
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.9.a.%20Rondo%20tiree%20du%201mo%20Concert%2C%20en%20mi%20mineur%20%28330-359%29%20obr.059-067.pdf"
+    },
+    {
+      "id": "A.9.b",
+      "title": "Rondo de Concert",
+      "opus": "41",
+      "details": {
+        "instruments": ["Corno 2do"],
+        "notes": "E.G.Es.E Allegretto"
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.9.b.%20Rondo%20de%20Concert%20op.41%2C%20Corno%202do%20%28330-359%29%20obraz%20074-075.pdf"
+    },
+    {
+      "id": "A.9.c",
+      "title": "Rondo de Concert Op.41",
+      "details": {
+        "instruments": ["Trombe 1mo"]
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.9.c.%20Rondo%20de%20Concert%20op.41%2C%20Trombe%201mo%20%28330-359%29%20obraz%20077-078.pdf"
+    },
+    {
+      "id": "A.9.d",
+      "title": "Rondo de Concert Op.41",
+      "details": {
+        "instruments": ["Trombe 2do"]
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.9.d.%20Rondo%20de%20Concert%20op.41%2C%20Trombe%202do%20%28330-359%29%20obraz%20079-080a.pdf"
+    },
+    {
+      "id": "A.9.e",
+      "title": "Rondo de Concert Op.41",
+      "details": {
+        "instruments": ["Clarinetto 1mo"]
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.9.e.%20Rondo%20de%20Concert%20op.41%2C%20Clarinetto%201mo%20%28330-359%29%20obraz%20080b-082a.pdf"
+    },
+    {
+      "id": "A.9.f",
+      "title": "Rondo de Concert Op.41",
+      "details": {
+        "instruments": ["Clarinetto 2do"]
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.9.f.%20Rondo%20de%20Concert%20op.41%2C%20Clarinetto%202do%20%28330-359%29%20obraz%20082b-083.pdf"
+    },
+    {
+      "id": "A.9.g",
+      "title": "Rondo de Concert Op.41",
+      "details": {
+        "instruments": ["Fagotto 1mo"]
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.9.g.%20Rondo%20de%20Concert%20op.41%2C%20Fagotto%201mo%20%28330-359%29%20obraz%20084-086.pdf"
+    },
+    {
+      "id": "A.9.h",
+      "title": "Rondo de Concert Op.41",
+      "details": {
+        "instruments": ["Tympani"]
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.9.h.%20Rondo%20de%20Concert%20%20op.41%2C%20Tympani%20%28330-359%29%20obraz%20087-088a.pdf"
+    },
+    {
+      "id": "A.9.i",
+      "title": "Rondo de Concert Op.41",
+      "details": {
+        "instruments": ["Fagotto 2do"]
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.9.i.%20Rondo%20de%20Concert%20%20op.41%2C%20Fagotto%202do%20%28330-359%29%20obraz%20088b-090.pdf"
+    },
+    {
+      "id": "A.9.j",
+      "title": "Rondo de Concert op. 41",
+      "details": {
+        "instruments": ["Trombone Basso"]
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.9.j.%20Rondo%20de%20Concert%20op.41%2C%20Trombone%20Basso%20%28330-359%29%20obraz%20091-092a.pdf"
+    },
+    {
+      "id": "A.9.k",
+      "title": "Rondo de Concert op. 41",
+      "details": {
+        "instruments": ["Basso et Violoncello"]
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.9.k.%20Rondo%20de%20Concert%20op.41%2C%20Basso%20et%20Violoncello%20%28330-359%29%20obraz%20092b-095.pdf"
+    },
+    {
+      "id": "A.9.l",
+      "title": "Rondo de Concert op. 41",
+      "details": {
+        "instruments": ["Violino 1mo"]
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.9.l.%20Rondo%20de%20Concert%20op.41%2C%20Violino%201mo%2C%20principale%20%28330-359%29%20obraz%20096-099.pdf"
+    },
+    {
+      "id": "A.9.m",
+      "title": "Rondo de Concert op. 41",
+      "details": {
+        "instruments": ["Violino 1mo"],
+        "notes": "(page 103 seems added)"
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.9.m.%20Rondo%20de%20Concert%20op.41%2C%20Violino%201mo%20%28330-359%29%20obraz%20100-104.pdf"
+    },
+    {
+      "id": "A.9.n",
+      "title": "Rondo de Concert op. 41",
+      "details": {
+        "instruments": ["Violino 2do"]
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.9.n.%20Rondo%20de%20Concert%20op.41%2C%20Violino%202do%20%28330-359%29%20obraz%20105-108.pdf"
+    },
+    {
+      "id": "A.9.o",
+      "title": "Rondo de Concert op. 41",
+      "details": {
+        "instruments": ["Viola"],
+        "notes": "(doubtful pictures 111 i 112)"
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.9.o.%20Rondo%20de%20Concert%20op.41%2C%20Viola%20%28330-359%29%20obraz%20109-110a.pdf"
+    },
+    {
+      "id": "A.9.p",
+      "title": "Rondo de Concert op. 41",
+      "details": {
+        "instruments": ["Flauto 1mo"]
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.9.p.%20Rondo%20de%20Concert%20op.41%2C%20Flauto%201mo%20%28330-359%29%20obraz%20113-115a.pdf"
+    },
+    {
+      "id": "A.9.r",
+      "title": "Rondo de Concert op. 41",
+      "details": {
+        "instruments": ["Flautino 1mo"]
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.9.r.%20Rondo%20de%20Concert%20op.41%2C%20Flautino%201mo%20%28330-359%29%20obraz%20115b-116a.pdf"
+    },
+    {
+      "id": "A.9.s",
+      "title": "Rondo de Concert op. 41",
+      "details": {
+        "instruments": ["Oboe 1mo"]
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.9.s.%20Rondo%20de%20Concert%20op.41%2C%20Oboe%201mo%20%28330-359%29%20obraz%20116b-118a.pdf"
+    },
+    {
+      "id": "A.9.t",
+      "title": "Rondo de Concert op. 41",
+      "details": {
+        "instruments": ["Oboe 2do"]
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.9.t.%20Rondo%20de%20Concert%20op.41%2C%20Oboe%202do%20%28330-359%29%20obraz%20118b-119.pdf"
+    },
+    {
+      "id": "A.9.u",
+      "title": "Rondo de Concert op. 41",
+      "details": {
+        "instruments": ["Corno 1mo"]
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.9.u.%20Rondo%20de%20Concert%20op.41%2C%20Corno%201mo%20%28330-359%29%20obraz%20120-121.pdf"
+    },
+    {
+      "id": "A.10",
+      "title": "Grande Ouverture de Concert",
+      "composer": "Johan Ruckgaber",
+      "details": {
+        "version": "Partition",
+        "notes": "(the cover does not match the music, see A.12?)"
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.10.%20Grande%20Ouverture%20de%20Concert%2C%20Partition%20%20(330-359)%20obraz%20162-166.pdf"
+    },
+    {
+      "id": "A.11",
+      "title": "Two Marches",
+      "opus": "44",
+      "composer": "",
+      "year": "ca 1850",
+      "details": {
+        "dedicated_to": "Lviv National Guard",
+        "notes": "(the same cover, different music)"
+      },
+      "url": [
+        "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.11.%20Dwa%20marsze%20Gwardyi%20Narodowej%20Lwowskiej%20BN.pdf",
+        "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.11.a.%20(280-329)%20obraz%20279-285.pdf",
+        "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.11.b.%20(330-359)%20obraz%20279-284.pdf"
+      ]
+    },
+    {
+      "id": "A.12.a",
+      "title": "Grande Ouverture de Concert",
+      "details": {
+        "version": "Pour grande Orchestra, Partition",
+        "notes": ""
+      },
+      "url": [
+        "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.12.a.1.%20(280-329)%20obraz%20161-227.pdf",
+        "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.12.a.2.%20(280-329)%20obraz%20228-231.pdf"
+      ]
+    },
+    {
+      "id": "A.12.b",
+      "title": "Grande Ouverture de Concert",
+      "opus": "63",
+      "details": {
+        "version": "Pour grande Orchestre, Partition",
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.12.b.%20Grande%20Ouverture%20de%20Concert%20op.63%2C%20Partition%20(330-359)%20obraz%20441-569.pdf"
+    },
+    {
+      "id": "A.12.c.1",
+      "title": "Grand Ouverture de Concert",
+      "details": {
+        "version": "Violino 1mo Directore",
+        "composer": "Jean Ruckgaber",
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.12.c.1.%20Grande%20Ouverture%20de%20Concert%2C%20Violino%201mo%20Directore%20(280-329)%20obraz%20074-095.pdf"
+    },
+    {
+      "id": "A.12.c.2",
+      "title": "Grande Ouverture de Concert",
+      "year": "1863",
+      "details": {
+        "version": "Violino 1mo Directore",
+        "composer": "Jean Ruckgaber",
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.12.c.2.%20Grande%20Ouverture%20de%20Concert%2C%20Violino%201mo%20Directore%20(330-359)%20obraz%20570-581.pdf"
+    },
+    {
+      "id": "A.12.c.3",
+      "title": "Grand Ouverture de concert",
+      "details": {
+        "version": "Violino 1mo, Andante con moto",
+        "composer": "Jean Ruckgaber",
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.12.c.3.%20Grande%20Ouverture%20de%20Concert%2C%20Violino%201mo%20(280-329)%20obraz%20110b-119a.pdf"
+    },
+    {
+      "id": "A.12.d.1",
+      "title": "Grand Ouverture de concert",
+      "details": {
+        "version": "Violino 2do, Andante con moto",
+        "composer": "Jean Ruckgaber",
+        "notes": ""
+      },
+      "url": [
+        "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.12.d.1.a.%20Grande%20Ouverture%20de%20Concert%2C%20Violino%202do%20(280-329)%20obraz%20096-101.pdf",
+        "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.12.d.2.%20Grande%20Ouverture%20de%20Concert%2C%20Violino%202do(280-329)%20obraz%20119b-128a.pdf"
+      ]
+    },
+    {
+      "id": "A.12.d.2",
+      "title": "Grand Ouverture de concert",
+      "details": {
+        "version": "Violino 2do, Andante con moto",
+        "composer": "Jean Ruckgaber",
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.12.d.2.%20Grande%20Ouverture%20de%20Concert%2C%20Violino%202do%28280-329%29%20obraz%20119b-128a.pdf"
+    },
+    {
+      "id": "A.12.d.3",
+      "title": "Grande Ouverture",
+      "details": {
+        "version": "Violino 2do, Andante con moto",
+        "composer": "Jean Ruckgaber",
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.12.d.3.%20Grande%20Ouverture%20de%20Concert%2C%20Violino%202do%20(280-329)%20obraz%20128b-133a.pdf"
+    },
+    {
+      "id": "A.12.e",
+      "title": "Grand Ouverture de concert",
+      "details": {
+        "version": "Viola, Andante con moto",
+        "composer": "Jean Ruckgaber",
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.12.e.%20Grande%20Ouverture%20de%20Concert%2C%20Viola%20(280-329)%20obraz%20133b-141a.pdf"
+    },
+    {
+      "id": "A.12.f",
+      "title": "Grande Ouverture",
+      "details": {
+        "version": "Viola, Andante con moto",
+        "composer": "Jean Ruckgaber",
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.12.f.%20Grande%20Ouverture%20de%20Concert%2C%20Viola%20(280-329)%20obraz%20141b-146.pdf"
+    },
+    {
+      "id": "A.12.g",
+      "title": "Grand Ouverture de concert",
+      "details": {
+        "version": "Violoncello, Andante con moto",
+        "composer": "Jean Ruckgaber",
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.12.g.%20Grande%20Ouverture%20de%20Concert%2C%20Violoncello%20(280-329)%20obraz%20147-160.pdf"
+    },
+    {
+      "id": "A.12.h",
+      "title": "Grande Ouverture de Concert",
+      "details": {
+        "version": "Flauto, Andante con moto",
+        "composer": "Jean Ruckgaber",
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.12.h.%20Grande%20Ouverture%20de%20Concert%2C%20Flauto%20(330-359)%20obraz%20329-333.pdf"
+    },
+    {
+      "id": "A.12.i",
+      "title": "Grande Ouverture",
+      "details": {
+        "version": "Basso, Andante con moto",
+        "composer": "Jean Ruckgaber",
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.12.i.%20Grande%20Ouverture%20de%20Concert%2C%20Basso%20(330-359)%20obraz%20336-341.pdf"
+    },
+    {
+      "id": "A.12.j",
+      "title": "Grande Ouverture",
+      "details": {
+        "version": "Basso, Andante con moto",
+        "composer": "Jean Ruckgaber",
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.12.j.%20Grande%20Ouverture%20de%20Concert%2C%20Basso%20(330-359)%20obraz%20348-355.pdf"
+    },
+    {
+      "id": "A.12.k",
+      "title": "Grande Ouverture de Concert",
+      "details": {
+        "version": "Corno 3 in E, Andante con moto",
+        "composer": "Jean Ruckgaber",
+        "notes": "(Something wrong, three endings?)"
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.12.k.%20Grande%20Ouverture%20de%20Concert%2C%20Corno%203tia%20(330-359)%20obraz%20321-328.pdf"
+    },
+    {
+      "id": "A.12.l",
+      "title": "Grande Ouverture de Concert",
+      "details": {
+        "version": "Basso",
+        "composer": "Jean Ruckgaber"
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/A.12.l.%20Grande%20Ouverture%20de%20Concert%2C%20Basso%20(330-359)%20obraz%20342-347.pdf"
+    }
+  ],
+  "chamberOrchestra": [
+    {
+      "id": "B.1",
+      "title": "Quintet pour piano D-dur",
+      "opus": "37",
+      "year": "1815",
+      "details": {
+        "instruments": ["Piano"],
+        "notes": ""
+      }
+    },
+    {
+      "id": "B.2.a",
+      "title": "Premier Quatuer pour le Violon 1mo, 2do, Viola et cello",
+      "composer": "Jean Ruckgaber",
+      "opus": "87",
+      "year": "1864",
+      "details": {
+        "instruments": ["Violin", "Viola", "Cello"],
+        "manuscript": "ms",
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/B.2.a.%20Premier%20Quatuer%20pour%20Violon%201mo%2C%202do%2C%20Viola%20et%20cello%20op.%2087%20%28366-368%29%20obraz%20108-134.pdf"
+    },
+    {
+      "id": "B.2.b",
+      "title": "1er Quatuor pour Violon 1mo, Violon 2do, Viola et Violoncello",
+      "composer": "Jean Ruckgaber",
+      "opus": "87",
+      "details": {
+        "instruments": ["Violin", "Viola", "Cello"],
+        "notes": "Violoncello part"
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/B.2.b.1.%20Premier%20Quarteur%20pour%20le%20Violon%201mo%2C%202do%2C%20Viola%20et%20Violoncello%2C%20op.87%2C%20Violoncello%20%28366-368%29%20obraz%20135-141.pdf"
+    },
+    {
+      "id": "B.2.c",
+      "title": "1er Quatuor pour Violon 1mo, Violon 2do, Viola et Violoncello",
+      "composer": "Jean Ruckgaber",
+      "opus": "87",
+      "details": {
+        "instruments": ["Violin", "Viola", "Cello"],
+        "notes": "Viola part"
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/B.2.b.2.%20Premier%20Quatuer%20pour%20le%20Violon%201mo%2C%202do%2C%20Viola%20et%20Violoncello%2C%20op.%2087%2C%20Viola%20%28366-368%29%20obraz%20142-147.pdf"
+    },
+    {
+      "id": "B.2.d",
+      "title": "1er Quatuor pour Violon 1mo, Violon 2do, Viola et Violoncello",
+      "composer": "Jean Ruckgaber",
+      "opus": "87",
+      "details": {
+        "instruments": ["Violin", "Viola", "Cello"],
+        "notes": "Violon 2do part"
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/B.2.b.3.%20Premier%20Quatuer%20pour%20le%20Violon%201mo%2C%202do%2C%20Viola%20et%20Violoncello%2C%20op.%2087%2C%20Violon%202do%20%28366-368%29%20obraz%20148-153.pdf"
+    },
+    {
+      "id": "B.2.e",
+      "title": "1er Quatuor pour Violon 1mo, Violon 2do, Viola et Violoncello",
+      "composer": "Jean Ruckgaber",
+      "opus": "87",
+      "details": {
+        "instruments": ["Violin", "Viola", "Cello"],
+        "notes": "Violon 1mo part"
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/B.2.c.%20Premier%20Quatuer%20pour%20le%20Violon%2C%20Violon%201mo%2C%20op.%2087%20%28366-368%29%20obraz%20154-162.pdf"
+    }
+  ],
+  "piano": [
+    {
+      "id": "C.1",
+      "title": "Mazur pour piano D-dur",
+      "composer": "unknown",
+      "opus": "1",
+      "details": {
+        "instruments": ["Piano"],
+        "dedicated_to": "M-lle Doris Renzhausen",
+        "manuscript": "ms",
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.1.%20Mazur%20D-dur%2C%20op.1%20%28280-329%29%20obraz%20296.pdf"
+    },
+    {
+      "id": "C.2",
+      "title": "Polonaise pour le pianoforte a-moll",
+      "composer": "unknown",
+      "opus": "2",
+      "year": "ca 1825",
+      "details": {
+        "instruments": ["Piano"],
+        "dedicated_to": "M-lle Octavie de Festenburg",
+        "manuscript": "ms",
+        "notes": "ms., print"
+      },
+      "url": [
+        "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.2.%20Polonaise%20op.2%20%28280-329%29%20obraz%20529-530.pdf",
+        "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.2.a.%20Polonez%20op.%202%2C%20BN.pdf"
+      ]
+    },
+    {
+      "id": "C.3",
+      "title": "Polonaise pour le pianoforte d-moll",
+      "composer": "unknown",
+      "opus": "3",
+      "details": {
+        "instruments": ["Piano"],
+        "dedicated_to": "Jacques Bauer",
+        "manuscript": "ms",
+        "notes": "ms., print"
+      },
+      "url": [
+        "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.3.%20%28280-329%29%20obraz%20531-532.pdf",
+        "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.3.a.%20Polonaise%20op.3%2C%20BN.pdf"
+      ]
+    },
+    {
+      "id": "C.4",
+      "title": "Polonaise pour le pianoforte f-moll",
+      "composer": "unknown",
+      "opus": "4",
+      "details": {
+        "instruments": ["Piano"],
+        "dedicated_to": "M-me la comtesse de Piegłowska",
+        "manuscript": "ms",
+        "notes": "ms., print"
+      },
+      "url": [
+        "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.4.%20Polonaise%20op.4%20%28280-329%29%20obraz%20533-535.pdf",
+        "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.4.a.%20Polonaise%20op.4%2C%20BN.pdf"
+      ]
+    },
+    {
+      "id": "C.5",
+      "title": "III Cotillons pour le pianoforte",
+      "composer": "unknown",
+      "details": {
+        "instruments": ["Piano"],
+        "dedicated_to": "M-me Ksawera Ruckgaber",
+        "notes": "published by Piller, Lwów, 1923"
+      },
+      "opus": "unknown"
+    },
+    {
+      "id": "C.6",
+      "title": "VII Cotillons",
+      "composer": "unknown",
+      "opus": "5",
+      "details": {
+        "instruments": ["Piano"],
+        "dedicated_to": "M-lle Xavière de Rylska",
+        "notes": "print"
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.6.%20VII%20Cotillons%2C%20op.%205%2C%20BN.pdf"
+    },
+    {
+      "id": "C.7",
+      "title": "IX Variations pour le piano",
+      "composer": "unknown",
+      "opus": "6",
+      "details": {
+        "instruments": ["Piano"],
+        "dedicated_to": "M-elle Caroline de Rylska",
+        "manuscript": "ms"
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.7.%20IX%20Variations%2C%20op.%206%20%28366-368%29obraz291-304.pdf"
+    },
+    {
+      "id": "C.8",
+      "title": "Variations sur un thème 'Robin de Bois'",
+      "composer": "Charles Marie Weber",
+      "opus": "6",
+      "details": {
+        "instruments": ["Piano"],
+        "manuscript": "ms"
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.8.%20Variations%20_Robin%20de%20Bois_%20op.6%20%28330-359%29%20obraz%20433-438.pdf"
+    },
+    {
+      "id": "C.9",
+      "title": "Polonaise",
+      "composer": "unknown",
+      "opus": "7",
+      "details": {
+        "instruments": ["Piano"],
+        "dedicated_to": "M-lle W. Schneikert"
+      }
+    },
+    {
+      "id": "C.11",
+      "title": "Charme du carnaval",
+      "composer": "unknown",
+      "opus": "9",
+      "details": {
+        "instruments": ["Piano"],
+        "dedicated_to": "M-lle compte Hortense Małachowska",
+        "manuscript": "ms"
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.11.%20Ta%C5%84ce.%20Op.%209%20BN.pdf"
+    },
+    {
+      "id": "C.12",
+      "title": "Grand marche a 4 mains",
+      "composer": "unknown",
+      "opus": "10",
+      "details": {
+        "instruments": ["Piano"],
+        "dedicated_to": "monsieur le comte de Fresnel",
+        "manuscript": "ms"
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.12.a.%20Grand%20marche%20a%204%20mains%2C%20op.%2010%20(330-359)%20obr.%2056b%2C%20(280-329)%20obr.057-063.pdf",
+    },
+    {
+      "id": "C.13",
+      "title": "Exercises de danses de l’année 1826",
+      "opus": "11",
+      "composer": "A. Braun et J. Ruckgaber",
+      "details": {
+        "instruments": [],
+        "notes": ""
+      },
+      "url": ""
+    },
+    {
+      "id": "C.14",
+      "title": "Collection des danses",
+      "opus": "12",
+      "details": {
+        "dedicated_to": "M-lle la comtesse Eveline Dzieduszycka",
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.14.%20Valses_Mazures_et_Galoppes%2C%20BJ.pdf"
+    },
+    {
+      "id": "C.15",
+      "title": "2 polka",
+      "opus": "12",
+      "details": {
+        "notes": ""
+      },
+      "url": ""
+    },
+    {
+      "id": "C.16",
+      "title": "Variations sur un thème russe",
+      "opus": "12",
+      "details": {
+        "dedicated_to": "M-lle la comtesse Angelique Morszkowska",
+        "manuscript": "ms",
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.16.%20Variations%20sur%20un%20th%C3%A8me%20russe%2C%20op.%2012%20(366-368)%20obraz%20484-490a.pdf"
+    },
+    {
+      "id": "C.17",
+      "title": "No 2 Grande marche pour le pianoforte à 4 mains",
+      "opus": "12",
+      "composer": "J. Ruckgaber",
+      "details": {
+        "instruments": [],
+        "manuscript": "",
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.17.%20No%202%20Grande%20marche%20%20pour%20le%20pianoforte%20%C3%A0%204%20mains%2C%20op.12%20(366-368)%20obraz%20490b-492.pdf"
+    },
+    {
+      "id": "C.18",
+      "title": "Exercises de danses",
+      "opus": "13",
+      "details": {
+        "dedicated_to": "M-elle Melanie de Uruska",
+        "notes": ""
+      },
+      "url": ""
+    },
+    {
+      "id": "C.19",
+      "title": "Eugenie – polka",
+      "opus": "13",
+      "details": {
+        "dedicated_to": "M-elle Eugenie Mehlieu",
+        "manuscript": "ms",
+        "notes": ""
+      },
+      "url": ""
+    },
+    {
+      "id": "C.20",
+      "title": "Mazur – Favorit",
+      "opus": "14",
+      "details": {
+        "dedicated_to": "M-elle Hélène de Gregoreska",
+        "notes": ""
+      },
+      "url": ""
+    },
+    {
+      "id": "C.21",
+      "title": "Fantasie sur un thème de l’opéra, „La dame blanche”, G-moll",
+      "opus": "14",
+      "details": {
+        "instruments": ["piano"],
+        "manuscript": "ms",
+        "notes": ""
+      },
+      "url": ""
+    },
+    {
+      "id": "C.22",
+      "title": "Fantaisie tirée de l’opéra „Le dame blanche”",
+      "opus": "15",
+      "details": {
+        "dedicated_to": "M-me Louise Piller",
+        "manuscript": "ms",
+        "notes": ""
+      },
+      "url": ""
+    },
+    {
+      "id": "C.23",
+      "title": "Exercices de danses pour le pianoforte",
+      "opus": "15",
+      "year": "ca 1830",
+      "works": [
+        {"title": "Polonaise No 1", "key": "D-dur"},
+        {"title": "Polonaise No 2", "key": "E-dur"},
+        {"title": "Waltz No 1", "key": "D-dur"},
+        {"title": "Waltz No 2", "key": "G-dur"},
+        {"title": "Waltz No 3", "key": "B-dur"},
+        {"title": "Waltz No 4 \"La dame blanche\"", "key": "F-dur"},
+        {"title": "Mazur No 1", "key": "F-dur"},
+        {"title": "Mazur No 2", "key": "D-dur"},
+        {"title": "Galoppe", "key": "D-dur"},
+        {"title": "Anglaises No 1", "key": "D-dur"},
+        {"title": "Cotillion No 1", "key": "D-dur"},
+        {"title": "Cotillion No 2", "key": "A-dur"}
+      ],
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.23.%20Ta%C5%84ce.%20Op.%2015%20BN.pdf"
+    },
+    {
+      "id": "C.24",
+      "title": "Marche de Moïse variée",
+      "opus": "15",
+      "details": {
+        "notes": "(notes only)"
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.24.%20Notatki%20%28%28330-359%29%20obraz%20514.pdf"
+    },
+    {
+      "id": "C.25",
+      "title": "Polonaise pour pianoforte, D-dur",
+      "opus": "16",
+      "details": {
+        "manuscript": "ms",
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.25.%20Polonaise%20op.16%2C%20manuscript%2C%20%28280-329%29%20obraz%20536-538.pdf"
+    },
+    {
+      "id": "C.26",
+      "title": "Valses",
+      "opus": "17",
+      "year": "ca 1835",
+      "details": {
+        "instruments": ["piano"],
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.26%20Valses%20op.17%2C%20BN.pdf"
+    },
+    {
+      "id": "C.27",
+      "title": "Grande Marche",
+      "opus": "17",
+      "details": {
+        "instruments": ["à 4 mains"],
+        "manuscript": "ms",
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.27.%20Grande%20Marche%20a%204%20mains%2C%20op.17%20(330-359)%20obraz%20048b-050.pdf"
+    },
+    {
+      "id": "C.28",
+      "title": "Rondo sur les motifs de „Zalmira” par Rossini",
+      "opus": "18",
+      "year": "1866, Rondo 1824",
+      "details": {
+        "instruments": ["piano"],
+        "manuscript": "ms",
+        "notes": "(+ bas, tenor 1mo, 2do?)"
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.28.%20Rondo%20sur%20les%20motifs%20de%20%E2%80%9EZalmira%E2%80%9D%2C%20op.%2018%2C%28330-359%29%20obraz%20284b-304.pdf"
+    },
+    {
+      "id": "C.29",
+      "title": "Polonaise, mazures, cotillions, valse et galloppe",
+      "opus": "18",
+      "works": [
+        {"title": "Polonaise", "key": "Es-dur"},
+        {"title": "Mazure No 1", "key": "A-dur"},
+        {"title": "Cotillions No 1", "key": "D-dur"},
+        {"title": "Valse", "key": "D-dur"},
+        {"title": "Galloppe", "key": "c-moll"}
+      ],
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.29.%20Polonaise%2C%20mazures%2C%20cotillions%2C%20valse%20et%20galloppe%2C%20op.%2018%2C%20BN.pdf"
+    },
+    {
+      "id": "C.30",
+      "title": "Grandes variationes sur un thème du ballet „Nina”",
+      "opus": "19",
+      "details": {
+        "instruments": ["piano"],
+        "manuscript": "ms",
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.30.%20Grandes%20variationes%20sur%20un%20th%C3%A8me%20du%20ballet%20%E2%80%9ENina%E2%80%9D%2C%20op.%2019%20(366-368)obraz507-514a.pdf"
+    },
+    {
+      "id": "C.31",
+      "title": "Polonaise pour le pianoforte",
+      "opus": "19",
+      "year": "ca 1835",
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.31.a.%20Polonaise%20op.%2019%2C%20BN.pdf"
+    },
+    {
+      "id": "C.32",
+      "title": "Rondo sur un thème de l’opéra „Zalmira”",
+      "opus": "20",
+      "year": "1824",
+      "details": {
+        "instruments": ["piano"],
+        "manuscript": "ms",
+        "notes": ""
+      },
+      "url": "https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.32.%20Rondo%20sur%20un%20th%C3%A8me%20de%20l%E2%80%99op%C3%A9ra%20%E2%80%9EZalmira%E2%80%9D%20op.%2020%2C(330-359)%20obraz%20263-270.pdf"
+    },
+  ]
+}
+   --[C.33]
+  ],
+  "violinAndPiano": [
+
+  ],
+  "fluteChackanAndPiano": [
+
+  ],
+}

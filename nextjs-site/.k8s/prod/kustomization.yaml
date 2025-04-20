@@ -1,0 +1,15 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - ../bases
+  - ./namespace.yaml
+  - ./manage-certificate.yaml
+  - ./ingress.yaml
+
+namespace: ruckgaber-site
+
+images:
+  - name: ruckgaber-site
+    newName: us-central1-docker.pkg.dev/geek-hosting/mjr/ruckgaber-pl
+    newTag: latest-gcr
