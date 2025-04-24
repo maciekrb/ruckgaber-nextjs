@@ -2,14 +2,14 @@ import React from 'react'
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v14-appRouter'
 import { Roboto_Condensed, Great_Vibes } from 'next/font/google'
 import { useLingui } from '@lingui/react/macro'
-import { ThemeRegistry } from '../../theme/ThemeRegistry'
-import { allMessages } from '../../i18n'
-import LinguiClientProvider from '../../components/providers/LinguiClientProvider'
-import Main from '../../components/layouts/Main'
-import { initLingui } from '../../initLingui'
-import NavBar from '../../components/organisms/NavBar'
-import Footer from 'src/components/organisms/Footer'
-import { pageNameToSlug } from 'src/locales/namedSlugs'
+import { ThemeRegistry } from '@/theme/ThemeRegistry'
+import { allMessages } from '@/i18n'
+import { initLingui } from '@/initLingui'
+import { slugLocalizer } from '@/locales/namedSlugs'
+import Main from '@components/layouts/Main'
+import LinguiClientProvider from '@components/providers/LinguiClientProvider'
+import Footer from '@components/organisms/Footer'
+import NavBar from '@components/organisms/NavBar'
 
 // export function generateStaticParams() {
 //   return routing.locales.map((locale) => ({ locale }))
@@ -34,83 +34,102 @@ export default async function LocaleLayout({
 }) {
   const lang = (await params).locale
   initLingui(lang)
+  const localizedUrl = slugLocalizer(lang)
   const { t } = useLingui()
+
   const mainMenu = [
-    { title: t`home.title`, href: pageNameToSlug('home', lang) },
-    { title: t`life.title`, href: pageNameToSlug('life', lang) },
+    { title: t`home.title`, href: localizedUrl('home') },
+    { title: t`life.title`, href: localizedUrl('life') },
     {
       title: t`galicianMusicSociety.title`,
-      href: pageNameToSlug('galicianMusicSociety', lang),
+      href: localizedUrl('galicianMusicSociety'),
     },
-    { title: t`music.title`, href: pageNameToSlug('music', lang) },
+    { title: t`music.title`, href: localizedUrl('music') },
     {
       title: t`lvivArchives.title`,
-      href: pageNameToSlug('lvivArchives', lang),
+      href: localizedUrl('lvivArchives'),
     },
     {
       title: t`compositions.title`,
-      href: pageNameToSlug('compositions', lang),
+      href: localizedUrl('compositions'),
     },
-    { title: t`about.title`, href: pageNameToSlug('about', lang) },
+    { title: t`about.title`, href: localizedUrl('about') },
   ]
 
   const footerMenu = [
     {
       title: t`Jan Ruckgaber`,
       items: [
-        { label: t`life.title`, href: 'life.href' },
+        { label: t`life.title`, href: localizedUrl('life') },
         {
           label: t`galicianMusicSociety.title`,
-          href: t`galicianMusicSociety.href`,
+          href: localizedUrl('galicianMusicSociety'),
         },
-        { label: t`music.title`, href: t`music.href` },
-        { label: t`lvivArchives.title`, href: t`lvivArchives.href` },
-        { label: t`compositions.title`, href: t`compositions.href` },
-        { label: t`about.title`, href: t`about.href` },
+        { label: t`music.title`, href: localizedUrl('music') },
+        {
+          label: t`lvivArchives.title`,
+          href: localizedUrl('lvivArchives'),
+        },
+        {
+          label: t`compositions.title`,
+          href: localizedUrl('compositions'),
+        },
+        { label: t`about.title`, href: localizedUrl('about') },
       ],
     },
     {
       title: t`The Book`,
       items: [
-        { label: t`about.title`, href: t`about.href` },
-        { label: t`contact.title`, href: t`contact.href` },
-        { label: t`Download`, href: t`book.href` },
+        { label: t`about.title`, href: localizedUrl('about') },
+        { label: t`contact.title`, href: localizedUrl('contact') },
+        { label: t`Download`, href: localizedUrl('book') },
       ],
     },
     {
       title: t`Music Compositions`,
       items: [
-        { label: t`List of compositions`, href: t`compositions.href` },
+        {
+          label: t`List of compositions`,
+          href: localizedUrl('compositions'),
+        },
         {
           label: t`Piano with an Orchestra`,
-          href: t`compositions.href`,
+          href: localizedUrl('compositions'),
           section: 'section-A',
         },
         {
           label: t`Chamber Orchestra`,
-          href: t`compositions.href`,
+          href: localizedUrl('compositions'),
           section: 'section-B',
         },
-        { label: t`Piano`, href: t`compositions.href`, section: 'section-C' },
+        {
+          label: t`Piano`,
+          href: localizedUrl('compositions'),
+          section: 'section-C',
+        },
         {
           label: t`Violin and Piano`,
-          href: t`compositions.href`,
+          href: localizedUrl('compositions'),
           section: 'section-D',
         },
         {
           label: t`Flute, the Czakan and the Piano`,
-          href: t`compositions.href`,
+          href: localizedUrl('compositions'),
           section: 'section-E',
         },
-        { label: t`Choir`, href: t`compositions.href`, section: 'section-F' },
+        {
+          label: t`Choir`,
+          href: localizedUrl('compositions'),
+          section: 'section-F',
+        },
         {
           label: t`Clarinet and Piano`,
-          href: t`compositions.href`,
+          href: localizedUrl('compositions'),
           section: 'section-G',
         },
         {
           label: t`Voice and Piano`,
-          href: t`compositions.href`,
+          href: localizedUrl('compositions'),
           section: 'section-H',
         },
       ],

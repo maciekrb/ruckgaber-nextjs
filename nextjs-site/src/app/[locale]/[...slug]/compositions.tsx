@@ -2,8 +2,8 @@ import React from 'react'
 import { useLingui } from '@lingui/react/macro'
 import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
-import { initLingui } from '../../../initLingui'
-import CompositionMarkup from '../../../components/organisms/CompositionMarkup'
+import { initLingui } from '@/initLingui'
+import CompositionMarkup from '@components/organisms/CompositionMarkup'
 
 export default async function Page({ params }: { params: { locale: string } }) {
   const { locale } = await params
@@ -38,12 +38,12 @@ export default async function Page({ params }: { params: { locale: string } }) {
           <a href="http://www.lsl.lviv.ua/index.php/en/about-the-library/">{t`Lviv National Academic Library of Ukraine`}</a>
         </li>
       </ol>
+      <Typography paragraph>
+        ({t`references indicate a source of information`})
+      </Typography>
 
       <Typography variant="h6" gutterBottom>
         {t`The list of compositions is divided into the following parts`}
-      </Typography>
-      <Typography paragraph>
-        ({t`references indicate a source of information`})
       </Typography>
       <ol type="A">
         <li>

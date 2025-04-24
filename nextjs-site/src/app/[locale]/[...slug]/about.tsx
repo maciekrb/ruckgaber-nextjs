@@ -3,12 +3,14 @@ import { useLingui } from '@lingui/react/macro'
 import Box from '@mui/material/Box'
 import Link from '@mui/material/Link'
 import Typography from '@mui/material/Typography'
-import { initLingui } from '../../../initLingui'
-import ResponsiveCard from '../../../components/atoms/ResponsiveCard'
+import { initLingui } from '@/initLingui'
+import { slugLocalizer } from '@/locales/namedSlugs'
+import ResponsiveCard from '@components/atoms/ResponsiveCard'
 
 export default async function Page({ params }: { params: { locale: string } }) {
   const { locale } = await params
   initLingui(locale)
+  const localizedUrl = slugLocalizer(locale)
 
   const { t } = useLingui()
   return (
@@ -56,7 +58,7 @@ export default async function Page({ params }: { params: { locale: string } }) {
 
         <Typography>
           {t`More information in a form of Jan Ruckgaber’s full biography, in English and in Polish, is ready for download`}{' '}
-          <Link color="secondary" href={t`book.href`}>
+          <Link color="secondary" href={localizedUrl('book')}>
             {t`here`}.
           </Link>
         </Typography>

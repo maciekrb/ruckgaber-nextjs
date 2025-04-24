@@ -1,5 +1,6 @@
 'use client'
 
+import React from 'react'
 import { I18nProvider } from '@lingui/react'
 import { type Messages, setupI18n } from '@lingui/core'
 import { useState } from 'react'

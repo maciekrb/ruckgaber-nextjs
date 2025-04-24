@@ -1,5 +1,3 @@
-import 'server-only'
-
 import linguiConfig from '../lingui.config'
 import { I18n, Messages, setupI18n } from '@lingui/core'
 

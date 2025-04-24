@@ -69,11 +69,15 @@ export const slugToPageName = (slug: string): string | undefined => {
 }
 
 export const pageNameToSlug = (
-  slug: string | undefined,
+  pageName: string | undefined,
   lang: string,
 ): string => {
-  if (slug == null || !localizedSlugs[slug]) {
-    return `/${lang}${localizedSlugs['error'][lang]}`
+  if (pageName == null || !localizedSlugs[pageName]) {
+    return `/${lang}/${localizedSlugs['error'][lang]}`
   }
-  return `/${lang}/${localizedSlugs[slug][lang]}`
+  return `/${lang}/${localizedSlugs[pageName][lang]}`
+}
+
+export const slugLocalizer = (locale) => {
+  return (pageName: string) => pageNameToSlug(pageName, locale)
 }

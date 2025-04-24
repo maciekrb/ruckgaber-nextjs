@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/app/[locale]/[...slug]/lvivArchives.tsx:44
+#: src/app/[locale]/[...slug]/lvivArchives.tsx:46
 msgid ""
 "&quot;The Ruckgaber Archive&quot; in the Stefanyk Library contains\n"
 "              only manuscripts, over 1800 pages of music. They span from 1815 to\n"
@@ -43,7 +43,7 @@ msgstr "<a href=\"http://imuz.uw.edu.pl/en/\">The Faculty of Musicology of the W
 msgid "12 Variations op 2"
 msgstr "12 Variations op 2"
 
-#: src/app/[locale]/[...slug]/life.tsx:63
+#: src/app/[locale]/[...slug]/life.tsx:65
 msgid "A gifted musician, admired as a pianist and a composer of popular music, Jan Ruckgaber was a lively, charismatic figure. He played piano concerts in many European towns. In the mid-1840s, in Paris he met Fryderyk Chopin and Ferenc Liszt."
 msgstr "A gifted musician, admired as a pianist and a composer of popular music, Jan Ruckgaber was a lively, charismatic figure. He played piano concerts in many European towns. In the mid-1840s, in Paris he met Fryderyk Chopin and Ferenc Liszt."
 
@@ -51,23 +51,17 @@ msgstr "A gifted musician, admired as a pianist and a composer of popular music,
 msgid "A. Music for piano and orchestra"
 msgstr "A. Music for piano and orchestra"
 
-#: src/app/[locale]/[...slug]/about.tsx:17
+#: src/app/[locale]/[...slug]/about.tsx:19
 msgid "About this project"
 msgstr "About this project"
 
-#: src/app/[locale]/layout.tsx:47
-#: src/app/[locale]/layout.tsx:62
-#: src/app/[locale]/layout.tsx:68
-msgid "about.href"
-msgstr "/en/about"
-
-#: src/app/[locale]/layout.tsx:47
-#: src/app/[locale]/layout.tsx:62
-#: src/app/[locale]/layout.tsx:68
+#: src/app/[locale]/layout.tsx:56
+#: src/app/[locale]/layout.tsx:77
+#: src/app/[locale]/layout.tsx:83
 msgid "about.title"
 msgstr "About"
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:170
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:172
 msgid ""
 "After the second disaster of World War II the Conservatoire took\n"
 "              up its activity as the Lviv National Music Academy, and it still\n"
@@ -79,15 +73,15 @@ msgstr ""
 "              works, taking the name of M. Łysenko Lviv National Musical Academy\n"
 "              from 2008."
 
-#: src/app/[locale]/[...slug]/music.tsx:25
+#: src/app/[locale]/[...slug]/music.tsx:27
 msgid "An Artist of early Romanticism"
 msgstr "An Artist of early Romanticism"
 
-#: src/app/[locale]/[...slug]/life.tsx:22
+#: src/app/[locale]/[...slug]/life.tsx:24
 msgid "Ancestry"
 msgstr "Ancestry"
 
-#: src/app/[locale]/[...slug]/lvivArchives.tsx:55
+#: src/app/[locale]/[...slug]/lvivArchives.tsx:57
 msgid ""
 "Another part of J. Ruckgaber’s manuscripts, his printed works and\n"
 "              some of his handwritten copies of other composers’ music with\n"
@@ -99,7 +93,7 @@ msgstr ""
 "              their autographs are now stored in the Library of the M.W. Łysenko\n"
 "              Lviv National Music Academy."
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:122
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:124
 msgid ""
 "At first it was led by the director Jan Ruckgaber. Art of\n"
 "              composition was taught along with theoretical subjects, as\n"
@@ -116,30 +110,20 @@ msgstr ""
 "              Ruckgaber gathered repertoire for a music library, whose\n"
 "              collection was enriched when the conservatoire was\n"
 "              established."
-
-#: src/app/[locale]/page.tsx:51
-#: src/app/[locale]/layout.tsx:70
-#: src/app/[locale]/[...slug]/music.tsx:104
-#: src/app/[locale]/[...slug]/lvivArchives.tsx:69
-#: src/app/[locale]/[...slug]/life.tsx:82
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:209
-#: src/app/[locale]/[...slug]/about.tsx:59
-msgid "book.href"
-msgstr "/en/book"
 
 #: src/app/[locale]/page.tsx:47
 msgid "book.imageUrl"
 msgstr "/images/cover_book_english.jpg"
 
-#: src/app/[locale]/layout.tsx:83
+#: src/app/[locale]/layout.tsx:101
 msgid "Chamber Orchestra"
 msgstr "Chamber Orchestra"
 
-#: src/app/[locale]/layout.tsx:98
+#: src/app/[locale]/layout.tsx:121
 msgid "Choir"
 msgstr "Choir"
 
-#: src/app/[locale]/layout.tsx:100
+#: src/app/[locale]/layout.tsx:126
 msgid "Clarinet and Piano"
 msgstr "Clarinet and Piano"
 
@@ -151,31 +135,16 @@ msgstr "Compositions"
 msgid "Compositions of Jan Ruckgaber"
 msgstr "Compositions of Jan Ruckgaber"
 
-#: src/app/[locale]/page.tsx:39
-#: src/app/[locale]/layout.tsx:46
-#: src/app/[locale]/layout.tsx:61
-#: src/app/[locale]/layout.tsx:76
-#: src/app/[locale]/layout.tsx:79
-#: src/app/[locale]/layout.tsx:84
-#: src/app/[locale]/layout.tsx:87
-#: src/app/[locale]/layout.tsx:90
-#: src/app/[locale]/layout.tsx:95
-#: src/app/[locale]/layout.tsx:98
-#: src/app/[locale]/layout.tsx:101
-#: src/app/[locale]/layout.tsx:106
-msgid "compositions.href"
-msgstr "/en/compositions"
-
-#: src/app/[locale]/layout.tsx:46
-#: src/app/[locale]/layout.tsx:61
+#: src/app/[locale]/layout.tsx:53
+#: src/app/[locale]/layout.tsx:74
 msgid "compositions.title"
 msgstr "Compositions"
 
-#: src/app/[locale]/layout.tsx:69
-msgid "contact.href"
-msgstr "contact.href"
+#: src/app/[locale]/[...slug]/contact.tsx:37
+msgid "Contact Form"
+msgstr "Contact Form"
 
-#: src/app/[locale]/layout.tsx:69
+#: src/app/[locale]/layout.tsx:84
 msgid "contact.title"
 msgstr "Contact"
 
@@ -188,7 +157,7 @@ msgstr "cover"
 msgid "cover only"
 msgstr "cover only"
 
-#: src/app/[locale]/[...slug]/life.tsx:67
+#: src/app/[locale]/[...slug]/life.tsx:69
 msgid "Decline"
 msgstr "Decline"
 
@@ -200,7 +169,7 @@ msgstr "Divertissiment for violin and the piano op 41"
 msgid "doubtful pictures 111 i 112"
 msgstr "doubtful pictures 111 i 112"
 
-#: src/app/[locale]/layout.tsx:70
+#: src/app/[locale]/layout.tsx:85
 msgid "Download"
 msgstr "Download"
 
@@ -216,28 +185,28 @@ msgstr "Download the english version here"
 msgid "Download the polish version here"
 msgstr "Download the polish version here"
 
-#: src/app/[locale]/[...slug]/life.tsx:28
+#: src/app/[locale]/[...slug]/life.tsx:30
 msgid "Education"
 msgstr "Education"
 
-#: src/app/[locale]/[...slug]/life.tsx:52
-#: src/app/[locale]/[...slug]/life.tsx:53
+#: src/app/[locale]/[...slug]/life.tsx:54
+#: src/app/[locale]/[...slug]/life.tsx:55
 msgid "Ernest Ruckgaber (family archive)"
 msgstr "Ernest Ruckgaber (family archive)"
 
-#: src/app/[locale]/[...slug]/about.tsx:21
+#: src/app/[locale]/[...slug]/about.tsx:23
 msgid "Ewa Michalik and Andrzej Ruckgaber"
 msgstr "Ewa Michalik and Andrzej Ruckgaber"
 
-#: src/app/[locale]/[...slug]/about.tsx:66
+#: src/app/[locale]/[...slug]/about.tsx:68
 msgid "Ewa Michalik and Andrzej Ruckgaber, the composer’s great-great-grandson."
 msgstr "Ewa Michalik and Andrzej Ruckgaber, the composer’s great-great-grandson."
 
-#: src/app/[locale]/[...slug]/about.tsx:22
+#: src/app/[locale]/[...slug]/about.tsx:24
 msgid "Ewa Michalik and Andrzej Ruckgaber, Zakopane 2005"
 msgstr "Ewa Michalik and Andrzej Ruckgaber, Zakopane 2005"
 
-#: src/app/[locale]/[...slug]/life.tsx:58
+#: src/app/[locale]/[...slug]/life.tsx:60
 msgid "Family"
 msgstr "Family"
 
@@ -249,11 +218,11 @@ msgstr "Family archive"
 msgid "Find a detailed list of compositions with links to note sheets"
 msgstr "Find a detailed list of compositions with links to note sheets"
 
-#: src/app/[locale]/[...slug]/life.tsx:34
+#: src/app/[locale]/[...slug]/life.tsx:36
 msgid "First concerts"
 msgstr "First concerts"
 
-#: src/app/[locale]/layout.tsx:94
+#: src/app/[locale]/layout.tsx:116
 msgid "Flute, the Czakan and the Piano"
 msgstr "Flute, the Czakan and the Piano"
 
@@ -266,26 +235,21 @@ msgstr "for {10} male voices and a piano"
 msgid "for voice"
 msgstr "for voice"
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:46
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:47
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:48
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:49
 msgid "Franz Xavier Mozart, son (http://zaxid.net/news/, 2015)"
 msgstr "Franz Xavier Mozart, son (http://zaxid.net/news/, 2015)"
 
-#: src/app/[locale]/[...slug]/life.tsx:64
+#: src/app/[locale]/[...slug]/life.tsx:66
 msgid "From scratch did he organize the Galician Music Society. He laid the foundation under professional music education in Lviv, starting Music School in 1839 and, a few years later, a Conservatoire, which works till the present days, now under the name of the Lviv National Music Academy. During over fifty years of his public activity, Jan Ruckgaber educated three generations of musicians and music-lovers and earned respect and admiration of Lviv musical circles."
 msgstr "From scratch did he organize the Galician Music Society. He laid the foundation under professional music education in Lviv, starting Music School in 1839 and, a few years later, a Conservatoire, which works till the present days, now under the name of the Lviv National Music Academy. During over fifty years of his public activity, Jan Ruckgaber educated three generations of musicians and music-lovers and earned respect and admiration of Lviv musical circles."
 
-#: src/app/[locale]/layout.tsx:42
-#: src/app/[locale]/layout.tsx:57
-msgid "galicianMusicSociety.href"
-msgstr "/en/galician-music-society"
-
-#: src/app/[locale]/layout.tsx:41
-#: src/app/[locale]/layout.tsx:56
+#: src/app/[locale]/layout.tsx:44
+#: src/app/[locale]/layout.tsx:65
 msgid "galicianMusicSociety.title"
 msgstr "Galician Music Society"
 
-#: src/app/[locale]/[...slug]/music.tsx:65
+#: src/app/[locale]/[...slug]/music.tsx:67
 msgid ""
 "He composed mainly piano music of salon character, often\n"
 "              attempting to adapt Polish folk music. His piano compositions,\n"
@@ -299,7 +263,7 @@ msgstr ""
 "              companies in Leipzig, London, Brussels, Paris and Petersburg, not\n"
 "              to mention Vienna, Warsaw and Lviv."
 
-#: src/app/[locale]/[...slug]/about.tsx:41
+#: src/app/[locale]/[...slug]/about.tsx:43
 msgid ""
 "He spent most of his lifetime in Lviv, a Polish town bustling with\n"
 "            Polish culture, although Poland did not then exist on the map of\n"
@@ -309,19 +273,19 @@ msgstr ""
 "            Polish culture, although Poland did not then exist on the map of\n"
 "            Europe."
 
-#: src/app/[locale]/[...slug]/life.tsx:29
+#: src/app/[locale]/[...slug]/life.tsx:31
 msgid "He started his musical education in Vienna with Johann Nepomuk Hummel, who was an Austrian composer and pianist, of Slovak origin. Later he continued his studies in Paris, presumably in the years 1816-1819."
 msgstr "He started his musical education in Vienna with Johann Nepomuk Hummel, who was an Austrian composer and pianist, of Slovak origin. Later he continued his studies in Paris, presumably in the years 1816-1819."
 
-#: src/app/[locale]/[...slug]/music.tsx:105
-#: src/app/[locale]/[...slug]/lvivArchives.tsx:70
-#: src/app/[locale]/[...slug]/life.tsx:83
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:210
-#: src/app/[locale]/[...slug]/about.tsx:60
+#: src/app/[locale]/[...slug]/music.tsx:107
+#: src/app/[locale]/[...slug]/lvivArchives.tsx:72
+#: src/app/[locale]/[...slug]/life.tsx:85
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:212
+#: src/app/[locale]/[...slug]/about.tsx:62
 msgid "here"
 msgstr "here"
 
-#: src/app/[locale]/[...slug]/about.tsx:53
+#: src/app/[locale]/[...slug]/about.tsx:55
 msgid ""
 "His fate seems symbolic for the tangled history of Europe. The goal\n"
 "            of our website is to reveal his story to the widest public."
@@ -329,7 +293,7 @@ msgstr ""
 "His fate seems symbolic for the tangled history of Europe. The goal\n"
 "            of our website is to reveal his story to the widest public."
 
-#: src/app/[locale]/[...slug]/music.tsx:72
+#: src/app/[locale]/[...slug]/music.tsx:74
 msgid ""
 "His music was easy, tuneful, light and nice, with clear qualities\n"
 "              of the Romantic style, following the patterns of Schubert and\n"
@@ -347,19 +311,15 @@ msgstr ""
 "              the uniqueness of the folk tradition and the character of the\n"
 "              country, where he spent most of his lifetime."
 
-#: src/app/[locale]/layout.tsx:38
-msgid "home.href'"
-msgstr "/en'"
-
-#: src/app/[locale]/layout.tsx:38
+#: src/app/[locale]/layout.tsx:41
 msgid "home.title"
 msgstr "Home"
 
-#: src/app/[locale]/[...slug]/life.tsx:37
+#: src/app/[locale]/[...slug]/life.tsx:39
 msgid "In 1826 Ruckgaber settled in Lviv for good. He played concerts, worked as a piano tutor, and a composer.  His music was then published by Franz Piller’s printing house in Lviv. It was mainly dance music, romances and songs."
 msgstr "In 1826 Ruckgaber settled in Lviv for good. He played concerts, worked as a piano tutor, and a composer.  His music was then published by Franz Piller’s printing house in Lviv. It was mainly dance music, romances and songs."
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:131
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:133
 msgid ""
 "In 1906, the GMS and the Conservatoire moved to a new building,\n"
 "              and in 1910 a new concert hall, with excellent acoustics and new\n"
@@ -371,7 +331,7 @@ msgstr ""
 "              organ was put into use. Presently the Lviv Philharmonic is placed\n"
 "              there."
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:81
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:83
 msgid ""
 "In November 1848, due to a shellfire of the town, the center of\n"
 "              Lviv was seriously damaged. The university building and its\n"
@@ -387,7 +347,7 @@ msgstr ""
 "              town hall and the theatre.  The Galician Music Society suspended\n"
 "              its activity."
 
-#: src/app/[locale]/[...slug]/music.tsx:87
+#: src/app/[locale]/[...slug]/music.tsx:89
 msgid ""
 "In the composer’s oeuvre there are numerous large forms: sonatas,\n"
 "              duos, concertos for solo instruments with the accompaniment of the\n"
@@ -399,7 +359,7 @@ msgstr ""
 "              piano, orchestral and choral compositions. There are also piano\n"
 "              works for four hands, and even for eight hands."
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:25
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:27
 msgid ""
 "In the early 1830s, Jan Ruckgaber and Franz Xavier Mozart set up\n"
 "              the Society of Friends of Music (Gesellschaft der Musikfreunde),\n"
@@ -411,7 +371,7 @@ msgstr ""
 "              which soon became a foundation for the Galician Music Society,\n"
 "              officially registered on the 14th of August 1838."
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:176
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:178
 msgid ""
 "In the year 2004, the institution, once established by Jan\n"
 "              Ruckgaber, celebrated its 150th anniversary."
@@ -419,7 +379,7 @@ msgstr ""
 "In the year 2004, the institution, once established by Jan\n"
 "              Ruckgaber, celebrated its 150th anniversary."
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:103
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:105
 msgid ""
 "It was not before June 1852, when the Galician Music Society was\n"
 "              renewed as The Society for the Development of Music in Galicia.\n"
@@ -441,7 +401,7 @@ msgstr ""
 msgid "Jagiellonian Library, Cracow"
 msgstr "Jagiellonian Library, Cracow"
 
-#: src/app/[locale]/layout.tsx:52
+#: src/app/[locale]/layout.tsx:61
 msgid "Jan Ruckgaber"
 msgstr "Jan Ruckgaber"
 
@@ -461,28 +421,28 @@ msgstr "Jan Ruckgaber Book cover (english version)"
 msgid "Jan Ruckgaber Book cover (polish version)"
 msgstr "Jan Ruckgaber Book cover (polish version)"
 
-#: src/app/[locale]/[...slug]/life.tsx:35
+#: src/app/[locale]/[...slug]/life.tsx:37
 msgid "Jan Ruckgaber first visited Lviv in 1815. In January 1818, still as a student, he gave here a number of successful concerts and gained some popularity. From 1820 he regularly performed in Lviv in solo piano concerts, and accompanied local musicians."
 msgstr "Jan Ruckgaber first visited Lviv in 1815. In January 1818, still as a student, he gave here a number of successful concerts and gained some popularity. From 1820 he regularly performed in Lviv in solo piano concerts, and accompanied local musicians."
 
-#: src/app/[locale]/[...slug]/life.tsx:74
-#: src/app/[locale]/[...slug]/life.tsx:75
+#: src/app/[locale]/[...slug]/life.tsx:76
+#: src/app/[locale]/[...slug]/life.tsx:77
 msgid "Jan Ruckgaber’s monument in the Łyczakowski Cemetery in Lviv (Photo by Michał Piekarski)"
 msgstr "Jan Ruckgaber’s monument in the Łyczakowski Cemetery in Lviv (Photo by Michał Piekarski)"
 
-#: src/app/[locale]/[...slug]/life.tsx:23
+#: src/app/[locale]/[...slug]/life.tsx:25
 msgid "Jean (later Johann and Jan), the son of a French nobleman and emigrant, Jean de Montalban, was probably born in Vienna on the 21st of November 1799, where he was baptized in St. Stephen’s Cathedral. At first he used his father’s surname, de Montalban."
 msgstr "Jean (later Johann and Jan), the son of a French nobleman and emigrant, Jean de Montalban, was probably born in Vienna on the 21st of November 1799, where he was baptized in St. Stephen’s Cathedral. At first he used his father’s surname, de Montalban."
 
-#: src/app/[locale]/[...slug]/life.tsx:25
+#: src/app/[locale]/[...slug]/life.tsx:27
 msgid "Jean de Montalban – father, fled his homeland to avoid the terror of the French Revolution and settled in Vienna. Later, he was killed in the Battle of Wagram on the 5th or 6th of July, 1809. After the death of his father, ten-year-old Jean was adopted by his Austrian tutor - Joseph Ruckgaber. His French Christian name - Jean - was later altered to Johann and Jan. He was buried in Lviv as Jan Ruckgaber."
 msgstr "Jean de Montalban – father, fled his homeland to avoid the terror of the French Revolution and settled in Vienna. Later, he was killed in the Battle of Wagram on the 5th or 6th of July, 1809. After the death of his father, ten-year-old Jean was adopted by his Austrian tutor - Joseph Ruckgaber. His French Christian name - Jean - was later altered to Johann and Jan. He was buried in Lviv as Jan Ruckgaber."
 
-#: src/app/[locale]/[...slug]/life.tsx:68
+#: src/app/[locale]/[...slug]/life.tsx:70
 msgid "Last years of his lifetime he spent with his beloved daughter Jane. Jan Ruckgaber died in Lviv, on the 5th of January 1876. He was buried at the Łyczakowski Cementery, in a Schiers’s family tomb (Joseph and Anna Schier’s, Jane’s husband’s parents’)."
 msgstr "Last years of his lifetime he spent with his beloved daughter Jane. Jan Ruckgaber died in Lviv, on the 5th of January 1876. He was buried at the Łyczakowski Cementery, in a Schiers’s family tomb (Joseph and Anna Schier’s, Jane’s husband’s parents’)."
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:31
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:33
 msgid ""
 "Later in the same year Franz Xavier Mozart set for Vienna, and Jan\n"
 "              Ruckgaber replaced him in the organisational work. In the years\n"
@@ -496,7 +456,7 @@ msgstr ""
 "              Ruckgaber was also the conductor of the orchestra and choirs and\n"
 "              later the manager of a music school."
 
-#: src/app/[locale]/[...slug]/life.tsx:69
+#: src/app/[locale]/[...slug]/life.tsx:71
 msgid "Later, his daughter Jane destroyed his last will, containing information as to the return to the true family name. Thus the only link to recovery the family surname was cut."
 msgstr "Later, his daughter Jane destroyed his last will, containing information as to the return to the true family name. Thus the only link to recovery the family surname was cut."
 
@@ -506,7 +466,7 @@ msgstr "Later, his daughter Jane destroyed his last will, containing information
 msgid "Learn More"
 msgstr "Learn More"
 
-#: src/app/[locale]/[...slug]/life.tsx:18
+#: src/app/[locale]/[...slug]/life.tsx:20
 msgid "Life"
 msgstr "Life"
 
@@ -514,17 +474,12 @@ msgstr "Life"
 msgid "Life of Jan Ruckgaber"
 msgstr "Life of Jan Ruckgaber"
 
-#: src/app/[locale]/page.tsx:28
-#: src/app/[locale]/layout.tsx:39
-msgid "life.href"
-msgstr "/en/life"
-
-#: src/app/[locale]/layout.tsx:39
-#: src/app/[locale]/layout.tsx:54
+#: src/app/[locale]/layout.tsx:42
+#: src/app/[locale]/layout.tsx:63
 msgid "life.title"
 msgstr "Life"
 
-#: src/app/[locale]/layout.tsx:76
+#: src/app/[locale]/layout.tsx:92
 msgid "List of compositions"
 msgstr "List of compositions"
 
@@ -536,17 +491,17 @@ msgstr "List of Ruckgaber’s compositions, stored until 1939 in the Ossolińsk
 msgid "Listen to Music by Jan Ruckgaber"
 msgstr "Listen to Music by Jan Ruckgaber"
 
-#: src/app/[locale]/[...slug]/lvivArchives.tsx:19
+#: src/app/[locale]/[...slug]/lvivArchives.tsx:21
 msgid "Lviv Archives"
 msgstr "Lviv Archives"
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:154
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:155
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:156
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:157
 msgid "Lviv in a modern photo: the building of the GMS and its Conservatoire, constructed in 1910  (at present the Lviv Philharmonic) (http://www.dziennikpolski24.pl, 2015)"
 msgstr "Lviv in a modern photo: the building of the GMS and its Conservatoire, constructed in 1910  (at present the Lviv Philharmonic) (http://www.dziennikpolski24.pl, 2015)"
 
-#: src/app/[locale]/[...slug]/lvivArchives.tsx:37
-#: src/app/[locale]/[...slug]/lvivArchives.tsx:38
+#: src/app/[locale]/[...slug]/lvivArchives.tsx:39
+#: src/app/[locale]/[...slug]/lvivArchives.tsx:40
 msgid "Lviv in a modern photo: the Wasyl Stefanyk Lviv National Academic Library of Ukraine, formerly the Ossolineum (http://strubcina.org, 2015)"
 msgstr "Lviv in a modern photo: the Wasyl Stefanyk Lviv National Academic Library of Ukraine, formerly the Ossolineum (http://strubcina.org, 2015)"
 
@@ -554,18 +509,13 @@ msgstr "Lviv in a modern photo: the Wasyl Stefanyk Lviv National Academic Librar
 msgid "Lviv National Academic Library of Ukraine"
 msgstr "Lviv National Academic Library of Ukraine"
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:71
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:72
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:73
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:74
 msgid "Lviv, a monument to Adam Mickiewicz (http://strubcina.org, 2015)"
 msgstr "Lviv, a monument to Adam Mickiewicz (http://strubcina.org, 2015)"
 
-#: src/app/[locale]/layout.tsx:45
-#: src/app/[locale]/layout.tsx:60
-msgid "lvivArchives.href"
-msgstr "/en/lviv-archives"
-
-#: src/app/[locale]/layout.tsx:45
-#: src/app/[locale]/layout.tsx:60
+#: src/app/[locale]/layout.tsx:49
+#: src/app/[locale]/layout.tsx:70
 msgid "lvivArchives.title"
 msgstr "Lviv Archives"
 
@@ -589,7 +539,7 @@ msgstr ""
 msgid "manuscript pages numbered from page {2}?"
 msgstr "manuscript pages numbered from page {2}?"
 
-#: src/app/[locale]/[...slug]/music.tsx:93
+#: src/app/[locale]/[...slug]/music.tsx:95
 msgid ""
 "Many pieces of music, which – as his contemporaries claimed – he\n"
 "              performed in concerts with mastery, remained in the form of\n"
@@ -629,15 +579,15 @@ msgstr "missing pages {4}"
 msgid "missing pages {7} of the manuscript"
 msgstr "missing pages {7} of the manuscript"
 
-#: src/app/[locale]/[...slug]/music.tsx:103
-#: src/app/[locale]/[...slug]/lvivArchives.tsx:68
-#: src/app/[locale]/[...slug]/life.tsx:81
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:208
-#: src/app/[locale]/[...slug]/about.tsx:58
+#: src/app/[locale]/[...slug]/music.tsx:105
+#: src/app/[locale]/[...slug]/lvivArchives.tsx:70
+#: src/app/[locale]/[...slug]/life.tsx:83
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:210
+#: src/app/[locale]/[...slug]/about.tsx:60
 msgid "More information in a form of Jan Ruckgaber’s full biography, in English and in Polish, is ready for download"
 msgstr "More information in a form of Jan Ruckgaber’s full biography, in English and in Polish, is ready for download"
 
-#: src/app/[locale]/[...slug]/lvivArchives.tsx:25
+#: src/app/[locale]/[...slug]/lvivArchives.tsx:27
 msgid ""
 "Most of the preserved manuscripts of Jan Ruckgaber are presently\n"
 "              stored in the Wasyl Stefanyk Lviv National Academic Library of\n"
@@ -763,12 +713,12 @@ msgstr ""
 msgid "ms"
 msgstr "ms"
 
-#: src/app/[locale]/[...slug]/music.tsx:19
-#: src/app/[locale]/[...slug]/music.tsx:58
+#: src/app/[locale]/[...slug]/music.tsx:21
+#: src/app/[locale]/[...slug]/music.tsx:60
 msgid "Music"
 msgstr "Music"
 
-#: src/app/[locale]/layout.tsx:74
+#: src/app/[locale]/layout.tsx:89
 msgid "Music Compositions"
 msgstr "Music Compositions"
 
@@ -820,17 +770,12 @@ msgstr "Music for violin and piano"
 msgid "Music for voice and piano"
 msgstr "Music for voice and piano"
 
-#: src/app/[locale]/layout.tsx:44
-#: src/app/[locale]/layout.tsx:59
-msgid "music.href"
-msgstr "/en/music"
-
-#: src/app/[locale]/layout.tsx:44
-#: src/app/[locale]/layout.tsx:59
+#: src/app/[locale]/layout.tsx:47
+#: src/app/[locale]/layout.tsx:68
 msgid "music.title"
 msgstr "Music"
 
-#: src/app/[locale]/[...slug]/about.tsx:26
+#: src/app/[locale]/[...slug]/about.tsx:28
 msgid ""
 "My name is Ruckgaber, Andrzej Ruckgaber. I was born in Poland and I\n"
 "            certainly feel Polish, but the foreign name has always made me think\n"
@@ -848,7 +793,7 @@ msgstr ""
 "            He was not only a musician, but also a teacher and a passionate\n"
 "            promoter of music."
 
-#: src/app/[locale]/[...slug]/lvivArchives.tsx:61
+#: src/app/[locale]/[...slug]/lvivArchives.tsx:63
 msgid ""
 "Neither the Ruckgaber Archive, nor the documents from the music\n"
 "              library of the Galician Music Society, have yet been sufficiently\n"
@@ -862,7 +807,7 @@ msgstr ""
 msgid "notes only"
 msgstr "notes only"
 
-#: src/app/[locale]/[...slug]/life.tsx:59
+#: src/app/[locale]/[...slug]/life.tsx:61
 msgid "On the 15th of August 1834, at the age of nearly 35, Jan Ruckgaber married Maria Xavier Markl, the daughter of a Hungarian baron John Markl and a Polish woman Jane née Balewicz."
 msgstr "On the 15th of August 1834, at the age of nearly 35, Jan Ruckgaber married Maria Xavier Markl, the daughter of a Hungarian baron John Markl and a Polish woman Jane née Balewicz."
 
@@ -882,13 +827,33 @@ msgstr "Overture for the opening of the Skarbkowski Theater, composed in Korczyn
 msgid "page 103 seems added"
 msgstr "page 103 seems added"
 
-#: src/app/[locale]/layout.tsx:87
+#: src/app/[locale]/layout.tsx:106
 msgid "Piano"
 msgstr "Piano"
 
-#: src/app/[locale]/layout.tsx:78
+#: src/app/[locale]/layout.tsx:96
 msgid "Piano with an Orchestra"
 msgstr "Piano with an Orchestra"
+
+#: src/components/organisms/ContactForm.tsx:117
+msgid "Please try again in a few seconds"
+msgstr "Please try again in a few seconds"
+
+#: src/components/organisms/ContactForm.tsx:77
+msgid "Please write a message"
+msgstr "Please write a message"
+
+#: src/components/organisms/ContactForm.tsx:59
+msgid "Please write a valid email"
+msgstr "Please write a valid email"
+
+#: src/components/organisms/ContactForm.tsx:68
+msgid "Please write the subject"
+msgstr "Please write the subject"
+
+#: src/components/organisms/ContactForm.tsx:50
+msgid "Please write your name"
+msgstr "Please write your name"
 
 #: src/components/organisms/CompositionMarkup.tsx:1659
 #: src/components/organisms/CompositionMarkup.tsx:1692
@@ -917,7 +882,7 @@ msgstr "references indicate a source of information"
 msgid "Robert Szreder - violin, Elżbieta Sobkowicz - piano"
 msgstr "Robert Szreder - violin, Elżbieta Sobkowicz - piano"
 
-#: src/app/[locale]/[...slug]/music.tsx:81
+#: src/app/[locale]/[...slug]/music.tsx:83
 msgid ""
 "Ruckgaber also composed songs for a voice with the piano with\n"
 "              Polish lyrics. After the November uprising of 1830, he composed\n"
@@ -929,7 +894,7 @@ msgstr ""
 "              the song &quot;Do mogił&quot; (Towards the Graves) to the words by\n"
 "              Wincenty Pol."
 
-#: src/app/[locale]/[...slug]/music.tsx:35
+#: src/app/[locale]/[...slug]/music.tsx:37
 msgid ""
 "Ruckgaber contributed to the evolution of the musical profession\n"
 "              from being an inspired composer, dependent on a patron, to a\n"
@@ -941,7 +906,7 @@ msgstr ""
 "              self-reliant, conscious artist, who influenced public taste and\n"
 "              demand of the culture market."
 
-#: src/app/[locale]/[...slug]/music.tsx:28
+#: src/app/[locale]/[...slug]/music.tsx:30
 msgid ""
 "Ruckgaber’s work and music fully belong to the current of early\n"
 "              Romanticism. His compositions reflected the leading aesthetic\n"
@@ -977,7 +942,7 @@ msgstr "Something wrong, three endings?"
 msgid "song for a voice and piano, Jerzy Sergiusz Adamczewski - baritone, Tatiana Woytaszewska - piano, Wincenty Pol - lyrics"
 msgstr "song for a voice and piano, Jerzy Sergiusz Adamczewski - baritone, Tatiana Woytaszewska - piano, Wincenty Pol - lyrics"
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:38
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:40
 msgid ""
 "Soon the Society started organizing weekly musical meetings in\n"
 "              which amateur-musicians performed music by Mozart, Beethoven and\n"
@@ -1003,7 +968,7 @@ msgstr "texts"
 msgid "The Austrian National Library"
 msgstr "The Austrian National Library"
 
-#: src/app/[locale]/layout.tsx:66
+#: src/app/[locale]/layout.tsx:81
 msgid "The Book"
 msgstr "The Book"
 
@@ -1011,11 +976,11 @@ msgstr "The Book"
 msgid "The Catalogue of microfilms received from the Stefanyk Library [stored in the Faculty of Musicology of the Warsaw University]"
 msgstr "The Catalogue of microfilms received from the Stefanyk Library [stored in the Faculty of Musicology of the Warsaw University]"
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:113
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:115
 msgid "The Conservatoire"
 msgstr "The Conservatoire"
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:190
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:192
 msgid ""
 "The Conservatoire at Galician Music Society was the first serious\n"
 "              educational institution not only in Galicia, but also (except for\n"
@@ -1033,12 +998,12 @@ msgstr ""
 msgid "the cover does not match the music, see A.12?"
 msgstr "the cover does not match the music, see A.12?"
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:92
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:93
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:94
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:95
 msgid "The fire of Lviv in 1848, a painting by L. Jabłonowski (http://rzecz-pospolita.com, 2015)"
 msgstr "The fire of Lviv in 1848, a painting by L. Jabłonowski (http://rzecz-pospolita.com, 2015)"
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:19
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:21
 msgid "The Galician Music Society (GMS)"
 msgstr "The Galician Music Society (GMS)"
 
@@ -1050,16 +1015,16 @@ msgstr "The list of compositions is divided into the following parts"
 msgid "The List of Jan Ruckgaber’s Compositions"
 msgstr "The List of Jan Ruckgaber’s Compositions"
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:163
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:164
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:165
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:166
 msgid "The M.W. Łysenko Lviv National Music Academy (http://strubcina.org, 2015)"
 msgstr "The M.W. Łysenko Lviv National Music Academy (http://strubcina.org, 2015)"
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:180
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:182
 msgid "The Meaning of the Galician Music Society"
 msgstr "The Meaning of the Galician Music Society"
 
-#: src/app/[locale]/[...slug]/music.tsx:61
+#: src/app/[locale]/[...slug]/music.tsx:63
 msgid ""
 "The music legacy of Jan Ruckgaber amounts to about 100\n"
 "              opuses."
@@ -1067,7 +1032,7 @@ msgstr ""
 "The music legacy of Jan Ruckgaber amounts to about 100\n"
 "              opuses."
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:116
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:118
 msgid ""
 "The music school at the society was reopened on the 1st of May\n"
 "              1854, this time as a Conservatoire. It was one of the oldest in\n"
@@ -1083,16 +1048,16 @@ msgstr ""
 msgid "The National Library, Warsaw"
 msgstr "The National Library, Warsaw"
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:100
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:102
 msgid "The New Beginning"
 msgstr "The New Beginning"
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:201
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:202
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:203
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:204
 msgid "The Orchestra of the Lviv National Music Academy (http://conservatory.lviv.ua/ 2015)"
 msgstr "The Orchestra of the Lviv National Music Academy (http://conservatory.lviv.ua/ 2015)"
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:53
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:55
 msgid ""
 "The period of best prosperity for the Galician Music Society came\n"
 "              in the years 1842-48. At that time the society held numerous\n"
@@ -1114,7 +1079,7 @@ msgstr ""
 "              it was Ferenz Liszt, who performing for the whole month at the\n"
 "              turn of April and May, 1847, broke records of popularity."
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:64
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:66
 msgid ""
 "The revolutionary events of the year 1848 ceased the activity of\n"
 "              the school at the GMS."
@@ -1126,7 +1091,7 @@ msgstr ""
 msgid "the same cover, different music"
 msgstr "the same cover, different music"
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:183
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:185
 msgid ""
 "The Society existed for 100 years – from 1838 to 1939, between\n"
 "              1919 and 1939 as the Polish Music Society and it was the most\n"
@@ -1140,11 +1105,11 @@ msgstr ""
 "              organizing musical life in Lviv and Galicia in the 19th and at the\n"
 "              beginning of the 20th century."
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:78
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:80
 msgid "The Springtime of the Peoples"
 msgstr "The Springtime of the Peoples"
 
-#: src/app/[locale]/[...slug]/life.tsx:60
+#: src/app/[locale]/[...slug]/life.tsx:62
 msgid "They had six children, and their youngest son, Ernest, married to Anna Schier, the daughter of a Scotswoman, Anna Scarley and Joseph Schier, a Lviv jeweler, started the branch of the family presently living in Warsaw."
 msgstr "They had six children, and their youngest son, Ernest, married to Anna Schier, the daughter of a Scotswoman, Anna Scarley and Joseph Schier, a Lviv jeweler, started the branch of the family presently living in Warsaw."
 
@@ -1157,7 +1122,7 @@ msgstr "title page (op. {3}!?)"
 msgid "version for orchestra"
 msgstr "version for orchestra"
 
-#: src/app/[locale]/layout.tsx:89
+#: src/app/[locale]/layout.tsx:111
 msgid "Violin and Piano"
 msgstr "Violin and Piano"
 
@@ -1172,15 +1137,15 @@ msgstr "Violin and Piano"
 msgid "voice and piano"
 msgstr "voice and piano"
 
-#: src/app/[locale]/layout.tsx:105
+#: src/app/[locale]/layout.tsx:131
 msgid "Voice and Piano"
 msgstr "Voice and Piano"
 
-#: src/app/[locale]/[...slug]/about.tsx:65
+#: src/app/[locale]/[...slug]/about.tsx:67
 msgid "Warsaw, August 2020"
 msgstr "Warsaw, August 2020"
 
-#: src/app/[locale]/[...slug]/about.tsx:35
+#: src/app/[locale]/[...slug]/about.tsx:37
 msgid ""
 "We think of Jan Ruckgaber as a Pole, but his parents were French\n"
 "            aristocrats who fled to Vienna in the days of the French Revolution.\n"
@@ -1192,7 +1157,7 @@ msgstr ""
 "            After the death of his father he was adopted by his tutor, an\n"
 "            Austrian named Joseph Ruckgaber, whose surname is now also mine."
 
-#: src/app/[locale]/[...slug]/about.tsx:46
+#: src/app/[locale]/[...slug]/about.tsx:48
 msgid ""
 "When Poland gained independence in 1918, Ruckgaber’s descendants\n"
 "            moved to Warsaw, carrying with them the family story about their\n"
@@ -1210,16 +1175,16 @@ msgstr ""
 msgid "with double counterpoint for 3 voices, 1860, \"musical curiosum\""
 msgstr "with double counterpoint for 3 voices, 1860, \"musical curiosum\""
 
-#: src/app/[locale]/[...slug]/life.tsx:62
+#: src/app/[locale]/[...slug]/life.tsx:64
 msgid "Work"
 msgstr "Work"
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:146
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:147
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:148
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:149
 msgid "World War I in an Austrian postcard, 1915 (http://strubcina.org, 2015)"
 msgstr "World War I in an Austrian postcard, 1915 (http://strubcina.org, 2015)"
 
-#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:137
+#: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:139
 msgid ""
 "World War I thwarted the work of the GMS and the Conservatoire,\n"
 "              but as soon as in 1916/17 the institution started returning to\n"
@@ -1233,7 +1198,11 @@ msgstr ""
 msgid "Young Jan Ruckgaber"
 msgstr "Young Jan Ruckgaber"
 
-#: src/app/[locale]/[...slug]/life.tsx:43
-#: src/app/[locale]/[...slug]/life.tsx:44
+#: src/app/[locale]/[...slug]/life.tsx:45
+#: src/app/[locale]/[...slug]/life.tsx:46
 msgid "Young Jan Ruckgaber, by an unknown author (http://uk.wikipedia.org, 2015)"
 msgstr "Young Jan Ruckgaber, by an unknown author (http://uk.wikipedia.org, 2015)"
+
+#: src/components/organisms/ContactForm.tsx:136
+msgid "Your message has been sent"
+msgstr "Your message has been sent"

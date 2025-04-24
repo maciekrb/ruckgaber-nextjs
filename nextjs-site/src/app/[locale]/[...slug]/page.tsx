@@ -1,9 +1,8 @@
 import React from 'react'
 import dynamic from 'next/dynamic'
 import { notFound } from 'next/navigation'
-import { initLingui } from '../../../initLingui'
-import { slugToPageName } from '../../../locales/namedSlugs'
-//
+import { initLingui } from '@/initLingui'
+import { slugToPageName } from '@/locales/namedSlugs'
 
 export default async function Page({
   params,

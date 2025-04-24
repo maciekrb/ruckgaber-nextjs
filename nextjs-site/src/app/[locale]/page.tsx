@@ -3,18 +3,18 @@ import { useLingui } from '@lingui/react/macro'
 import Box from '@mui/material/Box'
 import Grid from '@mui/material/Grid2'
 import Typography from '@mui/material/Typography'
-import YouTubeVideo from '../../components/atoms/YouTubeVideo'
+import YouTubeVideo from '@components/atoms/YouTubeVideo'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Audioplayer from '../../components/atoms/Audioplayer'
-import ResponsiveCard from '../../components/atoms/ResponsiveCard'
-import { initLingui } from '../../initLingui'
-import { localizeUrl } from '../../i18nUtils'
+import Audioplayer from '@components/atoms/Audioplayer'
+import ResponsiveCard from '@components/atoms/ResponsiveCard'
+import { initLingui } from '@/initLingui'
+import { slugLocalizer } from '@/locales/namedSlugs'
 
 export default async function Page({ params }: { params: { locale: string } }) {
   const { locale } = await params
   initLingui(locale)
   const { t } = useLingui()
-  const localUrl = localizeUrl(locale)
+  const localizedUrl = slugLocalizer(locale)
   return (
     <Box my={4}>
       <Box pt={4}>
@@ -25,7 +25,7 @@ export default async function Page({ params }: { params: { locale: string } }) {
               alt={t`Young Jan Ruckgaber`}
               title={t`Life of Jan Ruckgaber`}
               body={t`Read about the life of Jan Ruckgaber, his family and ancestry`}
-              cardAction={{ href: localUrl(t`life.href`), text: t`Learn More` }}
+              cardAction={{ href: localizedUrl('life'), text: t`Learn More` }}
               height="520px"
             />
           </Grid>
@@ -36,7 +36,7 @@ export default async function Page({ params }: { params: { locale: string } }) {
               title={t`Compositions of Jan Ruckgaber`}
               body={t`Find a detailed list of compositions with links to note sheets`}
               cardAction={{
-                href: localUrl(t`compositions.href`),
+                href: localizedUrl('compositions'),
                 text: t`Learn More`,
               }}
               height="520px"
@@ -48,7 +48,7 @@ export default async function Page({ params }: { params: { locale: string } }) {
               alt={t`Jan Ruckgaber Book`}
               title={t`Jan Ruckgaber Book`}
               body={t`Download the digital version of the Book about Jan Ruckgaber`}
-              cardAction={{ href: localUrl(t`book.href`), text: t`Learn More` }}
+              cardAction={{ href: localizedUrl('book'), text: t`Learn More` }}
               height="520px"
             />
           </Grid>

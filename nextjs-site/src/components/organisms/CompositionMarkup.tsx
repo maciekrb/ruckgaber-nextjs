@@ -167,10 +167,10 @@ const StyledDiv = styled('div')(() => ({
     fontStyle: 'italic',
   },
   '& .c14': {
-    fontSize: '10pt',
+    fontSize: '0.8rem',
   },
   '& .c60': {
-    fontSize: '6pt',
+    fontSize: '0.8rem',
   },
   '& .c34': {
     color: '#0000ff',

@@ -3,8 +3,8 @@ import { useLingui } from '@lingui/react/macro'
 import Box from '@mui/material/Box'
 import Grid from '@mui/material/Grid2'
 import Typography from '@mui/material/Typography'
-import { initLingui } from '../../../initLingui'
-import ResponsiveCard from '../../../components/atoms/ResponsiveCard'
+import { initLingui } from '@/initLingui'
+import ResponsiveCard from '@components/atoms/ResponsiveCard'
 
 export default async function Page({ params }: { params: { locale: string } }) {
   const { locale } = await params
