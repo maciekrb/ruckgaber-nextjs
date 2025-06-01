@@ -22,7 +22,9 @@ export default async function Page({ params }: { params: { locale: string } }) {
       <ol type="1">
         <li>{t`Osadca Olga: "Der Archivbestand Johann (Jan) Ruckgaber in der L ́vivs ́ka naukowa biblioteka im. V. Stefanyka" Musik-Sammlungen: Speicher inter- kultureller Prozesse, Teilband B, Franz Steiner Verlag, Stuttgart 2007, p. 344 – 356`}</li>
         <li>{t`List of Ruckgaber’s compositions, stored until 1939 in the Ossoliński National Institution in Lviv, made by J. Ruckgaber, the grandson of the composer`}</li>
-        <li>{t`<a href="http://imuz.uw.edu.pl/en/">The Faculty of Musicology of the Warsaw University</a>`}</li>
+        <li>
+          <a href="http://imuz.uw.edu.pl/en/">{t`The Faculty of Musicology of the Warsaw University`}</a>
+        </li>
         <li>{t`The Catalogue of microfilms received from the Stefanyk Library [stored in the Faculty of Musicology of the Warsaw University]`}</li>
         <li>{t`Family archive`}</li>
         <li>

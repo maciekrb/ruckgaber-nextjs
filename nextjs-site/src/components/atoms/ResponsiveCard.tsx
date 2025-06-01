@@ -27,7 +27,7 @@ const ContainedImage = ({ src, alt }: { src: string; alt: string }) => (
     alt={alt}
     sizes="100vw"
     fill
-    objectFit="cover"
+    style={{ objectFit: 'cover' }}
   />
 )
 

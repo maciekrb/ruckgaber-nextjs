@@ -1,9 +1,3 @@
-.appBar a {
-  font-size: 16;
-  color: #fff;
-  margin-left: 2;
-  text-decoration: 'none';
-}
 .toolbar {
   flex-wrap: 'wrap';
   height: 64px;

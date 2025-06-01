@@ -1,6 +1,6 @@
 import React from 'react'
 import AppBar from '@mui/material/AppBar'
-import Link from '@mui/material/Link'
+import Link from '@components/molecules/NavLink'
 import LanguagePicker from './LanguagePicker'
 import Toolbar from '@mui/material/Toolbar'
 import Typography from '@mui/material/Typography'
@@ -25,12 +25,7 @@ const NavBar = ({ items, lang }: { items: Item[]; lang: string }) => {
         </Typography>
         <nav>
           {items.map((item) => (
-            <Link
-              className={styles.link}
-              color="inherit"
-              href={item.href}
-              key={item.href}
-            >
+            <Link href={item.href} key={item.href}>
               {item.title}
             </Link>
           ))}

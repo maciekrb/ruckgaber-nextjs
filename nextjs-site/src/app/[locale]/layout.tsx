@@ -8,6 +8,7 @@ import { initLingui } from '@/initLingui'
 import { slugLocalizer } from '@/locales/namedSlugs'
 import Main from '@components/layouts/Main'
 import LinguiClientProvider from '@components/providers/LinguiClientProvider'
+import Breadcrumbs from '@components/organisms/Breadcrumbs'
 import Footer from '@components/organisms/Footer'
 import NavBar from '@components/organisms/NavBar'
 
@@ -135,6 +136,10 @@ export default async function LocaleLayout({
       ],
     },
   ]
+  const breadcrumbMap = mainMenu.reduce((acc, item) => {
+    acc[item.href] = item.title
+    return acc
+  }, {})
 
   return (
     <html lang={lang} className={`${roboto.className} ${greatVibes.className}`}>
@@ -150,7 +155,10 @@ export default async function LocaleLayout({
               initialMessages={allMessages[lang]!}
             >
               <NavBar lang={lang} items={mainMenu} />
-              <Main>{children}</Main>
+              <Main>
+                <Breadcrumbs labels={breadcrumbMap} />
+                {children}
+              </Main>
               <Footer locale={lang} sections={footerMenu} />
             </LinguiClientProvider>
           </ThemeRegistry>
