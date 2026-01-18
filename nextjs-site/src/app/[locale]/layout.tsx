@@ -82,7 +82,6 @@ export default async function LocaleLayout({
       title: t`The Book`,
       items: [
         { label: t`about.title`, href: localizedUrl('about') },
-        { label: t`contact.title`, href: localizedUrl('contact') },
         { label: t`Download`, href: localizedUrl('book') },
       ],
     },

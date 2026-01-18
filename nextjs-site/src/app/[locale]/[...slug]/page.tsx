@@ -4,11 +4,11 @@ import { notFound } from 'next/navigation'
 import { initLingui } from '@/initLingui'
 import { slugToPageName } from '@/locales/namedSlugs'
 
-export default async function Page({
-  params,
-}: {
-  params: { locale: string; slug: string }
-}) {
+export type PageParams = {
+  params: Promise<{ locale: string; slug: string }>
+}
+
+export default async function Page({ params }: PageParams) {
   const { locale, slug } = await params
   initLingui(locale)
   const pageName = slugToPageName(slug)

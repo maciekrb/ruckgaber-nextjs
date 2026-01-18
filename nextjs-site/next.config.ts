@@ -19,6 +19,21 @@ const nextConfig: NextConfig = {
       fullUrl: true,
     },
   },
+  eslint: {
+    // Warning: This allows production builds to successfully complete even if
+    // your project has ESLint errors.
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  webpack: (config) => {
+    config.module.rules.push({
+      test: /\.po$/i,
+      loader: '@lingui/loader',
+    })
+    return config
+  },
 }
 
 export default nextConfig

@@ -36,7 +36,7 @@ msgstr ""
 "              Ukraińskiej Akademii Nauk, obecnej Narodowej Akademickiej Biblioteki\n"
 "              im. Stefanyka we Lwowie."
 
-#: src/app/[locale]/page.tsx:90
+#: src/app/[locale]/page.tsx:94
 msgid "12 Variations op 2"
 msgstr "12 Wariacji op. 2"
 
@@ -107,27 +107,27 @@ msgstr ""
 "              Ruckgaber zgromadził repertuar dla biblioteki muzycznej, której\n"
 "              zbiory zostały wzbogacone, gdy założono konserwatorium."
 
-#: src/app/[locale]/page.tsx:47
+#: src/app/[locale]/page.tsx:51
 msgid "book.imageUrl"
 msgstr "/images/intro_book_polish.png"
 
-#: src/app/[locale]/layout.tsx:102
+#: src/app/[locale]/layout.tsx:101
 msgid "Chamber Orchestra"
 msgstr "Orkiestra Kameralna"
 
-#: src/app/[locale]/layout.tsx:122
+#: src/app/[locale]/layout.tsx:121
 msgid "Choir"
 msgstr "Chór"
 
-#: src/app/[locale]/layout.tsx:127
+#: src/app/[locale]/layout.tsx:126
 msgid "Clarinet and Piano"
 msgstr "Klarnet i fortepian"
 
-#: src/app/[locale]/page.tsx:35
+#: src/app/[locale]/page.tsx:39
 msgid "Compositions"
 msgstr "Kompozycje"
 
-#: src/app/[locale]/page.tsx:36
+#: src/app/[locale]/page.tsx:40
 msgid "Compositions of Jan Ruckgaber"
 msgstr "Kompozycje Jana Ruckgabera"
 
@@ -135,14 +135,6 @@ msgstr "Kompozycje Jana Ruckgabera"
 #: src/app/[locale]/layout.tsx:75
 msgid "compositions.title"
 msgstr "Kompozycje"
-
-#: src/app/[locale]/[...slug]/contact.tsx:37
-msgid "Contact Form"
-msgstr "Formularz kontaktowy"
-
-#: src/app/[locale]/layout.tsx:85
-msgid "contact.title"
-msgstr "tytuł kontaktu"
 
 #: src/components/organisms/CompositionMarkup.tsx:4377
 msgid "cover"
@@ -157,7 +149,7 @@ msgstr "tylko okładka"
 msgid "Decline"
 msgstr "Odrzuć"
 
-#: src/app/[locale]/page.tsx:69
+#: src/app/[locale]/page.tsx:73
 msgid "Divertissiment for violin and the piano op 41"
 msgstr "Divertissiment na skrzypce i fortepian op. 41"
 
@@ -165,11 +157,11 @@ msgstr "Divertissiment na skrzypce i fortepian op. 41"
 msgid "doubtful pictures 111 i 112"
 msgstr "wątpliwe obrazy 111 i 112"
 
-#: src/app/[locale]/layout.tsx:86
+#: src/app/[locale]/layout.tsx:85
 msgid "Download"
 msgstr "Pobierz"
 
-#: src/app/[locale]/page.tsx:50
+#: src/app/[locale]/page.tsx:54
 msgid "Download the digital version of the Book about Jan Ruckgaber"
 msgstr "Pobierz cyfrową wersję książki o Janie Ruckgaberze"
 
@@ -210,7 +202,7 @@ msgstr "Rodzina"
 msgid "Family archive"
 msgstr "Archiwum rodzinne"
 
-#: src/app/[locale]/page.tsx:37
+#: src/app/[locale]/page.tsx:41
 msgid "Find a detailed list of compositions with links to note sheets"
 msgstr "Znajdź szczegółową listę kompozycji z linkami do nut"
 
@@ -218,7 +210,7 @@ msgstr "Znajdź szczegółową listę kompozycji z linkami do nut"
 msgid "First concerts"
 msgstr "Pierwsze koncerty"
 
-#: src/app/[locale]/layout.tsx:117
+#: src/app/[locale]/layout.tsx:116
 msgid "Flute, the Czakan and the Piano"
 msgstr "Flet, czakan i fortepian"
 
@@ -392,8 +384,8 @@ msgstr "Biblioteka Jagiellońska, Kraków"
 msgid "Jan Ruckgaber"
 msgstr "Jan Ruckgaber"
 
-#: src/app/[locale]/page.tsx:48
-#: src/app/[locale]/page.tsx:49
+#: src/app/[locale]/page.tsx:52
+#: src/app/[locale]/page.tsx:53
 #: src/app/[locale]/[...slug]/book.tsx:17
 msgid "Jan Ruckgaber Book"
 msgstr "Książka Jana Ruckgabera"
@@ -447,9 +439,9 @@ msgstr ""
 msgid "Later, his daughter Jane destroyed his last will, containing information as to the return to the true family name. Thus the only link to recovery the family surname was cut."
 msgstr "Później jego córka, Jane, zniszczyła jego ostatni testament, zawierający informacje o powrocie do prawdziwego nazwiska rodowego. Tym samym jedyny sposób na odzyskanie nazwiska rodowego został przerwany."
 
-#: src/app/[locale]/page.tsx:28
-#: src/app/[locale]/page.tsx:40
-#: src/app/[locale]/page.tsx:51
+#: src/app/[locale]/page.tsx:32
+#: src/app/[locale]/page.tsx:44
+#: src/app/[locale]/page.tsx:55
 msgid "Learn More"
 msgstr "Dowiedz się więcej"
 
@@ -457,7 +449,7 @@ msgstr "Dowiedz się więcej"
 msgid "Life"
 msgstr "Życie"
 
-#: src/app/[locale]/page.tsx:26
+#: src/app/[locale]/page.tsx:30
 msgid "Life of Jan Ruckgaber"
 msgstr "Życie Jana Ruckgabera"
 
@@ -466,7 +458,7 @@ msgstr "Życie Jana Ruckgabera"
 msgid "life.title"
 msgstr "Zycie"
 
-#: src/app/[locale]/layout.tsx:93
+#: src/app/[locale]/layout.tsx:92
 msgid "List of compositions"
 msgstr "Lista kompozycji"
 
@@ -474,7 +466,7 @@ msgstr "Lista kompozycji"
 msgid "List of Ruckgaber’s compositions, stored until 1939 in the Ossoliński National Institution in Lviv, made by J. Ruckgaber, the grandson of the composer"
 msgstr "Lista kompozycji Ruckgabera, przechowywanych do 1939 roku w Narodowej Instytucji Ossolińskich we Lwowie, sporządzona przez J. Ruckgabera, wnuka kompozytora"
 
-#: src/app/[locale]/page.tsx:64
+#: src/app/[locale]/page.tsx:68
 msgid "Listen to Music by Jan Ruckgaber"
 msgstr "Słuchaj muzyki Jana Ruckgabera"
 
@@ -532,11 +524,11 @@ msgid ""
 "              music legacy of Jan Ruckgaber."
 msgstr "Wiele utworów muzycznych, które - jak twierdzili jego współcześni - wykonywał na koncertach z mistrzostwem, pozostało w formie rękopisów. Oprócz popularnych transkrypcji muzyki na różne instrumenty sławnych kompozytorów tamtych czasów (takich jak Beethoven czy Verdi), stanowią one najcenniejszą część muzycznego dziedzictwa Jana Ruckgabera."
 
-#: src/app/[locale]/page.tsx:83
+#: src/app/[locale]/page.tsx:87
 msgid "Mazurek E- dur for the piano"
 msgstr "Mazurek E-dur na fortepian"
 
-#: src/app/[locale]/page.tsx:91
+#: src/app/[locale]/page.tsx:95
 msgid "Milan Jeleń - piano"
 msgstr "Milan Jeleń - fortepian"
 
@@ -692,7 +684,7 @@ msgstr "rkp"
 msgid "Music"
 msgstr "Muzyka"
 
-#: src/app/[locale]/layout.tsx:90
+#: src/app/[locale]/layout.tsx:89
 msgid "Music Compositions"
 msgstr "Kompozycje muzyczne"
 
@@ -794,11 +786,11 @@ msgstr "Uwertura na otwarcie Teatru Skarbkowskiego, skomponowana w Korczynie w s
 msgid "page 103 seems added"
 msgstr "strona 103 wydaje się dodana"
 
-#: src/app/[locale]/layout.tsx:107
+#: src/app/[locale]/layout.tsx:106
 msgid "Piano"
 msgstr "Fortepian"
 
-#: src/app/[locale]/layout.tsx:97
+#: src/app/[locale]/layout.tsx:96
 msgid "Piano with an Orchestra"
 msgstr "Fortepian z orkiestrą"
 
@@ -836,7 +828,7 @@ msgstr "drukuj"
 msgid "probably mixed pages"
 msgstr "prawdopodobnie pomieszane strony"
 
-#: src/app/[locale]/page.tsx:27
+#: src/app/[locale]/page.tsx:31
 msgid "Read about the life of Jan Ruckgaber, his family and ancestry"
 msgstr "Przeczytaj o życiu Jana Ruckgabera, jego rodzinie i pochodzeniu"
 
@@ -844,7 +836,7 @@ msgstr "Przeczytaj o życiu Jana Ruckgabera, jego rodzinie i pochodzeniu"
 msgid "references indicate a source of information"
 msgstr "odniesienia wskazują źródło informacji"
 
-#: src/app/[locale]/page.tsx:70
+#: src/app/[locale]/page.tsx:74
 msgid "Robert Szreder - violin, Elżbieta Sobkowicz - piano"
 msgstr "Robert Szreder - skrzypce, Elżbieta Sobkowicz - fortepian"
 
@@ -904,7 +896,7 @@ msgstr "zobacz także{6}"
 msgid "Something wrong, three endings?"
 msgstr "Coś nie tak, trzy zakończenia?"
 
-#: src/app/[locale]/page.tsx:77
+#: src/app/[locale]/page.tsx:81
 msgid "song for a voice and piano, Jerzy Sergiusz Adamczewski - baritone, Tatiana Woytaszewska - piano, Wincenty Pol - lyrics"
 msgstr "pieśń na głos i fortepian, Jerzy Sergiusz Adamczewski - baryton, Tatiana Woytaszewska - fortepian, Wincenty Pol - słowa"
 
@@ -922,7 +914,7 @@ msgstr ""
 msgid "Sources"
 msgstr "Źródła"
 
-#: src/app/[locale]/page.tsx:84
+#: src/app/[locale]/page.tsx:88
 msgid "Tatiana Woytaszewska - piano"
 msgstr "Tatiana Woytaszewska - fortepian"
 
@@ -1088,7 +1080,7 @@ msgstr "strona tytułowa (op. {3}!?)"
 msgid "version for orchestra"
 msgstr "wersja na orkiestrę"
 
-#: src/app/[locale]/layout.tsx:112
+#: src/app/[locale]/layout.tsx:111
 msgid "Violin and Piano"
 msgstr "Skrzypce i Fortepian"
 
@@ -1103,7 +1095,7 @@ msgstr "Skrzypce i Fortepian"
 msgid "voice and piano"
 msgstr "głos i fortepian"
 
-#: src/app/[locale]/layout.tsx:132
+#: src/app/[locale]/layout.tsx:131
 msgid "Voice and Piano"
 msgstr "Głos i Fortepian"
 
@@ -1151,7 +1143,7 @@ msgstr ""
 "              ale już w 1916/17 instytucja zaczęła wracać do\n"
 "              normalnego życia."
 
-#: src/app/[locale]/page.tsx:25
+#: src/app/[locale]/page.tsx:29
 msgid "Young Jan Ruckgaber"
 msgstr "Młody Jan Ruckgaber"
 

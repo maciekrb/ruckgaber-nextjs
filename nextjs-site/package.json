@@ -14,7 +14,7 @@
     "lodash": "^4.17.21",
     "loglevel": "^1.9.2",
     "negotiator": "^1.0.0",
-    "next": "^15.0.1",
+    "next": "15.1.11",
     "react": "^18.3.1",
     "react-audio-player": "^0.17.0",
     "react-bootstrap": "^2.10.9",
@@ -51,6 +51,13 @@
     "eslint": "^9.20.0",
     "eslint-config-prettier": "^10.0.1",
     "prettier": "^3.5.1",
-    "typescript": "^5.4.5"
-  }
+    "typescript": "^5.4.5",
+    "vercel": "^42.3.0"
+  },
+  "eslint": {
+    "extends": [
+      "plugin:@next/next/recommended"
+    ]
+  },
+  "packageManager": "pnpm@10.28.0+sha512.05df71d1421f21399e053fde567cea34d446fa02c76571441bfc1c7956e98e363088982d940465fd34480d4d90a0668bc12362f8aa88000a64e83d0b0e47be48"
 }

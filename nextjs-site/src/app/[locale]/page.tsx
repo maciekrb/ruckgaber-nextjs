@@ -10,7 +10,11 @@ import ResponsiveCard from '@components/atoms/ResponsiveCard'
 import { initLingui } from '@/initLingui'
 import { slugLocalizer } from '@/locales/namedSlugs'
 
-export default async function Page({ params }: { params: { locale: string } }) {
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}) {
   const { locale } = await params
   initLingui(locale)
   const { t } = useLingui()
