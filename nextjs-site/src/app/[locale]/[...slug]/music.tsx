@@ -1,7 +1,7 @@
 import React from 'react'
 import { useLingui } from '@lingui/react/macro'
 import Box from '@mui/material/Box'
-import Grid from '@mui/material/Grid2'
+import Grid from '@mui/material/Grid'
 import Link from '@mui/material/Link'
 import Typography from '@mui/material/Typography'
 import { initLingui } from '@/initLingui'

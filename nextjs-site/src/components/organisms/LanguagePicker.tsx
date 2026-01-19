@@ -33,7 +33,7 @@ const LangButton = styled(Button)({
 })
 
 const LanguageSelect = ({ lang }: { lang: string }) => {
-  const [menuAnchor, setMenuAnchor] = React.useState(null)
+  const [menuAnchor, setMenuAnchor] = React.useState<null | HTMLElement>(null)
   const pathname = usePathname()
   const router = useRouter()
   const currentSlug = pathname.replace(`/${lang}`, '').replace('/', '') || ''
@@ -47,7 +47,7 @@ const LanguageSelect = ({ lang }: { lang: string }) => {
         size="small"
         onClick={({ currentTarget }) => setMenuAnchor(currentTarget)}
       >
-        {languageMap[lang].label}
+        {(languageMap as any)[lang].label}
       </LangButton>
       <Popover
         open={!!menuAnchor}
@@ -72,7 +72,7 @@ const LanguageSelect = ({ lang }: { lang: string }) => {
                     setMenuAnchor(null)
                   }}
                 >
-                  <ListItemText primary={languageMap[item].label} />
+                  <ListItemText primary={(languageMap as any)[item].label} />
                 </ListItemButton>
               </ListItem>
             ))}

@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
-import red from '@mui/material/colors/red'
+import { Typography } from '@mui/material'
+import { red } from '@mui/material/colors'
 import { styled } from '@mui/material/styles'
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf'
 
@@ -1005,7 +1006,7 @@ const Composition = ({
           <PictureAsPdfIcon fontSize="small" style={{ color: red[500] }} />
         </a>
       </span>
-      <span class="c16 c1 c15">(page 103 seems added)</span>
+      <span className="c16 c1 c15">(page 103 seems added)</span>
     </p>
     <p className="c0">
       <span className="c8 c3">&nbsp;A.9.n.</span>

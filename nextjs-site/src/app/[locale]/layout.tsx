@@ -31,7 +31,7 @@ export default async function LocaleLayout({
   params,
 }: {
   children: React.ReactNode
-  params: { locale: string }
+  params: Promise<{ locale: string }>
 }) {
   const lang = (await params).locale
   initLingui(lang)
@@ -138,7 +138,7 @@ export default async function LocaleLayout({
   const breadcrumbMap = mainMenu.reduce((acc, item) => {
     acc[item.href] = item.title
     return acc
-  }, {})
+  }, {} as Record<string, string>)
 
   return (
     <html lang={lang} className={`${roboto.className} ${greatVibes.className}`}>

@@ -16,6 +16,6 @@ export default async function Page({ params }: PageParams) {
     return notFound()
   }
 
-  const PageComponent = dynamic(() => import(`./${pageName}.tsx`))
+  const PageComponent = dynamic<any>(() => import(`./${pageName}.tsx`))
   return <PageComponent params={{ locale }} />
 }

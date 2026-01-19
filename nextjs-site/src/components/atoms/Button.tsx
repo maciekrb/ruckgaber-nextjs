@@ -1,24 +1,24 @@
-import { withStyles } from '@mui/material/styles';
-import Button from '@mui/material/Button';
+import { styled } from '@mui/material/styles'
+import MuiButton, { ButtonProps } from '@mui/material/Button'
 
-export default withStyles((theme) => ({
-  root: {
-    borderRadius: 0,
-    fontWeight: theme.typography.fontWeightMedium,
-    fontFamily: theme.typography.fontFamilySecondary,
-    padding: theme.spacing(2, 4),
-    fontSize: theme.typography.pxToRem(14),
+const Button = styled(MuiButton)<ButtonProps>(({ theme }) => ({
+  borderRadius: 0,
+  fontWeight: theme.typography.fontWeightMedium,
+  fontFamily: theme.typography.fontFamilySecondary,
+  padding: theme.spacing(2, 4),
+  fontSize: theme.typography.pxToRem(14),
+  boxShadow: 'none',
+  '&:active, &:focus': {
     boxShadow: 'none',
-    '&:active, &:focus': {
-      boxShadow: 'none',
-    },
   },
-  sizeSmall: {
+  '&.MuiButton-sizeSmall': {
     padding: theme.spacing(1, 3),
     fontSize: theme.typography.pxToRem(13),
   },
-  sizeLarge: {
+  '&.MuiButton-sizeLarge': {
     padding: theme.spacing(2, 5),
     fontSize: theme.typography.pxToRem(16),
   },
-}))(Button);
+}))
+
+export default Button

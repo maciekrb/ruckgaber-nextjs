@@ -21,7 +21,8 @@ const ScrollTop = () => {
   })
 
   const handleClick = (event: React.MouseEvent) => {
-    const anchor = (event.target.ownerDocument || document).querySelector(
+    const target = event.target as HTMLElement
+    const anchor = (target.ownerDocument || document).querySelector(
       '#back-to-top-anchor',
     )
 

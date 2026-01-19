@@ -1,11 +1,27 @@
 import React, { forwardRef } from 'react'
 import { createTheme } from '@mui/material/styles'
 import { green, grey, red } from '@mui/material/colors'
-import NextLink from 'next/link'
+import NextLink, { LinkProps } from 'next/link'
 
-const LinkOverride = forwardRef((props, ref) => (
-  <NextLink prefetch={false} ref={ref} {...props} />
-))
+declare module '@mui/material/styles' {
+  interface PaletteColor {
+    xLight?: string
+  }
+  interface SimplePaletteColorOptions {
+    xLight?: string
+  }
+  interface TypographyVariants {
+    fontFamilySecondary: string
+  }
+  interface TypographyVariantsOptions {
+    fontFamilySecondary?: string
+  }
+}
+
+const LinkOverride = forwardRef<HTMLAnchorElement, LinkProps>((props, ref) => {
+  const { href, ...other } = props
+  return <NextLink href={href} prefetch={false} ref={ref} {...other} />
+})
 LinkOverride.displayName = 'LinkOverride'
 
 const rawTheme = createTheme({

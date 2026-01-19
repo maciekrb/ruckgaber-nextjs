@@ -3,7 +3,7 @@ import React from 'react'
 import { styled } from '@mui/material/styles'
 import Box from '@mui/material/Box'
 import Link from '@mui/material/Link'
-import Grid from '@mui/material/Grid2'
+import Grid from '@mui/material/Grid'
 import Typography from '@mui/material/Typography'
 import Copyright from '../atoms/Copyright'
 import { Container } from '@mui/material'
@@ -28,7 +28,7 @@ const StyledFooter = styled('footer')(({ theme }) => ({
 }))
 
 const Footer = ({ sections }: { sections: any; locale: string }) => {
-  const toHref = (menuItem) =>
+  const toHref = (menuItem: any) =>
     menuItem.section ? `${menuItem.href}#${menuItem.section}` : menuItem.href
 
   return (
@@ -40,7 +40,7 @@ const Footer = ({ sections }: { sections: any; locale: string }) => {
               {sections[0].title}
             </Typography>
             <ul>
-              {sections[0].items.map((item, idx) => (
+              {sections[0].items.map((item: any, idx: number) => (
                 <li key={`footer-item-1-${idx}`}>
                   <Link
                     href={toHref(item)}
@@ -59,7 +59,7 @@ const Footer = ({ sections }: { sections: any; locale: string }) => {
               {sections[1].title}
             </Typography>
             <ul>
-              {sections[1].items.map((item, idx) => (
+              {sections[1].items.map((item: any, idx: number) => (
                 <li key={`footer-item-2-${idx}`}>
                   <Link
                     href={toHref(item)}
@@ -82,7 +82,7 @@ const Footer = ({ sections }: { sections: any; locale: string }) => {
               {sections[2].title}
             </Typography>
             <ul>
-              {sections[2].items.map((item, idx) => (
+              {sections[2].items.map((item: any, idx: number) => (
                 <li key={`footer-item-3-${idx}`}>
                   <Link
                     href={toHref(item)}

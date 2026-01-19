@@ -1,7 +1,7 @@
 import React from 'react'
 import { useLingui } from '@lingui/react/macro'
 import Box from '@mui/material/Box'
-import Grid from '@mui/material/Grid2'
+import Grid from '@mui/material/Grid'
 import Typography from '@mui/material/Typography'
 import YouTubeVideo from '@components/atoms/YouTubeVideo'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -97,6 +97,9 @@ export default async function Page({
             />
           </Grid>
         </Grid>
+      </Box>
+      <Box mt={4}>
+        <Typography variant="h4">{t`We invite you to watch the film by Michał Piekarski and Stanisław Łopuszyński: This Is How Lviv Sounds, Ep. 1 - Introduction and Ep. 2 - Piano Polonaise in Lviv.`}</Typography>
       </Box>
       <Box py={2}>
         <YouTubeVideo src="videoseries?list=PL6sg6rLVg9MF-00zsMgRZaoww98riHtFL" />

@@ -1,39 +1,52 @@
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-10 15:16-0500\n"
-"PO-Revision-Date: \n"
+"PO-Revision-Date: 2026-01-03 17:58+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: \n"
-"X-Generator: @lingui/cli\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n%10 >= 2 && n%10 <=4 && "
+"(n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || n%10 == 1 || (n%10 >= 5 && "
+"n%10 <=9)) || (n%100 >= 12 && n%100 <= 14)) ? 2 : 3);\n"
+"X-Generator: PO File Editor https://pofile.net/free-po-editor\n"
 
 #: src/app/[locale]/[...slug]/lvivArchives.tsx:46
 msgid ""
 "&quot;The Ruckgaber Archive&quot; in the Stefanyk Library contains\n"
-"              only manuscripts, over 1800 pages of music. They span from 1815 to\n"
-"              1872 and they document all of his work as a composer. After his\n"
-"              death in 1876 his works remained in the possession of the Galician\n"
-"              Music Society. Later the archive was handed over to the National\n"
-"              Ossoliński Library in Lviv. In 1940 it was transferred to the Lviv\n"
+"              only manuscripts, over 1800 pages of music. They span from "
+"1815 to\n"
+"              1872 and they document all of his work as a composer. After "
+"his\n"
+"              death in 1876 his works remained in the possession of the "
+"Galician\n"
+"              Music Society. Later the archive was handed over to the "
+"National\n"
+"              Ossoliński Library in Lviv. In 1940 it was transferred to the "
+"Lviv\n"
 "              branch of the Academic Library of the Ukrainian Academy of\n"
-"              Sciences, the present Stefanyk Lviv National Academic Library of\n"
+"              Sciences, the present Stefanyk Lviv National Academic Library "
+"of\n"
 "              Ukraine."
 msgstr ""
-"&quot;Archiwum Ruckgabera&quot; w Bibliotece Stefanyka zawiera\n"
-"              tylko rękopisy, ponad 1800 stron muzyki. Obejmują one lata 1815 do\n"
-"              1872 i dokumentują całą jego działalność jako kompozytora. Po jego\n"
-"              śmierci w 1876 roku jego dzieła pozostały w posiadaniu Galicyjskiego\n"
-"              Towarzystwa Muzycznego. Później archiwum zostało przekazane do\n"
-"              Narodowej Biblioteki Ossolińskich we Lwowie. W 1940 roku zostało\n"
+"\"Archiwum Ruckgabera\" w Bibliotece Stefanyka zawiera\n"
+"              tylko rękopisy, ponad 1800 stron muzyki. Obejmują one lata "
+"1815 do\n"
+"              1872 i dokumentują całą jego działalność jako kompozytora. Po "
+"jego\n"
+"              śmierci w 1876 roku jego dzieła pozostały w posiadaniu "
+"Galicyjskiego\n"
+"              Towarzystwa Muzycznego. Później archiwum zostało przekazane "
+"do\n"
+"              Narodowej Biblioteki Ossolińskich we Lwowie. W 1940 roku "
+"zostało\n"
 "              przeniesione do lwowskiego oddziału Biblioteki Akademickiej\n"
-"              Ukraińskiej Akademii Nauk, obecnej Narodowej Akademickiej Biblioteki\n"
+"              Ukraińskiej Akademii Nauk, obecnej Narodowej Akademickiej "
+"Biblioteki\n"
 "              im. Stefanyka we Lwowie."
 
 #: src/app/[locale]/page.tsx:94
@@ -41,8 +54,16 @@ msgid "12 Variations op 2"
 msgstr "12 Wariacji op. 2"
 
 #: src/app/[locale]/[...slug]/life.tsx:65
-msgid "A gifted musician, admired as a pianist and a composer of popular music, Jan Ruckgaber was a lively, charismatic figure. He played piano concerts in many European towns. In the mid-1840s, in Paris he met Fryderyk Chopin and Ferenc Liszt."
-msgstr "Utalentowany muzyk, ceniony jako pianista i kompozytor muzyki popularnej, Jan Ruckgaber był pełną życia, charyzmatyczną postacią. Grał koncerty fortepianowe w wielu europejskich miastach. W połowie lat 40. XIX wieku, w Paryżu spotkał Fryderyka Chopina i Ferenca Liszta."
+msgid ""
+"A gifted musician, admired as a pianist and a composer of popular music, "
+"Jan Ruckgaber was a lively, charismatic figure. He played piano concerts in "
+"many European towns. In the mid-1840s, in Paris he met Fryderyk Chopin and "
+"Ferenc Liszt."
+msgstr ""
+"Utalentowany muzyk, ceniony jako pianista i kompozytor muzyki popularnej, "
+"Jan Ruckgaber był energiczną, charyzmatyczną postacią. Grał koncerty "
+"fortepianowe w wielu europejskich miastach. W połowie lat 40. XIX wieku, w "
+"Paryżu poznał Fryderyka Chopina i Ferenca Liszta."
 
 #: src/components/organisms/CompositionMarkup.tsx:225
 msgid "A. Music for piano and orchestra"
@@ -50,24 +71,27 @@ msgstr "A. Utwory na fortepian i orkiestrę"
 
 #: src/app/[locale]/[...slug]/about.tsx:19
 msgid "About this project"
-msgstr "Wprowadzenie"
+msgstr "O autorach"
 
 #: src/app/[locale]/layout.tsx:57
 #: src/app/[locale]/layout.tsx:78
 #: src/app/[locale]/layout.tsx:84
 msgid "about.title"
-msgstr "Wprowadzenie"
+msgstr "O autorach"
 
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:172
 msgid ""
 "After the second disaster of World War II the Conservatoire took\n"
-"              up its activity as the Lviv National Music Academy, and it still\n"
-"              works, taking the name of M. Łysenko Lviv National Musical Academy\n"
+"              up its activity as the Lviv National Music Academy, and it "
+"still\n"
+"              works, taking the name of M. Łysenko Lviv National Musical "
+"Academy\n"
 "              from 2008."
 msgstr ""
-"Po drugiej katastrofie II wojny światowej Konserwatorium wznowiło\n"
+"Po katastrofie II wojny światowej Konserwatorium wznowiło\n"
 "              działalność jako Lwowska Narodowa Akademia Muzyczna, i nadal\n"
-"              funkcjonuje, przyjmując od 2008 roku nazwę Narodowej Akademii Muzycznej\n"
+"              funkcjonuje, przyjmując od 2008 roku nazwę Narodowej Akademii "
+"Muzycznej\n"
 "              im. M. Łysenki we Lwowie."
 
 #: src/app/[locale]/[...slug]/music.tsx:27
@@ -82,29 +106,36 @@ msgstr "Pochodzenie"
 msgid ""
 "Another part of J. Ruckgaber’s manuscripts, his printed works and\n"
 "              some of his handwritten copies of other composers’ music with\n"
-"              their autographs are now stored in the Library of the M.W. Łysenko\n"
+"              their autographs are now stored in the Library of the M.W. "
+"Łysenko\n"
 "              Lviv National Music Academy."
 msgstr ""
-"Inna część rękopisów J. Ruckgabera, jego druki oraz\n"
+"Inna część rękopisów J. Ruckgabera, nut wydanych drukiem oraz\n"
 "              niektóre jego ręczne kopie muzyki innych kompozytorów z\n"
-"              ich autografami są teraz przechowywane w Bibliotece Narodowej Akademii Muzycznej\n"
+"              ich autografami są teraz przechowywane w Bibliotece Narodowej "
+"Akademii Muzycznej\n"
 "              im. M.W. Łysenki we Lwowie."
 
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:124
 msgid ""
 "At first it was led by the director Jan Ruckgaber. Art of\n"
 "              composition was taught along with theoretical subjects, as\n"
-"              harmonics, counterpoint, instrumentation and analysis of music\n"
+"              harmonics, counterpoint, instrumentation and analysis of "
+"music\n"
 "              forms. From the first years of the Galician Music Society,\n"
 "              Ruckgaber gathered repertoire for a music library, whose\n"
 "              collection was enriched when the conservatoire was\n"
 "              established."
 msgstr ""
-"Początkowo prowadził go dyrektor Jan Ruckgaber. Sztuka\n"
-"              kompozycji była nauczana razem z przedmiotami teoretycznymi, takimi jak\n"
-"              harmonika, kontrapunkt, instrumentacja i analiza form muzycznych.\n"
-"              Od pierwszych lat działalności Galicyjskiego Towarzystwa Muzycznego,\n"
-"              Ruckgaber zgromadził repertuar dla biblioteki muzycznej, której\n"
+"Początkowo prowadził je dyrektor Jan Ruckgaber. Sztuka\n"
+"              kompozycji była nauczana razem z przedmiotami teoretycznymi, "
+"takimi jak\n"
+"              harmonika, kontrapunkt, instrumentacja i analiza form "
+"muzycznych.\n"
+"              Od pierwszych lat działalności Galicyjskiego Towarzystwa "
+"Muzycznego,\n"
+"              Ruckgaber gromadził repertuar dla biblioteki muzycznej, "
+"której\n"
 "              zbiory zostały wzbogacone, gdy założono konserwatorium."
 
 #: src/app/[locale]/page.tsx:51
@@ -147,7 +178,7 @@ msgstr "tylko okładka"
 
 #: src/app/[locale]/[...slug]/life.tsx:69
 msgid "Decline"
-msgstr "Odrzuć"
+msgstr "Schyłek"
 
 #: src/app/[locale]/page.tsx:73
 msgid "Divertissiment for violin and the piano op 41"
@@ -214,14 +245,14 @@ msgstr "Pierwsze koncerty"
 msgid "Flute, the Czakan and the Piano"
 msgstr "Flet, czakan i fortepian"
 
-#. placeholder {10}: 4
 #: src/components/organisms/CompositionMarkup.tsx:7076
+#. placeholder {10}: 4
 msgid "for {10} male voices and a piano"
-msgstr "dla {10} męskich głosów i fortepianu"
+msgstr "na {10} głosy męskie i fortepian"
 
 #: src/components/organisms/CompositionMarkup.tsx:7085
 msgid "for voice"
-msgstr "dla głosu"
+msgstr "na głos"
 
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:48
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:49
@@ -229,8 +260,22 @@ msgid "Franz Xavier Mozart, son (http://zaxid.net/news/, 2015)"
 msgstr "Franz Xavier Mozart, syn (http://zaxid.net/news/, 2015)"
 
 #: src/app/[locale]/[...slug]/life.tsx:66
-msgid "From scratch did he organize the Galician Music Society. He laid the foundation under professional music education in Lviv, starting Music School in 1839 and, a few years later, a Conservatoire, which works till the present days, now under the name of the Lviv National Music Academy. During over fifty years of his public activity, Jan Ruckgaber educated three generations of musicians and music-lovers and earned respect and admiration of Lviv musical circles."
-msgstr "Od podstaw zorganizował Galicyjskie Towarzystwo Muzyczne. Położył fundamenty pod profesjonalne kształcenie muzyczne we Lwowie, zakładając Szkołę Muzyczną w 1839 roku, a kilka lat później Konserwatorium, które działa do dziś pod nazwą Lwowska Narodowa Akademia Muzyczna. Przez ponad pięćdziesiąt lat swojej publicznej działalności, Jan Ruckgaber wykształcił trzy pokolenia muzyków i miłośników muzyki oraz zdobył szacunek i podziw lwowskich kręgów muzycznych."
+msgid ""
+"From scratch did he organize the Galician Music Society. He laid the "
+"foundation under professional music education in Lviv, starting Music "
+"School in 1839 and, a few years later, a Conservatoire, which works till "
+"the present days, now under the name of the Lviv National Music Academy. "
+"During over fifty years of his public activity, Jan Ruckgaber educated "
+"three generations of musicians and music-lovers and earned respect and "
+"admiration of Lviv musical circles."
+msgstr ""
+"Od podstaw zorganizował Galicyjskie Towarzystwo Muzyczne. Położył "
+"fundamenty pod profesjonalne kształcenie muzyczne we Lwowie, zakładając "
+"Szkołę Muzyczną w 1839 roku, a kilka lat później Konserwatorium, które "
+"działa do dziś pod nazwą Lwowskiej Narodowej Akademii Muzycznej. Przez "
+"ponad pięćdziesiąt lat swojej publicznej działalności, Jan Ruckgaber "
+"wykształcił trzy pokolenia muzyków i miłośników muzyki oraz zdobył szacunek "
+"i podziw lwowskich kręgów muzycznych."
 
 #: src/app/[locale]/layout.tsx:45
 #: src/app/[locale]/layout.tsx:66
@@ -240,27 +285,41 @@ msgstr "Galicyjskie Towarzystwo Muzyczne"
 #: src/app/[locale]/[...slug]/music.tsx:67
 msgid ""
 "He composed mainly piano music of salon character, often\n"
-"              attempting to adapt Polish folk music. His piano compositions,\n"
+"              attempting to adapt Polish folk music. His piano "
+"compositions,\n"
 "              often masterful in form, were published by the largest music\n"
-"              companies in Leipzig, London, Brussels, Paris and Petersburg, not\n"
+"              companies in Leipzig, London, Brussels, Paris and Petersburg, "
+"not\n"
 "              to mention Vienna, Warsaw and Lviv."
 msgstr ""
-"Komponował głównie muzykę fortepianową o charakterze salonowym, często\n"
-"              próbując adaptować polską muzykę ludową. Jego kompozycje fortepianowe,\n"
-"              często mistrzowskie pod względem formy, były publikowane przez największe\n"
-"              wydawnictwa muzyczne w Lipsku, Londynie, Brukseli, Paryżu i Petersburgu, nie\n"
+"Komponował głównie muzykę fortepianową o charakterze salonowym, chętnie\n"
+"              wplatając motywy polskiej muzyki ludowej. Jego kompozycje "
+"fortepianowe,\n"
+"              często mistrzowskie pod względem formy, były publikowane "
+"przez największe\n"
+"              wydawnictwa muzyczne w Lipsku, Londynie, Brukseli, Paryżu i "
+"Petersburgu, nie\n"
 "              wspominając o Wiedniu, Warszawie i Lwowie."
 
 #: src/app/[locale]/[...slug]/about.tsx:43
 msgid ""
 "He spent most of his lifetime in Lviv, a Polish town bustling with\n"
-"            Polish culture, although Poland did not then exist on the map of\n"
+"            Polish culture, although Poland did not then exist on the map "
+"of\n"
 "            Europe."
-msgstr "Większość życia spędził we Lwowie, przesiąkniętym polską kulturą, choć Polski nie było wtedy na mapie Europy."
+msgstr ""
+"Większość życia spędził we Lwowie, przesiąkniętym polską kulturą, choć "
+"Polski nie było wtedy na mapie Europy."
 
 #: src/app/[locale]/[...slug]/life.tsx:31
-msgid "He started his musical education in Vienna with Johann Nepomuk Hummel, who was an Austrian composer and pianist, of Slovak origin. Later he continued his studies in Paris, presumably in the years 1816-1819."
-msgstr "Rozpoczął swoją edukację muzyczną w Wiedniu u Johann Nepomuk Hummel, który był austriackim kompozytorem i pianistą pochodzenia słowackiego. Później kontynuował swoje studia w Paryżu, prawdopodobnie w latach 1816-1819."
+msgid ""
+"He started his musical education in Vienna with Johann Nepomuk Hummel, who "
+"was an Austrian composer and pianist, of Slovak origin. Later he continued "
+"his studies in Paris, presumably in the years 1816-1819."
+msgstr ""
+"Edukację muzyczną rozpoczął w Wiedniu u Johanna Nepomuka Hummela, który był "
+"austriackim kompozytorem i pianistą pochodzenia słowackiego. Później "
+"kontynuował studia w Paryżu, prawdopodobnie w latach 1816-1819."
 
 #: src/app/[locale]/[...slug]/music.tsx:107
 #: src/app/[locale]/[...slug]/lvivArchives.tsx:72
@@ -274,22 +333,30 @@ msgstr "tutaj"
 msgid ""
 "His fate seems symbolic for the tangled history of Europe. The goal\n"
 "            of our website is to reveal his story to the widest public."
-msgstr "Jego losy wydają się symboliczne na tle burzliwej historii Europy. Celem naszej prezentacji jest ukazanie jego historii jak najszerszej publiczności. "
+msgstr ""
+"Jego losy wydają się symboliczne na tle burzliwej historii Europy. Celem "
+"naszej prezentacji jest ukazanie jego historii jak najszerszej "
+"publiczności. "
 
 #: src/app/[locale]/[...slug]/music.tsx:74
 msgid ""
 "His music was easy, tuneful, light and nice, with clear qualities\n"
 "              of the Romantic style, following the patterns of Schubert and\n"
-"              Weber. In his chamber compositions he frequently used the typical\n"
-"              elements of Polish music, firstly of folk dances, as cracovienne\n"
-"              and mazurek, as well as polonaise. Undoubtedly he tried to convey\n"
+"              Weber. In his chamber compositions he frequently used the "
+"typical\n"
+"              elements of Polish music, firstly of folk dances, as "
+"cracovienne\n"
+"              and mazurek, as well as polonaise. Undoubtedly he tried to "
+"convey\n"
 "              the uniqueness of the folk tradition and the character of the\n"
 "              country, where he spent most of his lifetime."
 msgstr ""
 "Jego muzyka była łatwa, melodyjna, lekka i przyjemna, z wyraźnymi cechami\n"
-"              stylu romantycznego, naśladując wzorce Schuberta i\n"
-"              Webera. W swoich kompozycjach kameralnych często wykorzystywał typowe\n"
-"              elementy polskiej muzyki, przede wszystkim tańce ludowe, takie jak krakowiak\n"
+"              stylu romantycznego, naśladująca wzorce Schuberta i\n"
+"              Webera. W swoich kompozycjach kameralnych często "
+"wykorzystywał typowe\n"
+"              elementy polskiej muzyki, przede wszystkim tańce ludowe, "
+"takie jak krakowiak\n"
 "              i mazurek, a także polonez. Niewątpliwie starał się przekazać\n"
 "              wyjątkowość tradycji ludowej i charakter kraju,\n"
 "              w którym spędził większość swojego życia."
@@ -299,80 +366,111 @@ msgid "home.title"
 msgstr "Strona główna"
 
 #: src/app/[locale]/[...slug]/life.tsx:39
-msgid "In 1826 Ruckgaber settled in Lviv for good. He played concerts, worked as a piano tutor, and a composer.  His music was then published by Franz Piller’s printing house in Lviv. It was mainly dance music, romances and songs."
-msgstr "W 1826 roku Ruckgaber na stałe osiedlił się we Lwowie. Grał koncerty, pracował jako nauczyciel gry na fortepianie i kompozytor. Jego muzyka była wówczas publikowana przez drukarnię Franza Pillera we Lwowie. Głównie była to muzyka taneczna, romanse i piosenki."
+msgid ""
+"In 1826 Ruckgaber settled in Lviv for good. He played concerts, worked as a "
+"piano tutor, and a composer.  His music was then published by Franz "
+"Piller’s printing house in Lviv. It was mainly dance music, romances and "
+"songs."
+msgstr ""
+"W 1826 roku Ruckgaber na stałe osiedlił się we Lwowie. Grał koncerty, "
+"pracował jako nauczyciel gry na fortepianie i kompozytor. Jego muzyka była "
+"wówczas publikowana przez drukarnię Franza Pillera we Lwowie. Głównie była "
+"to muzyka taneczna, romanse i piosenki."
 
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:133
 msgid ""
 "In 1906, the GMS and the Conservatoire moved to a new building,\n"
-"              and in 1910 a new concert hall, with excellent acoustics and new\n"
-"              organ was put into use. Presently the Lviv Philharmonic is placed\n"
+"              and in 1910 a new concert hall, with excellent acoustics and "
+"new\n"
+"              organ was put into use. Presently the Lviv Philharmonic is "
+"placed\n"
 "              there."
 msgstr ""
 "W 1906 roku GMS i Konserwatorium przeniosły się do nowego budynku,\n"
-"              a w 1910 roku nowa sala koncertowa z doskonałą akustyką i nowymi\n"
-"              organami została oddana do użytku. Obecnie w tym miejscu znajduje się\n"
+"              a w 1910 roku nowa sala koncertowa z doskonałą akustyką i "
+"nowymi\n"
+"              organami została oddana do użytku. Obecnie w tym miejscu "
+"znajduje się\n"
 "              Filharmonia Lwowska."
 
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:83
 msgid ""
 "In November 1848, due to a shellfire of the town, the center of\n"
 "              Lviv was seriously damaged. The university building and its\n"
-"              library, with valuable Polish materials and antique books, were\n"
-"              burnt down, the same happened with the technical university, the\n"
-"              town hall and the theatre.  The Galician Music Society suspended\n"
+"              library, with valuable Polish materials and antique books, "
+"were\n"
+"              burnt down, the same happened with the technical university, "
+"the\n"
+"              town hall and the theatre.  The Galician Music Society "
+"suspended\n"
 "              its activity."
 msgstr ""
 "W listopadzie 1848 roku, w wyniku ostrzału miasta, centrum\n"
-"              Lwowa zostało poważnie zniszczone. Budynek uniwersytetu oraz jego\n"
-"              biblioteka z cennymi polskimi materiałami i starodawnymi książkami\n"
-"              spłonęły; to samo spotkało politechnikę, ratusz i teatr. Galicyjskie\n"
+"              Lwowa zostało poważnie zniszczone. Budynek uniwersytetu oraz "
+"jego\n"
+"              biblioteka z cennymi polskimi materiałami i starodawnymi "
+"książkami\n"
+"              spłonęły; to samo spotkało politechnikę, ratusz i teatr. "
+"Galicyjskie\n"
 "              Towarzystwo Muzyczne zawiesiło swoją działalność."
 
 #: src/app/[locale]/[...slug]/music.tsx:89
 msgid ""
 "In the composer’s oeuvre there are numerous large forms: sonatas,\n"
-"              duos, concertos for solo instruments with the accompaniment of the\n"
-"              piano, orchestral and choral compositions. There are also piano\n"
+"              duos, concertos for solo instruments with the accompaniment "
+"of the\n"
+"              piano, orchestral and choral compositions. There are also "
+"piano\n"
 "              works for four hands, and even for eight hands."
 msgstr ""
 "W dorobku kompozytora znajduje się wiele dużych form: sonaty,\n"
 "              duety, koncerty na instrumenty solowe z akompaniamentem\n"
-"              fortepianu, kompozycje orkiestrowe i chóralne. Są również utwory\n"
+"              fortepianu, kompozycje orkiestrowe i chóralne. Są również "
+"utwory\n"
 "              fortepianowe na cztery ręce, a nawet na osiem rąk."
 
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:27
 msgid ""
 "In the early 1830s, Jan Ruckgaber and Franz Xavier Mozart set up\n"
-"              the Society of Friends of Music (Gesellschaft der Musikfreunde),\n"
-"              which soon became a foundation for the Galician Music Society,\n"
+"              the Society of Friends of Music (Gesellschaft der "
+"Musikfreunde),\n"
+"              which soon became a foundation for the Galician Music "
+"Society,\n"
 "              officially registered on the 14th of August 1838."
 msgstr ""
 "Na początku lat 30. XIX wieku, Jan Ruckgaber i Franz Xavier Mozart założyli\n"
-"              Towarzystwo Przyjaciół Muzyki (Gesellschaft der Musikfreunde),\n"
-"              które wkrótce stało się podstawą dla Galicyjskiego Towarzystwa Muzycznego,\n"
+"              Towarzystwo Przyjaciół Muzyki (Gesellschaft der "
+"Musikfreunde),\n"
+"              które wkrótce stało się fundamentem Galicyjskiego Towarzystwa "
+"Muzycznego,\n"
 "              oficjalnie zarejestrowanego 14 sierpnia 1838 roku."
 
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:178
 msgid ""
 "In the year 2004, the institution, once established by Jan\n"
 "              Ruckgaber, celebrated its 150th anniversary."
-msgstr "W roku 2004 instytucja, założona niegdyś przez Jana Ruckgabera, obchodziła swoje 150-lecie."
+msgstr ""
+"W roku 2004 instytucja, założona niegdyś przez Jana Ruckgabera, obchodziła "
+"swoje 150-lecie."
 
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:105
 msgid ""
 "It was not before June 1852, when the Galician Music Society was\n"
-"              renewed as The Society for the Development of Music in Galicia.\n"
+"              renewed as The Society for the Development of Music in "
+"Galicia.\n"
 "              The Society’s concert activity was soon restarted and under\n"
-"              Ruckgaber’s direction the orchestra presented to the audience,\n"
-"              among others, the overture to &quot;The Summer Night’s Dream&quot;\n"
+"              Ruckgaber’s direction the orchestra presented to the "
+"audience,\n"
+"              among others, the overture to &quot;The Summer Night’s "
+"Dream&quot;\n"
 "              by F. Mendelssohn, and The Pastoral Symphony by L. van\n"
 "              Beethoven."
 msgstr ""
 "Dopiero w czerwcu 1852 roku Galicyjskie Towarzystwo Muzyczne zostało\n"
-"              odnowione jako Towarzystwo dla Rozwoju Muzyki w Galicji.\n"
+"              odtworzone jako Towarzystwo dla Rozwoju Muzyki w Galicji.\n"
 "              Wkrótce wznowiono działalność koncertową Towarzystwa i pod\n"
-"              kierownictwem Ruckgaber’a orkiestra zaprezentowała publiczności\n"
+"              kierownictwem Ruckgaber’a orkiestra zaprezentowała "
+"publiczności\n"
 "              między innymi uwerturę do „Snu nocy letniej” F. Mendelssohna\n"
 "              oraz Symfonię Pastoralną L. van Beethovena."
 
@@ -388,56 +486,106 @@ msgstr "Jan Ruckgaber"
 #: src/app/[locale]/page.tsx:53
 #: src/app/[locale]/[...slug]/book.tsx:17
 msgid "Jan Ruckgaber Book"
-msgstr "Książka Jana Ruckgabera"
+msgstr "Biografia Jana Ruckgabera"
 
 #: src/app/[locale]/[...slug]/book.tsx:34
 #: src/app/[locale]/[...slug]/book.tsx:35
 msgid "Jan Ruckgaber Book cover (english version)"
-msgstr "Okładka książki Jana Ruckgabera (wersja angielska)"
+msgstr "Okładka biografii Jana Ruckgabera (wersja angielska)"
 
 #: src/app/[locale]/[...slug]/book.tsx:23
 #: src/app/[locale]/[...slug]/book.tsx:24
 msgid "Jan Ruckgaber Book cover (polish version)"
-msgstr "Okładka książki Jana Ruckgabera (polska wersja)"
+msgstr "Okładka biografii Jana Ruckgabera (polska wersja)"
 
 #: src/app/[locale]/[...slug]/life.tsx:37
-msgid "Jan Ruckgaber first visited Lviv in 1815. In January 1818, still as a student, he gave here a number of successful concerts and gained some popularity. From 1820 he regularly performed in Lviv in solo piano concerts, and accompanied local musicians."
-msgstr "Jan Ruckgaber po raz pierwszy odwiedził Lwów w 1815 roku. W styczniu 1818 roku, będąc jeszcze studentem, dał tutaj szereg udanych koncertów i zdobył pewną popularność. Od 1820 roku regularnie występował we Lwowie w solowych koncertach fortepianowych oraz akompaniował lokalnym muzykom."
+msgid ""
+"Jan Ruckgaber first visited Lviv in 1815. In January 1818, still as a "
+"student, he gave here a number of successful concerts and gained some "
+"popularity. From 1820 he regularly performed in Lviv in solo piano "
+"concerts, and accompanied local musicians."
+msgstr ""
+"Jan Ruckgaber po raz pierwszy odwiedził Lwów w 1815 roku. W styczniu 1818 "
+"roku, jeszcze jako student, dał tutaj szereg udanych koncertów i zdobył "
+"pewną popularność. Od 1820 roku regularnie występował we Lwowie w solowych "
+"koncertach fortepianowych oraz akompaniował lokalnym muzykom."
 
 #: src/app/[locale]/[...slug]/life.tsx:76
 #: src/app/[locale]/[...slug]/life.tsx:77
-msgid "Jan Ruckgaber’s monument in the Łyczakowski Cemetery in Lviv (Photo by Michał Piekarski)"
-msgstr "Pomnik Jana Ruckgabera na Cmentarzu Łyczakowskim we Lwowie (Zdjęcie autorstwa Michała Piekarskiego)"
+msgid ""
+"Jan Ruckgaber’s monument in the Łyczakowski Cemetery in Lviv (Photo by "
+"Michał Piekarski)"
+msgstr ""
+"Pomnik Jana Ruckgabera na Cmentarzu Łyczakowskim we Lwowie (Zdjęcie "
+"autorstwa Michała Piekarskiego)"
 
 #: src/app/[locale]/[...slug]/life.tsx:25
-msgid "Jean (later Johann and Jan), the son of a French nobleman and emigrant, Jean de Montalban, was probably born in Vienna on the 21st of November 1799, where he was baptized in St. Stephen’s Cathedral. At first he used his father’s surname, de Montalban."
-msgstr "Jean (później Johann i Jan), syn francuskiego szlachcica i emigranta, Jean de Montalban, prawdopodobnie urodził się w Wiedniu 21 listopada 1799 roku, gdzie został ochrzczony w katedrze św. Szczepana. Początkowo używał nazwiska swojego ojca, de Montalban."
+msgid ""
+"Jean (later Johann and Jan), the son of a French nobleman and emigrant, "
+"Jean de Montalban, was probably born in Vienna on the 21st of November "
+"1799, where he was baptized in St. Stephen’s Cathedral. At first he used "
+"his father’s surname, de Montalban."
+msgstr ""
+"Jean (później Johann i Jan), syn francuskiego szlachcica i emigranta, Jean "
+"de Montalban, prawdopodobnie urodził się w Wiedniu 21 listopada 1799 roku, "
+"gdzie został ochrzczony w katedrze św. Szczepana. Początkowo używał "
+"nazwiska swojego ojca, de Montalban."
 
 #: src/app/[locale]/[...slug]/life.tsx:27
-msgid "Jean de Montalban – father, fled his homeland to avoid the terror of the French Revolution and settled in Vienna. Later, he was killed in the Battle of Wagram on the 5th or 6th of July, 1809. After the death of his father, ten-year-old Jean was adopted by his Austrian tutor - Joseph Ruckgaber. His French Christian name - Jean - was later altered to Johann and Jan. He was buried in Lviv as Jan Ruckgaber."
-msgstr "Jean de Montalban – ojciec, uciekł ze swojej ojczyzny, aby uniknąć terroru rewolucji francuskiej i osiedlił się w Wiedniu. Później zginął w bitwie pod Wagram 5 lub 6 lipca 1809 roku. Po śmierci ojca, dziesięcioletni Jean został adoptowany przez swojego austriackiego nauczyciela - Josepha Ruckgabera. Jego francuskie imię chrześcijańskie - Jean - zostało później zmienione na Johann i Jan. Został pochowany we Lwowie jako Jan Ruckgaber."
+msgid ""
+"Jean de Montalban – father, fled his homeland to avoid the terror of the "
+"French Revolution and settled in Vienna. Later, he was killed in the Battle "
+"of Wagram on the 5th or 6th of July, 1809. After the death of his father, "
+"ten-year-old Jean was adopted by his Austrian tutor - Joseph Ruckgaber. His "
+"French Christian name - Jean - was later altered to Johann and Jan. He was "
+"buried in Lviv as Jan Ruckgaber."
+msgstr ""
+"Jean de Montalban – ojciec, uciekł z ojczyzny przed terrorem rewolucji "
+"francuskiej i osiedlił się w Wiedniu. Później zginął w bitwie pod Wagram 5 "
+"lub 6 lipca 1809 roku. Po śmierci ojca, dziesięcioletni Jean został "
+"adoptowany przez swojego austriackiego nauczyciela - Josepha Ruckgabera. "
+"Jego francuskie imię - Jean - zostało później zmienione na Johann i Jan. "
+"Został pochowany we Lwowie jako Jan Ruckgaber."
 
 #: src/app/[locale]/[...slug]/life.tsx:70
-msgid "Last years of his lifetime he spent with his beloved daughter Jane. Jan Ruckgaber died in Lviv, on the 5th of January 1876. He was buried at the Łyczakowski Cementery, in a Schiers’s family tomb (Joseph and Anna Schier’s, Jane’s husband’s parents’)."
-msgstr "Ostatnie lata swojego życia spędził ze swoją ukochaną córką Jane. Jan Ruckgaber zmarł we Lwowie, 5 stycznia 1876 roku. Został pochowany na Cmentarzu Łyczakowskim, w grobowcu rodziny Schierów (rodzice męża Jane, Józef i Anna Schier)."
+msgid ""
+"Last years of his lifetime he spent with his beloved daughter Jane. Jan "
+"Ruckgaber died in Lviv, on the 5th of January 1876. He was buried at the "
+"Łyczakowski Cementery, in a Schiers’s family tomb (Joseph and Anna "
+"Schier’s, Jane’s husband’s parents’)."
+msgstr ""
+"Ostatnie lata swojego życia spędził ze swoją ukochaną córką Jane. Jan "
+"Ruckgaber zmarł we Lwowie, 5 stycznia 1876 roku. Został pochowany na "
+"Cmentarzu Łyczakowskim, w grobowcu rodziny Schierów (rodziców męża Jane, "
+"Józefa i Anny Schier)."
 
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:33
 msgid ""
 "Later in the same year Franz Xavier Mozart set for Vienna, and Jan\n"
-"              Ruckgaber replaced him in the organisational work. In the years\n"
-"              1838-42, the Society worked under his direction as an art manager.\n"
-"              Ruckgaber was also the conductor of the orchestra and choirs and\n"
+"              Ruckgaber replaced him in the organisational work. In the "
+"years\n"
+"              1838-42, the Society worked under his direction as an art "
+"manager.\n"
+"              Ruckgaber was also the conductor of the orchestra and choirs "
+"and\n"
 "              later the manager of a music school."
 msgstr ""
 "Później w tym samym roku Franz Xavier Mozart udał się do Wiednia, a Jan\n"
 "              Ruckgaber zastąpił go w pracy organizacyjnej. W latach\n"
-"              1838-42, Towarzystwo pracowało pod jego kierownictwem jako menedżer artystyczny.\n"
-"              Ruckgaber był również dyrygentem orkiestry i chórów oraz\n"
+"              1838-42, Towarzystwo pracowało pod jego kierownictwem jako "
+"dyrektora artystycznego.\n"
+"              Ruckgaber był również dyrygentem orkiestry i chórów, a\n"
 "              później dyrektorem szkoły muzycznej."
 
 #: src/app/[locale]/[...slug]/life.tsx:71
-msgid "Later, his daughter Jane destroyed his last will, containing information as to the return to the true family name. Thus the only link to recovery the family surname was cut."
-msgstr "Później jego córka, Jane, zniszczyła jego ostatni testament, zawierający informacje o powrocie do prawdziwego nazwiska rodowego. Tym samym jedyny sposób na odzyskanie nazwiska rodowego został przerwany."
+msgid ""
+"Later, his daughter Jane destroyed his last will, containing information as "
+"to the return to the true family name. Thus the only link to recovery the "
+"family surname was cut."
+msgstr ""
+"Później jego córka, Jane, zniszczyła jego testament, zawierający informacje "
+"o powrocie do prawdziwego nazwiska rodowego. Tym samym jedyna szansa "
+"odzyskania nazwiska rodowego została utracona."
 
 #: src/app/[locale]/page.tsx:32
 #: src/app/[locale]/page.tsx:44
@@ -456,19 +604,25 @@ msgstr "Życie Jana Ruckgabera"
 #: src/app/[locale]/layout.tsx:43
 #: src/app/[locale]/layout.tsx:64
 msgid "life.title"
-msgstr "Zycie"
+msgstr "Życie"
 
 #: src/app/[locale]/layout.tsx:92
 msgid "List of compositions"
 msgstr "Lista kompozycji"
 
 #: src/app/[locale]/[...slug]/compositions.tsx:24
-msgid "List of Ruckgaber’s compositions, stored until 1939 in the Ossoliński National Institution in Lviv, made by J. Ruckgaber, the grandson of the composer"
-msgstr "Lista kompozycji Ruckgabera, przechowywanych do 1939 roku w Narodowej Instytucji Ossolińskich we Lwowie, sporządzona przez J. Ruckgabera, wnuka kompozytora"
+msgid ""
+"List of Ruckgaber’s compositions, stored until 1939 in the Ossoliński "
+"National Institution in Lviv, made by J. Ruckgaber, the grandson of the "
+"composer"
+msgstr ""
+"Lista kompozycji Ruckgabera, przechowywanych do 1939 roku w Narodowej "
+"Instytucji Ossolińskich we Lwowie, sporządzona przez J. Ruckgabera, wnuka "
+"kompozytora"
 
 #: src/app/[locale]/page.tsx:68
 msgid "Listen to Music by Jan Ruckgaber"
-msgstr "Słuchaj muzyki Jana Ruckgabera"
+msgstr "Posłuchaj muzyki Jana Ruckgabera"
 
 #: src/app/[locale]/[...slug]/lvivArchives.tsx:21
 msgid "Lviv Archives"
@@ -476,17 +630,28 @@ msgstr "Archiwa Lwowskie"
 
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:156
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:157
-msgid "Lviv in a modern photo: the building of the GMS and its Conservatoire, constructed in 1910  (at present the Lviv Philharmonic) (http://www.dziennikpolski24.pl, 2015)"
-msgstr "Lwów na współczesnym zdjęciu: budynek GMS i jego Konserwatorium, wybudowane w 1910 roku (obecnie Filharmonia Lwowska) (http://www.dziennikpolski24.pl, 2015)"
+msgid ""
+"Lviv in a modern photo: the building of the GMS and its Conservatoire, "
+"constructed in 1910  (at present the Lviv Philharmonic) "
+"(http://www.dziennikpolski24.pl, 2015)"
+msgstr ""
+"Lwów na współczesnym zdjęciu: budynek GMS i jego Konserwatorium, wybudowane "
+"w 1910 roku (obecnie Filharmonia Lwowska) (http://www.dziennikpolski24.pl, "
+"2015)"
 
 #: src/app/[locale]/[...slug]/lvivArchives.tsx:39
 #: src/app/[locale]/[...slug]/lvivArchives.tsx:40
-msgid "Lviv in a modern photo: the Wasyl Stefanyk Lviv National Academic Library of Ukraine, formerly the Ossolineum (http://strubcina.org, 2015)"
-msgstr "Lwów na współczesnym zdjęciu: Narodowa Biblioteka Akademicka Ukrainy imienia Wasyla Stefanyka we Lwowie, dawniej Ossolineum (http://strubcina.org, 2015)"
+msgid ""
+"Lviv in a modern photo: the Wasyl Stefanyk Lviv National Academic Library "
+"of Ukraine, formerly the Ossolineum (http://strubcina.org, 2015)"
+msgstr ""
+"Lwów na współczesnym zdjęciu: Narodowa Biblioteka Akademicka Ukrainy "
+"imienia Wasyla Stefanyka we Lwowie, dawniej Ossolineum "
+"(http://strubcina.org, 2015)"
 
 #: src/app/[locale]/[...slug]/compositions.tsx:40
 msgid "Lviv National Academic Library of Ukraine"
-msgstr "Lwowska Biblioteka Naukowa im. Stefanyka"
+msgstr "Lwowska Narodowa Biblioteka Naukowa im. Stefanyka"
 
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:73
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:74
@@ -498,21 +663,21 @@ msgstr "Lwów, pomnik Adama Mickiewicza (http://strubcina.org, 2015)"
 msgid "lvivArchives.title"
 msgstr "Archiwa lwowskie"
 
+#: src/components/organisms/CompositionMarkup.tsx:7043
 #. placeholder {8}: 'Wincenty Pol'
 #. placeholder {9}: 'German translation by'
-#: src/components/organisms/CompositionMarkup.tsx:7043
 msgid "lyrics by {8} with {9} Alojzy Sebera"
-msgstr "słowa autorstwa {8} z {9} Alojzy Sebera"
+msgstr "słowa autorstwa Wincentego Pola z niemieckim tłumaczeniem Alojzego Sebery"
 
-#. placeholder {11}: '1857'
 #: src/components/organisms/CompositionMarkup.tsx:7080
+#. placeholder {11}: '1857'
 msgid "manuscript from the year {11}"
-msgstr "reękopis z roku {11}"
+msgstr "rękopis z roku "
 
-#. placeholder {2}: 20
 #: src/components/organisms/CompositionMarkup.tsx:4159
+#. placeholder {2}: 20
 msgid "manuscript pages numbered from page {2}?"
-msgstr "strony rękopisu ponumerowane od strony {2}?"
+msgstr "strony rękopisu numerowane od strony 20?"
 
 #: src/app/[locale]/[...slug]/music.tsx:95
 msgid ""
@@ -520,9 +685,15 @@ msgid ""
 "              performed in concerts with mastery, remained in the form of\n"
 "              manuscripts. Besides the popular transcriptions of music for\n"
 "              various instruments by famous composers of that time, (like\n"
-"              Beethoven or Verdi) they comprise the most valuable part of the\n"
+"              Beethoven or Verdi) they comprise the most valuable part of "
+"the\n"
 "              music legacy of Jan Ruckgaber."
-msgstr "Wiele utworów muzycznych, które - jak twierdzili jego współcześni - wykonywał na koncertach z mistrzostwem, pozostało w formie rękopisów. Oprócz popularnych transkrypcji muzyki na różne instrumenty sławnych kompozytorów tamtych czasów (takich jak Beethoven czy Verdi), stanowią one najcenniejszą część muzycznego dziedzictwa Jana Ruckgabera."
+msgstr ""
+"Wiele utworów muzycznych, które - jak twierdzili jego współcześni - "
+"wykonywał na koncertach z wielkim mistrzostwem, pozostało w formie "
+"rękopisów. Oprócz popularnych transkrypcji na różne instrumenty muzyki "
+"sławnych kompozytorów tamtych czasów (takich jak Beethoven czy Verdi), "
+"stanowią one najcenniejszą część muzycznego dziedzictwa Jana Ruckgabera."
 
 #: src/app/[locale]/page.tsx:87
 msgid "Mazurek E- dur for the piano"
@@ -532,19 +703,19 @@ msgstr "Mazurek E-dur na fortepian"
 msgid "Milan Jeleń - piano"
 msgstr "Milan Jeleń - fortepian"
 
+#: src/components/organisms/CompositionMarkup.tsx:377
 #. placeholder {0}: '1,2,3'
 #. placeholder {1}: 'A.5'
-#: src/components/organisms/CompositionMarkup.tsx:377
 msgid "missing pages {0} of the manuscript, or is it {1}?"
 msgstr "brakujące strony {0} rękopisu, czy może {1}?"
 
-#. placeholder {4}: '20-21, 22-23'
 #: src/components/organisms/CompositionMarkup.tsx:4401
+#. placeholder {4}: '20-21, 22-23'
 msgid "missing pages {4}"
 msgstr "brakujące strony {4}"
 
-#. placeholder {7}: '22-23'
 #: src/components/organisms/CompositionMarkup.tsx:6502
+#. placeholder {7}: '22-23'
 msgid "missing pages {7} of the manuscript"
 msgstr "brakujące strony {7} rękopisu"
 
@@ -553,21 +724,30 @@ msgstr "brakujące strony {7} rękopisu"
 #: src/app/[locale]/[...slug]/life.tsx:83
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:210
 #: src/app/[locale]/[...slug]/about.tsx:60
-msgid "More information in a form of Jan Ruckgaber’s full biography, in English and in Polish, is ready for download"
-msgstr "Więcej informacji w formie pełnej biografii Jana Ruckgabera, w języku angielskim i polskim, jest gotowych do pobrania"
+msgid ""
+"More information in a form of Jan Ruckgaber’s full biography, in English "
+"and in Polish, is ready for download"
+msgstr ""
+"Więcej informacji w pełnej biografii Jana Ruckgabera, w języku angielskim i "
+"polskim, jest gotowych do pobrania"
 
 #: src/app/[locale]/[...slug]/lvivArchives.tsx:27
 msgid ""
 "Most of the preserved manuscripts of Jan Ruckgaber are presently\n"
-"              stored in the Wasyl Stefanyk Lviv National Academic Library of\n"
-"              Ukraine. The Library’s collection, the biggest in Ukraine with\n"
-"              regard to its value and completeness of the material, represents\n"
+"              stored in the Wasyl Stefanyk Lviv National Academic Library "
+"of\n"
+"              Ukraine. The Library’s collection, the biggest in Ukraine "
+"with\n"
+"              regard to its value and completeness of the material, "
+"represents\n"
 "              the musical cultures of Austria, Germany, Poland, Hungary,\n"
 "              Slovakia, France, Russia and other European countries."
 msgstr ""
 "Większość zachowanych manuskryptów Jana Ruckgabera jest obecnie\n"
-"              przechowywana w Narodowej Akademickiej Bibliotece im. Wasyla Stefanyka we Lwowie\n"
-"              na Ukrainie. Kolekcja biblioteki, największa na Ukrainie pod względem\n"
+"              przechowywana w Narodowej Bibliotece Naukowej im. Wasyla "
+"Stefanyka we Lwowie\n"
+"              na Ukrainie. Kolekcja biblioteki, największa na Ukrainie pod "
+"względem\n"
 "              wartości i kompletności materiałów, reprezentuje\n"
 "              kultury muzyczne Austrii, Niemiec, Polski, Węgier,\n"
 "              Słowacji, Francji, Rosji i innych krajów europejskich."
@@ -690,7 +870,7 @@ msgstr "Kompozycje muzyczne"
 
 #: src/app/[locale]/[...slug]/compositions.tsx:55
 msgid "Music for a chamber orchestra"
-msgstr "Utwory dla orkiestry kameralnej"
+msgstr "Utwory na orkiestrę kameralną"
 
 #: src/app/[locale]/[...slug]/compositions.tsx:67
 #: src/components/organisms/CompositionMarkup.tsx:6455
@@ -720,11 +900,11 @@ msgstr "Utwory na fortepian i orkiestrę"
 
 #: src/app/[locale]/[...slug]/compositions.tsx:70
 msgid "Music for the choir"
-msgstr "Utwory dla chóru"
+msgstr "Utwory chóralne"
 
 #: src/components/organisms/CompositionMarkup.tsx:6509
 msgid "Music for the Choir"
-msgstr "Utwory dla Chóru"
+msgstr "Utwory chóralne"
 
 #: src/app/[locale]/[...slug]/compositions.tsx:61
 #: src/components/organisms/CompositionMarkup.tsx:6262
@@ -744,22 +924,35 @@ msgstr "Muzyka"
 #: src/app/[locale]/[...slug]/about.tsx:28
 msgid ""
 "My name is Ruckgaber, Andrzej Ruckgaber. I was born in Poland and I\n"
-"            certainly feel Polish, but the foreign name has always made me think\n"
-"            about the origin of my family. Curiosity and the family tale of my\n"
-"            great-great-grandfather, Jan Ruckgaber, a pianist, and composer in\n"
-"            Lviv, presently forgotten, did incline me to take up his biography.\n"
+"            certainly feel Polish, but the foreign name has always made me "
+"think\n"
+"            about the origin of my family. Curiosity and the family tale of "
+"my\n"
+"            great-great-grandfather, Jan Ruckgaber, a pianist, and composer "
+"in\n"
+"            Lviv, presently forgotten, did incline me to take up his "
+"biography.\n"
 "            He was not only a musician, but also a teacher and a passionate\n"
 "            promoter of music."
-msgstr "Nazywam się Ruckgaber, Andrzej Ruckgaber. Urodziłem się w Polsce i czuję się Polakiem, jednak obce brzmienie nazwiska od zawsze budziło we mnie zainteresowanie pochodzeniem rodziny. Ciekawość i przekazywana w rodzinie historia  mojego pra-pra-dziadka - Jana Ruckgabera, pianisty i kompozytora lwowskiego, dziś całkiem zapomnianego, skłoniła mnie do zajęcia się bliżej jego biografią. Był nie tylko muzykiem, ale też pedagogiem i pełnym pasji popularyzatorem muzyki."
+msgstr ""
+"Nazywam się Ruckgaber, Andrzej Ruckgaber. Urodziłem się w Polsce i czuję "
+"się Polakiem, jednak obce brzmienie nazwiska od zawsze budziło we mnie "
+"zainteresowanie pochodzeniem rodziny. Ciekawość i przekazywana w rodzinie "
+"historia  mojego pra-pra-dziadka - Jana Ruckgabera, pianisty i kompozytora "
+"lwowskiego, dziś całkiem zapomnianego, skłoniła mnie do zajęcia się bliżej "
+"jego biografią. Był nie tylko muzykiem, ale też pedagogiem i pełnym pasji "
+"popularyzatorem muzyki."
 
 #: src/app/[locale]/[...slug]/lvivArchives.tsx:63
 msgid ""
 "Neither the Ruckgaber Archive, nor the documents from the music\n"
-"              library of the Galician Music Society, have yet been sufficiently\n"
+"              library of the Galician Music Society, have yet been "
+"sufficiently\n"
 "              cataloged or worked out."
 msgstr ""
 "Ani Archiwum Ruckgabera, ani dokumenty z biblioteki muzycznej\n"
-"              Galicyjskiego Towarzystwa Muzycznego, nie zostały jeszcze wystarczająco\n"
+"              Galicyjskiego Towarzystwa Muzycznego, nie zostały jeszcze "
+"wystarczająco\n"
 "              skatalogowane ani opracowane."
 
 #: src/components/organisms/CompositionMarkup.tsx:2858
@@ -767,20 +960,38 @@ msgid "notes only"
 msgstr "tylko notatki"
 
 #: src/app/[locale]/[...slug]/life.tsx:61
-msgid "On the 15th of August 1834, at the age of nearly 35, Jan Ruckgaber married Maria Xavier Markl, the daughter of a Hungarian baron John Markl and a Polish woman Jane née Balewicz."
-msgstr "15 sierpnia 1834 roku, mając prawie 35 lat, Jan Ruckgaber ożenił się z Marią Xavier Markl, córką węgierskiego barona Jana Markla i Polki, Janiny z domu Balewicz."
+msgid ""
+"On the 15th of August 1834, at the age of nearly 35, Jan Ruckgaber married "
+"Maria Xavier Markl, the daughter of a Hungarian baron John Markl and a "
+"Polish woman Jane née Balewicz."
+msgstr ""
+"15 sierpnia 1834 roku, mając prawie 35 lat, Jan Ruckgaber ożenił się z "
+"Marią Xavier Markl, córką węgierskiego barona Jana Markla i Polki, Janiny z "
+"domu Balewicz."
 
 #: src/components/organisms/CompositionMarkup.tsx:5535
 msgid "only title page"
 msgstr "tylko strona tytułowa"
 
 #: src/app/[locale]/[...slug]/compositions.tsx:23
-msgid "Osadca Olga: \"Der Archivbestand Johann (Jan) Ruckgaber in der L ́vivs ́ka naukowa biblioteka im. V. Stefanyka\" Musik-Sammlungen: Speicher inter- kultureller Prozesse, Teilband B, Franz Steiner Verlag, Stuttgart 2007, p. 344 – 356"
-msgstr "Osadca Olga: \"Zbiory archiwalne Johanna (Jana) Ruckgabera w Lwowskiej Bibliotece Naukowej im. V. Stefanyka\" Kolekcje muzyczne: Magazyny procesów międzykulturowych, Część B, Franz Steiner Verlag, Stuttgart 2007, s. 344 – 356"
+msgid ""
+"Osadca Olga: \"Der Archivbestand Johann (Jan) Ruckgaber in der L ́vivs ́ka "
+"naukowa biblioteka im. V. Stefanyka\" Musik-Sammlungen: Speicher inter- "
+"kultureller Prozesse, Teilband B, Franz Steiner Verlag, Stuttgart 2007, p. "
+"344 – 356"
+msgstr ""
+"Osadca Olga: \"Zbiory archiwalne Johanna (Jana) Ruckgabera w Lwowskiej "
+"Bibliotece Naukowej im. V. Stefanyka\" Music-Sammlungen: Speicher "
+"inter-kultureller Prozesse, Część B, Franz Steiner Verlag, Stuttgart 2007, "
+"s. 344 – 356"
 
 #: src/components/organisms/CompositionMarkup.tsx:4529
-msgid "Overture for the opening of the Skarbkowski Theater, composed in Korczyn in August 1856"
-msgstr "Uwertura na otwarcie Teatru Skarbkowskiego, skomponowana w Korczynie w sierpniu 1856 roku"
+msgid ""
+"Overture for the opening of the Skarbkowski Theater, composed in Korczyn in "
+"August 1856"
+msgstr ""
+"Uwertura na otwarcie Teatru Skarbkowskiego, skomponowana w Korczynie w "
+"sierpniu 1856 roku"
 
 #: src/components/organisms/CompositionMarkup.tsx:1316
 msgid "page 103 seems added"
@@ -822,7 +1033,7 @@ msgstr "Proszę wpisać swoje imię"
 #: src/components/organisms/CompositionMarkup.tsx:4584
 #: src/components/organisms/CompositionMarkup.tsx:4948
 msgid "print"
-msgstr "drukuj"
+msgstr "druk"
 
 #: src/components/organisms/CompositionMarkup.tsx:351
 msgid "probably mixed pages"
@@ -843,37 +1054,46 @@ msgstr "Robert Szreder - skrzypce, Elżbieta Sobkowicz - fortepian"
 #: src/app/[locale]/[...slug]/music.tsx:83
 msgid ""
 "Ruckgaber also composed songs for a voice with the piano with\n"
-"              Polish lyrics. After the November uprising of 1830, he composed\n"
-"              the song &quot;Do mogił&quot; (Towards the Graves) to the words by\n"
+"              Polish lyrics. After the November uprising of 1830, he "
+"composed\n"
+"              the song &quot;Do mogił&quot; (Towards the Graves) to the "
+"words by\n"
 "              Wincenty Pol."
 msgstr ""
 "Ruckgaber komponował także pieśni na głos z fortepianem z\n"
-"              polskimi tekstami. Po powstaniu listopadowym w 1830 roku skomponował\n"
+"              polskimi tekstami. Po powstaniu listopadowym w 1830 roku "
+"skomponował\n"
 "              pieśń „Do mogił” do słów Wincentego Pola."
 
 #: src/app/[locale]/[...slug]/music.tsx:37
 msgid ""
 "Ruckgaber contributed to the evolution of the musical profession\n"
 "              from being an inspired composer, dependent on a patron, to a\n"
-"              self-reliant, conscious artist, who influenced public taste and\n"
+"              self-reliant, conscious artist, who influenced public taste "
+"and\n"
 "              demand of the culture market."
 msgstr ""
-"Ruckgaber przyczynił się do ewolucji zawodu muzycznego\n"
+"Ruckgaber przyczynił się do ewolucji zawodu muzyka\n"
 "              od inspirującego kompozytora zależnego od patrona, do\n"
-"              samodzielnego, świadomego artysty, który wpływał na gust publiczny i\n"
-"              popyt na rynku kultury."
+"              samodzielnego, świadomego artysty, który wpływał na gust "
+"publiczny i\n"
+"              wymagania rynku kultury."
 
 #: src/app/[locale]/[...slug]/music.tsx:30
 msgid ""
 "Ruckgaber’s work and music fully belong to the current of early\n"
 "              Romanticism. His compositions reflected the leading aesthetic\n"
-"              trends of the era. Early Romanticism showed in seeking lyrical\n"
-"              modes of expression, in transforming the canons of classicism, and\n"
+"              trends of the era. Early Romanticism showed in seeking "
+"lyrical\n"
+"              modes of expression, in transforming the canons of "
+"classicism, and\n"
 "              in the development of the so-called salon music."
 msgstr ""
 "Twórczość i muzyka Ruckgabera w pełni należą do nurtu wczesnego\n"
-"              romantyzmu. Jego kompozycje odzwierciedlały wiodące estetyczne\n"
-"              trendy epoki. Wczesny romantyzm przejawiał się w poszukiwaniu lirycznych\n"
+"              romantyzmu. Jego kompozycje odzwierciedlały wiodące "
+"estetyczne\n"
+"              trendy epoki. Wczesny romantyzm przejawiał się w poszukiwaniu "
+"lirycznych\n"
 "              sposobów wyrazu, w transformacji kanonów klasycyzmu oraz\n"
 "              w rozwoju tak zwanej muzyki salonowej."
 
@@ -881,13 +1101,13 @@ msgstr ""
 msgid "scroll back to top"
 msgstr "przewiń do góry"
 
-#. placeholder {5}: 'A.12'
 #: src/components/organisms/CompositionMarkup.tsx:4443
+#. placeholder {5}: 'A.12'
 msgid "see also {5}"
 msgstr "zobacz także {5}"
 
-#. placeholder {6}: ' H.33'
 #: src/components/organisms/CompositionMarkup.tsx:5958
+#. placeholder {6}: ' H.33'
 msgid "see also{6}"
 msgstr "zobacz także{6}"
 
@@ -897,17 +1117,23 @@ msgid "Something wrong, three endings?"
 msgstr "Coś nie tak, trzy zakończenia?"
 
 #: src/app/[locale]/page.tsx:81
-msgid "song for a voice and piano, Jerzy Sergiusz Adamczewski - baritone, Tatiana Woytaszewska - piano, Wincenty Pol - lyrics"
-msgstr "pieśń na głos i fortepian, Jerzy Sergiusz Adamczewski - baryton, Tatiana Woytaszewska - fortepian, Wincenty Pol - słowa"
+msgid ""
+"song for a voice and piano, Jerzy Sergiusz Adamczewski - baritone, Tatiana "
+"Woytaszewska - piano, Wincenty Pol - lyrics"
+msgstr ""
+"pieśń na głos i fortepian, Jerzy Sergiusz Adamczewski - baryton, Tatiana "
+"Woytaszewska - fortepian, Wincenty Pol - słowa"
 
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:40
 msgid ""
 "Soon the Society started organizing weekly musical meetings in\n"
-"              which amateur-musicians performed music by Mozart, Beethoven and\n"
+"              which amateur-musicians performed music by Mozart, Beethoven "
+"and\n"
 "              others."
 msgstr ""
 "Wkrótce Towarzystwo zaczęło organizować cotygodniowe spotkania muzyczne,\n"
-"              na których amatorscy muzycy wykonywali muzykę Mozarta, Beethovena i\n"
+"              na których muzycy-amatorzy wykonywali muzykę Mozarta, "
+"Beethovena i\n"
 "              innych."
 
 #: src/app/[locale]/[...slug]/compositions.tsx:20
@@ -931,8 +1157,12 @@ msgid "The Book"
 msgstr "Książka"
 
 #: src/app/[locale]/[...slug]/compositions.tsx:28
-msgid "The Catalogue of microfilms received from the Stefanyk Library [stored in the Faculty of Musicology of the Warsaw University]"
-msgstr "Katalog mikrofilmów otrzymanych z Biblioteki Stefanyka [przechowywanych w Wydziale Muzykologii Uniwersytetu Warszawskiego]"
+msgid ""
+"The Catalogue of microfilms received from the Stefanyk Library [stored in "
+"the Faculty of Musicology of the Warsaw University]"
+msgstr ""
+"Katalog mikrofilmów otrzymanych z Biblioteki Stefanyka [przechowywanych w "
+"Wydziale Muzykologii Uniwersytetu Warszawskiego]"
 
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:115
 msgid "The Conservatoire"
@@ -941,15 +1171,21 @@ msgstr "Konserwatorium"
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:192
 msgid ""
 "The Conservatoire at Galician Music Society was the first serious\n"
-"              educational institution not only in Galicia, but also (except for\n"
-"              Prague) – in Eastern Europe. Opening a Music School in 1839, and a\n"
-"              Conservatoire in 1854, was the beginning of professional music\n"
+"              educational institution not only in Galicia, but also (except "
+"for\n"
+"              Prague) – in Eastern Europe. Opening a Music School in 1839, "
+"and a\n"
+"              Conservatoire in 1854, was the beginning of professional "
+"music\n"
 "              education in Lviv."
 msgstr ""
-"Konserwatorium przy Galicyjskim Towarzystwie Muzycznym było pierwszą poważną\n"
+"Konserwatorium przy Galicyjskim Towarzystwie Muzycznym było pierwszą "
+"poważną\n"
 "              instytucją edukacyjną nie tylko w Galicji, ale także (oprócz\n"
-"              Pragi) – w Europie Wschodniej. Otwarcie Szkoły Muzycznej w 1839 roku i\n"
-"              Konserwatorium w 1854 roku, było początkiem profesjonalnej edukacji muzycznej we Lwowie."
+"              Pragi) – w Europie Wschodniej. Otwarcie Szkoły Muzycznej w "
+"1839 roku i\n"
+"              Konserwatorium w 1854 roku, było początkiem profesjonalnej "
+"edukacji muzycznej we Lwowie."
 
 #: src/components/organisms/CompositionMarkup.tsx:1539
 msgid "the cover does not match the music, see A.12?"
@@ -957,12 +1193,16 @@ msgstr "okładka nie pasuje do muzyki, zobacz A.12?"
 
 #: src/app/[locale]/[...slug]/compositions.tsx:26
 msgid "The Faculty of Musicology of the Warsaw University"
-msgstr "Fakultet Muzykologii Uniwersytetu Warszawskiego"
+msgstr "Wydział Muzykologii Uniwersytetu Warszawskiego"
 
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:94
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:95
-msgid "The fire of Lviv in 1848, a painting by L. Jabłonowski (http://rzecz-pospolita.com, 2015)"
-msgstr "Pożar Lwowa w 1848 roku, obraz L. Jabłonowskiego (http://rzecz-pospolita.com, 2015)"
+msgid ""
+"The fire of Lviv in 1848, a painting by L. Jabłonowski "
+"(http://rzecz-pospolita.com, 2015)"
+msgstr ""
+"Pożar Lwowa w 1848 roku, obraz L. Jabłonowskiego "
+"(http://rzecz-pospolita.com, 2015)"
 
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:21
 msgid "The Galician Music Society (GMS)"
@@ -979,7 +1219,9 @@ msgstr "Lista kompozycji Jana Ruckgabera"
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:165
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:166
 msgid "The M.W. Łysenko Lviv National Music Academy (http://strubcina.org, 2015)"
-msgstr "Lwowska Narodowa Akademia Muzyczna im. M.W. Łysenki (http://strubcina.org, 2015)"
+msgstr ""
+"Lwowska Narodowa Akademia Muzyczna im. M.W. Łysenki (http://strubcina.org, "
+"2015)"
 
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:182
 msgid "The Meaning of the Galician Music Society"
@@ -996,12 +1238,15 @@ msgstr ""
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:118
 msgid ""
 "The music school at the society was reopened on the 1st of May\n"
-"              1854, this time as a Conservatoire. It was one of the oldest in\n"
-"              Europe, older than the conservatoires in Petersburg (established\n"
+"              1854, this time as a Conservatoire. It was one of the oldest "
+"in\n"
+"              Europe, older than the conservatoires in Petersburg "
+"(established\n"
 "              in 1862) and in Moscow (1864)."
 msgstr ""
 "Szkoła muzyczna w towarzystwie została ponownie otwarta 1 maja\n"
-"              1854 roku, tym razem jako Konserwatorium. Była to jedna z najstarszych\n"
+"              1854 roku, tym razem jako Konserwatorium. Było ono jednym z "
+"najstarszych\n"
 "              w Europie, starsza niż konserwatoria w Petersburgu (założone\n"
 "              w 1862 roku) i w Moskwie (1864)."
 
@@ -1015,35 +1260,48 @@ msgstr "Nowy Początek"
 
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:203
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:204
-msgid "The Orchestra of the Lviv National Music Academy (http://conservatory.lviv.ua/ 2015)"
-msgstr "Orkiestra Narodowej Akademii Muzycznej we Lwowie (http://conservatory.lviv.ua/ 2015)"
+msgid ""
+"The Orchestra of the Lviv National Music Academy "
+"(http://conservatory.lviv.ua/ 2015)"
+msgstr ""
+"Orkiestra Narodowej Akademii Muzycznej we Lwowie "
+"(http://conservatory.lviv.ua/ 2015)"
 
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:55
 msgid ""
 "The period of best prosperity for the Galician Music Society came\n"
 "              in the years 1842-48. At that time the society held numerous\n"
-"              concerts, charity events and musical meetings. Ruckgaber invited\n"
+"              concerts, charity events and musical meetings. Ruckgaber "
+"invited\n"
 "              the most eminent musicians in Europe to perform in Lviv. The\n"
-"              public was most impressed by violinist Bedřich Smetana (1843),\n"
+"              public was most impressed by violinist Bedřich Smetana "
+"(1843),\n"
 "              pianist Libra Ottawa (1844), violinist Heinrich Ernst (1845),\n"
-"              cellist Marek Bauer (1843) and pianist Leopold Mayer (1843), but\n"
-"              it was Ferenz Liszt, who performing for the whole month at the\n"
+"              cellist Marek Bauer (1843) and pianist Leopold Mayer (1843), "
+"but\n"
+"              it was Ferenz Liszt, who performing for the whole month at "
+"the\n"
 "              turn of April and May, 1847, broke records of popularity."
 msgstr ""
-"Okres największego dobrobytu Towarzystwa Muzycznego Galicji przypadał\n"
+"Okres największego powodzenia Towarzystwa Muzycznego Galicji przypadał\n"
 "              na lata 1842-48. W tym czasie towarzystwo organizowało liczne\n"
-"              koncerty, wydarzenia charytatywne i spotkania muzyczne. Ruckgaber zapraszał\n"
-"              najwybitniejszych muzyków w Europie do występów we Lwowie. Publiczność była najbardziej\n"
-"              pod wrażeniem skrzypka Bedřicha Smetany (1843), pianisty Libry Ottawy (1844), skrzypka Heinricha Ernsta (1845),\n"
-"              wiolonczelisty Marka Bauera (1843) i pianisty Leopolda Mayera (1843), ale\n"
-"              to Ferenz Liszt, który występując przez cały miesiąc na przełomie kwietnia i maja 1847 roku, pobił rekordy popularności."
+"              koncerty, wydarzenia charytatywne i spotkania muzyczne. "
+"Ruckgaber zapraszał\n"
+"              najwybitniejszych muzyków w Europie do występów we Lwowie. "
+"Największe wrażenie wywarły na publiczności występy skrzypka Bedřicha "
+"Smetany (1843), pianisty Libry Ottawy (1844), skrzypka Heinricha Ernsta "
+"(1845),\n"
+"              wiolonczelisty Marka Bauera (1843) i pianisty Leopolda Mayera "
+"(1843), ale\n"
+"              to Ferenz Liszt pobił rekordy popularności, występując przez "
+"cały miesiąc na przełomie kwietnia i maja 1847 roku."
 
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:66
 msgid ""
 "The revolutionary events of the year 1848 ceased the activity of\n"
 "              the school at the GMS."
 msgstr ""
-"Wydarzenia rewolucyjne roku 1848 zakończyły działalność\n"
+"Wydarzenia rewolucyjne roku 1848 przerwały działalność\n"
 "              szkoły przy GMS."
 
 #: src/components/organisms/CompositionMarkup.tsx:1590
@@ -1055,24 +1313,33 @@ msgid ""
 "The Society existed for 100 years – from 1838 to 1939, between\n"
 "              1919 and 1939 as the Polish Music Society and it was the most\n"
 "              important institution for the popularization of music and for\n"
-"              organizing musical life in Lviv and Galicia in the 19th and at the\n"
+"              organizing musical life in Lviv and Galicia in the 19th and "
+"at the\n"
 "              beginning of the 20th century."
 msgstr ""
 "Towarzystwo istniało przez 100 lat – od 1838 do 1939 roku, między\n"
-"              1919 a 1939 rokiem jako Polskie Towarzystwo Muzyczne i było najważniejszą\n"
-"              instytucją dla popularyzacji muzyki oraz organizowania życia muzycznego\n"
-"              we Lwowie i Galicji w XIX wieku i na początku XX wieku."
+"              1919 a 1939 rokiem jako Polskie Towarzystwo Muzyczne, i było "
+"najważniejszą\n"
+"              instytucją popularyzującą muzykę oraz organizującą życie "
+"muzyczne\n"
+"              we Lwowie i Galicji w XIX i na początku XX wieku."
 
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:80
 msgid "The Springtime of the Peoples"
 msgstr "Wiosna Ludów"
 
 #: src/app/[locale]/[...slug]/life.tsx:62
-msgid "They had six children, and their youngest son, Ernest, married to Anna Schier, the daughter of a Scotswoman, Anna Scarley and Joseph Schier, a Lviv jeweler, started the branch of the family presently living in Warsaw."
-msgstr "Mieli sześcioro dzieci, a ich najmłodszy syn, Ernest, żonaty z Anną Schier, córką Szkotki Anny Scarley i Józefa Schiera, lwowskiego jubilera, zapoczątkował gałąź rodziny, która obecnie mieszka w Warszawie."
+msgid ""
+"They had six children, and their youngest son, Ernest, married to Anna "
+"Schier, the daughter of a Scotswoman, Anna Scarley and Joseph Schier, a "
+"Lviv jeweler, started the branch of the family presently living in Warsaw."
+msgstr ""
+"Mieli sześcioro dzieci, a ich najmłodszy syn, Ernest, żonaty z Anną Schier, "
+"córką Szkotki Anny Scarley i Józefa Schiera, lwowskiego jubilera, "
+"zapoczątkował gałąź rodziny, która obecnie mieszka w Warszawie."
 
-#. placeholder {3}: 53
 #: src/components/organisms/CompositionMarkup.tsx:4388
+#. placeholder {3}: 53
 msgid "title page (op. {3}!?)"
 msgstr "strona tytułowa (op. {3}!?)"
 
@@ -1106,23 +1373,36 @@ msgstr "Warszawa, sierpień 2020"
 #: src/app/[locale]/[...slug]/about.tsx:37
 msgid ""
 "We think of Jan Ruckgaber as a Pole, but his parents were French\n"
-"            aristocrats who fled to Vienna in the days of the French Revolution.\n"
+"            aristocrats who fled to Vienna in the days of the French "
+"Revolution.\n"
 "            After the death of his father he was adopted by his tutor, an\n"
 "            Austrian named Joseph Ruckgaber, whose surname is now also mine."
-msgstr "Uważamy go za Polaka, ale jego rodzicami byli francuscy arystokraci, którzy schronili się w Wiedniu w czasie Rewolucji Francuskiej. Po śmierci ojca został adoptowany przez Austriaka Józefa Ruckgabera, którego nazwisko noszę."
+msgstr ""
+"Uważamy go za Polaka, ale jego rodzicami byli francuscy arystokraci, którzy "
+"schronili się w Wiedniu w czasie Rewolucji Francuskiej. Po śmierci ojca "
+"został adoptowany przez Austriaka Józefa Ruckgabera, którego nazwisko noszę."
 
 #: src/app/[locale]/[...slug]/about.tsx:48
 msgid ""
 "When Poland gained independence in 1918, Ruckgaber’s descendants\n"
-"            moved to Warsaw, carrying with them the family story about their\n"
-"            famous grandfather: the composer. Thus a French aristocrat, then a\n"
-"            Viennese emigrant with an Austrian surname, Galician citizen and a\n"
-"            popular figure in Lviv, he began the Polish branch of the family."
-msgstr "Po odzyskaniu przez Polskę niepodległości w roku 1918, potomkowie Ruckgabera przenieśli się do Warszawy, zachowując w rodzinnej pamięci opowieść o dziadku, kompozytorze. W taki sposób francuski arystokrata, później wiedeński emigrant o austriackim nazwisku, wreszcie obywatel Galicji i popularna postać Lwowa, dał początek polskiej gałęzi rodziny."
+"            moved to Warsaw, carrying with them the family story about "
+"their\n"
+"            famous grandfather: the composer. Thus a French aristocrat, "
+"then a\n"
+"            Viennese emigrant with an Austrian surname, Galician citizen "
+"and a\n"
+"            popular figure in Lviv, he began the Polish branch of the "
+"family."
+msgstr ""
+"Po odzyskaniu przez Polskę niepodległości w roku 1918, potomkowie "
+"Ruckgabera przenieśli się do Warszawy, zachowując w rodzinnej pamięci "
+"opowieść o dziadku, kompozytorze. W taki sposób francuski arystokrata, "
+"później wiedeński emigrant o austriackim nazwisku, wreszcie obywatel "
+"Galicji i popularna postać Lwowa, dał początek polskiej gałęzi rodziny."
 
 #: src/components/organisms/CompositionMarkup.tsx:3757
 msgid "with double counterpoint for 3 voices, 1860, \"musical curiosum\""
-msgstr "z podwójnym kontrapunktem na 3 głosy, 1860, \"muzyczne ciekawostki\""
+msgstr "z podwójnym kontrapunktem na 3 głosy, 1860, \"kuriosum muzyczne\""
 
 #: src/app/[locale]/[...slug]/life.tsx:64
 msgid "Work"
@@ -1131,17 +1411,20 @@ msgstr "Praca"
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:148
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:149
 msgid "World War I in an Austrian postcard, 1915 (http://strubcina.org, 2015)"
-msgstr "I Wojna Światowa na austriackiej pocztówce, 1915 (http://strubcina.org, 2015)"
+msgstr ""
+"I Wojna Światowa na austriackiej pocztówce, 1915 (http://strubcina.org, "
+"2015)"
 
 #: src/app/[locale]/[...slug]/galicianMusicSociety.tsx:139
 msgid ""
 "World War I thwarted the work of the GMS and the Conservatoire,\n"
-"              but as soon as in 1916/17 the institution started returning to\n"
+"              but as soon as in 1916/17 the institution started returning "
+"to\n"
 "              normal life."
 msgstr ""
 "I wojna światowa pokrzyżowała plany GMS i Konserwatorium,\n"
 "              ale już w 1916/17 instytucja zaczęła wracać do\n"
-"              normalnego życia."
+"              normalnej pracy."
 
 #: src/app/[locale]/page.tsx:29
 msgid "Young Jan Ruckgaber"

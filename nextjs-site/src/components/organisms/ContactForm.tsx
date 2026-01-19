@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react'
 import { useLingui } from '@lingui/react/macro'
-import { makeStyles } from '@mui/material/styles'
+import { styled } from '@mui/material/styles'
 import { Box, Button, Grow, TextField } from '@mui/material'
 import Typography from '@mui/material/Typography'
 import { GreenPaper, RedPaper, YellowPaper } from '../atoms/GreenPaper'
@@ -14,35 +14,32 @@ import { useGoogleReCaptcha } from 'react-google-recaptcha-v3'
 const re =
   /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    textAlign: 'center',
-    '& .MuiTextField-root': {
-      margin: theme.spacing(1),
-      width: '80%',
-    },
+const Root = styled('div')(({ theme }) => ({
+  textAlign: 'center',
+  '& .MuiTextField-root': {
+    margin: theme.spacing(1),
+    width: '80%',
   },
 }))
 
-const ContactForm = async ({ params }: { params: { locale: string } }) => {
-  const { locale } = await params
+const ContactForm = ({ params }: { params: { locale: string } }) => {
+  const { locale } = params
   initLingui(locale)
-  const classes = useStyles()
   const { executeRecaptcha } = useGoogleReCaptcha()
   const [names, setNames] = useState('')
-  const [namesError, setNamesError] = useState()
+  const [namesError, setNamesError] = useState<string | undefined>()
   const [email, setEmail] = useState('')
-  const [emailError, setEmailError] = useState()
+  const [emailError, setEmailError] = useState<string | undefined>()
   const [subject, setSubject] = useState('')
-  const [subjectError, setSubjectError] = useState()
+  const [subjectError, setSubjectError] = useState<string | undefined>()
   const [message, setMessage] = useState('')
-  const [messageError, setMessageError] = useState()
+  const [messageError, setMessageError] = useState<string | undefined>()
   const [successMessageVisible, setSuccessMessageVisible] = useState(false)
-  const [generalError, setGeneralError] = useState()
+  const [generalError, setGeneralError] = useState<string | undefined>()
   const [busy, setBusy] = useState(false)
   const { t } = useLingui()
 
-  const validateNonEmpty = (value) => {
+  const validateNonEmpty = (value: string) => {
     return value && value.trim() !== ''
   }
   const validateNames = () => {
@@ -90,9 +87,12 @@ const ContactForm = async ({ params }: { params: { locale: string } }) => {
     ) {
       try {
         setBusy(true)
+        if (!executeRecaptcha) {
+          throw new Error('Recaptcha not initialized')
+        }
         const token = await executeRecaptcha('contact_form')
         const res = await fetch(
-          `${process.env.REACT_APP_API_HOST}/contact-form`,
+          `${process.env.NEXT_PUBLIC_API_HOST}/contact-form`,
           {
             method: 'POST',
             headers: {
@@ -110,7 +110,7 @@ const ContactForm = async ({ params }: { params: { locale: string } }) => {
         setBusy(false)
         setSuccessMessageVisible(true)
         log.info('Message Sent', res)
-        setGeneralError()
+        setGeneralError(undefined)
       } catch (error) {
         setBusy(false)
         log.warn('oops, error', error)
@@ -128,7 +128,7 @@ const ContactForm = async ({ params }: { params: { locale: string } }) => {
   }
 
   return (
-    <div className="contact-form">
+    <Root className="contact-form">
       {successMessageVisible && (
         <Box pt={2}>
           <GreenPaper visible={!!successMessageVisible}>
@@ -142,14 +142,14 @@ const ContactForm = async ({ params }: { params: { locale: string } }) => {
         </Box>
       )}
       <Grow in={!successMessageVisible}>
-        <form noValidate autoComplete="off" className={classes.root}>
+        <form noValidate autoComplete="off">
           <RedPaper visible={!!generalError}>{generalError}</RedPaper>
           <YellowPaper visible={!!busy}>
-            {t('Sending your message')}
+            {t`Sending your message`}
           </YellowPaper>
           <TextField
             id="names"
-            label={t('Name and Surname')}
+            label={t`Name and Surname`}
             required
             variant="filled"
             value={names}
@@ -162,7 +162,7 @@ const ContactForm = async ({ params }: { params: { locale: string } }) => {
           />
           <TextField
             id="email"
-            label={t('Email')}
+            label={t`Email`}
             required
             value={email}
             variant="filled"
@@ -175,7 +175,7 @@ const ContactForm = async ({ params }: { params: { locale: string } }) => {
           />
           <TextField
             id="subject"
-            label={t('Subject')}
+            label={t`Subject`}
             required
             value={subject}
             variant="filled"
@@ -188,7 +188,7 @@ const ContactForm = async ({ params }: { params: { locale: string } }) => {
           />
           <TextField
             id="message"
-            label={t('Message')}
+            label={t`Message`}
             required
             multiline
             rows={4}
@@ -204,12 +204,12 @@ const ContactForm = async ({ params }: { params: { locale: string } }) => {
 
           <Box style={{ textAlign: 'center' }}>
             <Button variant="outlined" onClick={handleSubmit}>
-              {t('Send')}
+              {t`Send`}
             </Button>
           </Box>
         </form>
       </Grow>
-    </div>
+    </Root>
   )
 }
 

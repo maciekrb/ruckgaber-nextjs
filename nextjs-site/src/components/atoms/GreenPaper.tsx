@@ -1,55 +1,55 @@
 import React from 'react'
-import { makeStyles } from '@mui/material/styles'
 import Grow from '@mui/material/Grow'
 import Paper from '@mui/material/Paper'
-import green from '@mui/material/colors/green'
-import red from '@mui/material/colors/red'
-import yellow from '@mui/material/colors/yellow'
+import { green, red, yellow } from '@mui/material/colors'
+import { styled } from '@mui/material/styles'
 
-const useStyles = makeStyles((theme) => ({
-  green: {
-    backgroundColor: green[500],
-    color: '#ffffff',
-    padding: '80px 20px',
-    textAlign: 'center',
-  },
-  red: {
-    backgroundColor: red[500],
-    color: '#ffffff',
-    padding: '12px 12px',
-    textAlign: 'center',
-  },
-  yellow: {
-    backgroundColor: yellow[500],
-    color: '#ffffff',
-    padding: '12px 12px',
-    textAlign: 'center',
-  }
+const StyledGreenPaper = styled(Paper)(() => ({
+  backgroundColor: green[500],
+  color: '#ffffff',
+  padding: '80px 20px',
+  textAlign: 'center',
 }))
 
-export const GreenPaper = ({children, visible}) => {
-  const classes = useStyles()
+const StyledRedPaper = styled(Paper)(() => ({
+  backgroundColor: red[500],
+  color: '#ffffff',
+  padding: '12px 12px',
+  textAlign: 'center',
+}))
+
+const StyledYellowPaper = styled(Paper)(() => ({
+  backgroundColor: yellow[500],
+  color: '#ffffff',
+  padding: '12px 12px',
+  textAlign: 'center',
+}))
+
+interface PaperProps {
+  children: React.ReactNode
+  visible: boolean
+}
+
+export const GreenPaper = ({ children, visible }: PaperProps) => {
   return (
     <Grow in={visible}>
-      <Paper className={classes.green} elevation={3}>{children}</Paper>
+      <StyledGreenPaper elevation={3}>{children}</StyledGreenPaper>
     </Grow>
   )
 }
 
-export const RedPaper = ({children, visible}) => {
-  const classes = useStyles()
+export const RedPaper = ({ children, visible }: PaperProps) => {
   return (
     <Grow in={visible}>
-      <Paper className={classes.red} elevation={3}>{children}</Paper>
+      <StyledRedPaper elevation={3}>{children}</StyledRedPaper>
     </Grow>
   )
 }
 
-export const YellowPaper = ({children, visible}) => {
-  const classes = useStyles()
+export const YellowPaper = ({ children, visible }: PaperProps) => {
   return (
     <Grow in={visible}>
-      <Paper className={classes.yellow} elevation={3}>{children}</Paper>
+      <StyledYellowPaper elevation={3}>{children}</StyledYellowPaper>
     </Grow>
   )
 }

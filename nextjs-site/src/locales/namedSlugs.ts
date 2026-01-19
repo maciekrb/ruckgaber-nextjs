@@ -53,11 +53,11 @@ const localizedSlugs: LocalizedSlugs = {
 
 const sectionMap = Object.keys(localizedSlugs).reduce((acc, normalizedKey) => {
   const langSlugs = localizedSlugs[normalizedKey]
-  Object.values(langSlugs).forEach((slug: string) => {
+  Object.values(langSlugs!).forEach((slug: string) => {
     acc[slug] = normalizedKey
   })
   return acc
-}, {})
+}, {} as Record<string, string>)
 
 /**
  * Returns the normalized page name based on the slug.
@@ -73,11 +73,11 @@ export const pageNameToSlug = (
   lang: string,
 ): string => {
   if (pageName == null || !localizedSlugs[pageName]) {
-    return `/${lang}/${localizedSlugs['error'][lang]}`
+    return `/${lang}/${localizedSlugs['error']![lang]}`
   }
-  return `/${lang}/${localizedSlugs[pageName][lang]}`
+  return `/${lang}/${localizedSlugs[pageName]![lang]}`
 }
 
-export const slugLocalizer = (locale) => {
+export const slugLocalizer = (locale: string) => {
   return (pageName: string) => pageNameToSlug(pageName, locale)
 }

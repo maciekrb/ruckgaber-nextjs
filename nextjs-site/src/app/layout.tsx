@@ -1,3 +1,8 @@
-export default async function RootLayout({ children }) {
+import React from 'react'
+export default async function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return children
 }
