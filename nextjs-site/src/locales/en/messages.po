@@ -64,7 +64,7 @@ msgid ""
 "              works, taking the name of M. Łysenko Lviv National Musical Academy\n"
 "              from 2008."
 msgstr ""
-"After the second disaster of World War II the Conservatoire took\n"
+"After the disaster of World War II the Conservatoire took\n"
 "              up its activity as the Lviv National Music Academy, and it still\n"
 "              works, taking the name of M. Łysenko Lviv National Musical Academy\n"
 "              from 2008."
@@ -141,7 +141,7 @@ msgid "cover"
 msgstr "cover"
 
 #: src/components/organisms/CompositionMarkup.tsx:325
-#: src/components/organisms/CompositionMarkup.tsx:5240
+#: src/components/organisms/CompositionMarkup.tsx:5242
 msgid "cover only"
 msgstr "cover only"
 
@@ -219,11 +219,11 @@ msgid "Flute, the Czakan and the Piano"
 msgstr "Flute, the Czakan and the Piano"
 
 #. placeholder {0}: 4
-#: src/components/organisms/CompositionMarkup.tsx:7076
+#: src/components/organisms/CompositionMarkup.tsx:7078
 msgid "for {0} male voices and a piano"
 msgstr "for {0} male voices and a piano"
 
-#: src/components/organisms/CompositionMarkup.tsx:7085
+#: src/components/organisms/CompositionMarkup.tsx:7087
 msgid "for voice"
 msgstr "for voice"
 
@@ -513,19 +513,19 @@ msgstr "Lviv Archives"
 
 #. placeholder {0}: 'Wincenty Pol'
 #. placeholder {1}: 'German translation by'
-#: src/components/organisms/CompositionMarkup.tsx:7043
+#: src/components/organisms/CompositionMarkup.tsx:7045
 msgid "lyrics by {0} with {1} Alojzy Sebera"
 msgstr "lyrics by {0} with {1} Alojzy Sebera"
 
 #. placeholder {0}: '1857'
-#: src/components/organisms/CompositionMarkup.tsx:7080
+#: src/components/organisms/CompositionMarkup.tsx:7082
 msgid "manuscript from the year {0}"
 msgstr "manuscript from the year {0}"
 
 #. placeholder {0}: 20
 #: src/components/organisms/CompositionMarkup.tsx:4159
 msgid "manuscript pages numbered from page {0}?"
-msgstr "manuscript pages numbered from page {0}?"
+msgstr "pages of the manuscript numbered from the page {0}?"
 
 #: src/app/[locale]/[...slug]/music.tsx:95
 msgid ""
@@ -555,13 +555,12 @@ msgstr "Message"
 msgid "Milan Jeleń - piano"
 msgstr "Milan Jeleń - piano"
 
-#. placeholder {0}: '20-21, 22-23'
-#: src/components/organisms/CompositionMarkup.tsx:4401
-msgid "missing pages {0}"
-msgstr "missing pages {0}"
+#: src/components/organisms/CompositionMarkup.tsx:4403
+msgid "missing pages"
+msgstr "missing pages"
 
 #. placeholder {0}: '22-23'
-#: src/components/organisms/CompositionMarkup.tsx:6502
+#: src/components/organisms/CompositionMarkup.tsx:6504
 msgid "missing pages {0} of the manuscript"
 msgstr "missing pages {0} of the manuscript"
 
@@ -634,71 +633,71 @@ msgstr ""
 #: src/components/organisms/CompositionMarkup.tsx:4241
 #: src/components/organisms/CompositionMarkup.tsx:4258
 #: src/components/organisms/CompositionMarkup.tsx:4366
-#: src/components/organisms/CompositionMarkup.tsx:4401
-#: src/components/organisms/CompositionMarkup.tsx:4429
-#: src/components/organisms/CompositionMarkup.tsx:4498
-#: src/components/organisms/CompositionMarkup.tsx:4547
-#: src/components/organisms/CompositionMarkup.tsx:4595
-#: src/components/organisms/CompositionMarkup.tsx:4653
-#: src/components/organisms/CompositionMarkup.tsx:4673
-#: src/components/organisms/CompositionMarkup.tsx:4923
-#: src/components/organisms/CompositionMarkup.tsx:4959
-#: src/components/organisms/CompositionMarkup.tsx:4997
-#: src/components/organisms/CompositionMarkup.tsx:5011
-#: src/components/organisms/CompositionMarkup.tsx:5078
-#: src/components/organisms/CompositionMarkup.tsx:5101
-#: src/components/organisms/CompositionMarkup.tsx:5115
-#: src/components/organisms/CompositionMarkup.tsx:5131
-#: src/components/organisms/CompositionMarkup.tsx:5228
-#: src/components/organisms/CompositionMarkup.tsx:5253
-#: src/components/organisms/CompositionMarkup.tsx:5333
-#: src/components/organisms/CompositionMarkup.tsx:5362
-#: src/components/organisms/CompositionMarkup.tsx:5376
-#: src/components/organisms/CompositionMarkup.tsx:5453
-#: src/components/organisms/CompositionMarkup.tsx:5486
-#: src/components/organisms/CompositionMarkup.tsx:5509
-#: src/components/organisms/CompositionMarkup.tsx:5523
-#: src/components/organisms/CompositionMarkup.tsx:5627
-#: src/components/organisms/CompositionMarkup.tsx:5672
-#: src/components/organisms/CompositionMarkup.tsx:5686
-#: src/components/organisms/CompositionMarkup.tsx:5714
-#: src/components/organisms/CompositionMarkup.tsx:5737
-#: src/components/organisms/CompositionMarkup.tsx:5762
-#: src/components/organisms/CompositionMarkup.tsx:5799
-#: src/components/organisms/CompositionMarkup.tsx:5822
-#: src/components/organisms/CompositionMarkup.tsx:5848
-#: src/components/organisms/CompositionMarkup.tsx:5877
-#: src/components/organisms/CompositionMarkup.tsx:5935
-#: src/components/organisms/CompositionMarkup.tsx:5996
-#: src/components/organisms/CompositionMarkup.tsx:6037
-#: src/components/organisms/CompositionMarkup.tsx:6060
-#: src/components/organisms/CompositionMarkup.tsx:6077
-#: src/components/organisms/CompositionMarkup.tsx:6162
-#: src/components/organisms/CompositionMarkup.tsx:6226
-#: src/components/organisms/CompositionMarkup.tsx:6246
-#: src/components/organisms/CompositionMarkup.tsx:6392
-#: src/components/organisms/CompositionMarkup.tsx:6420
-#: src/components/organisms/CompositionMarkup.tsx:6448
-#: src/components/organisms/CompositionMarkup.tsx:6467
-#: src/components/organisms/CompositionMarkup.tsx:6488
-#: src/components/organisms/CompositionMarkup.tsx:6705
-#: src/components/organisms/CompositionMarkup.tsx:6742
-#: src/components/organisms/CompositionMarkup.tsx:6755
-#: src/components/organisms/CompositionMarkup.tsx:6819
-#: src/components/organisms/CompositionMarkup.tsx:6895
-#: src/components/organisms/CompositionMarkup.tsx:6924
-#: src/components/organisms/CompositionMarkup.tsx:6992
-#: src/components/organisms/CompositionMarkup.tsx:7018
-#: src/components/organisms/CompositionMarkup.tsx:7097
-#: src/components/organisms/CompositionMarkup.tsx:7120
-#: src/components/organisms/CompositionMarkup.tsx:7143
-#: src/components/organisms/CompositionMarkup.tsx:7251
-#: src/components/organisms/CompositionMarkup.tsx:7310
-#: src/components/organisms/CompositionMarkup.tsx:7343
-#: src/components/organisms/CompositionMarkup.tsx:7364
-#: src/components/organisms/CompositionMarkup.tsx:7432
-#: src/components/organisms/CompositionMarkup.tsx:7476
-#: src/components/organisms/CompositionMarkup.tsx:7503
+#: src/components/organisms/CompositionMarkup.tsx:4403
+#: src/components/organisms/CompositionMarkup.tsx:4431
+#: src/components/organisms/CompositionMarkup.tsx:4500
+#: src/components/organisms/CompositionMarkup.tsx:4549
+#: src/components/organisms/CompositionMarkup.tsx:4597
+#: src/components/organisms/CompositionMarkup.tsx:4655
+#: src/components/organisms/CompositionMarkup.tsx:4675
+#: src/components/organisms/CompositionMarkup.tsx:4925
+#: src/components/organisms/CompositionMarkup.tsx:4961
+#: src/components/organisms/CompositionMarkup.tsx:4999
+#: src/components/organisms/CompositionMarkup.tsx:5013
+#: src/components/organisms/CompositionMarkup.tsx:5080
+#: src/components/organisms/CompositionMarkup.tsx:5103
+#: src/components/organisms/CompositionMarkup.tsx:5117
+#: src/components/organisms/CompositionMarkup.tsx:5133
+#: src/components/organisms/CompositionMarkup.tsx:5230
+#: src/components/organisms/CompositionMarkup.tsx:5255
+#: src/components/organisms/CompositionMarkup.tsx:5335
+#: src/components/organisms/CompositionMarkup.tsx:5364
+#: src/components/organisms/CompositionMarkup.tsx:5378
+#: src/components/organisms/CompositionMarkup.tsx:5455
+#: src/components/organisms/CompositionMarkup.tsx:5488
+#: src/components/organisms/CompositionMarkup.tsx:5511
+#: src/components/organisms/CompositionMarkup.tsx:5525
+#: src/components/organisms/CompositionMarkup.tsx:5629
+#: src/components/organisms/CompositionMarkup.tsx:5674
+#: src/components/organisms/CompositionMarkup.tsx:5688
+#: src/components/organisms/CompositionMarkup.tsx:5716
+#: src/components/organisms/CompositionMarkup.tsx:5739
+#: src/components/organisms/CompositionMarkup.tsx:5764
+#: src/components/organisms/CompositionMarkup.tsx:5801
+#: src/components/organisms/CompositionMarkup.tsx:5824
+#: src/components/organisms/CompositionMarkup.tsx:5850
+#: src/components/organisms/CompositionMarkup.tsx:5879
+#: src/components/organisms/CompositionMarkup.tsx:5937
+#: src/components/organisms/CompositionMarkup.tsx:5998
+#: src/components/organisms/CompositionMarkup.tsx:6039
+#: src/components/organisms/CompositionMarkup.tsx:6062
+#: src/components/organisms/CompositionMarkup.tsx:6079
+#: src/components/organisms/CompositionMarkup.tsx:6164
+#: src/components/organisms/CompositionMarkup.tsx:6228
+#: src/components/organisms/CompositionMarkup.tsx:6248
+#: src/components/organisms/CompositionMarkup.tsx:6394
+#: src/components/organisms/CompositionMarkup.tsx:6422
+#: src/components/organisms/CompositionMarkup.tsx:6450
+#: src/components/organisms/CompositionMarkup.tsx:6469
+#: src/components/organisms/CompositionMarkup.tsx:6490
+#: src/components/organisms/CompositionMarkup.tsx:6707
+#: src/components/organisms/CompositionMarkup.tsx:6744
+#: src/components/organisms/CompositionMarkup.tsx:6757
+#: src/components/organisms/CompositionMarkup.tsx:6821
+#: src/components/organisms/CompositionMarkup.tsx:6897
+#: src/components/organisms/CompositionMarkup.tsx:6926
+#: src/components/organisms/CompositionMarkup.tsx:6994
+#: src/components/organisms/CompositionMarkup.tsx:7020
+#: src/components/organisms/CompositionMarkup.tsx:7099
+#: src/components/organisms/CompositionMarkup.tsx:7122
+#: src/components/organisms/CompositionMarkup.tsx:7145
+#: src/components/organisms/CompositionMarkup.tsx:7253
+#: src/components/organisms/CompositionMarkup.tsx:7312
+#: src/components/organisms/CompositionMarkup.tsx:7345
+#: src/components/organisms/CompositionMarkup.tsx:7366
+#: src/components/organisms/CompositionMarkup.tsx:7434
+#: src/components/organisms/CompositionMarkup.tsx:7478
+#: src/components/organisms/CompositionMarkup.tsx:7505
 msgid "ms"
 msgstr "ms"
 
@@ -712,20 +711,21 @@ msgid "Music Compositions"
 msgstr "Music Compositions"
 
 #: src/app/[locale]/[...slug]/compositions.tsx:55
+#: src/components/organisms/CompositionMarkup.tsx:2091
 msgid "Music for a chamber orchestra"
 msgstr "Music for a chamber orchestra"
 
 #: src/app/[locale]/[...slug]/compositions.tsx:67
-#: src/components/organisms/CompositionMarkup.tsx:6455
+#: src/components/organisms/CompositionMarkup.tsx:6457
 msgid "Music for clarinet and piano"
 msgstr "Music for clarinet and piano"
 
 #: src/app/[locale]/[...slug]/compositions.tsx:64
-#: src/components/organisms/CompositionMarkup.tsx:6356
+#: src/components/organisms/CompositionMarkup.tsx:6358
 msgid "Music for flute, czakan and piano"
 msgstr "Music for flute, czakan and piano"
 
-#: src/components/organisms/CompositionMarkup.tsx:7482
+#: src/components/organisms/CompositionMarkup.tsx:7484
 msgid "Music for guitar and piano"
 msgstr "Music for guitar and piano"
 
@@ -734,6 +734,7 @@ msgid "Music for guitar and piano (transcript)"
 msgstr "Music for guitar and piano (transcript)"
 
 #: src/app/[locale]/[...slug]/compositions.tsx:58
+#: src/components/organisms/CompositionMarkup.tsx:2255
 msgid "Music for piano"
 msgstr "Music for piano"
 
@@ -745,17 +746,17 @@ msgstr "Music for piano and orchestra"
 msgid "Music for the choir"
 msgstr "Music for the choir"
 
-#: src/components/organisms/CompositionMarkup.tsx:6509
+#: src/components/organisms/CompositionMarkup.tsx:6511
 msgid "Music for the Choir"
 msgstr "Music for the Choir"
 
 #: src/app/[locale]/[...slug]/compositions.tsx:61
-#: src/components/organisms/CompositionMarkup.tsx:6262
+#: src/components/organisms/CompositionMarkup.tsx:6264
 msgid "Music for violin and piano"
 msgstr "Music for violin and piano"
 
 #: src/app/[locale]/[...slug]/compositions.tsx:73
-#: src/components/organisms/CompositionMarkup.tsx:6627
+#: src/components/organisms/CompositionMarkup.tsx:6629
 msgid "Music for voice and piano"
 msgstr "Music for voice and piano"
 
@@ -804,7 +805,7 @@ msgstr "notes only"
 msgid "On the 15th of August 1834, at the age of nearly 35, Jan Ruckgaber married Maria Xavier Markl, the daughter of a Hungarian baron John Markl and a Polish woman Jane née Balewicz."
 msgstr "On the 15th of August 1834, at the age of nearly 35, Jan Ruckgaber married Maria Xavier Markl, the daughter of a Hungarian baron John Markl and a Polish woman Jane née Balewicz."
 
-#: src/components/organisms/CompositionMarkup.tsx:5535
+#: src/components/organisms/CompositionMarkup.tsx:5537
 msgid "only title page"
 msgstr "only title page"
 
@@ -812,7 +813,7 @@ msgstr "only title page"
 msgid "Osadca Olga: \"Der Archivbestand Johann (Jan) Ruckgaber in der L ́vivs ́ka naukowa biblioteka im. V. Stefanyka\" Musik-Sammlungen: Speicher inter- kultureller Prozesse, Teilband B, Franz Steiner Verlag, Stuttgart 2007, p. 344 – 356"
 msgstr "Osadca Olga: \"Der Archivbestand Johann (Jan) Ruckgaber in der L ́vivs ́ka naukowa biblioteka im. V. Stefanyka\" Musik-Sammlungen: Speicher inter- kultureller Prozesse, Teilband B, Franz Steiner Verlag, Stuttgart 2007, p. 344 – 356"
 
-#: src/components/organisms/CompositionMarkup.tsx:4529
+#: src/components/organisms/CompositionMarkup.tsx:4531
 msgid "Overture for the opening of the Skarbkowski Theater, composed in Korczyn in August 1856"
 msgstr "Overture for the opening of the Skarbkowski Theater, composed in Korczyn in August 1856"
 
@@ -853,8 +854,8 @@ msgstr "Please write your name"
 #: src/components/organisms/CompositionMarkup.tsx:2396
 #: src/components/organisms/CompositionMarkup.tsx:2891
 #: src/components/organisms/CompositionMarkup.tsx:3291
-#: src/components/organisms/CompositionMarkup.tsx:4584
-#: src/components/organisms/CompositionMarkup.tsx:4948
+#: src/components/organisms/CompositionMarkup.tsx:4586
+#: src/components/organisms/CompositionMarkup.tsx:4950
 msgid "print"
 msgstr "print"
 
@@ -916,15 +917,10 @@ msgstr ""
 msgid "scroll back to top"
 msgstr "scroll back to top"
 
-#. placeholder {0}: 'A.12'
-#: src/components/organisms/CompositionMarkup.tsx:4443
-msgid "see also {0}"
-msgstr "see also {0}"
-
-#. placeholder {0}: ' H.33'
-#: src/components/organisms/CompositionMarkup.tsx:5958
-msgid "see also{0}"
-msgstr "see also{0}"
+#: src/components/organisms/CompositionMarkup.tsx:4445
+#: src/components/organisms/CompositionMarkup.tsx:5960
+msgid "see also"
+msgstr "see also"
 
 #: src/components/organisms/ContactForm.tsx:207
 msgid "Send"
@@ -965,7 +961,7 @@ msgstr "Subject"
 msgid "Tatiana Woytaszewska - piano"
 msgstr "Tatiana Woytaszewska - piano"
 
-#: src/components/organisms/CompositionMarkup.tsx:7235
+#: src/components/organisms/CompositionMarkup.tsx:7237
 msgid "texts"
 msgstr "texts"
 
@@ -1122,12 +1118,11 @@ msgstr "The Springtime of the Peoples"
 msgid "They had six children, and their youngest son, Ernest, married to Anna Schier, the daughter of a Scotswoman, Anna Scarley and Joseph Schier, a Lviv jeweler, started the branch of the family presently living in Warsaw."
 msgstr "They had six children, and their youngest son, Ernest, married to Anna Schier, the daughter of a Scotswoman, Anna Scarley and Joseph Schier, a Lviv jeweler, started the branch of the family presently living in Warsaw."
 
-#. placeholder {0}: 53
-#: src/components/organisms/CompositionMarkup.tsx:4388
-msgid "title page (op. {0}!?)"
-msgstr "title page (op. {0}!?)"
+#: src/components/organisms/CompositionMarkup.tsx:4389
+msgid "title page"
+msgstr "title page"
 
-#: src/components/organisms/CompositionMarkup.tsx:4443
+#: src/components/organisms/CompositionMarkup.tsx:4445
 msgid "version for orchestra"
 msgstr "version for orchestra"
 
@@ -1135,14 +1130,15 @@ msgstr "version for orchestra"
 msgid "Violin and Piano"
 msgstr "Violin and Piano"
 
-#: src/components/organisms/CompositionMarkup.tsx:6741
-#: src/components/organisms/CompositionMarkup.tsx:6990
-#: src/components/organisms/CompositionMarkup.tsx:7016
-#: src/components/organisms/CompositionMarkup.tsx:7044
-#: src/components/organisms/CompositionMarkup.tsx:7079
-#: src/components/organisms/CompositionMarkup.tsx:7308
-#: src/components/organisms/CompositionMarkup.tsx:7325
-#: src/components/organisms/CompositionMarkup.tsx:7474
+#: src/components/organisms/CompositionMarkup.tsx:6667
+#: src/components/organisms/CompositionMarkup.tsx:6743
+#: src/components/organisms/CompositionMarkup.tsx:6992
+#: src/components/organisms/CompositionMarkup.tsx:7018
+#: src/components/organisms/CompositionMarkup.tsx:7046
+#: src/components/organisms/CompositionMarkup.tsx:7081
+#: src/components/organisms/CompositionMarkup.tsx:7310
+#: src/components/organisms/CompositionMarkup.tsx:7327
+#: src/components/organisms/CompositionMarkup.tsx:7476
 msgid "voice and piano"
 msgstr "voice and piano"
 

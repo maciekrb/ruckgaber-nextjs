@@ -2088,7 +2088,7 @@ const CompositionsMarkup = () => {
 
       <a className="section-ref" id="section-B" />
       <Typography variant="h3" gutterBottom>
-        B. Music for a chamber orchestra
+        B. {t`Music for a chamber orchestra`}
       </Typography>
 
       <div className="composition-entry">
@@ -2252,7 +2252,7 @@ const CompositionsMarkup = () => {
 
       <a className="section-ref" id="section-C" />
       <Typography variant="h3" gutterBottom>
-        C. Music for piano
+        C. {t`Music for piano`}
       </Typography>
 
       <div className="composition-entry">
@@ -4374,7 +4374,7 @@ const CompositionsMarkup = () => {
               <PictureAsPdfIcon fontSize="small" style={{ color: red[500] }} />
             </a>
           </span>{' '}
-          (<span className="composition-version-note">{t`cover`}</span>),{' '}
+          (<span className="composition-version-note">{t`cover only`}</span>),{' '}
           <span className="composition-pdf">
             <a
               href="https://storage.googleapis.com/geek-hosting.appspot.com/ruckgaber/compositions/C.94.d.%20%28330-359%29%20obraz%20001%20strona%20tytu%C5%82owa.pdf"
@@ -4385,7 +4385,9 @@ const CompositionsMarkup = () => {
             </a>
           </span>{' '}
           (
-          <span className="composition-version-note">{t`title page (op. ${53}!?)`}</span>
+          <span className="composition-version-note">
+            {t`title page`} (op. 53!?)
+          </span>
           ),{' '}
           <span className="composition-pdf">
             <a
@@ -4398,7 +4400,7 @@ const CompositionsMarkup = () => {
           </span>{' '}
           (
           <span className="composition-version-note">
-            {t`missing pages ${'20-21, 22-23'}`} {t`ms`}.
+            {t`missing pages`} 20-21, 22-23 {t`ms`}.
           </span>
           ), (<span className="composition-version-note">op. 53!?</span>),{' '}
           <span className="composition-pdf">
@@ -4440,7 +4442,7 @@ const CompositionsMarkup = () => {
         </div>
         <div className="composition-notes-line">
           <span className="composition-notes">
-            ({t`see also ${'A.12'}`}, {t`version for orchestra`})
+            ({t`see also`} A.12, {t`version for orchestra`})
           </span>
         </div>
       </div>
@@ -5955,7 +5957,7 @@ const CompositionsMarkup = () => {
           </span>
         </div>
         <div className="composition-notes-line">
-          <span className="composition-notes">({t`see also${' H.33'}`})</span>
+          <span className="composition-notes">({t`see also`} H.33)</span>
         </div>
       </div>
 
@@ -6662,7 +6664,7 @@ const CompositionsMarkup = () => {
             <em>op. 1,</em>
           </span>{' '}
           <span className="composition-description">
-            <em>voice, piano, von Johann Ruckgaber, 1822</em>
+            <em>{t`voice and piano`}, von Johann Ruckgaber, 1822</em>
           </span>{' '}
           <sup className="composition-sources">6, 7</sup>{' '}
           <span className="composition-pdf">
