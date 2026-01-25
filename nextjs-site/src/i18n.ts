@@ -1,19 +1,21 @@
 import linguiConfig from '../lingui.config'
 import { I18n, Messages, setupI18n } from '@lingui/core'
 
+import { messages as enMessages } from './locales/en/messages'
+import { messages as esMessages } from './locales/es/messages'
+import { messages as plMessages } from './locales/pl/messages'
+
 const { locales } = linguiConfig
 // optionally use a stricter union type
 type SupportedLocales = string
 
-async function loadCatalog(locale: SupportedLocales): Promise<{
-  [k: string]: Messages
-}> {
-  const { messages } = await import(`./locales/${locale}/messages.po`)
-  return {
-    [locale]: messages,
-  }
+const allCatalogs: Record<string, Messages> = {
+  en: enMessages,
+  es: esMessages,
+  pl: plMessages,
 }
-const catalogs = await Promise.all(locales.map(loadCatalog))
+
+const catalogs = locales.map((locale) => ({ [locale]: allCatalogs[locale] }))
 
 // transform array of catalogs into a single object
 export const allMessages = catalogs.reduce((acc, oneCatalog) => {

@@ -112,11 +112,8 @@ msgstr "Composiciones de Jan Ruckgaber"
 msgid "compositions.title"
 msgstr "Composiciones"
 
-#: src/components/organisms/CompositionMarkup.tsx:4377
-msgid "cover"
-msgstr "portada"
-
 #: src/components/organisms/CompositionMarkup.tsx:325
+#: src/components/organisms/CompositionMarkup.tsx:4377
 #: src/components/organisms/CompositionMarkup.tsx:5242
 msgid "cover only"
 msgstr "portada únicamente"

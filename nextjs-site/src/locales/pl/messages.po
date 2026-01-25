@@ -135,11 +135,8 @@ msgstr "Kompozycje Jana Ruckgabera"
 msgid "compositions.title"
 msgstr "Kompozycje"
 
-#: src/components/organisms/CompositionMarkup.tsx:4377
-msgid "cover"
-msgstr "okładka"
-
 #: src/components/organisms/CompositionMarkup.tsx:325
+#: src/components/organisms/CompositionMarkup.tsx:4377
 #: src/components/organisms/CompositionMarkup.tsx:5242
 msgid "cover only"
 msgstr "tylko okładka"
